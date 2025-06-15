@@ -127,11 +127,11 @@
         "answer": 3
     },
     {
-        "question": "  ",
-        "choice1": "  ",
-        "choice2": "  ",
-        "choice3": "  ",
-        "choice4": "  ",
+        "question": " A tag de título enfatiza os textos tornando-os maiores e mais em negrito. h1 é o maior e mais em negrito e h6 é o menor e menos em negrito. Qual dessas tags HTML cria um título menor que <h1>? ",
+        "choice1": " <p> ",
+        "choice2": " <button> ",
+        "choice3": " <h6> ",
+        "choice4": " <video> ",
         "answer": 2
     },
     {
