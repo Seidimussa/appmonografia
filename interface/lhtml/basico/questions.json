@@ -119,12 +119,12 @@
         "answer": 2
     },
     {
-        "question": "  ",
-        "choice1": "  ",
-        "choice2": "  ",
-        "choice3": "  ",
-        "choice4": "  ",
-        "answer": 4
+        "question": " Adicione a tag de fechamento <button> Amilcar.  Qual é a forma correta de criar um botão HTML que exiba o texto 'Amilcar'? ",
+        "choice1": " <button> Amilcar ",
+        "choice2": " <Amilcar></Amilcar> ",
+        "choice3": " <button>Amilcar</button> ",
+        "choice4": " </button> Amilcar ",
+        "answer": 3
     },
     {
         "question": "  ",
