@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de React</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="course-header">
+            <h1>React</h1>
+            <button class="refresh-button" aria-label="Atualizar"><i class="fas fa-sync-alt"></i></button>
+        </header>
+
+        <p class="section-info">SEÇÃO <span class="section-progress">0/3</span></p>
+
+        <main class="modules-list">
+            <div class="module-card" data-module="intro" data-target-page="/interface/lreact/intro-react-course/index.html">
+                <span class="module-title">Intro ao React</span>
+                <span class="module-progress">0%</span>
+            </div>
+            <div class="module-card locked" data-module="essentials" data-target-page="/interface/lreact/react-essentials-course/index.html">
+                <span class="module-title">React Essencial</span>
+                <span class="module-progress">0%</span>
+                <i class="fas fa-lock"></i>
+            </div>
+            <div class="module-card locked" data-module="deep-dive" data-target-page="/interface/lreact/react-deep-dive-course/index.html">
+                <span class="module-title">React Aprofundado</span>
+                <span class="module-progress">0%</span>
+                <i class="fas fa-lock"></i>
+            </div>
+        </main>
+
+        <section class="progress-message">
+            <div class="message-content">
+                <h2>Você está no caminho certo!</h2>
+                <p>Continue e desbloqueie seu certificado personalizado.</p>
+            </div>
+            <div class="badge">
+                <i class="fas fa-atom"></i>
+            </div>
+            <div class="message-footer">
+                <p class="section-info">SEÇÃO <span class="section-progress " > 0/3</span></p>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+[
+    {
+        "question": " O código HTML para criar um botão usa uma tag de abertura, <button>, e uma tag de fechamento, </button>, Qual e ordem certa?",
+        "choice1": " <button> Gosto </button>",
+        "choice2": "</button> Gosto <button>",
+        "choice3": "Gosto </button> <button>",
+        "choice4": "</button> <button> Gosto",
+        "answer": 1
+    },
+    {
+        "question": " \n<!DOCTYPE html\n> ttttttttttuyddddddddddddeevvvvvvvvvvv 3",
+        "choice1": "<script>",
+        "choice2": "<java>",
+        "choice3": "<js>",
+        "choice4": "<scripting>",
+        "answer": 3
+    },
+    {
+        "question": "Ao adicionar o código HTML <button> Curtir </button>\n, você pode criar um botão com o rótulo \"Curtir\". 4",
+        "choice1": "<script>",
+        "choice2": "<java>",
+        "choice3": "<js>",
+        "choice4": "<scripting>",
+        "answer": 4
+    },
+    {
+        "question": " ttttttttttuyddddddddddddeevvvvvvvvvvv 2",
+        "choice1": "<script>",
+        "choice2": "<java>",
+        "choice3": "<js>",
+        "choice4": "<scripting>",
+        "answer": 2
+    },
+    {
+        "question": " ttttttttttuyddddddddddddeevvvvvvvvvvv 2",
+        "choice1": "<script>",
+        "choice2": "<java>",
+        "choice3": "<js>",
+        "choice4": "<scripting>",
+        "answer": 2
+    },
+    {
+        "question": " ttttttttttuyddddddddddddeevvvvvvvvvvv 4",
+        "choice1": "<script>",
+        "choice2": "<java>",
+        "choice3": "<js>",
+        "choice4": "<scripting>",
+        "answer": 4
+    },
+    {
+        "question": " ttttttttttuyddddddddddddeevvvvvvvvvvv 3",
+        "choice1": "<script>",
+        "choice2": "<java>",
+        "choice3": "<js>",
+        "choice4": "<scripting>",
+        "answer": 3
+    },
+    {
+        "question": " ttttttttttuyddddddddddddeevvvvvvvvvvv 4",
+        "choice1": "<script>",
+        "choice2": "<java>",
+        "choice3": "<js>",
+        "choice4": "<scripting>",
+        "answer": 4
+    }
+]

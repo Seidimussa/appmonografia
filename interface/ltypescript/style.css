@@ -1,0 +1,178 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+    width: 100%;
+    max-width: 900px;
+    box-sizing: border-box;
+}
+
+.course-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.course-header h1 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+}
+
+.refresh-button {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    color: #888;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.refresh-button:hover {
+    color: #555;
+}
+
+.section-info {
+    font-size: 0.8em;
+    color: #888;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.section-progress {
+    float: right; /* Para o progresso ficar na mesma linha do info */
+}
+
+.modules-list {
+    margin-top: 20px;
+}
+
+.module-card {
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    text-decoration: none; /* Remover sublinhado de link */
+    color: inherit; /* Manter a cor do texto padrão */
+    cursor: pointer; /* Indica que é clicável */
+}
+
+.module-card:hover:not(.locked) {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
+}
+
+.module-card.active {
+    border: 2px solid #226160; /* Cor de destaque para o módulo ativo */
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px rgba(98, 0, 238, 0.1);
+}
+
+.module-card.locked {
+    background-color: #f0f0f0;
+    color: #b0b0b0;
+    cursor: not-allowed; /* Indica que não é clicável */
+}
+
+.module-card.locked .module-title {
+    color: #b0b0b0;
+}
+
+.module-card .module-title {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #333;
+}
+/* Estilo para o título dentro de um card ativo */
+.module-card.active .module-title {
+    color: #333; /* Pode ser uma cor diferente para destaque */
+}
+
+
+.module-card .module-progress {
+    font-size: 1em;
+    font-weight: 600;
+    color: #226160; /* Cor do progresso */
+}
+
+.module-card.locked i {
+    font-size: 1.2em;
+}
+
+/* Progress Message Section */
+.progress-message {
+    background: linear-gradient(135deg, #226160, #2c3729); /* Gradiente roxo */
+    color: #fff;
+    border-radius: 20px;
+    padding: 25px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(98, 0, 238, 0.2);
+}
+
+.progress-message .message-content h2 {
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.progress-message .message-content p {
+    font-size: 0.95em;
+    line-height: 1.4;
+    opacity: 0.9;
+    margin-bottom: 20px;
+}
+
+.progress-message .badge {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.progress-message .badge i {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.progress-message .message-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.progress-message .message-footer .section-info,
+.progress-message .message-footer .section-progress {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.8em;
+}

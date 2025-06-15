@@ -1,0 +1,312 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    display: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+
+
+}
+
+.form-toggle {
+    display: flex;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #eee;
+}
+
+.form-toggle button {
+    flex: 1;
+    padding: 12px 15px;
+    border: none;
+    background-color: transparent;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #555;
+}
+
+.form-toggle button.active {
+    background-color: #226160;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(98, 0, 238, 0.2);
+}
+
+.auth-form {
+    display: none;
+    /* Esconde os formulários por padrão */
+    flex-direction: column;
+    gap: 15px;
+}
+
+.auth-form.active {
+    display: flex;
+    /* Mostra o formulário ativo */
+}
+
+.auth-form h2 {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.input-group input[type="email"],
+.input-group input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.input-group input[type="email"]:focus,
+.input-group input[type="password"]:focus {
+    border-color: #226160;
+    outline: none;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #226160;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    margin-top: 15px;
+}
+
+.submit-button:hover {
+    background-color: #226160;
+    transform: translateY(-2px);
+}
+
+.social-text {
+    margin: 25px 0 15px;
+    color: #777;
+    font-size: 0.9em;
+    position: relative;
+}
+
+.social-text::before,
+.social-text::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.social-text::before {
+    left: 0;
+}
+
+.social-text::after {
+    right: 0;
+}
+
+.social-login {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite quebrar linha em telas menores */
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-button {
+    flex: 1;
+    /* Permite que os botões se expandam */
+    min-width: 120px;
+    /* Garante um tamanho mínimo */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.9em;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    color: #fff;
+}
+
+.social-button i {
+    font-size: 1.1em;
+}
+
+.social-button.google {
+    background-color: #db4437;
+    /* Google red */
+}
+
+.social-button.google:hover {
+    background-color: #c23321;
+    transform: translateY(-2px);
+}
+
+.social-button.facebook {
+    background-color: #4267b2;
+    /* Facebook blue */
+}
+
+.social-button.facebook:hover {
+    background-color: #226160;
+    transform: translateY(-2px);
+}
+
+.social-button.github {
+    background-color: #333;
+    /* GitHub dark */
+}
+
+.social-button.github:hover {
+    background-color: #000;
+    transform: translateY(-2px);
+}
+
+.auth-status {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    color: #333;
+    background-color: #f0f0f0;
+    /* Adicionado para a animação da mensagem */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.auth-status.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.auth-status.success {
+    background-color: #e6ffed;
+    color: #1a7d3c;
+    border: 1px solid #a3e6b7;
+}
+
+.auth-status.error {
+    background-color: #ffe6e6;
+    color: #d12f2f;
+    border: 1px solid #e6a3a3;
+}
+
+
+
+
+
+
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 2%;
+}
+
+.banner .slider {
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    top: 10%;
+    left: calc(50% - 100px);
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    animation: autoRun 30s linear infinite;
+    z-index: 2;
+}
+
+@keyframes autoRun {
+    from {
+        transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
+    }
+
+    to {
+        transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
+    }
+}
+
+.banner .slider .item {
+    position: absolute;
+    inset: 0 0 0 0;
+    transform:
+        rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)) translateZ(450px);
+}
+
+.banner .slider .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+@media screen and (max-width: 1023px) {
+    .banner .slider {
+        width: 160px;
+        height: 200px;
+        left: calc(50% - 80px);
+    }
+
+    .banner .slider .item {
+        transform:
+            rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)) translateZ(300px);
+    }
+
+
+
+}
+
+@media screen and (max-width: 767px) {
+    .banner .slider {
+        width: 100px;
+        height: 150px;
+        left: calc(50% - 50px);
+    }
+
+    .banner .slider .item {
+        transform:
+            rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)) translateZ(180px);
+    }
+}

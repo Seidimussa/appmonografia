@@ -1,0 +1,161 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.close-button {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+   
+    background-image: url('close_icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+section h2 {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card-header .icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* Adicione mais ícones aqui conforme necessário */
+}
+
+/* Substitua 'seus_icones/' pelos caminhos reais das suas imagens de ícone */
+.card-header .html { background-image: url('html-icon.png'); }
+.card-header .nodejs { background-image: url('node-js-icon.png'); }
+.card-header .js { background-image: url('js-icon.png'); }
+.card-header .react { background-image: url('react-icon.png'); }
+.card-header .backend { background-image: url('backend-icon.png'); }
+.card-header .database { background-image: url('database-icon.png'); }
+.card-header .python { background-image: url('python-icon.png'); }
+.card-header .javascript { background-image: url('javascript-icon.png'); }
+.card-header .typescript { background-image: url('typescript-icon.png'); }
+.card-header .sql { background-image: url('sql-icon.png'); }
+.card-header .css { background-image: url('css-icon.png'); }
+
+.card-body h3 {
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.card-body .progress-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8em;
+    color: #777;
+    margin-bottom: 8px;
+}
+
+.card-body .progress-info .section {
+    color: #555;
+    font-weight: bold;
+}
+
+.card-body .progress-bar {
+    background-color: #eee;
+    height: 8px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+
+/* No seu style.css, onde você tem .card-body .progress-bar */
+.card-body .progress-bar {
+    background-color: #eee;
+    height: 8px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative; /* Certifique-se de que está relativo para posicionar o elemento interno */
+}
+
+
+/* Adicione esta regra para o div interno criado pelo JavaScript */
+.card-body .progress-bar .inner-progress {
+    height: 100%;
+    background-color: #226160; /* Cor do progresso */
+    border-radius: 5px;
+    transition: width 0.5s ease-in-out; /* Adiciona uma transição suave */
+}
+
+/* Certifique-se que o .highlighted também afete o inner-progress se desejar */
+.card.highlighted .card-body .progress-bar .inner-progress {
+    background-color: #226160; /* Ou qualquer cor que desejar para o progresso destacado */
+}
+
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    margin-bottom: 10px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, outline 0.2s ease-in-out; /* Added outline transition */
+    outline: none; /* Remove the default focus outline */
+}
+
+.card-link:focus, 
+.card-link:hover {
+    outline: 2px solid #226160; 
+    border-radius: 15px;
+}
