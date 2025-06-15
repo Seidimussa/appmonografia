@@ -132,7 +132,127 @@
         "choice2": " <button> ",
         "choice3": " <h6> ",
         "choice4": " <video> ",
+        "answer": 3
+    },
+    {
+        "question": " Codifique a tag de abertura para o maior título.  Qual é a tag de abertura HTML correta para o maior título (cabeçalho de nível 1)?",
+        "choice1": " <head> ",
+        "choice2": " <h1/> ",
+        "choice3": " <h1 ",
+        "choice4": " <h1> ",
+        "answer": 4
+    },
+    {
+        "question": " Codifique a tag de abertura para o segundo maior título.  Qual é a tag de abertura HTML correta para o segundo maior título (cabeçalho de nível 2)?",
+        "choice1": " <h-2> ",
+        "choice2": " <h2/> ",
+        "choice3": " <h.2> ",
+        "choice4": " <h2> ",
+        "answer": 4
+    },
+    {
+        "question": " Qual dessas tags HTML cria o menor título (cabeçalho de nível 6)? ",
+        "choice1": " <h-small> ",
+        "choice2": " <h7> ",
+        "choice3": " <h6> ",
+        "choice4": " <minih> ",
+        "answer": 3
+    },
+    {
+        "question": " Às vezes, queremos formatar parágrafos com quebras de linha. Por exemplo, essa música ficaria muito melhor se Raindrops on rosesaparecesse em uma linha, Whiskers on kittensna próxima e assim por diante. Podemos separar linhas com a ajuda da tag de quebra de linha : br. Qual tag HTML é usada para criar uma quebra de linha em um parágrafo, fazendo com que o texto seguinte apareça em uma nova linha? ",
+        "choice1": " <br> ",
+        "choice2": " <break> ",
+        "choice3": " <line> ",
+        "choice4": " <nl> ",
+        "answer": 1
+    },
+    {
+        "question": "  ",
+        "choice1": "  ",
+        "choice2": "  ",
+        "choice3": "  ",
+        "choice4": "  ",
+        "answer": 4
+    },
+    {
+        "question": "  ",
+        "choice1": "  ",
+        "choice2": "  ",
+        "choice3": "  ",
+        "choice4": "  ",
+        "answer": 3
+    },
+    {
+        "question": "  ",
+        "choice1": "  ",
+        "choice2": "  ",
+        "choice3": "  ",
+        "choice4": "  ",
+        "answer": 4
+    },
+    {
+        "question": "  ",
+        "choice1": "  ",
+        "choice2": "  ",
+        "choice3": "  ",
+        "choice4": "  ",
         "answer": 2
+    },
+    {
+        "question": "  ",
+        "choice1": "  ",
+        "choice2": "  ",
+        "choice3": "  ",
+        "choice4": "  ",
+        "answer": 4
+    },
+    {
+        "question": "  ",
+        "choice1": "  ",
+        "choice2": "  ",
+        "choice3": "  ",
+        "choice4": "  ",
+        "answer": 3
+    },
+    {
+        "question": "  ",
+        "choice1": "  ",
+        "choice2": "  ",
+        "choice3": "  ",
+        "choice4": "  ",
+        "answer": 4
+    },
+    {
+        "question": "  ",
+        "choice1": "  ",
+        "choice2": "  ",
+        "choice3": "  ",
+        "choice4": "  ",
+        "answer": 2
+    },
+    {
+        "question": "  ",
+        "choice1": "  ",
+        "choice2": "  ",
+        "choice3": "  ",
+        "choice4": "  ",
+        "answer": 4
+    },
+    {
+        "question": "  ",
+        "choice1": "  ",
+        "choice2": "  ",
+        "choice3": "  ",
+        "choice4": "  ",
+        "answer": 3
+    },
+    {
+        "question": "  ",
+        "choice1": "  ",
+        "choice2": "  ",
+        "choice3": "  ",
+        "choice4": "  ",
+        "answer": 4
     },
     {
         "question": "  ",
