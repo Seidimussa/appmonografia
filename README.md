@@ -129,7 +129,6 @@ Reources
 
 -   [How to Use the Fetch API](https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data)
 -   [Open Trivia DB](https://opentdb.com/)
--   [Array Map](https://www.w3schools.com/jsref/jsref_map.asp)
 
 ## 12. Create a Spinning Loader
 
