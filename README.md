@@ -1,7 +1,7 @@
 # Construa um aplicativo de teste com HTML, CSS e JavaScript
 
  HEAD
-! [Tela inicial] (.images/css-icon.png)
+! [Tela inicial] (/images/backend-icon.png.jpeg)
 
 
 Lista de reprodução de vídeo: https://www.youtube.com/playlist?list=plb6wleecdj5yyh6p2n6q_9jijb6v4uejf
