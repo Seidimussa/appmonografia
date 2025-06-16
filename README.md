@@ -1,6 +1,4 @@
 # Construa um aplicativo de teste com HTML, CSS e JavaScript
-
- HEAD
 ! [Tela inicial] (./images/css-icon.png)
 =======
 ! [Tela inicial] (./images/backend-icon.png)
