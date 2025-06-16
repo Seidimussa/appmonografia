@@ -159,7 +159,7 @@
         "answer": 3
     },
     {
-        "question": " Às vezes, queremos formatar parágrafos com quebras de linha. Por exemplo, essa música ficaria muito melhor se Raindrops on rosesaparecesse em uma linha, Whiskers on kittensna próxima e assim por diante. Podemos separar linhas com a ajuda da tag de quebra de linha : br. Qual tag HTML é usada para criar uma quebra de linha em um parágrafo, fazendo com que o texto seguinte apareça em uma nova linha? ",
+        "question": " Às vezes, queremos formatar parágrafos com quebras de linha. Por exemplo, essa música ficaria muito melhor se Raindrops on rosesaparecesse em uma linha, Podemos separar linhas com a ajuda da tag de quebra de linha : br. Qual tag HTML é usada para criar uma quebra de linha em um parágrafo, fazendo com que o texto seguinte apareça em uma nova linha? ",
         "choice1": " <br> ",
         "choice2": " <break> ",
         "choice3": " <line> ",

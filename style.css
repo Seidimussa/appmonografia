@@ -310,3 +310,202 @@ body {
             rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)) translateZ(180px);
     }
 }
+
+
+
+
+/* Footer Styles */
+.site-footer {
+    background-color: #f0f2f5;
+    /* Fundo mais claro para contrastar com os botões */
+    color: #333;
+    padding: 20px 10px;
+    margin-top: 40px;
+    /* Espaço entre o conteúdo principal e o footer */
+    text-align: center;
+    width: 100%;
+    /* Ocupa a largura total */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* Conteúdo em coluna dentro do footer */
+    border-radius: 15px;
+
+    flex-wrap: wrap;
+    gap: 2rem;
+    background-color: #ffffff;
+}
+
+.site-footer .footer-content {
+    max-width: 930px;
+    /* Limita a largura do conteúdo do footer */
+    width: 100%;
+
+
+
+}
+
+.site-footer .social-icons {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite quebrar linha em telas pequenas */
+    justify-content: center;
+    gap: 10px;
+    /* Espaçamento entre os botões */
+
+
+}
+
+.site-footer .social-icons a {
+    /* Estilos para transformar os ícones em "botões" coloridos */
+    display: flex;
+    /* Para que padding e alinhamento funcionem como blocos */
+    align-items: center;
+    /* Centraliza verticalmente o ícone e texto */
+    justify-content: center;
+    /* Centraliza horizontalmente o ícone e texto */
+    padding: 8px 10px;
+    /* Preenchimento interno para o formato de botão */
+    border-radius: 8px;
+    /* Borda arredondada (ajustável para mais/menos) */
+    color: #fff;
+    /* Cor do ícone/texto dentro do botão */
+    font-size: 0.9em;
+    /* Tamanho do texto/ícone dentro do botão */
+    font-weight: 600;
+    /* Negrito para o texto */
+    text-decoration: none;
+    /* Remove sublinhado */
+    transition: all 0.3s ease;
+    /* Transição suave para hover */
+    min-width: 120px;
+    /* Largura mínima para os botões */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Sombra sutil */
+    text-transform: uppercase;
+    /* Texto em maiúsculas */
+}
+
+.site-footer .social-icons a i {
+    margin-right: 8px;
+    /* Espaçamento entre o ícone e o texto */
+    font-size: 1.2em;
+    /* Tamanho do ícone Font Awesome */
+}
+
+/* Cores específicas para cada rede social baseadas na imagem */
+.site-footer .social-icons a.telegram {
+    background-color: #2CA5E0;
+}
+
+.site-footer .social-icons a.whatsapp {
+    background-color: #25D366;
+}
+
+.site-footer .social-icons a.gmail {
+    background-color: #EA4335;
+}
+
+.site-footer .social-icons a.facebook {
+    background-color: #1877F2;
+}
+
+.site-footer .social-icons a.linkedin {
+    background-color: #0A66C2;
+}
+
+.site-footer .social-icons a.youtube {
+    background-color: #FF0000;
+}
+
+.site-footer .social-icons a.instagram {
+    background-color: #E4405F;
+}
+
+/* Adicionado Instagram */
+.site-footer .social-icons a.discord {
+    background-color: #5865F2;
+}
+
+.site-footer .social-icons a.blogger {
+    background-color: #FF5722;
+}
+
+.site-footer .social-icons a.github {
+    background-color: #333;
+}
+
+/* GitHub com fundo escuro */
+
+
+/* Efeito hover para os botões de redes sociais */
+.site-footer .social-icons a:hover {
+    transform: translateY(-3px);
+    /* Efeito de levantar */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    /* Sombra mais forte no hover */
+    opacity: 0.9;
+    /* Ligeira opacidade para indicar interação */
+}
+
+.site-footer .copyright {
+    font-size: 0.9em;
+    opacity: 0.8;
+    color: #000000;
+}
+
+/* Ajustes para telas menores para o footer */
+@media (max-width: 768px) {
+    .site-footer {
+        padding: 25px 15px;
+    }
+
+    .site-footer .social-icons {
+        gap:  8px;
+    }
+
+    .site-footer .social-icons a {
+        font-size: 0.85em;
+        /* Reduz o tamanho da fonte em telas menores */
+        padding: 6px 8px;
+        min-width: unset;
+        /* Remove largura mínima para maior flexibilidade */
+        flex-basis: calc(50% - 50px);
+        /* 2 itens por linha */
+    }
+
+    .site-footer .social-icons a i {
+        font-size: 1.1em;
+
+    }
+
+    .site-footer .copyright {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-footer {
+        padding: 20px 10px;
+    }
+
+    .site-footer .social-icons {
+        gap: 6px;
+    }
+
+    .site-footer .social-icons a {
+        font-size: 0.8em;
+        /* Mais redução em celulares */
+        padding: 6px 10px;
+        /* flex-basis: 50%; */
+        /* Cada botão em sua própria linha em telas muito pequenas */
+    }
+
+    .site-footer .social-icons a i {
+        font-size: 1em;
+        margin-right: 4px;
+    }
+}
