@@ -1,7 +1,7 @@
 # Construa um aplicativo de teste com HTML, CSS e JavaScript
-! [Tela inicial] (./images/css-icon.png)
+! [image.alt](./images/css-icon.png)
 =======
-! [Tela inicial] (https://github.com/Seidimussa/appmonografia/blob/main/images/telainicial.png?raw=true)
+! [image.alt](https://github.com/Seidimussa/appmonografia/blob/main/images/telainicial.png?raw=true)
 
 
 Lista de reprodução de vídeo: https://www.youtube.com/playlist?list=plb6wleecdj5yyh6p2n6q_9jijb6v4uejf
