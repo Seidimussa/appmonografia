@@ -271,19 +271,19 @@
         "answer": 2
     },
     {
-        "question": "  ",
-        "choice1": "  ",
-        "choice2": "  ",
-        "choice3": "  ",
-        "choice4": "  ",
-        "answer": 4
+        "question": " Por padrão, botões são elementos 'inline' e ficam um ao lado do outro. Como podemos fazer para que cada botão ('Primeiro', 'Segundo', 'Terceiro') apareça em sua própria linha, um abaixo do outro? ",
+        "choice1": " <button>Primeiro</button> <button>Segundo</button> <button>Terceiro</button> ",
+        "choice2": " <button>Primeiro</button><hr> <button>Segundo</button><hr> <button>Terceiro</button> ",
+        "choice3": " <button>Primeiro</button><br> <button>Segundo</button><br> <button>Terceiro</button> ",
+        "choice4": " <p>   <button>Primeiro</button>   <button>Segundo</button>   <button>Terceiro</button> </p> ",
+        "answer": 3
     },
     {
-        "question": "  ",
-        "choice1": "  ",
-        "choice2": "  ",
-        "choice3": "  ",
-        "choice4": "  ",
+        "question": " Analisando o código abaixo, o que há de errado? <!doctype html> <html> <body>  <button>Click <button> </body> </html> ",
+        "choice1": " A declaração <!doctype html> está incorreta. ",
+        "choice2": " A tag de fechamento do botão está errada; deveria ser </button>. ",
+        "choice3": "  O texto 'Click Bait' não pode ser colocado dentro de um botão. ",
+        "choice4": " Um botão não pode ser colocado diretamente dentro da tag <body>. ",
         "answer": 2
     },
     {
