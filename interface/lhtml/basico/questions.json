@@ -287,12 +287,12 @@
         "answer": 2
     },
     {
-        "question": "  ",
-        "choice1": "  ",
-        "choice2": "  ",
-        "choice3": "  ",
-        "choice4": "  ",
-        "answer": 4
+        "question": " O que acontece quando colocamos <em>Adicionar para Cart</em> entre as tags de abertura e fechamento de um botão? ",
+        "choice1": " O texto 'Adicionar para Cart' aparecerá em negrito dentro do botão. ",
+        "choice2": " O código resultará em um erro, pois a tag <em> não pode ser usada dentro de um botão. ",
+        "choice3": " O botão exibirá o texto 'Adicionar para Cart', e o texto aparecerá em itálico. ",
+        "choice4": " O botão será criado, mas sem nenhum texto visível dentro dele. ",
+        "answer": 3
     },
     {
         "question": "  ",
