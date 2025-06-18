@@ -167,44 +167,44 @@
         "answer": 1
     },
     {
-        "question": "  ",
-        "choice1": "  ",
-        "choice2": "  ",
-        "choice3": "  ",
-        "choice4": "  ",
+        "question": " <br> é uma tag vazia . Tags vazias não possuem tag de fechamento nem conteúdo. Elas também são chamadas de tags de fechamento automático. Monte a tag de quebra de linha. ",
+        "choice1": " <h1>Minhas coisas favoritas</h1> ",
+        "choice2": " <br/> ",
+        "choice3": " <br>elementos em uma página</br> ",
+        "choice4": " O que acontece? <br> web em uma folha! ",
         "answer": 4
     },
     {
-        "question": "  ",
-        "choice1": "  ",
-        "choice2": "  ",
-        "choice3": "  ",
-        "choice4": "  ",
+        "question": " Há um elemento para dar ênfase ao texto, tornando-o itálico . Chama-se emelemento. Adicione <em> e </em>. ",
+        "choice1": " <itálico>importante</itálico> ",
+        "choice2": " <emph>importante</emph> ",
+        "choice3": " <em>importante</em> ",
+        "choice4": " <i>importante</i> ",
         "answer": 3
     },
     {
-        "question": "  ",
-        "choice1": "  ",
-        "choice2": "  ",
-        "choice3": "  ",
-        "choice4": "  ",
-        "answer": 4
+        "question": " Para definir textos como importantes, usamos as <strong>tags </strong>e . Isso deixa o texto em negrito . ",
+        "choice1": " <b>AVISO: Piso molhado.</b> ",
+        "choice2": " <em>AVISO:</em> Piso molhado. ",
+        "choice3": " <strong>AVISO: Piso molhado.</strong> ",
+        "choice4": " <mark>AVISO: Piso molhado.</mark> ",
+        "answer": 3
     },
     {
-        "question": "  ",
-        "choice1": "  ",
-        "choice2": "  ",
-        "choice3": "  ",
-        "choice4": "  ",
-        "answer": 2
+        "question": "  Para que serve a <br> tag? ",
+        "choice1": " Inserir uma única quebra de linha dentro de um texto. ",
+        "choice2": "  Criar uma linha horizontal para dividir o conteúdo. ",
+        "choice3": "  Iniciar um novo parágrafo com mais espaçamento.  ",
+        "choice4": " Deixar o texto seguinte com uma formatação especial. ",
+        "answer": 1
     },
     {
-        "question": "  ",
-        "choice1": "  ",
-        "choice2": "  ",
-        "choice3": "  ",
-        "choice4": "  ",
-        "answer": 4
+        "question": " Qual das seguintes opções é uma tag vazia (ou de fechamento automático), que não precisa de uma tag de fechamento como </tag>? ",
+        "choice1": " <p> ",
+        "choice2": " <img> ",
+        "choice3": " <a> ",
+        "choice4": " <div> ",
+        "answer": 3
     },
     {
         "question": "  ",

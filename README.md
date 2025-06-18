@@ -26,7 +26,7 @@ Deseja melhorar suas habilidades ** de desenvolvimento da web ** **? Deseja melh
 
 Bem -vindo ao "Construa um aplicativo de teste com HTML, CSS e JS". Estou tão animado que você decidiu tomar a iniciativa de melhorar suas principais habilidades de desenvolvimento da Web!
 
-Neste curso, usaremos habilidades fundamentais de HTML, CSS e JavaScript para criar um aplicativo de questionário. Este aplicativo poderá carregar perguntas de uma API de terceiros, rastrear e exibir pontuações altas e muito mais! Você aprenderá a usar o armazenamento local, criar animações, usar os modernos recursos de JavaScript ES6 e muito mais.
+Neste app, usarei habilidades fundamentais de HTML, CSS e JavaScript para criar um aplicativo de questionário. Este aplicativo poderá carregar perguntas de uma API de terceiros, rastrear e exibir pontuações altas e muito mais! Você aprenderá a usar o armazenamento local, criar animações, usar os modernos recursos de JavaScript ES6 e muito mais.
 
 Recursos
 
