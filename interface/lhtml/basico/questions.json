@@ -295,12 +295,12 @@
         "answer": 3
     },
     {
-        "question": "  ",
-        "choice1": "  ",
-        "choice2": "  ",
-        "choice3": "  ",
-        "choice4": "  ",
-        "answer": 3
+        "question": " O que o código HTML abaixo irá exibir na tela do navegador? <!doctype html> html>  <body> <button>Cadestrar</button>  <button>Login</button> </body></html> " ,
+        "choice1": " Dois botões, um ao lado do outro, com os textos 'Cadestrar' e 'Login'. ",
+        "choice2": " Dois botões, um abaixo do outro, com os textos 'Cadestrar' e 'Login'. ",
+        "choice3": " Apenas um botão com o texto 'Login', pois ele sobrescreve o primeiro. ",
+        "choice4": " Um erro no código, pois botões precisam ser separados pela tag <br>. ",
+        "answer": 1
     },
     {
         "question": "  ",
