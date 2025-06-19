@@ -320,11 +320,11 @@
     },
     {
         "question": " Sua tarefa é criar um botão que exiba o texto 'Cadastre-se'. Qual das opções abaixo faz isso da maneira correta, colocando o texto entre as tags? ",
-        "choice1": "  ",
-        "choice2": "  ",
-        "choice3": "  ",
-        "choice4": "  ",
-        "answer": 4
+        "choice1": " <button>Cadastre-se</button> ",
+        "choice2": " <button value='Cadastre-se'></button> ",
+        "choice3": " <button></button>Cadastre-se ",
+        "choice4": " <input>Cadastre-se</input> ",
+        "answer": 1
     },
     {
         "question": "  ",
