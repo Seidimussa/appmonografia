@@ -303,23 +303,23 @@
         "answer": 1
     },
     {
-        "question": "  ",
-        "choice1": "  ",
-        "choice2": "  ",
-        "choice3": "  ",
-        "choice4": "  ",
-        "answer": 4
+        "question": " Para forçar um botão a aparecer abaixo do outro, em vez de ao lado, qual tag é mais comumente usada para inserir uma quebra de linha simples entre eles? ",
+        "choice1": " <hr> ",
+        "choice2": "  <div> ",
+        "choice3": " <br> ",
+        "choice4": " <span> ",
+        "answer": 3
     },
     {
-        "question": "  ",
-        "choice1": "  ",
-        "choice2": "  ",
-        "choice3": "  ",
-        "choice4": "  ",
+        "question": " Qual das opções abaixo representa a tag de abertura correta para um elemento de botão? ",
+        "choice1": " </button> ",
+        "choice2": " <button> ",
+        "choice3": " <button /> ",
+        "choice4": " <input type='button'> ",
         "answer": 2
     },
     {
-        "question": "  ",
+        "question": " Sua tarefa é criar um botão que exiba o texto 'Cadastre-se'. Qual das opções abaixo faz isso da maneira correta, colocando o texto entre as tags? ",
         "choice1": "  ",
         "choice2": "  ",
         "choice3": "  ",
