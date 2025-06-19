@@ -327,12 +327,12 @@
         "answer": 1
     },
     {
-        "question": "  ",
-        "choice1": "  ",
-        "choice2": "  ",
-        "choice3": "  ",
-        "choice4": "  ",
-        "answer": 3
+        "question": " Sua tarefa é criar um botão que exiba o texto 'Clique Aqui!' com forte importância, colocando o texto dentro das tags <strong>. Qual opção faz isso corretamente? ",
+        "choice1": " <button>Clique Aqui!</button> ",
+        "choice2": " <strong><button>Clique Aqui!</button></strong> ",
+        "choice3": " <button><em>Clique Aqui!</em></button> ",
+        "choice4": " <button><strong>Clique Aqui!</strong></button> ",
+        "answer": 4
     },
     {
         "question": "  ",
