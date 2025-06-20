@@ -8,17 +8,17 @@
         "answer": 1
     },
     {
-        "question": " \n<!DOCTYPE html\n> ttttttttttu ydddddddddddd eevvvvvvvvvvv 3",
-        "choice1": "<script>",
-        "choice2": "<java>",
-        "choice3": "<js>",
-        "choice4": "<scripting>",
+        "question": " ",
+        "choice1": " ",
+        "choice2": " ",
+        "choice3": " ",
+        "choice4": " ",
         "answer": 3
     },
     {
-        "question": "Ao adicionar o código HTML <button> Curtir </button>\n, você pode criar um botão com o rótulo \"Curtir\". 4",
-        "choice1": "<script>",
-        "choice2": "<java>",
+        "question": " ",
+        "choice1": " ",
+        "choice2": " ",
         "choice3": "<js>",
         "choice4": "<scripting>",
         "answer": 4
