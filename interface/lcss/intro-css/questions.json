@@ -48,19 +48,19 @@
         "answer": 4
     },
     {
-        "question": " tttttttttt uyddddddddddd deevvvvvvvvvvv 3",
-        "choice1": "<script>",
-        "choice2": "<java>",
-        "choice3": "<js>",
-        "choice4": "<scripting>",
+        "question": " ",
+        "choice1": " ",
+        "choice2": " ",
+        "choice3": " ",
+        "choice4": " ",
         "answer": 3
     },
     {
-        "question": " ttttttttttuy dddddddddddde evvvvvvvvvvv 4",
-        "choice1": "<script>",
-        "choice2": "<java>",
-        "choice3": "<js>",
-        "choice4": "<scripting>",
+        "question": " ",
+        "choice1": " ",
+        "choice2": " ",
+        "choice3": " ",
+        "choice4": " ",
         "answer": 4
     }
 ]
