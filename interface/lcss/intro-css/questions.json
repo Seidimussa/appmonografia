@@ -1,10 +1,10 @@
 [
     {
-        "question": " O código HTML para criar um botão usa uma tag de abertura, <button>, e uma tag de fechamento, </button>, Qual e ordem certa?",
-        "choice1": " <button> Gosto </button>",
-        "choice2": "</button> Gosto <button>",
-        "choice3": "Gosto </button> <button>",
-        "choice4": "</button> <button> Gosto",
+        "question": " ",
+        "choice1": " ",
+        "choice2": "",
+        "choice3": " ",
+        "choice4": " ",
         "answer": 1
     },
     {
