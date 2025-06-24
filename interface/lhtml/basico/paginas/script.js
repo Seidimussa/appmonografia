@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const totalProgressBar = document.getElementById('total-progress-bar');
     const totalProgressText = document.getElementById('total-progress-text');
 
-    // --- DADOS DO CURSO ---
+    // --- DADOS DO CURSO (COMPLETOS) ---
     const initialCourseData = {
         currentSectionId: 1,
         sections: [
@@ -31,25 +31,41 @@ document.addEventListener('DOMContentLoaded', () => {
                 lessons: [
                     { id: 8, title: 'Coletando Informações', type: 'learn', locked: true, completed: false },
                     { id: 9, title: 'Agrupando Elementos', type: 'learn', locked: true, completed: false },
-                    { id: 10, title: 'HTML Intermediário', type: 'practice', locked: true, completed: false },
+                    { id: 10, title: 'Listas de construção', type: 'learn', locked: true, completed: false },
+                    { id: 11, title: 'Vinculando páginas da web', type: 'learn', locked: true, completed: false },
+                    { id: 12, title: 'HTML Intermediário', type: 'practice', locked: true, completed: false },
                 ]
             },
             {
                 id: 3, title: 'HTML Semântico', description: 'Use elementos semânticos para tornar seu código mais legível', locked: true,
-                lessons: [ /* ... adicionar lições aqui ... */ ]
+                lessons: [
+                    { id: 13, title: 'Alternativas semânticas', type: 'learn', locked: true, completed: false },
+                    { id: 14, title: 'Estrutura da página semântica', type: 'learn', locked: true, completed: false },
+                    { id: 15, title: 'Elementos que mudam o visual', type: 'learn', locked: true, completed: false },
+                    { id: 16, title: 'HTML semântico', type: 'practice', locked: true, completed: false },
+                ]
             },
             {
                 id: 4, title: 'Acessibilidade', description: 'Aprenda a criar páginas web acessíveis', locked: true,
-                lessons: [ /* ... adicionar lições aqui ... */ ]
+                lessons: [
+                    { id: 17, title: 'Noções básicas de acessibilidade HTML', type: 'learn', locked: true, completed: false },
+                    { id: 18, title: 'Acessibilidade WAI-ARIA', type: 'learn', locked: true, completed: false },
+                    { id: 19, title: 'Noções básicas de acessibilidade', type: 'practice', locked: true, completed: false },
+                ]
             },
             {
                 id: 5, title: 'Formulários HTML', description: 'Reúna a entrada do usuário usando formulários', locked: true,
-                lessons: [ /* ... adicionar lições aqui ... */ ]
+                lessons: [
+                    { id: 20, title: 'Criando Formulários', type: 'learn', locked: true, completed: false },
+                    { id: 21, title: 'Formulários com rótulos', type: 'learn', locked: true, completed: false },
+                    { id: 22, title: 'Formulários HTML', type: 'practice', locked: true, completed: false },
+                    { id: 23, title: 'Certificado de Conclusão', type: 'certificate', locked: true, completed: false }
+                ]
             },
         ]
     };
 
-    let courseData = JSON.parse(localStorage.getItem('courseProgress')) || initialCourseData;
+    let courseData = JSON.parse(localStorage.getItem('courseProgress')) || JSON.parse(JSON.stringify(initialCourseData));
 
     // --- FUNÇÕES DE LÓGICA E ESTADO ---
     const saveProgress = () => localStorage.setItem('courseProgress', JSON.stringify(courseData));
@@ -57,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const resetProgress = () => {
         if (confirm('Tem certeza que deseja resetar todo o seu progresso?')) {
             localStorage.removeItem('courseProgress');
-            courseData = JSON.parse(JSON.stringify(initialCourseData)); // Deep copy para evitar referência
+            courseData = JSON.parse(JSON.stringify(initialCourseData));
             renderApp();
         }
     };
@@ -76,22 +92,24 @@ document.addEventListener('DOMContentLoaded', () => {
         const lessonIndex = currentSection.lessons.findIndex(l => l.id === lessonId);
 
         if (lessonIndex === -1 || currentSection.lessons[lessonIndex].completed || currentSection.lessons[lessonIndex].locked) return;
+        if (currentSection.lessons[lessonIndex].type === 'certificate') return;
 
-        // Completa a lição atual
         currentSection.lessons[lessonIndex].completed = true;
 
-        // Desbloqueia a próxima lição na seção atual
         if (lessonIndex + 1 < currentSection.lessons.length) {
             currentSection.lessons[lessonIndex + 1].locked = false;
         }
 
-        // Verifica se a seção foi concluída
-        const allLessonsCompleted = currentSection.lessons.every(l => l.completed);
+        const allLessonsCompleted = currentSection.lessons.filter(l => l.type !== 'certificate').every(l => l.completed);
         if (allLessonsCompleted) {
-            // Desbloqueia a próxima seção
             const currentSectionIndex = courseData.sections.findIndex(s => s.id === courseData.currentSectionId);
-            if (currentSectionIndex + 1 < courseData.sections.length) {
-                courseData.sections[currentSectionIndex + 1].locked = false;
+            const nextSectionIndex = currentSectionIndex + 1;
+            if (nextSectionIndex < courseData.sections.length) {
+                const nextSection = courseData.sections[nextSectionIndex];
+                nextSection.locked = false;
+                if (nextSection.lessons && nextSection.lessons.length > 0) {
+                    nextSection.lessons[0].locked = false;
+                }
             }
         }
         
@@ -103,10 +121,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const renderSidebar = () => {
         sectionsNavList.innerHTML = '';
         let completedSectionsCount = 0;
-        
         courseData.sections.forEach(section => {
-            const completedLessons = section.lessons.filter(l => l.completed).length;
-            if (completedLessons === section.lessons.length && section.lessons.length > 0) {
+            const regularLessons = section.lessons.filter(l => l.type !== 'certificate');
+            const completedLessons = regularLessons.filter(l => l.completed).length;
+            if (completedLessons === regularLessons.length && regularLessons.length > 0) {
                 completedSectionsCount++;
             }
             const navItem = document.createElement('div');
@@ -114,15 +132,10 @@ document.addEventListener('DOMContentLoaded', () => {
             navItem.classList.toggle('active', section.id === courseData.currentSectionId);
             navItem.classList.toggle('locked', section.locked);
             navItem.dataset.sectionId = section.id;
-            navItem.innerHTML = `
-                <span class="title">${section.title}</span>
-                <span class="status">${section.locked ? '<i class="fas fa-lock"></i>' : `${completedLessons}/${section.lessons.length}`}</span>
-            `;
+            navItem.innerHTML = `<span class="title">${section.title}</span><span class="status">${section.locked ? '<i class="fas fa-lock"></i>' : `${completedLessons}/${regularLessons.length}`}</span>`;
             navItem.addEventListener('click', () => changeSection(section.id));
             sectionsNavList.appendChild(navItem);
         });
-
-        // Atualiza progresso geral no topo da sidebar
         const totalSections = courseData.sections.length;
         totalProgressText.textContent = `${completedSectionsCount}/${totalSections} seções`;
         totalProgressBar.style.width = `${(completedSectionsCount / totalSections) * 100}%`;
@@ -131,13 +144,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const renderMainContent = () => {
         const section = courseData.sections.find(s => s.id === courseData.currentSectionId);
         if (!section) return;
-
-        const completedLessons = section.lessons.filter(l => l.completed).length;
-        const totalLessons = section.lessons.length;
+        const regularLessons = section.lessons.filter(l => l.type !== 'certificate');
+        const completedLessons = regularLessons.filter(l => l.completed).length;
+        const totalLessons = regularLessons.length;
         const progressPercentage = totalLessons > 0 ? Math.round((completedLessons / totalLessons) * 100) : 0;
-        
         const nextSection = courseData.sections.find(s => s.id === section.id + 1);
-
         mainSectionContent.innerHTML = `
             <section class="section-details">
                 <p class="section-label">SEÇÃO</p>
@@ -146,67 +157,48 @@ document.addEventListener('DOMContentLoaded', () => {
                         <h1>${section.id}. ${section.title}</h1>
                         <p class="section-description">${section.description}</p>
                     </div>
-                    <div class="progress-circle" style="background: conic-gradient(var(--purple-highlight) ${progressPercentage * 3.6}deg, var(--card-bg) 0deg);">
-                        <span class="progress-text">${progressPercentage}%</span>
-                    </div>
+                    <div class="progress-circle" style="background: conic-gradient(var(--purple-highlight) ${progressPercentage * 3.6}deg, var(--card-bg) 0deg);"><span class="progress-text">${progressPercentage}%</span></div>
                 </div>
             </section>
-
             <section class="lessons-container">
                 <p class="lessons-label">LIÇÕES</p>
                 <div class="lessons-list" id="lessons-list-container">
-                    ${section.lessons.map(renderLessonCard).join('')}
+                    ${section.lessons.map((lesson, index) => renderLessonCard(lesson, index)).join('')}
                 </div>
             </section>
-
-            ${nextSection ? `
-            <section class="next-section-card">
-                <p>PRÓXIMA SEÇÃO</p>
-                <div class="next-section-content">
-                    <span>${nextSection.title}</span>
-                    <button class="continue-button" ${progressPercentage < 100 ? 'disabled' : ''} data-next-section-id="${nextSection.id}">Continuar</button>
-                </div>
-            </section>
-            ` : ''}
+            ${nextSection ? `<section class="next-section-card"><p>PRÓXIMA SEÇÃO</p><div class="next-section-content"><span>${nextSection.title}</span><button class="continue-button" ${progressPercentage < 100 ? 'disabled' : ''} data-next-section-id="${nextSection.id}">Continuar</button></div></section>` : ''}
         `;
-
-        // Adiciona listeners aos elementos recém-criados
         document.getElementById('lessons-list-container').addEventListener('click', (e) => {
             const card = e.target.closest('.lesson-card');
-            if(card && !card.classList.contains('locked')) {
-                completeLesson(parseInt(card.dataset.lessonId));
+            if(card) {
+                if(e.target.closest('.sub-button')) {
+                    alert(`Prática "${card.querySelector('.lesson-title').textContent}" sobrecarregada!`);
+                } else if (!card.classList.contains('locked')) {
+                    completeLesson(parseInt(card.dataset.lessonId));
+                }
             }
         });
         const continueBtn = document.querySelector('.continue-button');
-        if(continueBtn) {
-            continueBtn.addEventListener('click', (e) => {
-                const nextId = parseInt(e.target.dataset.nextSectionId);
-                changeSection(nextId);
-            });
+        if(continueBtn && !continueBtn.disabled) {
+            continueBtn.addEventListener('click', (e) => changeSection(parseInt(e.target.dataset.nextSectionId)));
         }
     };
 
-    const renderLessonCard = (lesson) => {
+    // [CORREÇÃO APLICADA AQUI] -> A função agora recebe "index" para exibir o número correto.
+    const renderLessonCard = (lesson, index) => {
         const isFirstUnlocked = !lesson.locked && !lesson.completed;
-        const statusIcon = lesson.completed ? '<i class="fas fa-check-circle status-icon"></i>' : '<i class="fas fa-lock status-icon"></i>';
-        
-        let typeInfo = '';
-        if(lesson.type === 'learn') typeInfo = `<i class="fa-regular fa-file-lines"></i> APRENDER`;
-        if(lesson.type === 'practice') typeInfo = `<i class="fas fa-bolt"></i> PRÁTICA`;
-
-        let subButtonHTML = '';
-        if(lesson.type === 'practice') {
-            subButtonHTML = `<div class="sub-button-container">
-                                <button class="sub-button"><i class="fas fa-bolt"></i> SOBRECARREGAR</button>
-                                ${statusIcon}
-                             </div>`;
+        const statusIcon = lesson.locked ? '<i class="fas fa-lock status-icon"></i>' : '<i class="fas fa-check-circle status-icon"></i>';
+        if (lesson.type === 'certificate') {
+            return `<div class="lesson-card certificate-card ${lesson.locked ? 'locked' : ''}" data-lesson-id="${lesson.id}"><div class="cert-icon-area"><i class="fas fa-award"></i><span>HTML</span></div><div class="cert-title">${lesson.title}</div>${statusIcon}</div>`;
         }
-
+        const lessonNumber = String(index + 1).padStart(2, '0'); // Usa o índice para a numeração
+        let typeInfo = (lesson.type === 'learn') ? `<i class="fa-regular fa-file-lines"></i> APRENDER` : `<i class="fas fa-bolt"></i> PRÁTICA`;
+        let subButtonHTML = (lesson.type === 'practice') ? `<div class="sub-button-container"><button class="sub-button"><i class="fas fa-bolt"></i> SOBRECARREGAR</button>${statusIcon}</div>` : '';
         return `
             <div class="lesson-card ${lesson.locked ? 'locked' : ''} ${isFirstUnlocked ? 'active' : ''}" data-lesson-id="${lesson.id}">
                 <div class="lesson-main-info">
                     <div class="lesson-title-area">
-                        <span class="lesson-number">${String(lesson.id).padStart(2, '0')}</span>
+                        <span class="lesson-number">${lessonNumber}</span>
                         <span class="lesson-title">${lesson.title}</span>
                     </div>
                     <div class="lesson-status">
@@ -215,8 +207,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
                 ${subButtonHTML}
-            </div>
-        `;
+            </div>`;
     };
 
     const renderApp = () => {

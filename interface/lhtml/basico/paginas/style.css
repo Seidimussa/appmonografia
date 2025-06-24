@@ -223,3 +223,36 @@ body {
     .main-content { margin-left: 320px; }
     #open-sidebar-button, #close-sidebar-button { display: none; }
 }
+/* --- Estilos para o Card de Certificado (Adicionar no final) --- */
+.certificate-card {
+    flex-direction: row !important;
+    align-items: center;
+    gap: 20px;
+}
+.certificate-card.locked {
+    cursor: not-allowed;
+}
+.certificate-card .cert-icon-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    background-color: #32264D;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+.certificate-card .cert-icon-area .fa-award {
+    font-size: 1.5rem;
+    color: var(--yellow-practice);
+}
+.certificate-card .cert-icon-area span {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.certificate-card .cert-title {
+    flex-grow: 1;
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
