@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './lessons/text-structure.html'
+                        url: './basico/licao02/'
                     },
                     {
                         id: 3,
