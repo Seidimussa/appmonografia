@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: false,
                         completed: false,
-                        url: './lessons/html-tags.html'
+                        url: './interface/lhtml/basico/index.html'
                     },
                     {
                         id: 2,
@@ -375,7 +375,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const renderLessonCard = (lesson, index) => {
         const isFirstUnlocked = !lesson.locked && !lesson.completed;
         const statusIcon = lesson.locked ? '<i class="fas fa-lock status-icon"></i>' : '<i class="fas fa-check-circle status-icon"></i>';
-        
+
         // Define o href. Para cartões bloqueados, o clique já é prevenido no event listener.
         const href = `href="${lesson.url}" target="_blank" rel="noopener noreferrer"`;
 
@@ -389,7 +389,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const lessonNumber = String(index + 1).padStart(2, '0');
         let typeInfo = (lesson.type === 'learn') ? `<i class="fa-regular fa-file-lines"></i> APRENDER` : `<i class="fas fa-bolt"></i> PRÁTICA`;
         let subButtonHTML = (lesson.type === 'practice') ? `<div class="sub-button-container"><button class="sub-button"><i class="fas fa-bolt"></i> SOBRECARREGAR</button>${statusIcon}</div>` : '';
-        
+
         return `
             <a class="lesson-card ${lesson.locked ? 'locked' : ''} ${isFirstUnlocked ? 'active' : ''}" data-lesson-id="${lesson.id}" ${href}>
                 <div class="lesson-main-info">
