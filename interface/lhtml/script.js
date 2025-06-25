@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './basico/licao02/'
+                        url: './basico/licao02/index.html'
                     },
                     {
                         id: 3,
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './lessons/building-buttons.html'
+                        url: './basico/licao03/index.html'
                     },
                     {
                         id: 4,
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'practice',
                         locked: true,
                         completed: false,
-                        url: './lessons/practice-html-1.html'
+                        url: './basico/licao04/index.html'
                     },
                     {
                         id: 5,
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './lessons/creating-links.html'
+                        url: './basico/licao05/index.html'
                     },
                     {
                         id: 6,
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './lessons/adding-images.html'
+                        url: './basico/licao06/index.html'
                     },
                     {
                         id: 7,
@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'practice',
                         locked: true,
                         completed: false,
-                        url: './lessons/practice-html-2.html'
+                        url: './basico/licao07/index.html'
                     },
                 ]
             },
