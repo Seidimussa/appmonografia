@@ -166,6 +166,10 @@ body {
     display: flex;
     flex-direction: column;
     gap: 16px;
+
+    text-decoration: none; /* Remover sublinhado de link */
+    color: inherit; /* Manter a cor do texto padrão */
+    cursor: pointer; /* Indica que é clicável */
 }
 .lesson-card.active {
     background-color: var(--card-bg-active);
