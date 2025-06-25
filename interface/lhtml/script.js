@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './intermediario/licao07/index.html'
+                        url: './intermediario/licao01/index.html'
                     },
                     {
                         id: 9,
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './lessons/grouping-elements.html'
+                        url: './intermediario/licao02/index.html'
                     },
                     {
                         id: 10,
@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './lessons/building-lists.html'
+                        url: './intermediario/licao03/index.html'
                     },
                     {
                         id: 11,
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './lessons/linking-pages.html'
+                        url: './intermediario/licao04/index.html'
                     },
                     {
                         id: 12,
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'practice',
                         locked: true,
                         completed: false,
-                        url: './lessons/practice-intermediate.html'
+                        url: './intermediario/licao05/index.html'
                     },
                 ]
             },
