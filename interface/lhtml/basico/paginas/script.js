@@ -11,55 +11,226 @@ document.addEventListener('DOMContentLoaded', () => {
     const totalProgressText = document.getElementById('total-progress-text');
 
     // --- DADOS DO CURSO (COMPLETOS) ---
+    // --- ALTERAÇÃO: Adicionada a propriedade 'url' em cada lição ---
     const initialCourseData = {
         currentSectionId: 1,
-        sections: [
-            {
-                id: 1, title: 'HTML Básico', description: 'Crie páginas da Web usando tags HTML', locked: false,
-                lessons: [
-                    { id: 1, title: 'Descobrindo HTML e tags', type: 'learn', locked: false, completed: false },
-                    { id: 2, title: 'Estruturação de texto com tags', type: 'learn', locked: true, completed: false },
-                    { id: 3, title: 'Botões de construção', type: 'learn', locked: true, completed: false },
-                    { id: 4, title: 'Noções básicas de HTML 1', type: 'practice', locked: true, completed: false },
-                    { id: 5, title: 'Criando links', type: 'learn', locked: true, completed: false },
-                    { id: 6, title: 'Adicionando Imagens', type: 'learn', locked: true, completed: false },
-                    { id: 7, title: 'Noções básicas de HTML 2', type: 'practice', locked: true, completed: false },
+        sections: [{
+                id: 1,
+                title: 'HTML Básico',
+                description: 'Crie páginas da Web usando tags HTML',
+                locked: false,
+                lessons: [{
+                        id: 1,
+                        title: 'Descobrindo HTML e tags',
+                        type: 'learn',
+                        locked: false,
+                        completed: false,
+                        url: './lessons/html-tags.html'
+                    },
+                    {
+                        id: 2,
+                        title: 'Estruturação de texto com tags',
+                        type: 'learn',
+                        locked: true,
+                        completed: false,
+                        url: './lessons/text-structure.html'
+                    },
+                    {
+                        id: 3,
+                        title: 'Botões de construção',
+                        type: 'learn',
+                        locked: true,
+                        completed: false,
+                        url: './lessons/building-buttons.html'
+                    },
+                    {
+                        id: 4,
+                        title: 'Noções básicas de HTML 1',
+                        type: 'practice',
+                        locked: true,
+                        completed: false,
+                        url: './lessons/practice-html-1.html'
+                    },
+                    {
+                        id: 5,
+                        title: 'Criando links',
+                        type: 'learn',
+                        locked: true,
+                        completed: false,
+                        url: './lessons/creating-links.html'
+                    },
+                    {
+                        id: 6,
+                        title: 'Adicionando Imagens',
+                        type: 'learn',
+                        locked: true,
+                        completed: false,
+                        url: './lessons/adding-images.html'
+                    },
+                    {
+                        id: 7,
+                        title: 'Noções básicas de HTML 2',
+                        type: 'practice',
+                        locked: true,
+                        completed: false,
+                        url: './lessons/practice-html-2.html'
+                    },
                 ]
             },
             {
-                id: 2, title: 'HTML Intermediário', description: 'Vincule vários arquivos HTML para criar um site', locked: true,
-                lessons: [
-                    { id: 8, title: 'Coletando Informações', type: 'learn', locked: true, completed: false },
-                    { id: 9, title: 'Agrupando Elementos', type: 'learn', locked: true, completed: false },
-                    { id: 10, title: 'Listas de construção', type: 'learn', locked: true, completed: false },
-                    { id: 11, title: 'Vinculando páginas da web', type: 'learn', locked: true, completed: false },
-                    { id: 12, title: 'HTML Intermediário', type: 'practice', locked: true, completed: false },
+                id: 2,
+                title: 'HTML Intermediário',
+                description: 'Vincule vários arquivos HTML para criar um site',
+                locked: true,
+                lessons: [{
+                        id: 8,
+                        title: 'Coletando Informações',
+                        type: 'learn',
+                        locked: true,
+                        completed: false,
+                        url: './lessons/collecting-info.html'
+                    },
+                    {
+                        id: 9,
+                        title: 'Agrupando Elementos',
+                        type: 'learn',
+                        locked: true,
+                        completed: false,
+                        url: './lessons/grouping-elements.html'
+                    },
+                    {
+                        id: 10,
+                        title: 'Listas de construção',
+                        type: 'learn',
+                        locked: true,
+                        completed: false,
+                        url: './lessons/building-lists.html'
+                    },
+                    {
+                        id: 11,
+                        title: 'Vinculando páginas da web',
+                        type: 'learn',
+                        locked: true,
+                        completed: false,
+                        url: './lessons/linking-pages.html'
+                    },
+                    {
+                        id: 12,
+                        title: 'HTML Intermediário',
+                        type: 'practice',
+                        locked: true,
+                        completed: false,
+                        url: './lessons/practice-intermediate.html'
+                    },
                 ]
             },
             {
-                id: 3, title: 'HTML Semântico', description: 'Use elementos semânticos para tornar seu código mais legível', locked: true,
-                lessons: [
-                    { id: 13, title: 'Alternativas semânticas', type: 'learn', locked: true, completed: false },
-                    { id: 14, title: 'Estrutura da página semântica', type: 'learn', locked: true, completed: false },
-                    { id: 15, title: 'Elementos que mudam o visual', type: 'learn', locked: true, completed: false },
-                    { id: 16, title: 'HTML semântico', type: 'practice', locked: true, completed: false },
+                id: 3,
+                title: 'HTML Semântico',
+                description: 'Use elementos semânticos para tornar seu código mais legível',
+                locked: true,
+                lessons: [{
+                        id: 13,
+                        title: 'Alternativas semânticas',
+                        type: 'learn',
+                        locked: true,
+                        completed: false,
+                        url: './lessons/semantic-alternatives.html'
+                    },
+                    {
+                        id: 14,
+                        title: 'Estrutura da página semântica',
+                        type: 'learn',
+                        locked: true,
+                        completed: false,
+                        url: './lessons/semantic-structure.html'
+                    },
+                    {
+                        id: 15,
+                        title: 'Elementos que mudam o visual',
+                        type: 'learn',
+                        locked: true,
+                        completed: false,
+                        url: './lessons/visual-elements.html'
+                    },
+                    {
+                        id: 16,
+                        title: 'HTML semântico',
+                        type: 'practice',
+                        locked: true,
+                        completed: false,
+                        url: './lessons/practice-semantic.html'
+                    },
                 ]
             },
             {
-                id: 4, title: 'Acessibilidade', description: 'Aprenda a criar páginas web acessíveis', locked: true,
-                lessons: [
-                    { id: 17, title: 'Noções básicas de acessibilidade HTML', type: 'learn', locked: true, completed: false },
-                    { id: 18, title: 'Acessibilidade WAI-ARIA', type: 'learn', locked: true, completed: false },
-                    { id: 19, title: 'Noções básicas de acessibilidade', type: 'practice', locked: true, completed: false },
+                id: 4,
+                title: 'Acessibilidade',
+                description: 'Aprenda a criar páginas web acessíveis',
+                locked: true,
+                lessons: [{
+                        id: 17,
+                        title: 'Noções básicas de acessibilidade HTML',
+                        type: 'learn',
+                        locked: true,
+                        completed: false,
+                        url: './lessons/accessibility-basics.html'
+                    },
+                    {
+                        id: 18,
+                        title: 'Acessibilidade WAI-ARIA',
+                        type: 'learn',
+                        locked: true,
+                        completed: false,
+                        url: './lessons/wai-aria.html'
+                    },
+                    {
+                        id: 19,
+                        title: 'Noções básicas de acessibilidade',
+                        type: 'practice',
+                        locked: true,
+                        completed: false,
+                        url: './lessons/practice-accessibility.html'
+                    },
                 ]
             },
             {
-                id: 5, title: 'Formulários HTML', description: 'Reúna a entrada do usuário usando formulários', locked: true,
-                lessons: [
-                    { id: 20, title: 'Criando Formulários', type: 'learn', locked: true, completed: false },
-                    { id: 21, title: 'Formulários com rótulos', type: 'learn', locked: true, completed: false },
-                    { id: 22, title: 'Formulários HTML', type: 'practice', locked: true, completed: false },
-                    { id: 23, title: 'Certificado de Conclusão', type: 'certificate', locked: true, completed: false }
+                id: 5,
+                title: 'Formulários HTML',
+                description: 'Reúna a entrada do usuário usando formulários',
+                locked: true,
+                lessons: [{
+                        id: 20,
+                        title: 'Criando Formulários',
+                        type: 'learn',
+                        locked: true,
+                        completed: false,
+                        url: './lessons/creating-forms.html'
+                    },
+                    {
+                        id: 21,
+                        title: 'Formulários com rótulos',
+                        type: 'learn',
+                        locked: true,
+                        completed: false,
+                        url: './lessons/forms-labels.html'
+                    },
+                    {
+                        id: 22,
+                        title: 'Formulários HTML',
+                        type: 'practice',
+                        locked: true,
+                        completed: false,
+                        url: './lessons/practice-forms.html'
+                    },
+                    {
+                        id: 23,
+                        title: 'Certificado de Conclusão',
+                        type: 'certificate',
+                        locked: true,
+                        completed: false,
+                        url: './certificate.html'
+                    }
                 ]
             },
         ]
@@ -86,7 +257,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (window.innerWidth < 1024) sidebar.classList.remove('visible');
         }
     };
-    
+
     const completeLesson = (lessonId) => {
         const currentSection = courseData.sections.find(s => s.id === courseData.currentSectionId);
         const lessonIndex = currentSection.lessons.findIndex(l => l.id === lessonId);
@@ -112,7 +283,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
         }
-        
+
         saveProgress();
         renderApp();
     };
@@ -168,34 +339,59 @@ document.addEventListener('DOMContentLoaded', () => {
             </section>
             ${nextSection ? `<section class="next-section-card"><p>PRÓXIMA SEÇÃO</p><div class="next-section-content"><span>${nextSection.title}</span><button class="continue-button" ${progressPercentage < 100 ? 'disabled' : ''} data-next-section-id="${nextSection.id}">Continuar</button></div></section>` : ''}
         `;
+
+        // --- ALTERAÇÃO: Event listener ajustado para lidar com links ---
         document.getElementById('lessons-list-container').addEventListener('click', (e) => {
             const card = e.target.closest('.lesson-card');
-            if(card) {
-                if(e.target.closest('.sub-button')) {
-                    alert(`Prática "${card.querySelector('.lesson-title').textContent}" sobrecarregada!`);
-                } else if (!card.classList.contains('locked')) {
-                    completeLesson(parseInt(card.dataset.lessonId));
-                }
+            if (!card) return; // Se o clique não foi em um cartão, ignora
+
+            // Se o cartão está bloqueado, previne o clique e o redirecionamento
+            if (card.classList.contains('locked')) {
+                e.preventDefault();
+                return;
+            }
+
+            // Se o botão "sobrecarregar" foi clicado, mostra o alerta e previne o redirecionamento
+            if (e.target.closest('.sub-button')) {
+                e.preventDefault();
+                alert(`Prática "${card.querySelector('.lesson-title').textContent}" sobrecarregada!`);
+                return;
+            }
+
+            // Se for um clique válido em um cartão desbloqueado (que não seja o certificado), completa a lição
+            // A ação padrão do link (navegação) ocorrerá normalmente após este código executar.
+            if (!card.classList.contains('certificate-card')) {
+                completeLesson(parseInt(card.dataset.lessonId));
             }
         });
+
         const continueBtn = document.querySelector('.continue-button');
-        if(continueBtn && !continueBtn.disabled) {
+        if (continueBtn && !continueBtn.disabled) {
             continueBtn.addEventListener('click', (e) => changeSection(parseInt(e.target.dataset.nextSectionId)));
         }
     };
 
-    // [CORREÇÃO APLICADA AQUI] -> A função agora recebe "index" para exibir o número correto.
+    // --- ALTERAÇÃO: O cartão agora é uma tag <a> com href ---
     const renderLessonCard = (lesson, index) => {
         const isFirstUnlocked = !lesson.locked && !lesson.completed;
         const statusIcon = lesson.locked ? '<i class="fas fa-lock status-icon"></i>' : '<i class="fas fa-check-circle status-icon"></i>';
+        
+        // Define o href. Para cartões bloqueados, o clique já é prevenido no event listener.
+        const href = `href="${lesson.url}" target="_blank" rel="noopener noreferrer"`;
+
         if (lesson.type === 'certificate') {
-            return `<div class="lesson-card certificate-card ${lesson.locked ? 'locked' : ''}" data-lesson-id="${lesson.id}"><div class="cert-icon-area"><i class="fas fa-award"></i><span>HTML</span></div><div class="cert-title">${lesson.title}</div>${statusIcon}</div>`;
+            return `<a class="lesson-card certificate-card ${lesson.locked ? 'locked' : ''}" data-lesson-id="${lesson.id}" ${href}>
+                        <div class="cert-icon-area"><i class="fas fa-award"></i><span>HTML</span></div>
+                        <div class="cert-title">${lesson.title}</div>
+                        ${statusIcon}
+                    </a>`;
         }
-        const lessonNumber = String(index + 1).padStart(2, '0'); // Usa o índice para a numeração
+        const lessonNumber = String(index + 1).padStart(2, '0');
         let typeInfo = (lesson.type === 'learn') ? `<i class="fa-regular fa-file-lines"></i> APRENDER` : `<i class="fas fa-bolt"></i> PRÁTICA`;
         let subButtonHTML = (lesson.type === 'practice') ? `<div class="sub-button-container"><button class="sub-button"><i class="fas fa-bolt"></i> SOBRECARREGAR</button>${statusIcon}</div>` : '';
+        
         return `
-            <div class="lesson-card ${lesson.locked ? 'locked' : ''} ${isFirstUnlocked ? 'active' : ''}" data-lesson-id="${lesson.id}">
+            <a class="lesson-card ${lesson.locked ? 'locked' : ''} ${isFirstUnlocked ? 'active' : ''}" data-lesson-id="${lesson.id}" ${href}>
                 <div class="lesson-main-info">
                     <div class="lesson-title-area">
                         <span class="lesson-number">${lessonNumber}</span>
@@ -207,7 +403,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
                 ${subButtonHTML}
-            </div>`;
+            </a>`;
     };
 
     const renderApp = () => {
