@@ -255,5 +255,6 @@ margin:30px;
         /* A MUDANÇA MAIS IMPORTANTE: coloca os links um embaixo do outro */
         flex-direction: column;
         gap: 1rem; /* Adiciona um espaço entre eles */
+        text-decoration: none;
     }
 }
