@@ -2,14 +2,14 @@
 :root {
     --bg-dark: #F0F2F5;
     --bg-sidebar: #e6ecf5;
-    --card-bg: #2A2143;
-    --card-bg-active: #32264D;
-    --purple-highlight: #8257E5;
-    --text-light: #E1E1E6;
-    --text-muted: #A8A8B3;
-    --border-color: #32264D;
-    --green-completed: #04D361;
-    --yellow-practice: #F4E475;
+    --card-bg: #fff;
+    --card-bg-active: #FFFFFF;
+    --purple-highlight: #226160;
+    --text-light: #333333;
+    --text-muted: #515158;
+    --border-color: #aecfb3;
+    --green-completed: #226160;
+    --yellow-practice: #d0a465;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -58,7 +58,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #fff;
+    color: black;
 }
 .sidebar-header .sidebar-actions {
     display: flex;
@@ -214,7 +214,7 @@ body {
     border-radius: 25px; font-size: 1rem; font-weight: 600;
     cursor: pointer; transition: background-color 0.2s;
 }
-.continue-button:hover:not(:disabled) { background-color: #9871f5; }
+.continue-button:hover:not(:disabled) { background-color: #053b15; }
 .continue-button:disabled { background-color: var(--border-color); color: var(--text-muted); cursor: not-allowed; }
 
 /* --- Responsividade --- */
@@ -237,9 +237,10 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 4px;
-    background-color: #32264D;
+    background-color: #A4B5B9;
     padding: 8px 12px;
     border-radius: 8px;
+    color: #F0F2F5;
 }
 .certificate-card .cert-icon-area .fa-award {
     font-size: 1.5rem;
