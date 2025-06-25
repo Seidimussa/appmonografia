@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './lessons/collecting-info.html'
+                        url: './intermediario/licao07/index.html'
                     },
                     {
                         id: 9,
