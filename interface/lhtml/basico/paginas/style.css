@@ -145,8 +145,8 @@ body {
 .section-description { color: var(--text-muted); }
 
 .progress-circle {
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 70px;
     border-radius: 50%;
     display: grid;
     place-items: center;
