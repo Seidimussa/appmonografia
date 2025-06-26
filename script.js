@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // Simulação de login
-        if (email === 'admin@admin.gw' && password === 'admingw',email === 'teste@teste.com' && password === 'testecom') {
+        if (email === 'teste@teste.com' && password === 'testecom') {
             showMessage('Login bem-sucedido! Redirecionando...', 'success');
             // Redireciona para a página de cursos (index.html) após um pequeno delay
             setTimeout(() => {
