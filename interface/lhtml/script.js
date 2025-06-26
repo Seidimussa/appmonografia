@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './lessons/semantic-alternatives.html'
+                        url: './intermediario/licao01/index.html'
                     },
                     {
                         id: 14,
@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './lessons/semantic-structure.html'
+                        url: './intermediario/licao02/index.html'
                     },
                     {
                         id: 15,
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './lessons/visual-elements.html'
+                        url: './intermediario/licao03/index.html'
                     },
                     {
                         id: 16,
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'practice',
                         locked: true,
                         completed: false,
-                        url: './lessons/practice-semantic.html'
+                        url: './intermediario/licao04/index.html'
                     },
                 ]
             },
