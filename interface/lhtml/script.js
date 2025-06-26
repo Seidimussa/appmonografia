@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './intermediario/licao01/index.html'
+                        url: './semantica/licao01/index.html'
                     },
                     {
                         id: 14,
@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './intermediario/licao02/index.html'
+                        url: './semantica/licao02/index.html'
                     },
                     {
                         id: 15,
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './intermediario/licao03/index.html'
+                        url: './semantica/licao03/index.html'
                     },
                     {
                         id: 16,
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'practice',
                         locked: true,
                         completed: false,
-                        url: './intermediario/licao04/index.html'
+                        url: './semantica/licao04/index.html'
                     },
                 ]
             },
@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './lessons/accessibility-basics.html'
+                        url: './acessibilidade/licao01/index.html'
                     },
                     {
                         id: 18,
@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './lessons/wai-aria.html'
+                        url: './acessibilidade/licao02/index.html'
                     },
                     {
                         id: 19,
@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'practice',
                         locked: true,
                         completed: false,
-                        url: './lessons/practice-accessibility.html'
+                        url: './acessibilidade/licao03/index.html'
                     },
                 ]
             },
@@ -205,7 +205,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './lessons/creating-forms.html'
+                        url: './formularios/licao01/index.html'
                     },
                     {
                         id: 21,
@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './lessons/forms-labels.html'
+                        url: './formularios/licao02/index.html'
                     },
                     {
                         id: 22,
@@ -221,7 +221,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'practice',
                         locked: true,
                         completed: false,
-                        url: './lessons/practice-forms.html'
+                        url: './formularios/licao03/index.html'
                     },
                     {
                         id: 23,
