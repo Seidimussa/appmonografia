@@ -9,7 +9,7 @@
     --text-muted: #515158;
     --border-color: #aecfb3;
     --green-completed: #226160;
-    --yellow-practice: #d0a465;
+    --yellow-practice:goldenrod;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -75,7 +75,7 @@ body {
 }
 .sidebar-cert-card .fa-award {
     font-size: 2rem;
-    color: var(--yellow-practice);
+    color: goldenrod;
 }
 .cert-info { flex-grow: 1; }
 .cert-info p { font-weight: 500; margin-bottom: 8px; }
@@ -241,14 +241,14 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 4px;
-    background-color: #A4B5B9;
+    background-color: #053b15;
     padding: 8px 12px;
     border-radius: 8px;
     color: #F0F2F5;
 }
 .certificate-card .cert-icon-area .fa-award {
     font-size: 1.5rem;
-    color: var(--yellow-practice);
+    color: goldenrod;
 }
 .certificate-card .cert-icon-area span {
     font-size: 0.8rem;
