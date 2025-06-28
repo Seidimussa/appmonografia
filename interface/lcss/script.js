@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const totalProgressBar = document.getElementById('total-progress-bar');
     const totalProgressText = document.getElementById('total-progress-text');
 
-    // --- ESTRUTURA DE DADOS RESTAURADA PARA FICAR IDÊNTICA AO SEU EXEMPLO ORIGINAL ---
+    // --- ESTRUTURA DE DADOS COMPLETA, IDÊNTICA AO VÍDEO ---
     const initialCourseData = {
         currentSectionId: 1,
         sections: [
@@ -35,6 +35,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 locked: true,
                 lessons: [
                     { id: 9, title: 'Estilizando grupos de elementos', type: 'learn', completed: false, locked: true, url: './lessons/intermediate-css/01.html' },
+                    { id: 10, title: 'Descobrindo Elementos Filhos', type: 'learn', completed: false, locked: true, url: './lessons/intermediate-css/02.html' },
+                    { id: 11, title: 'Usando classes para layouts', type: 'learn', completed: false, locked: true, url: './lessons/intermediate-css/03.html' },
+                    { id: 12, title: 'CSS Intermediário 1', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/intermediate-css/04.html' },
+                    { id: 13, title: 'Adicionando cor com valores hexadecimais', type: 'learn', completed: false, locked: true, url: './lessons/intermediate-css/05.html' },
+                    { id: 14, title: 'Definindo o tamanho com porcentagens', type: 'learn', completed: false, locked: true, url: './lessons/intermediate-css/06.html' },
+                    { id: 15, title: 'Combinando várias classes', type: 'learn', completed: false, locked: true, url: './lessons/intermediate-css/07.html' },
+                    { id: 16, title: 'Seletores de agrupamento', type: 'learn', completed: false, locked: true, url: './lessons/intermediate-css/08.html' },
+                    { id: 17, title: 'CSS Intermediário 2', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/intermediate-css/09.html' },
+                    { id: 18, title: 'Exibindo Elementos', type: 'learn', completed: false, locked: true, url: './lessons/intermediate-css/10.html' },
+                    { id: 19, title: 'Imagens Flutuantes', type: 'learn', completed: false, locked: true, url: './lessons/intermediate-css/11.html' },
+                    { id: 20, title: 'Posicionamento Relativo', type: 'learn', completed: false, locked: true, url: './lessons/intermediate-css/12.html' },
+                    { id: 21, title: 'Fundamentos de Layout CSS 1', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/intermediate-css/13.html' },
+                    { id: 22, title: 'Posição Absoluta', type: 'learn', completed: false, locked: true, url: './lessons/intermediate-css/14.html' },
+                    { id: 23, title: 'Índice Z', type: 'learn', completed: false, locked: true, url: './lessons/intermediate-css/15.html' },
                     { id: 24, title: 'Fundamentos de Layout CSS 2', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/intermediate-css/16.html' },
                 ]
             },
@@ -45,6 +59,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 locked: true,
                 lessons: [
                     { id: 25, title: 'Compreendendo o Flexbox', type: 'learn', completed: false, locked: true, url: './lessons/flexbox/01.html' },
+                    { id: 26, title: 'Usando Flex Direction', type: 'learn', completed: false, locked: true, url: './lessons/flexbox/02.html' },
+                    { id: 27, title: 'Eixos Flexbox', type: 'learn', completed: false, locked: true, url: './lessons/flexbox/03.html' },
+                    { id: 28, title: 'Noções básicas do Flexbox', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/flexbox/04.html' },
+                    { id: 29, title: 'Justificando grupos de itens', type: 'learn', completed: false, locked: true, url: './lessons/flexbox/05.html' },
+                    { id: 30, title: 'Justificando linhas e colunas', type: 'learn', completed: false, locked: true, url: './lessons/flexbox/06.html' },
+                    { id: 31, title: 'Alinhando Itens Flexíveis', type: 'learn', completed: false, locked: true, url: './lessons/flexbox/07.html' },
+                    { id: 32, title: 'Contêineres Flexbox 1', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/flexbox/08.html' },
+                    { id: 33, title: 'Envolvendo itens flexíveis', type: 'learn', completed: false, locked: true, url: './lessons/flexbox/09.html' },
+                    { id: 34, title: 'Alinhando linhas encapsuladas', type: 'learn', completed: false, locked: true, url: './lessons/flexbox/10.html' },
+                    { id: 35, title: 'Contêineres Flexbox 2', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/flexbox/11.html' },
+                    { id: 36, title: 'Definindo um tamanho inicial do item', type: 'learn', completed: false, locked: true, url: './lessons/flexbox/12.html' },
+                    { id: 37, title: 'Itens Flex em crescimento', type: 'learn', completed: false, locked: true, url: './lessons/flexbox/13.html' },
+                    { id: 38, title: 'Itens Flexíveis Encolhendo', type: 'learn', completed: false, locked: true, url: './lessons/flexbox/14.html' },
+                    { id: 39, title: 'Usando a abreviação Flex', type: 'learn', completed: false, locked: true, url: './lessons/flexbox/15.html' },
                     { id: 40, title: 'Itens Flexbox', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/flexbox/16.html' },
                 ]
             },
@@ -55,39 +83,46 @@ document.addEventListener('DOMContentLoaded', () => {
                 locked: true,
                 lessons: [
                     { id: 41, title: 'Criando uma grade CSS', type: 'learn', completed: false, locked: true, url: './lessons/grid/01.html' },
+                    { id: 42, title: 'Criando colunas de grade', type: 'learn', completed: false, locked: true, url: './lessons/grid/02.html' },
+                    { id: 43, title: 'Criando Linhas de Grade', type: 'learn', completed: false, locked: true, url: './lessons/grid/03.html' },
+                    { id: 44, title: 'Grade CSS 1', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/grid/04.html' },
+                    { id: 45, title: 'Definindo colunas e linhas da grade', type: 'learn', completed: false, locked: true, url: './lessons/grid/05.html' },
+                    { id: 46, title: 'Lacunas na grade', type: 'learn', completed: false, locked: true, url: './lessons/grid/06.html' },
+                    { id: 47, title: 'Definindo o tamanho de um item da grade', type: 'learn', completed: false, locked: true, url: './lessons/grid/07.html' },
+                    { id: 48, title: 'Grade CSS 2', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/grid/08.html' },
+                    { id: 49, title: 'Criando áreas nomeadas', type: 'learn', completed: false, locked: true, url: './lessons/grid/09.html' },
+                    { id: 50, title: 'Seções usando áreas nomeadas', type: 'learn', completed: false, locked: true, url: './lessons/grid/10.html' },
+                    { id: 51, title: 'Alinhando itens da grade', type: 'learn', completed: false, locked: true, url: './lessons/grid/11.html' },
+                    { id: 52, title: 'Usando CSS Grid e Flexbox', type: 'learn', completed: false, locked: true, url: './lessons/grid/12.html' },
                     { id: 53, title: 'Grade CSS 3', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/grid/13.html' },
-                    // CERTIFICADO VOLTOU A SER A ÚLTIMA LIÇÃO DA ÚLTIMA SEÇÃO
                     { id: 54, title: 'Certificado de Conclusão', type: 'certificate', completed: false, locked: true, url: './certificate.html' }
                 ]
             },
         ]
     };
     
-    let courseData = JSON.parse(localStorage.getItem('courseProgress_css_v3')) || JSON.parse(JSON.stringify(initialCourseData));
-    const saveProgress = () => localStorage.setItem('courseProgress_css_v3', JSON.stringify(courseData));
+    // O NOME DA CHAVE NO LOCALSTORAGE FOI ALTERADO PARA EVITAR CONFLITOS COM VERSÕES ANTIGAS
+    let courseData = JSON.parse(localStorage.getItem('courseProgress_css_full')) || JSON.parse(JSON.stringify(initialCourseData));
+    const saveProgress = () => localStorage.setItem('courseProgress_css_full', JSON.stringify(courseData));
 
     const completeLesson = (lessonId) => {
         const currentSection = courseData.sections.find(s => s.id === courseData.currentSectionId);
         const lesson = currentSection.lessons.find(l => l.id === lessonId);
 
-        // Não faz nada se a lição não existe, já foi completada, está bloqueada ou é o certificado
         if (!lesson || lesson.completed || lesson.locked || lesson.type === 'certificate') return;
         
         lesson.completed = true;
 
         const lessonIndex = currentSection.lessons.findIndex(l => l.id === lessonId);
-        // Desbloqueia a próxima lição na mesma seção
         if (lessonIndex + 1 < currentSection.lessons.length) {
             currentSection.lessons[lessonIndex + 1].locked = false;
         }
 
-        // Verifica se todas as lições REGULARES da seção foram completadas
         const regularLessons = currentSection.lessons.filter(l => l.type !== 'certificate');
         const allSectionLessonsCompleted = regularLessons.every(l => l.completed);
         
         if (allSectionLessonsCompleted) {
             const currentSectionIndex = courseData.sections.findIndex(s => s.id === courseData.currentSectionId);
-            // Se houver uma próxima seção, desbloqueia ela
             if (currentSectionIndex + 1 < courseData.sections.length) {
                 const nextSection = courseData.sections[currentSectionIndex + 1];
                 nextSection.locked = false;
@@ -98,7 +133,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         
         saveProgress();
-        // Re-renderiza a UI para mostrar o desbloqueio imediatamente
         renderApp();
     };
 
@@ -110,7 +144,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const regularLessons = section.lessons.filter(l => l.type !== 'certificate');
             const completedLessons = regularLessons.filter(l => l.completed).length;
             
-            // Uma seção é considerada completa se todas as suas lições regulares estiverem completas
             if (regularLessons.length > 0 && completedLessons === regularLessons.length) {
                 completedSectionsCount++;
             }
@@ -188,7 +221,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const statusIcon = lesson.completed ? '<i class="fas fa-check-circle status-icon"></i>' : '<i class="far fa-circle status-icon"></i>';
         const linkAttributes = `href="${lesson.url}"`;
 
-        // LÓGICA DO CARD DE CERTIFICADO RESTAURADA
         if (lesson.type === 'certificate') {
             return `<a class="lesson-card certificate-card ${lesson.locked ? 'locked' : ''}" data-lesson-id="${lesson.id}" ${linkAttributes}>
                         <div class="cert-icon-area"><i class="fas fa-award"></i><span>CSS</span></div>
@@ -235,7 +267,7 @@ document.addEventListener('DOMContentLoaded', () => {
     closeSidebarButton.addEventListener('click', () => sidebar.classList.remove('visible'));
     resetProgressButton.addEventListener('click', () => {
         if (confirm('Tem certeza que deseja resetar todo o seu progresso?')) {
-            localStorage.removeItem('courseProgress_css_v3');
+            localStorage.removeItem('courseProgress_css_full');
             courseData = JSON.parse(JSON.stringify(initialCourseData));
             renderApp();
         }
