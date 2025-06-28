@@ -3,55 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso de TypeScript</title>
+    <title>Curso TypeScript</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Usando a fonte Inter, similar à do vídeo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Ícones do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <header class="course-header">
-            <h1>TypeScript</h1>
-            <button class="refresh-button" aria-label="Atualizar"><i class="fas fa-sync-alt"></i></button>
-        </header>
 
-        <p class="section-info">SEÇÃO <span class="section-progress">0/4</span></p>
+    <!-- Layout Principal -->
+    <div class="dashboard-layout">
+        
+        <!-- Barra Lateral (Sidebar/Drawer) -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h3>Curso TypeScript</h3>
+                <div class="sidebar-actions">
+                    <button class="icon-button" id="reset-progress-button" title="Resetar Progresso">
+                        <i class="fas fa-sync-alt"></i>
+                    </button>
+                    <button class="icon-button" id="close-sidebar-button">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
 
-        <main class="modules-list">
-            <div class="module-card" data-module="ts-basico" data-target-page="/interface/ltypescript/ts-basico/index.html">
-                <span class="module-title">Fundamentos do TypeScript</span>
-                <span class="module-progress">0%</span>
+            <div class="sidebar-cert-card">
+                <i class="fas fa-award"></i>
+                <div class="cert-info">
+                    <p>Certificado de Conclusão</p>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" id="total-progress-bar"></div>
+                    </div>
+                    <span id="total-progress-text">0/4 seções</span>
+                </div>
             </div>
-            <div class="module-card locked" data-module="mais-tipos" data-target-page="/interface/ltypescript/mais-tipos/index.html">
-                <span class="module-title">Mais Tipos</span>
-                <span class="module-progress">0%</span>
-                <i class="fas fa-lock"></i>
-            </div>
-            <div class="module-card locked" data-module="funcoes-classes-enums" data-target-page="/interface/ltypescript/funcoes-classes-enums/index.html">
-                <span class="module-title">Funções, Classes & Enums</span>
-                <span class="module-progress">0%</span>
-                <i class="fas fa-lock"></i>
-            </div>
-            <div class="module-card locked" data-module="genericos" data-target-page="/interface/ltypescript/genericos/index.html">
-                <span class="module-title">Genéricos</span>
-                <span class="module-progress">0%</span>
-                <i class="fas fa-lock"></i>
-            </div>
+
+            <p class="sidebar-label">SEÇÕES</p>
+            <nav id="sections-nav-list" class="sections-nav-list"></nav>
+        </aside>
+
+        <!-- Conteúdo Principal -->
+        <main class="main-content">
+            <header class="main-header">
+                <button class="icon-button" id="open-sidebar-button">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <h2 id="course-title-header">Curso TypeScript</h2>
+            </header>
+
+            <section id="main-section-content" class="main-section-content">
+                <!-- O conteúdo da seção (título, progresso, lições) será inserido aqui pelo JavaScript -->
+            </section>
         </main>
 
-        <section class="progress-message">
-            <div class="message-content">
-                <h2>Você está no caminho certo!</h2>
-                <p>Continue e desbloqueie seu certificado personalizado.</p>
-            </div>
-            <div class="badge">
-                <i class="fas fa-code"></i> </div>
-            <div class="message-footer">
-                <p class="section-info">SEÇÃO <span class="section-progress">0/4</span></p>
-            </div>
-        </section>
     </div>
 
+    <!-- Script JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
