@@ -1,15 +1,15 @@
 /* --- Variáveis de Cores e Estilos Globais (Tema Escuro) --- */
 :root {
-    --bg-dark: #1e1e2f;
-    --bg-sidebar: #161625;
-    --card-bg: #28283e;
-    --card-bg-active: #3c3c5c;
-    --purple-highlight: #8a2be2;
-    --text-light: #e0e0e0;
-    --text-muted: #8c8c9e;
-    --border-color: #3c3c4f;
-    --green-completed: #28a745;
-    --yellow-practice: #ffc107;
+       --bg-dark: #F0F2F5;
+    --bg-sidebar: #e6ecf5;
+    --card-bg: #fff;
+    --card-bg-active: #FFFFFF;
+    --purple-highlight: #226160;
+    --text-light: #333333;
+    --text-muted: #515158;
+    --border-color: #aecfb3;
+    --green-completed: #226160;
+    --yellow-practice: goldenrod;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
