@@ -1,15 +1,15 @@
-/* --- Variáveis de Cores e Estilos Globais (Tema Escuro - JavaScript) --- */
+/* --- Variáveis de Cores e Estilos Globais (Conforme o seu original) --- */
 :root {
-    --bg-dark: #1e1e2f;
-    --bg-sidebar: #161625;
-    --card-bg: #28283e;
-    --card-bg-active: #3c3c5c;
-    --purple-highlight: #8a2be2;
-    --text-light: #e0e0e0;
-    --text-muted: #8c8c9e;
-    --border-color: #3c3c4f;
-    --green-completed: #28a745;
-    --yellow-practice: #ffc107;
+    --bg-dark: #F0F2F5;
+    --bg-sidebar: #e6ecf5;
+    --card-bg: #fff;
+    --card-bg-active: #FFFFFF;
+    --purple-highlight: #226160;
+    --text-light: #333333;
+    --text-muted: #515158;
+    --border-color: #aecfb3;
+    --green-completed: #226160;
+    --yellow-practice: goldenrod;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -104,7 +104,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    overflow-y: auto; /* Para permitir rolagem se houver muitas seções */
 }
 .section-nav-item {
     display: flex;
@@ -115,7 +114,7 @@ body {
     cursor: pointer;
     transition: background-color 0.2s;
 }
-.section-nav-item:hover { background-color: var(--card-bg); }
+.section-nav-item:hover { background-color: var(--border-color); }
 .section-nav-item.active { background-color: var(--purple-highlight); color: #fff; }
 .section-nav-item.locked { opacity: 0.5; cursor: not-allowed; }
 .section-nav-item.locked:hover { background: none; }
@@ -152,6 +151,7 @@ body {
     place-items: center;
     background: conic-gradient(var(--purple-highlight) 0deg, var(--card-bg) 0deg);
     transition: background 0.5s ease-in-out;
+    border: 1px solid var(--border-color);
 }
 .progress-text { font-size: 1.5rem; font-weight: 600; color: var(--text-light); }
 
@@ -175,13 +175,14 @@ body {
     gap: 16px;
     text-decoration: none;
     color: inherit;
+    cursor: default;
 }
 
 .lesson-card.active {
     border-left: 3px solid var(--purple-highlight);
     cursor: pointer;
 }
-.lesson-card:not(.locked):hover { transform: translateY(-3px); }
+.lesson-card.active:hover { transform: translateY(-3px); }
 .lesson-card.locked { opacity: 0.5; cursor: not-allowed; }
 
 .lesson-main-info { display: flex; justify-content: space-between; align-items: center; }
@@ -211,6 +212,7 @@ body {
 .next-section-card {
     background-color: var(--card-bg);
     border-radius: 8px;
+    border: 1px solid var(--border-color);
     padding: 24px;
     margin-top: 32px;
 }
@@ -223,7 +225,7 @@ body {
     border-radius: 25px; font-size: 1rem; font-weight: 600;
     cursor: pointer; transition: background-color 0.2s;
 }
-.continue-button:hover:not(:disabled) { background-color: #6a1eae; }
+.continue-button:hover:not(:disabled) { background-color: #1a4a49; }
 .continue-button:disabled { background-color: var(--border-color); color: var(--text-muted); cursor: not-allowed; }
 
 .certificate-card {
@@ -236,10 +238,10 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 4px;
-    background-color: var(--card-bg-active);
+    background-color: #053b15; /* Cor escura do seu exemplo original */
     padding: 8px 12px;
     border-radius: 8px;
-    color: var(--text-light);
+    color: #F0F2F5;
 }
 .certificate-card .cert-icon-area .fa-award {
     font-size: 1.5rem;
