@@ -600,19 +600,19 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 4,
-                title: 'Laços',
-                description: 'Crie loops para repetir linhas de código',
+                title: 'Laços / Loops',
+                description: 'Condicionais de código para construir programas que tomam decisões',
                 locked: true,
                 lessons: [{
                         id: 70,
-                        title: 'Variáveis autoatribuíveis',
+                        title: 'Variáveis ​​autoatribuíveis',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/loops/01.html'
                     },
                     {
-                        id: 17,
+                        id: 71,
                         title: 'Atribuição com operadores',
                         type: 'learn',
                         completed: false,
@@ -620,7 +620,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/loops/02.html'
                     },
                     {
-                        id: 18,
+                        id: 72,
                         title: 'Repetindo código com loops While',
                         type: 'learn',
                         completed: false,
@@ -628,7 +628,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/loops/03.html'
                     },
                     {
-                        id: 19,
+                        id: 73,
                         title: 'Parando loops While',
                         type: 'learn',
                         completed: false,
@@ -636,7 +636,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/loops/04.html'
                     },
                     {
-                        id: 20,
+                        id: 74,
                         title: 'Laços 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -645,23 +645,31 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/loops/05.html'
                     },
                     {
-                        id: 21,
-                        title: 'Controlando loops While',
+                        id: 75,
+                        title: 'Jogo de Adivinhação PARTE 1',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/loops/06.html'
                     },
                     {
-                        id: 22,
-                        title: 'Repetindo código com loops For',
+                        id: 76,
+                        title: 'Controlando loops While',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/loops/07.html'
                     },
                     {
-                        id: 23,
+                        id: 77,
+                        title: 'Repetindo código com loops For',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/loops/08.html'
+                    },
+                    {
+                        id: 78,
                         title: 'Looping para baixo',
                         type: 'learn',
                         completed: false,
@@ -669,13 +677,21 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/loops/08.html'
                     },
                     {
-                        id: 24,
+                        id: 79,
                         title: 'Laços 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
                         url: './lessons/loops/09.html'
+                    },
+                     {
+                        id: 80,
+                        title: 'Jogo de Adivinhação PARTE 2',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/loops/08.html'
                     },
                 ]
             },
