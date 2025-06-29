@@ -990,8 +990,8 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 7,
-                title: 'Objetos',
-                description: 'Crie objetos para armazenar valores relacionados em uma variável',
+                title: 'Matrizes / Arrays e Funções ',
+                description: 'Use matrizes / Arrays e funções para construir programas sofisticados',
                 locked: true,
                 lessons: [{
                         id: 37,
