@@ -418,7 +418,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 locked: true,
                 lessons: [{
                         id: 48,
-                        title: '',
+                        title: 'Agrupando Elementos',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -426,7 +426,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 49,
-                        title: '',
+                        title: 'Listas de construção',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -434,7 +434,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 50,
-                        title: '',
+                        title: 'Elemento Span',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -442,36 +442,159 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 51,
-                        title: '',
+                        title: 'Estilizando grupos de elementos',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/conditionals/04.html'
                     },
                     {
-                        id: 50,
-                        title: '',
+                        id: 52,
+                        title: 'Descobrindo Elementos Filhos',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/conditionals/03.html'
                     },
                     {
-                        id: 51,
-                        title: '',
+                        id: 53,
+                        title: 'Usando classes para layouts',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/conditionals/04.html'
                     },
                     {
-                        id: 15,
-                        title: '',
+                        id: 54,
+                        title: 'CSS Intermediário 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
                         url: './lessons/conditionals/05.html'
+                    },
+                    {
+                        id: 55,
+                        title: 'Adicionando cor com valores hexadecimais',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/03.html'
+                    },
+                    {
+                        id: 56,
+                        title: 'Definindo o tamanho com porcentagens',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/04.html'
+                    },
+                    {
+                        id: 57,
+                        title: 'Combinando várias classes',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/03.html'
+                    },
+                    {
+                        id: 58,
+                        title: 'Seletores de agrupamento',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/04.html'
+                    },
+                    {
+                        id: 59,
+                        title: 'CSS Intermediário 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/05.html'
+                    },
+                    {
+                        id: 60,
+                        title: 'Cardápio da cafeteria PARTE 1',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/03.html'
+                    },
+                    {
+                        id: 61,
+                        title: 'Exibindo Elementos',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/04.html'
+                    },
+                    {
+                        id: 62,
+                        title: 'Imagens Flutuantes',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/03.html'
+                    },
+                    {
+                        id: 63,
+                        title: 'Posicionamento Relativo',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/04.html'
+                    },
+                    {
+                        id: 64,
+                        title: 'Fundamentos de Layout CSS 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/05.html'
+                    },
+                    {
+                        id: 65,
+                        title: 'Posição Absoluta',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/03.html'
+                    },
+                    {
+                        id: 66,
+                        title: 'Índice Z',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/04.html'
+                    },
+                    {
+                        id: 67,
+                        title: 'Fundamentos de Layout CSS 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/05.html'
+                    },
+                    {
+                        id: 68,
+                        title: 'Bibliotecas JavaScript',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/03.html'
+                    },
+                    {
+                        id: 69,
+                        title: 'Cardápio da cafeteria PARTE 2',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/04.html'
                     },
                 ]
             },
