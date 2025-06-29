@@ -3,135 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso de Full-Stack</title>
+    <title>Carreira de Desenvolvedor Full-Stack</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Usando a fonte Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Ícones do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <header class="course-header">
-            <h1>Full-Stack</h1>
-            <button class="refresh-button" aria-label="Atualizar"><i class="fas fa-sync-alt"></i></button>
-        </header>
 
-        <p class="section-info">SEÇÃO <span class="section-progress">0/20</span></p>
+    <!-- Layout Principal -->
+    <div class="dashboard-layout">
+        
+        <!-- Barra Lateral (Sidebar/Drawer) -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="header-info">
+                    <p class="career-track">TRAJETÓRIA DE CARREIRA</p>
+                    <h3>Desenvolvedor Full-Stack</h3>
+                </div>
+                <div class="sidebar-actions">
+                    <button class="icon-button" id="reset-progress-button" title="Resetar Progresso">
+                        <i class="fas fa-sync-alt"></i>
+                    </button>
+                    <button class="icon-button" id="close-sidebar-button">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
 
-        <main class="modules-list">
-            <div class="module-card" data-module="intro-webdev-fs" data-target-page="/interface/cfullstack/intro-webdev-fs/index.html">
-                <span class="module-title">Introdução ao Desenvolvimento Web</span>
-                <span class="module-progress">0%</span>
+            <div class="sidebar-cert-card">
+                <i class="fas fa-shield-alt"></i>
+                <div class="cert-info">
+                    <p>Certificado Profissional</p>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" id="total-progress-bar"></div>
+                    </div>
+                    <span id="total-progress-text">0/20 seções</span>
+                </div>
             </div>
-            <div class="module-card locked" data-module="webpages-interativas-fs" data-target-page="/interface/cfullstack/webpages-interativas-fs/index.html">
-                <span class="module-title">Páginas Web Interativas</span>
-                <span class="module-progress">0%</span>
-                <i class="fas fa-lock"></i>
-            </div>
-            <div class="module-card locked" data-module="html-css-intermediario-fs" data-target-page="/interface/cfullstack/html-css-intermediario-fs/index.html">
-                <span class="module-title">HTML & CSS Intermediário</span>
-                <span class="module-progress">0%</span>
-                <i class="fas fa-lock"></i>
-            </div>
-            <div class="module-card locked" data-module="loops-fs" data-target-page="/interface/cfullstack/loops-fs/index.html">
-                <span class="module-title">Loops (Laços)</span>
-                <span class="module-progress">0%</span>
-                <i class="fas fa-lock"></i>
-            </div>
-            <div class="module-card locked" data-module="flexbox-fs" data-target-page="/interface/cfullstack/flexbox-fs/index.html">
-                <span class="module-title">Flexbox</span>
-                <span class="module-progress">0%</span>
-                <i class="fas fa-lock"></i>
-            </div>
-            <div class="module-card locked" data-module="grid-fs" data-target-page="/interface/cfullstack/grid-fs/index.html">
-                <span class="module-title">Grid</span>
-                <span class="module-progress">0%</span>
-                <i class="fas fa-lock"></i>
-            </div>
-            <div class="module-card locked" data-module="array-funcoes-fs" data-target-page="array-funcoes-fs">
-                <span class="module-title">Arrays & Funções</span>
-                <span class="module-progress">0%</span>
-                <i class="fas fa-lock"></i>
-            </div>
-            <div class="module-card locked" data-module="objetos-es6-fs" data-target-page="/interface/cfullstack/objetos-es6-fs/index.html">
-                <span class="module-title">Objetos & ES6</span>
-                <span class="module-progress">0%</span>
-                <i class="fas fa-lock"></i>
-            </div>
-            <div class="module-card locked" data-module="dom-eventos-fs" data-target-page="/interface/cfullstack/dom-eventos-fs/index.html">
-                <span class="module-title">DOM & Eventos</span>
-                <span class="module-progress">0%</span>
-                <i class="fas fa-lock"></i>
-            </div>
-            <div class="module-card locked" data-module="html-semantico-acessibilidade-fs" data-target-page="/interface/cfullstack/html-semantico-acessibilidade-fs/index.html">
-                <span class="module-title">HTML Semântico & Acessibilidade</span>
-                <span class="module-progress">0%</span>
-                <i class="fas fa-lock"></i>
-            </div>
-            <div class="module-card locked" data-module="sincronia-assincronia-js-fs" data-target-page="/interface/cfullstack/sincronia-assincronia-js-fs/index.html">
-                <span class="module-title">Sincronia & Assincronia em JS</span>
-                <span class="module-progress">0%</span>
-                <i class="fas fa-lock"></i>
-            </div>
-            <div class="module-card locked" data-module="javascript-classes-fs" data-target-page="/interface/cfullstack/javascript-classes-fs/index.html">
-                <span class="module-title">Classes de JavaScript</span>
-                <span class="module-progress">0%</span>
-                <i class="fas fa-lock"></i>
-            </div>
-            <div class="module-card locked" data-module="intro-react-fs" data-target-page="/interface/cfullstack/intro-react-fs/index.html">
-                <span class="module-title">Introdução ao React</span>
-                <span class="module-progress">0%</span>
-                <i class="fas fa-lock"></i>
-            </div>
-            <div class="module-card locked" data-module="react-essentials-fs" data-target-page="/interface/cfullstack/react-essentials-fs/index.html">
-                <span class="module-title">React Essencial</span>
-                <span class="module-progress">0%</span>
-                <i class="fas fa-lock"></i>
-            </div>
-            <div class="module-card locked" data-module="react-deep-dive-fs" data-target-page="/interface/cfullstack/react-deep-dive-fs/index.html">
-                <span class="module-title">React Aprofundado</span>
-                <span class="module-progress">0%</span>
-                <i class="fas fa-lock"></i>
-            </div>
-            <div class="module-card locked" data-module="express-basico-fs" data-target-page="/interface/cfullstack/express-basico-fs/index.html">
-                <span class="module-title">Fundamentos do Express</span>
-                <span class="module-progress">0%</span>
-                <i class="fas fa-lock"></i>
-            </div>
-            <div class="module-card locked" data-module="trabalhando-bancos-dados-fs" data-target-page="/interface/cfullstack/trabalhando-bancos-dados-fs/index.html">
-                <span class="module-title">Trabalhando com Bancos de Dados</span>
-                <span class="module-progress">0%</span>
-                <i class="fas fa-lock"></i>
-            </div>
-            <div class="module-card locked" data-module="sql-aprofundado-fs" data-target-page="/interface/cfullstack/sql-aprofundado-fs/index.html">
-                <span class="module-title">SQL Aprofundado</span>
-                <span class="module-progress">0%</span>
-                <i class="fas fa-lock"></i>
-            </div>
-            <div class="module-card locked" data-module="express-deep-dive-fs" data-target-page="/interface/cfullstack/express-deep-dive-fs/index.html">
-                <span class="module-title">Express Aprofundado</span>
-                <span class="module-progress">0%</span>
-                <i class="fas fa-lock"></i>
-            </div>
-            <div class="module-card locked" data-module="full-stack-projeto" data-target-page="/interface/cfullstack/full-stack-projeto/index.html">
-                <span class="module-title">Projeto Full-Stack</span>
-                <span class="module-progress">0%</span>
-                <i class="fas fa-lock"></i>
-            </div>
+
+            <p class="sidebar-label">SEÇÕES</p>
+            <nav id="sections-nav-list" class="sections-nav-list"></nav>
+        </aside>
+
+        <!-- Conteúdo Principal -->
+        <main class="main-content">
+            <header class="main-header">
+                <button class="icon-button" id="open-sidebar-button">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="header-progress-area">
+                    <h2 id="course-title-header">Carreira de Desenvolvedor Full-Stack</h2>
+                    <div class="header-progress-container">
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" id="main-header-progress-bar"></div>
+                        </div>
+                        <span id="main-header-progress-text">1/20</span>
+                    </div>
+                </div>
+            </header>
+
+            <section id="main-section-content" class="main-section-content">
+                <!-- O conteúdo da seção será inserido aqui pelo JavaScript -->
+            </section>
         </main>
 
-        <section class="progress-message">
-            <div class="message-content">
-                <h2>Você está no caminho certo!</h2>
-                <p>Continue e desbloqueie seu certificado personalizado.</p>
-            </div>
-            <div class="badge">
-                <i class="fas fa-code-branch"></i> </div>
-            <div class="message-footer">
-                <p class="section-info">SEÇÃO <span class="section-progress">0/20</span></p>
-            </div>
-        </section>
     </div>
 
+    <!-- Script JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
