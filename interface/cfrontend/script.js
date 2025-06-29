@@ -852,12 +852,12 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 6,
-                title: 'Funções',
-                description: 'Funções de código para tornar o código reutilizável e mais fácil de ler',
+                title: 'Grid',
+                description: 'Crie belos layouts usando grid CSS',
                 locked: true,
                 lessons: [{
-                        id: 30,
-                        title: 'Reutilizando código com funções',
+                        id: 99,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -865,7 +865,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 31,
-                        title: 'Criando Parâmetros',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -873,7 +873,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 32,
-                        title: 'Retomando Valores',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -881,7 +881,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 33,
-                        title: 'Funções 1',
+                        title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -890,7 +890,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 34,
-                        title: 'Usando vários parâmetros',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -898,7 +898,23 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 35,
-                        title: 'Compreendendo Funções',
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/06.html'
+                    },
+                    {
+                        id: 34,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/05.html'
+                    },
+                    {
+                        id: 35,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -906,7 +922,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 36,
-                        title: 'Funções 2',
+                        title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1010,6 +1026,22 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/06.html'
                     },
                     {
+                        id: 45,
+                        title: 'Adicionando Loops a Funções',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/05.html'
+                    },
+                    {
+                        id: 46,
+                        title: 'Looping sobre matrizes',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/06.html'
+                    },
+                    {
                         id: 47,
                         title: 'Funções Aplicadas 2',
                         type: 'practice',
@@ -1017,6 +1049,63 @@ document.addEventListener('DOMContentLoaded', () => {
                         completed: false,
                         locked: true,
                         url: './lessons/applied-functions/07.html'
+                    },
+                    {
+                        id: 45,
+                        title: 'Adicionando Loops a Funções',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/05.html'
+                    },
+                    {
+                        id: 46,
+                        title: 'Looping sobre matrizes',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/06.html'
+                    },
+                    {
+                        id: 45,
+                        title: 'Adicionando Loops a Funções',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/05.html'
+                    },
+                    {
+                        id: 46,
+                        title: 'Looping sobre matrizes',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/06.html'
+                    },
+                    {
+                        id: 47,
+                        title: 'Funções Aplicadas 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/07.html'
+                    },
+                    {
+                        id: 45,
+                        title: 'Adicionando Loops a Funções',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/05.html'
+                    },
+                    {
+                        id: 46,
+                        title: 'Looping sobre matrizes',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/06.html'
                     },
                 ]
             },
