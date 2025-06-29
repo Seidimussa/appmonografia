@@ -3,61 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso de JavaScript</title>
+    <title>Carreira de Desenvolvedor Back-End</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Usando a fonte Inter, similar à do vídeo -->
+    <!-- Fonte Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Ícones do Font Awesome -->
+    <!-- Ícones Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-
-    <!-- Layout Principal -->
     <div class="dashboard-layout">
-        
-        <!-- Barra Lateral (Sidebar/Drawer) -->
         <aside class="sidebar" id="sidebar">
             <div class="sidebar-header">
-                <h3>Curso de JavaScript</h3>
-                <button class="icon-button" id="reset-progress-button" title="Resetar Progresso">
-                    <i class="fas fa-sync-alt"></i>
-                </button>
-            </div>
-
-            <div class="sidebar-cert-card">
-                <i class="fas fa-award"></i>
-                <div class="cert-info">
-                    <p>Certificado de Conclusão</p>
-                    <div class="progress-bar-container">
-                        <div class="progress-bar" id="total-progress-bar"></div>
-                    </div>
-                    <span id="total-progress-text">0/16 seções</span>
+                <h3>Carreira de Desenvolvedor Back-End</h3>
+                <div class="sidebar-actions">
+                    <button class="icon-button" id="reset-progress-button" title="Resetar Progresso">
+                        <i class="fas fa-sync-alt"></i>
+                    </button>
+                    <button class="icon-button" id="close-sidebar-button">
+                        <i class="fas fa-times"></i>
+                    </button>
                 </div>
             </div>
 
-            <p class="sidebar-label">SEÇÕES</p>
-            <nav id="sections-nav-list" class="sections-nav-list"></nav>
+            <!-- Card de Progresso da Carreira -->
+            <div class="sidebar-cert-card">
+                <i class="fas fa-award"></i>
+                <div class="cert-info">
+                    <p>Certificado Profissional</p>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" id="career-progress-bar"></div>
+                    </div>
+                    <span id="career-progress-text">0/9 Cursos</span>
+                </div>
+            </div>
+
+            <!-- Lista de Cursos -->
+            <p class="sidebar-label">CURSOS</p>
+            <nav id="courses-nav-list" class="sections-nav-list"></nav>
         </aside>
 
-        <!-- Conteúdo Principal -->
         <main class="main-content">
             <header class="main-header">
-                <button class="icon-button mobile-only" id="open-sidebar-button">
+                <button class="icon-button" id="open-sidebar-button">
                     <i class="fas fa-bars"></i>
                 </button>
-                <h2 id="section-title-header"></h2>
+                <h2 id="course-title-header">Carreira de Desenvolvedor Back-End</h2>
             </header>
 
             <section id="main-section-content" class="main-section-content">
-                <!-- O conteúdo da seção (título, progresso, lições) será inserido aqui pelo JavaScript -->
+                <!-- Conteúdo da seção será inserido dinamicamente -->
             </section>
         </main>
-
     </div>
 
-    <!-- Script JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
