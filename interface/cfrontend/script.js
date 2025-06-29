@@ -604,7 +604,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Crie loops para repetir linhas de código',
                 locked: true,
                 lessons: [{
-                        id: 16,
+                        id: 70,
                         title: 'Variáveis autoatribuíveis',
                         type: 'learn',
                         completed: false,
