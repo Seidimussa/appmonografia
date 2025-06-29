@@ -8,12 +8,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const totalProgressBar = document.getElementById('total-progress-bar');
     const totalProgressText = document.getElementById('total-progress-text');
 
-    // --- ESTRUTURA DE DADOS COMPLETA PARA O CURSO DE JAVASCRIPT ---
+    // --- ESTRUTURA DE DADOS COMPLETA PARA O CURSO DE  ---
     const initialCourseData = {
         currentSectionId: 1,
         sections: [
             {
-                id: 1, title: 'Noções básicas de JavaScript', description: 'Crie variáveis que armazenam números, strings e booleanos', locked: false,
+                id: 1, title: 'Introdução ao desenvolvimento Web', description: 'Crie variáveis que armazenam números, strings e booleanos', locked: false,
                 lessons: [
                     { id: 1, title: 'Criando Variáveis', type: 'learn', completed: false, locked: false, url: './lessons/js-basics/01.html' },
                     { id: 2, title: 'Usando Variáveis', type: 'learn', completed: false, locked: true, url: './lessons/js-basics/02.html' },
