@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Armazene o resultado das comparações em variáveis',
                 locked: true,
                 lessons: [{
-                        id: 6,
+                        id: 18,
                         title: 'Comparando números',
                         type: 'learn',
                         completed: false,
