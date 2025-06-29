@@ -1195,36 +1195,36 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 8,
-                title: 'Funções Aplicadas',
-                description: 'Crie funções que alterem sua saída com base na entrada',
+                title: 'Objetos e ES 6',
+                description: 'Aprenda a usar objetos e funções JS mais avançadas',
                 locked: true,
                 lessons: [{
-                        id: 41,
-                        title: 'Condicionais de aninhamento',
+                        id: 136,
+                        title: 'Agrupando valores em objetos',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/applied-functions/01.html'
                     },
                     {
-                        id: 42,
-                        title: 'Usando Condições e Funções',
+                        id: 137,
+                        title: 'Usando métodos de objeto',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/applied-functions/02.html'
                     },
                     {
-                        id: 43,
-                        title: 'Parando funções com retorno',
+                        id: 138,
+                        title: 'O que é JSON',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/applied-functions/03.html'
                     },
                     {
-                        id: 44,
-                        title: 'Funções Aplicadas 1',
+                        id: 139,
+                        title: 'Objetos',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1232,40 +1232,40 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/04.html'
                     },
                     {
-                        id: 45,
-                        title: 'Adicionando Loops a Funções',
+                        id: 140,
+                        title: 'Rick e Morty PARTE 1',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/applied-functions/05.html'
                     },
                     {
-                        id: 46,
-                        title: 'Looping sobre matrizes',
+                        id: 141,
+                        title: 'Variáveis ​​e Escopo ES6',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/applied-functions/06.html'
                     },
                     {
-                        id: 45,
-                        title: 'Adicionando Loops a Funções',
+                        id: 142,
+                        title: 'Funções de seta',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/applied-functions/05.html'
                     },
                     {
-                        id: 46,
-                        title: 'Looping sobre matrizes',
+                        id: 143,
+                        title: 'Parâmetros da função de seta',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/applied-functions/06.html'
                     },
                     {
-                        id: 47,
-                        title: 'Funções Aplicadas 2',
+                        id: 144,
+                        title: 'ES6 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1273,40 +1273,24 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/07.html'
                     },
                     {
-                        id: 45,
-                        title: 'Adicionando Loops a Funções',
+                        id: 145,
+                        title: 'Literais de modelo',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/applied-functions/05.html'
                     },
                     {
-                        id: 46,
-                        title: 'Looping sobre matrizes',
+                        id: 146,
+                        title: 'Desestruturação',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/applied-functions/06.html'
                     },
                     {
-                        id: 45,
-                        title: 'Adicionando Loops a Funções',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/applied-functions/05.html'
-                    },
-                    {
-                        id: 46,
-                        title: 'Looping sobre matrizes',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/applied-functions/06.html'
-                    },
-                    {
-                        id: 47,
-                        title: 'Funções Aplicadas 2',
+                        id: 147,
+                        title: 'ES6 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1314,20 +1298,12 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/07.html'
                     },
                     {
-                        id: 45,
-                        title: 'Adicionando Loops a Funções',
+                        id: 148,
+                        title: 'Rick e Morty PARTE 2',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/applied-functions/05.html'
-                    },
-                    {
-                        id: 46,
-                        title: 'Looping sobre matrizes',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/applied-functions/06.html'
                     },
                 ]
             },
