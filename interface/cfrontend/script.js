@@ -857,31 +857,31 @@ document.addEventListener('DOMContentLoaded', () => {
                 locked: true,
                 lessons: [{
                         id: 99,
-                        title: '',
+                        title: 'Criando uma grid CSS',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/functions/01.html'
                     },
                     {
-                        id: 31,
-                        title: '',
+                        id: 100,
+                        title: 'Criando colunas de grid',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/functions/02.html'
                     },
                     {
-                        id: 32,
-                        title: '',
+                        id: 101,
+                        title: 'Criando Linhas de Grid',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/functions/03.html'
                     },
                     {
-                        id: 33,
-                        title: '',
+                        id: 102,
+                        title: 'Grid CSS 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -889,45 +889,102 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/functions/04.html'
                     },
                     {
-                        id: 34,
-                        title: '',
+                        id: 103,
+                        title: 'Definindo colunas e linhas da grade',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/functions/05.html'
                     },
                     {
-                        id: 35,
-                        title: '',
+                        id: 104,
+                        title: 'Cartão de Visita Digital PARTE 1',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/functions/06.html'
                     },
                     {
-                        id: 34,
-                        title: '',
+                        id: 105,
+                        title: 'Lacunas na grid',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/functions/05.html'
                     },
                     {
-                        id: 35,
-                        title: '',
+                        id: 106,
+                        title: 'Definindo o tamanho de um item da grid',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/functions/06.html'
                     },
                     {
-                        id: 36,
-                        title: '',
+                        id: 107,
+                        title: 'Grid CSS 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
                         url: './lessons/functions/07.html'
+                    },
+                    {
+                        id: 108,
+                        title: 'Criando áreas nomeadas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/05.html'
+                    },
+                    {
+                        id: 109,
+                        title: 'Seções usando áreas nomeadas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/06.html'
+                    },
+                    {
+                        id: 110,
+                        title: 'Alinhando itens da grade',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/05.html'
+                    },
+                    {
+                        id: 111,
+                        title: 'Usando CSS Grid e Flexbox',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/06.html'
+                    },
+                    {
+                        id: 112,
+                        title: 'Grade CSS 3',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/07.html'
+                    },
+                    {
+                        id: 110,
+                        title: 'Webdesign responsivo',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/05.html'
+                    },
+                    {
+                        id: 111,
+                        title: 'Cartão de Visita Digital PARTE 2',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/06.html'
                     },
                 ]
             },
