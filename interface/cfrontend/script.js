@@ -1309,11 +1309,11 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 9,
-                title: 'ES6',
-                description: 'Aprenda a usar as funções de seta do ES6',
+                title: 'DOM e Eventos',
+                description: 'Aprenda sobre a árvore DOM e as relações dos nós',
                 locked: true,
                 lessons: [{
-                        id: 48,
+                        id: 149,
                         title: 'Variáveis e Escopo ES6',
                         type: 'learn',
                         completed: false,
