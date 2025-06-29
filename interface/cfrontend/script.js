@@ -1002,7 +1002,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/01.html'
                     },
                     {
-                        id: 3,
+                        id: 113,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1010,7 +1010,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 3,
+                        id: 114,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1018,7 +1018,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 3,
+                        id: 115,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1026,7 +1026,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/03.html'
                     },
                     {
-                        id: 4,
+                        id: 116,
                         title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1035,7 +1035,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/04.html'
                     },
                     {
-                        id: 3,
+                        id: 117,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1043,7 +1043,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 3,
+                        id: 118,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1051,7 +1051,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/03.html'
                     },
                     {
-                        id: 4,
+                        id: 119,
                         title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1060,7 +1060,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/04.html'
                     },
                     {
-                        id: 3,
+                        id: 120,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1068,7 +1068,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 3,
+                        id: 121,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1076,7 +1076,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/03.html'
                     },
                     {
-                        id: 4,
+                        id: 122,
                         title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1085,7 +1085,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/04.html'
                     },
                     {
-                        id: 112,
+                        id: 123,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1093,7 +1093,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/01.html'
                     },
                     {
-                        id: 3,
+                        id: 124,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1101,7 +1101,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 3,
+                        id: 125,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1109,7 +1109,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 3,
+                        id: 126,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1117,7 +1117,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/03.html'
                     },
                     {
-                        id: 4,
+                        id: 127,
                         title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1126,7 +1126,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/04.html'
                     },
                     {
-                        id: 3,
+                        id: 128,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1134,7 +1134,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 3,
+                        id: 129,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1142,7 +1142,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/03.html'
                     },
                     {
-                        id: 4,
+                        id: 130,
                         title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1151,7 +1151,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/04.html'
                     },
                     {
-                        id: 3,
+                        id: 131,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1159,7 +1159,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 3,
+                        id: 132,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1167,7 +1167,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 3,
+                        id: 133,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1175,7 +1175,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/03.html'
                     },
                     {
-                        id: 4,
+                        id: 134,
                         title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1184,7 +1184,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/04.html'
                     },
                     {
-                        id: 3,
+                        id: 135,
                         title: '',
                         type: 'learn',
                         completed: false,
