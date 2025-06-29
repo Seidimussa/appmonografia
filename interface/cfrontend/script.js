@@ -995,7 +995,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 locked: true,
                 lessons: [{
                         id: 112,
-                        title: '',
+                        title: 'Agrupando valores com matrizes / arrays',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1003,7 +1003,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 113,
-                        title: '',
+                        title: 'Alterando valores em matrizes / arrays',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1011,7 +1011,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 114,
-                        title: '',
+                        title: 'Empurrando e removendo matrizes / arrays',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1019,7 +1019,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 115,
-                        title: '',
+                        title: 'Decidindo com Arrays',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1027,7 +1027,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 116,
-                        title: '',
+                        title: 'Matrizes / Arrays',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1036,7 +1036,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 117,
-                        title: '',
+                        title: 'Criando Parâmetros',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1044,7 +1044,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 118,
-                        title: '',
+                        title: 'Retornando Valores',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1052,7 +1052,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 119,
-                        title: '',
+                        title: 'Funções 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1061,7 +1061,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 120,
-                        title: '',
+                        title: 'Usando vários parâmetros',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1069,7 +1069,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 121,
-                        title: '',
+                        title: 'Compreendendo Funções',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1077,7 +1077,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 122,
-                        title: '',
+                        title: 'Funções 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1086,7 +1086,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 123,
-                        title: '',
+                        title: 'Jogo de perguntas e respostas PARTE 1',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1094,7 +1094,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 124,
-                        title: '',
+                        title: 'Condicionais de aninhamento',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1102,7 +1102,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 125,
-                        title: '',
+                        title: 'Usando Condições e Funções',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1110,7 +1110,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 126,
-                        title: '',
+                        title: 'Parando funções com retorno',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1118,7 +1118,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 127,
-                        title: '',
+                        title: 'Funções Aplicadas 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1127,7 +1127,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 128,
-                        title: '',
+                        title: 'Adicionando Loops a Funções',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1135,7 +1135,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 129,
-                        title: '',
+                        title: 'Looping sobre matrizes',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1143,7 +1143,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 130,
-                        title: '',
+                        title: 'Funções Aplicadas 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1152,7 +1152,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 131,
-                        title: '',
+                        title: 'Array .map()',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1160,7 +1160,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 132,
-                        title: '',
+                        title: 'Array.filter()',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1168,7 +1168,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 133,
-                        title: '',
+                        title: 'Array.reduce()',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1176,7 +1176,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 134,
-                        title: '',
+                        title: 'Operações de matriz / array',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1185,7 +1185,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 135,
-                        title: '',
+                        title: 'Jogo de perguntas e respostas PARTE 2',
                         type: 'learn',
                         completed: false,
                         locked: true,
