@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 locked: true,
                 lessons: [{
                         id: 18,
-                        title: 'Comparando números',
+                        title: 'Criando Variáveis',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 19,
-                        title: 'Comparando Strings',
+                        title: 'Usando Variáveis',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 20,
-                        title: 'Descobrindo Tipos',
+                        title: 'Usando Verdadeiro e Falso',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -189,7 +189,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 21,
-                        title: 'Operadores Lógicos',
+                        title: 'Verificando a igualdade numérica',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 22,
-                        title: 'Tipos e Comparações',
+                        title: 'Noções básicas de JavaScript',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -206,7 +206,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 23,
-                        title: 'Comparando Strings',
+                        title: 'Comparando números',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -222,7 +222,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 25,
-                        title: 'Comparando Strings',
+                        title: 'Descobrindo Tipos',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -230,7 +230,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 26,
-                        title: 'Comparando Strings',
+                        title: 'Operadores Lógicos',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -247,7 +247,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 28,
-                        title: 'Comparando Strings',
+                        title: 'Tomando decisões',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 29,
-                        title: 'Comparando Strings',
+                        title: 'Condições de uso',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -263,7 +263,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 30,
-                        title: 'Comparando Strings',
+                        title: 'Codificando instruções Else',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -271,7 +271,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 31,
-                        title: 'Comparando Strings',
+                        title: 'Incorporando Else If',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -279,7 +279,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 32,
-                        title: 'Tipos e Comparações',
+                        title: 'Condicionais',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -288,7 +288,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 33,
-                        title: 'Comparando Strings',
+                        title: 'Reutilizando código com funções',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -296,7 +296,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 34,
-                        title: 'Comparando Strings',
+                        title: 'Interagindo com páginas da Web',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -304,7 +304,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 35,
-                        title: 'Comparando Strings',
+                        title: 'Conversor de unidades PARTE 1',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -312,7 +312,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 36,
-                        title: 'Comparando Strings',
+                        title: 'Como acessar um elemento HTML',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -320,7 +320,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 37,
-                        title: 'Comparando Strings',
+                        title: 'Acesse vários elementos HTML',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -328,7 +328,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 38,
-                        title: 'Tipos e Comparações',
+                        title: 'Páginas da Web Dinâmicas 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -337,7 +337,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 39,
-                        title: 'Comparando Strings',
+                        title: 'Botões de construção',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -345,7 +345,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 40,
-                        title: 'Comparando Strings',
+                        title: 'Coletando informações',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -353,7 +353,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 41,
-                        title: 'Comparando Strings',
+                        title: 'Obtendo a entrada do usuário',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -361,7 +361,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 42,
-                        title: 'Tipos e Comparações',
+                        title: 'HTML Intermediário',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -370,7 +370,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 43,
-                        title: 'Comparando Strings',
+                        title: 'Definindo atributos dinamicamente',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -378,7 +378,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 44,
-                        title: 'Comparando Strings',
+                        title: 'Alternando classes CSS',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -386,7 +386,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 45,
-                        title: 'Comparando Strings',
+                        title: 'Selecione',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -394,7 +394,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 46,
-                        title: 'Tipos e Comparações',
+                        title: 'Páginas Web Dinâmicas 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -403,7 +403,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 47,
-                        title: 'Comparando Strings',
+                        title: 'Conversor de unidades PARTE 2 ',
                         type: 'learn',
                         completed: false,
                         locked: true,
