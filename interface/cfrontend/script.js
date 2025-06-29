@@ -994,37 +994,202 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Use matrizes / Arrays e funções para construir programas sofisticados',
                 locked: true,
                 lessons: [{
-                        id: 37,
-                        title: 'Agrupando valores em objetos',
+                        id: 112,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/objects/01.html'
                     },
                     {
-                        id: 38,
-                        title: 'Usando métodos de objeto',
+                        id: 3,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 39,
-                        title: 'O que é JSON',
+                        id: 3,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/02.html'
+                    },
+                    {
+                        id: 3,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/objects/03.html'
                     },
                     {
-                        id: 40,
-                        title: 'Objetos',
+                        id: 4,
+                        title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
                         url: './lessons/objects/04.html'
+                    },
+                    {
+                        id: 3,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/02.html'
+                    },
+                    {
+                        id: 3,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/03.html'
+                    },
+                    {
+                        id: 4,
+                        title: '',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/04.html'
+                    },
+                    {
+                        id: 3,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/02.html'
+                    },
+                    {
+                        id: 3,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/03.html'
+                    },
+                    {
+                        id: 4,
+                        title: '',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/04.html'
+                    },
+                    {
+                        id: 112,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/01.html'
+                    },
+                    {
+                        id: 3,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/02.html'
+                    },
+                    {
+                        id: 3,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/02.html'
+                    },
+                    {
+                        id: 3,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/03.html'
+                    },
+                    {
+                        id: 4,
+                        title: '',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/04.html'
+                    },
+                    {
+                        id: 3,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/02.html'
+                    },
+                    {
+                        id: 3,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/03.html'
+                    },
+                    {
+                        id: 4,
+                        title: '',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/04.html'
+                    },
+                    {
+                        id: 3,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/02.html'
+                    },
+                    {
+                        id: 3,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/02.html'
+                    },
+                    {
+                        id: 3,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/03.html'
+                    },
+                    {
+                        id: 4,
+                        title: '',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/04.html'
+                    },
+                    {
+                        id: 3,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/03.html'
                     },
                 ]
             },
