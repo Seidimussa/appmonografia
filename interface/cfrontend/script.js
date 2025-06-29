@@ -702,7 +702,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 locked: true,
                 lessons: [{
                         id: 81,
-                        title: '',
+                        title: 'Compreendendo o Flexbox',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -710,7 +710,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 82,
-                        title: '',
+                        title: 'Usando Flex Direction',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -718,7 +718,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 83,
-                        title: '',
+                        title: 'Eixos Flexbox',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -726,7 +726,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 84,
-                        title: '',
+                        title: 'Noções básicas do Flexbox',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -735,7 +735,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 85,
-                        title: '',
+                        title: 'Justificando grupos de itens',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -743,7 +743,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 86,
-                        title: '',
+                        title: 'Justificando linhas e colunas',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -751,7 +751,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 87,
-                        title: '',
+                        title: 'Alinhando Itens Flexíveis',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -759,7 +759,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 88,
-                        title: '',
+                        title: 'Contêineres Flexbox 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -768,7 +768,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 89,
-                        title: '',
+                        title: 'Envolvendo itens flexíveis',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -776,7 +776,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 90,
-                        title: '',
+                        title: 'Alinhando linhas encapsuladas',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -784,7 +784,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 91,
-                        title: '',
+                        title: 'Contêineres Flexbox 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -793,7 +793,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 92,
-                        title: '',
+                        title: 'Galeria PARTE 1',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -801,7 +801,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 93,
-                        title: '',
+                        title: 'Definindo um tamanho inicial do item',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -809,7 +809,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 94,
-                        title: '',
+                        title: 'Itens Flex em crescimento',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -817,7 +817,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 95,
-                        title: '',
+                        title: 'Itens Flexíveis Encolhendo',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -825,7 +825,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 96,
-                        title: '',
+                        title: 'Usando a abreviação Flex',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -833,7 +833,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 97,
-                        title: '',
+                        title: 'Itens Flexbox',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -842,7 +842,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 98,
-                        title: '',
+                        title: 'Galeria PARTE 2',
                         type: 'learn',
                         completed: false,
                         locked: true,
