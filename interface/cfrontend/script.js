@@ -685,7 +685,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         locked: true,
                         url: './lessons/loops/09.html'
                     },
-                     {
+                    {
                         id: 80,
                         title: 'Jogo de Adivinhação PARTE 2',
                         type: 'learn',
@@ -697,49 +697,156 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 5,
-                title: 'Matrizes',
-                description: 'Use matrizes para armazenar um grupo de valores em uma variável',
+                title: 'Caixa flexível',
+                description: 'Crie belos layouts usando Flexbox',
                 locked: true,
                 lessons: [{
-                        id: 25,
-                        title: 'Agrupando valores com matrizes',
+                        id: 81,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/arrays/01.html'
                     },
                     {
-                        id: 26,
-                        title: 'Alterando valores em matrizes',
+                        id: 82,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/arrays/02.html'
                     },
                     {
-                        id: 27,
-                        title: 'Empurrando e removendo matrizes',
+                        id: 83,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/arrays/03.html'
                     },
                     {
-                        id: 28,
-                        title: 'Decidindo com Arrays',
+                        id: 84,
+                        title: '',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/arrays/05.html'
+                    },
+                    {
+                        id: 85,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/arrays/01.html'
+                    },
+                    {
+                        id: 86,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/arrays/02.html'
+                    },
+                    {
+                        id: 87,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/arrays/03.html'
+                    },
+                    {
+                        id: 88,
+                        title: '',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/arrays/05.html'
+                    },
+                    {
+                        id: 89,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/arrays/04.html'
                     },
                     {
-                        id: 29,
-                        title: 'Matrizes',
+                        id: 90,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/arrays/04.html'
+                    },
+                    {
+                        id: 91,
+                        title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
                         url: './lessons/arrays/05.html'
+                    },
+                    {
+                        id: 92,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/arrays/01.html'
+                    },
+                    {
+                        id: 93,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/arrays/02.html'
+                    },
+                    {
+                        id: 94,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/arrays/03.html'
+                    },
+                    {
+                        id: 95,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/arrays/02.html'
+                    },
+                    {
+                        id: 96,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/arrays/03.html'
+                    },
+                    {
+                        id: 97,
+                        title: '',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/arrays/05.html'
+                    },
+                    {
+                        id: 98,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/arrays/03.html'
                     },
                 ]
             },
