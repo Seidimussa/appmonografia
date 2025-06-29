@@ -413,36 +413,52 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 3,
-                title: 'Condicionais',
-                description: 'Condicionais de código para construir programas que tomem decisões',
+                title: ' HTML e CSS intermediários',
+                description: 'Mergulhe mais fundo em HTML e CSS para criar aplicativos da web impressionantes',
                 locked: true,
                 lessons: [{
-                        id: 11,
-                        title: 'Tomando decisões',
+                        id: 48,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/conditionals/01.html'
                     },
                     {
-                        id: 12,
-                        title: 'Condições de uso',
+                        id: 49,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/conditionals/02.html'
                     },
                     {
-                        id: 13,
-                        title: 'Codificando Instruções Else',
+                        id: 50,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/conditionals/03.html'
                     },
                     {
-                        id: 14,
-                        title: 'Incorporando Else If',
+                        id: 51,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/04.html'
+                    },
+                    {
+                        id: 50,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/03.html'
+                    },
+                    {
+                        id: 51,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -450,7 +466,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 15,
-                        title: 'Condicionais',
+                        title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
