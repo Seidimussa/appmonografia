@@ -1321,7 +1321,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/01.html'
                     },
                     {
-                        id: 49,
+                        id: 150,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1329,7 +1329,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/02.html'
                     },
                     {
-                        id: 50,
+                        id: 151,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1337,7 +1337,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/03.html'
                     },
                     {
-                        id: 50,
+                        id: 152,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1345,7 +1345,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/03.html'
                     },
                     {
-                        id: 51,
+                        id: 153,
                         title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1354,7 +1354,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/04.html'
                     },
                     {
-                        id: 52,
+                        id: 154,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1362,7 +1362,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/05.html'
                     },
                     {
-                        id: 53,
+                        id: 155,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1370,7 +1370,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/06.html'
                     },
                     {
-                        id: 52,
+                        id: 156,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1378,7 +1378,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/05.html'
                     },
                     {
-                        id: 53,
+                        id: 157,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1386,7 +1386,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/06.html'
                     },
                     {
-                        id: 54,
+                        id: 158,
                         title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1395,7 +1395,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/07.html'
                     },
                     {
-                        id: 53,
+                        id: 159,
                         title: '',
                         type: 'learn',
                         completed: false,
@@ -1410,7 +1410,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Otimize seu fluxo de trabalho com operações de matriz',
                 locked: true,
                 lessons: [{
-                        id: 55,
+                        id: 160,
                         title: 'Matriz.map()',
                         type: 'learn',
                         completed: false,
