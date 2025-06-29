@@ -1314,7 +1314,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 locked: true,
                 lessons: [{
                         id: 149,
-                        title: 'Variáveis e Escopo ES6',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1322,7 +1322,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 49,
-                        title: 'Funções de seta',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1330,7 +1330,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 50,
-                        title: 'Parâmetros da função de seta',
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/es6/03.html'
+                    },
+                    {
+                        id: 50,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1338,7 +1346,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 51,
-                        title: 'ES6 1',
+                        title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1347,7 +1355,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 52,
-                        title: 'Literais de modelo',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1355,7 +1363,23 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 53,
-                        title: 'Desestruturação',
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/es6/06.html'
+                    },
+                    {
+                        id: 52,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/es6/05.html'
+                    },
+                    {
+                        id: 53,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1363,12 +1387,20 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 54,
-                        title: 'ES6 2',
+                        title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
                         url: './lessons/es6/07.html'
+                    },
+                    {
+                        id: 53,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/es6/06.html'
                     },
                 ]
             },
