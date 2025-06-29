@@ -1,4 +1,4 @@
-/* --- Variáveis de Cores e Estilos Globais (Tema Escuro) --- */
+/* --- Variáveis de Cores e Estilos Globais (Tema Escuro - JavaScript) --- */
 :root {
     --bg-dark: #F0F2F5;
     --bg-sidebar: #e6ecf5;
@@ -128,51 +128,47 @@ body {
     flex-direction: column;
     gap: 8px;
     overflow-y: auto;
+    /* Para permitir rolagem se houver muitas seções */
 }
 
-/* Item de Curso na Sidebar */
-.course-nav-item {
+.section-nav-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 12px;
     border-radius: 6px;
     cursor: pointer;
     transition: background-color 0.2s;
-    border-left: 3px solid transparent;
 }
 
-.course-nav-item:hover {
+.section-nav-item:hover {
     background-color: var(--card-bg);
 }
 
-.course-nav-item.active {
+.section-nav-item.active {
     background-color: var(--purple-highlight);
     color: #fff;
 }
 
-.course-nav-item.locked {
+.section-nav-item.locked {
     opacity: 0.5;
     cursor: not-allowed;
 }
 
-.course-nav-item.locked:hover {
+.section-nav-item.locked:hover {
     background: none;
 }
 
-.course-nav-item-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.course-nav-item .title {
+.section-nav-item .title {
     font-weight: 500;
 }
 
-.course-nav-item .status {
+.section-nav-item .status {
     font-size: 0.9rem;
     color: var(--text-muted);
 }
 
-.course-nav-item.active .status {
+.section-nav-item.active .status {
     color: #fff;
 }
 
@@ -221,14 +217,6 @@ body {
     color: var(--text-muted);
 }
 
-/* NOVO: Estilo para Projeto da Seção */
-.section-project-title {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-top: 24px;
-    margin-bottom: 8px;
-}
-
 .progress-circle {
     width: 80px;
     height: 80px;
@@ -249,7 +237,7 @@ body {
     font-size: 0.9rem;
     color: var(--text-muted);
     text-transform: uppercase;
-    margin: 24px 0 16px 0;
+    margin-bottom: 16px;
 }
 
 .lessons-list {
@@ -354,35 +342,6 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
-}
-
-/* NOVO: Estilo para Projeto Guiado */
-.lesson-card.project-guided .lesson-main-info {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-}
-
-.project-guided-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-.project-guided-description {
-    font-size: 0.9rem;
-    color: var(--text-muted);
-    padding-left: 36px;
-}
-
-.project-part {
-    background-color: var(--card-bg-active);
-    color: var(--text-light);
-    padding: 4px 8px;
-    border-radius: 4px;
-    font-size: 0.8rem;
-    font-weight: 600;
 }
 
 .next-section-card {
