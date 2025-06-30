@@ -1314,7 +1314,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 locked: true,
                 lessons: [{
                         id: 149,
-                        title: '',
+                        title: 'Árvore e nós do documento HTML',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1322,7 +1322,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 150,
-                        title: '',
+                        title: 'O Modelo de Objeto de Documento',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1330,7 +1330,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 151,
-                        title: '',
+                        title: 'Criando Elementos',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1338,7 +1338,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 152,
-                        title: '',
+                        title: 'Removendo Elementos',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1346,7 +1346,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 153,
-                        title: '',
+                        title: 'O Modelo de Objeto de Documento',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1355,7 +1355,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 154,
-                        title: '',
+                        title: 'Usando propriedades de eventos',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1363,7 +1363,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 155,
-                        title: '',
+                        title: 'Explorando Propriedades de Eventos',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1371,7 +1371,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 156,
-                        title: '',
+                        title: 'Adicionando Eventos com Métodos',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1379,7 +1379,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 157,
-                        title: '',
+                        title: 'Eventos de toque',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1387,7 +1387,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 158,
-                        title: '',
+                        title: 'Eventos JavaScript',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1396,7 +1396,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 159,
-                        title: '',
+                        title: 'Cifra de César PARTE 1',
                         type: 'learn',
                         completed: false,
                         locked: true,
