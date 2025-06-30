@@ -1654,23 +1654,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 locked: true,
                 lessons: [{
                         id: 187,
-                        title: '',
+                        title: 'Introdução ao React',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/js-events/01.html'
                     },
                     {
-                        id: 73,
-                        title: '',
+                        id: 188,
+                        title: 'Componentes',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/js-events/02.html'
                     },
                     {
-                        id: 76,
-                        title: '',
+                        id: 189,
+                        title: 'Noções básicas de React 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1678,45 +1678,86 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/05.html'
                     },
                     {
-                        id: 74,
-                        title: '',
+                        id: 190,
+                        title: 'JSX',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/js-events/03.html'
                     },
                     {
-                        id: 75,
-                        title: '',
+                        id: 191,
+                        title: 'Propriedades',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/js-events/04.html'
                     },
                     {
-                        id: 74,
-                        title: '',
+                        id: 192,
+                        title: 'Botões',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/js-events/03.html'
                     },
                     {
-                        id: 75,
-                        title: '',
+                        id: 193,
+                        title: 'Estado',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/js-events/04.html'
                     },
                     {
-                        id: 76,
-                        title: '',
+                        id: 194,
+                        title: 'Noções básicas de React 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
                         url: './lessons/js-events/05.html'
+                    },
+                    {
+                        id: 195,
+                        title: 'Propriedades',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-events/04.html'
+                    },
+                    {
+                        id: 196,
+                        title: 'Botões',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-events/03.html'
+                    },
+                    {
+                        id: 197,
+                        title: 'Estado',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-events/04.html'
+                    },
+                    {
+                        id: 198,
+                        title: 'Noções básicas de React 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-events/05.html'
+                    },
+                    {
+                        id: 199,
+                        title: 'Estado',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-events/04.html'
                     },
                 ]
             },
@@ -1726,7 +1767,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Aprenda como funciona o JavaScript assíncrono',
                 locked: true,
                 lessons: [{
-                        id: 77,
+                        id: 195,
                         title: 'Sincronia e Assincronia em JS',
                         type: 'learn',
                         completed: false,
