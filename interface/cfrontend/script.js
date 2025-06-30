@@ -1509,31 +1509,39 @@ document.addEventListener('DOMContentLoaded', () => {
                 locked: true,
                 lessons: [{
                         id: 171,
-                        title: '',
+                        title: 'Sincronia e Assincronia em JS',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/dynamic-webpages/01.html'
                     },
                     {
-                        id: 60,
-                        title: '',
+                        id: 172,
+                        title: 'Comediante Bot PARTE 1',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/dynamic-webpages/02.html'
                     },
                     {
-                        id: 61,
-                        title: '',
+                        id: 173,
+                        title: 'Tempo limite e intervalos em JS',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/dynamic-webpages/03.html'
                     },
                     {
-                        id: 62,
-                        title: '',
+                        id: 174,
+                        title: 'Esperando em JS',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/dynamic-webpages/03.html'
+                    },
+                    {
+                        id: 175,
+                        title: 'Sincronia e Assincronia em JS',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1541,37 +1549,12 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dynamic-webpages/04.html'
                     },
                     {
-                        id: 63,
-                        title: '',
+                        id: 176,
+                        title: 'Comediante Bot PARTE 2',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/dynamic-webpages/05.html'
-                    },
-                    {
-                        id: 64,
-                        title: '',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/dynamic-webpages/06.html'
-                    },
-                    {
-                        id: 65,
-                        title: '',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/dynamic-webpages/07.html'
-                    },
-                    {
-                        id: 66,
-                        title: '',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/dynamic-webpages/08.html'
                     },
                 ]
             },
@@ -1581,7 +1564,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Aprenda sobre a árvore DOM e o acesso baseado em posição',
                 locked: true,
                 lessons: [{
-                        id: 67,
+                        id: 177,
                         title: 'Árvore e nós do documento HTML',
                         type: 'learn',
                         completed: false,
