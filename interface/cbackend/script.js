@@ -123,39 +123,39 @@ document.addEventListener('DOMContentLoaded', () => {
                 locked: true,
                 lessons: [{
                         id: 13,
-                        title: '',
+                        title: 'Tomando decisões',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/types-comparisons/01.html'
                     },
                     {
-                        id: 7,
-                        title: '',
+                        id: 14,
+                        title: 'Condições de uso',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/types-comparisons/02.html'
                     },
                     {
-                        id: 8,
-                        title: '',
+                        id: 15,
+                        title: 'Codificando instruções Else',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/types-comparisons/03.html'
                     },
                     {
-                        id: 9,
-                        title: '',
+                        id: 16,
+                        title: 'Incorporando Else If',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/types-comparisons/04.html'
                     },
                     {
-                        id: 10,
-                        title: '',
+                        id: 17,
+                        title: 'Condicionais',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -163,48 +163,48 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/05.html'
                     },
                     {
-                        id: 9,
-                        title: '',
+                        id: 18,
+                        title: 'Ímpar ou Par PARTE 1',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/types-comparisons/04.html'
                     },
                     {
-                        id: 13,
-                        title: '',
+                        id: 19,
+                        title: 'Variáveis ​​autoatribuíveis',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/types-comparisons/01.html'
                     },
                     {
-                        id: 7,
-                        title: '',
+                        id: 20,
+                        title: 'Atribuição com operadores',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/types-comparisons/02.html'
                     },
                     {
-                        id: 8,
-                        title: '',
+                        id: 21,
+                        title: 'Repetindo código com loops While',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/types-comparisons/03.html'
                     },
                     {
-                        id: 9,
-                        title: '',
+                        id: 22,
+                        title: 'Parando loops While',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/types-comparisons/04.html'
                     },
                     {
-                        id: 10,
-                        title: '',
+                        id: 23,
+                        title: 'Laços / loops 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -212,32 +212,32 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/05.html'
                     },
                     {
-                        id: 7,
-                        title: '',
+                        id: 24,
+                        title: 'Controlando loops While',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/types-comparisons/02.html'
                     },
                     {
-                        id: 8,
-                        title: '',
+                        id: 25,
+                        title: 'Repetindo código com loops For',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/types-comparisons/03.html'
                     },
                     {
-                        id: 9,
-                        title: '',
+                        id: 26,
+                        title: 'Looping para baixo',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/types-comparisons/04.html'
                     },
                     {
-                        id: 10,
-                        title: '',
+                        id: 27,
+                        title: 'Laços / loops 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -245,8 +245,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/05.html'
                     },
                     {
-                        id: 9,
-                        title: '',
+                        id: 28,
+                        title: 'Ímpar ou Par PARTE 2',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -260,8 +260,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Condicionais de código para construir programas que tomem decisões',
                 locked: true,
                 lessons: [{
-                        id: 11,
-                        title: 'Tomando decisões',
+                        id: 29,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
