@@ -1406,41 +1406,99 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 10,
-                title: 'Operações de matriz',
-                description: 'Otimize seu fluxo de trabalho com operações de matriz',
+                title: 'HTML Semântico e Acessibilidade',
+                description: 'Aprenda a criar páginas web acessíveis',
                 locked: true,
                 lessons: [{
                         id: 160,
-                        title: 'Matriz.map()',
+                        title: 'Alternativas semânticas',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/array-operations/01.html'
                     },
                     {
-                        id: 56,
-                        title: 'Matriz.filter()',
+                        id: 161,
+                        title: 'Estrutura da página semântica',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/array-operations/02.html'
                     },
                     {
-                        id: 57,
-                        title: 'Matriz.reduce()',
+                        id: 162,
+                        title: 'Elementos que mudam o visual',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/array-operations/03.html'
                     },
                     {
-                        id: 58,
-                        title: 'Operações de matriz',
+                        id: 163,
+                        title: 'HTML semântico',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
                         url: './lessons/array-operations/04.html'
+                    },
+                    {
+                        id: 164,
+                        title: 'Noções básicas de acessibilidade HTML',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/array-operations/02.html'
+                    },
+                    {
+                        id: 165,
+                        title: 'Acessibilidade WAI-ARIA',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/array-operations/03.html'
+                    },
+                    {
+                        id: 166,
+                        title: 'Noções básicas de acessibilidade',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/array-operations/04.html'
+                    },
+                    {
+                        id: 167,
+                        title: 'Criando Formulários',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/array-operations/02.html'
+                    },
+                    {
+                        id: 168,
+                        title: 'Formulários com rótulos',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/array-operations/03.html'
+                    },
+                    {
+                        id: 169,
+                        title: 'Formulários HTML',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/array-operations/04.html'
+                    },
+                    {
+                        id: 170,
+                        title: 'Portfólio de Máquina de Escrever PARTE 1',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/array-operations/03.html'
                     },
                 ]
             },
@@ -1450,7 +1508,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Use HTML e JavaScript para criar elementos interativos',
                 locked: true,
                 lessons: [{
-                        id: 59,
+                        id: 171,
                         title: 'Interagindo com páginas da Web',
                         type: 'learn',
                         completed: false,
