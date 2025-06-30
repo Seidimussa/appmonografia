@@ -1768,7 +1768,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 locked: true,
                 lessons: [{
                         id: 203,
-                        title: 'Sincronia e Assincronia em JS',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1776,7 +1776,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 78,
-                        title: 'Tempo limite e Intervalos em JS',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1784,7 +1784,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 79,
-                        title: 'Esperando em JS',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1792,7 +1792,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 80,
-                        title: 'Sincronia e Assincronia em JS',
+                        title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
