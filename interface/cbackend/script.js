@@ -13,12 +13,12 @@ document.addEventListener('DOMContentLoaded', () => {
         currentSectionId: 1,
         sections: [{
                 id: 1,
-                title: 'Desenvolvedor Back-End',
-                description: 'Crie variáveis que armazenam números, strings e booleanos',
+                title: 'Introdução ao JavaScript',
+                description: 'Mergulhe no JavaScript e aprenda o que há de tão especial',
                 locked: false,
                 lessons: [{
                         id: 1,
-                        title: 'Criando Variáveis',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: false,
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 2,
-                        title: 'Usando Variáveis',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 3,
-                        title: 'Usando Verdadeiro e Falso',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 4,
-                        title: 'Verificando a igualdade numérica',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -50,12 +50,69 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 5,
-                        title: 'Noções básicas de JavaScript',
+                        title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
                         url: './lessons/js-basics/05.html'
+                    },
+                    {
+                        id: 1,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: false,
+                        url: './lessons/js-basics/01.html'
+                    },
+                    {
+                        id: 2,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-basics/02.html'
+                    },
+                    {
+                        id: 3,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-basics/03.html'
+                    },
+                    {
+                        id: 4,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-basics/04.html'
+                    },
+                    {
+                        id: 5,
+                        title: '',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-basics/05.html'
+                    },
+                    {
+                        id: 3,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-basics/03.html'
+                    },
+                    {
+                        id: 4,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-basics/04.html'
                     },
                 ]
             },
