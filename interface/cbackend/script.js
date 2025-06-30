@@ -118,12 +118,12 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 2,
-                title: 'Tipos e Comparações',
-                description: 'Armazene o resultado das comparações em variáveis',
+                title: 'Fluxo do programa',
+                description: 'Aprenda a',
                 locked: true,
                 lessons: [{
                         id: 13,
-                        title: 'Comparando números',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 7,
-                        title: 'Comparando Strings',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 8,
-                        title: 'Descobrindo Tipos',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 9,
-                        title: 'Operadores Lógicos',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -155,12 +155,102 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 10,
-                        title: 'Tipos e Comparações',
+                        title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
                         url: './lessons/types-comparisons/05.html'
+                    },
+                    {
+                        id: 9,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/types-comparisons/04.html'
+                    },
+                    {
+                        id: 13,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/types-comparisons/01.html'
+                    },
+                    {
+                        id: 7,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/types-comparisons/02.html'
+                    },
+                    {
+                        id: 8,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/types-comparisons/03.html'
+                    },
+                    {
+                        id: 9,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/types-comparisons/04.html'
+                    },
+                    {
+                        id: 10,
+                        title: '',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/types-comparisons/05.html'
+                    },
+                    {
+                        id: 7,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/types-comparisons/02.html'
+                    },
+                    {
+                        id: 8,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/types-comparisons/03.html'
+                    },
+                    {
+                        id: 9,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/types-comparisons/04.html'
+                    },
+                    {
+                        id: 10,
+                        title: '',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/types-comparisons/05.html'
+                    },
+                    {
+                        id: 9,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/types-comparisons/04.html'
                     },
                 ]
             },
