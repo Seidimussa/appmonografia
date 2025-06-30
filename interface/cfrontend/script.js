@@ -1649,12 +1649,12 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 13,
-                title: 'Eventos JavaScript',
-                description: 'Use eventos JavaScript para fazer com que páginas da web reajam',
+                title: 'Classes de JavaScript',
+                description: 'Use React para criar aplicativos da web modernos',
                 locked: true,
                 lessons: [{
-                        id: 72,
-                        title: 'Usando propriedades de eventos',
+                        id: 187,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1662,15 +1662,24 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 73,
-                        title: 'Explorando Propriedades de Eventos',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/js-events/02.html'
                     },
                     {
+                        id: 76,
+                        title: '',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-events/05.html'
+                    },
+                    {
                         id: 74,
-                        title: 'Adicionando Eventos com Métodos',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1678,7 +1687,23 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 75,
-                        title: 'Eventos de toque',
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-events/04.html'
+                    },
+                    {
+                        id: 74,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-events/03.html'
+                    },
+                    {
+                        id: 75,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1686,7 +1711,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 76,
-                        title: 'Eventos JavaScript',
+                        title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
