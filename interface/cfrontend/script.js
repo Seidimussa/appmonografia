@@ -971,7 +971,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/functions/07.html'
                     },
                     {
-                        id: 110,
+                        id: 113,
                         title: 'Webdesign responsivo',
                         type: 'learn',
                         completed: false,
@@ -979,7 +979,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/functions/05.html'
                     },
                     {
-                        id: 111,
+                        id: 114,
                         title: 'Cartão de Visita Digital PARTE 2',
                         type: 'learn',
                         completed: false,
@@ -994,7 +994,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Use matrizes / Arrays e funções para construir programas sofisticados',
                 locked: true,
                 lessons: [{
-                        id: 112,
+                        id: 115,
                         title: 'Agrupando valores com matrizes / arrays',
                         type: 'learn',
                         completed: false,
@@ -1002,7 +1002,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/01.html'
                     },
                     {
-                        id: 113,
+                        id: 116,
                         title: 'Alterando valores em matrizes / arrays',
                         type: 'learn',
                         completed: false,
@@ -1010,7 +1010,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 114,
+                        id: 117,
                         title: 'Empurrando e removendo matrizes / arrays',
                         type: 'learn',
                         completed: false,
@@ -1018,7 +1018,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 115,
+                        id: 118,
                         title: 'Decidindo com Arrays',
                         type: 'learn',
                         completed: false,
@@ -1026,7 +1026,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/03.html'
                     },
                     {
-                        id: 116,
+                        id: 119,
                         title: 'Matrizes / Arrays',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1035,7 +1035,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/04.html'
                     },
                     {
-                        id: 117,
+                        id: 120,
                         title: 'Criando Parâmetros',
                         type: 'learn',
                         completed: false,
@@ -1043,7 +1043,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 118,
+                        id: 121,
                         title: 'Retornando Valores',
                         type: 'learn',
                         completed: false,
@@ -1051,7 +1051,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/03.html'
                     },
                     {
-                        id: 119,
+                        id: 122,
                         title: 'Funções 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1060,7 +1060,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/04.html'
                     },
                     {
-                        id: 120,
+                        id: 123,
                         title: 'Usando vários parâmetros',
                         type: 'learn',
                         completed: false,
@@ -1068,7 +1068,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 121,
+                        id: 124,
                         title: 'Compreendendo Funções',
                         type: 'learn',
                         completed: false,
@@ -1076,7 +1076,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/03.html'
                     },
                     {
-                        id: 122,
+                        id: 125,
                         title: 'Funções 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1085,7 +1085,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/04.html'
                     },
                     {
-                        id: 123,
+                        id: 126,
                         title: 'Jogo de perguntas e respostas PARTE 1',
                         type: 'learn',
                         completed: false,
@@ -1093,7 +1093,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/01.html'
                     },
                     {
-                        id: 124,
+                        id: 127,
                         title: 'Condicionais de aninhamento',
                         type: 'learn',
                         completed: false,
@@ -1101,7 +1101,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 125,
+                        id: 128,
                         title: 'Usando Condições e Funções',
                         type: 'learn',
                         completed: false,
@@ -1109,7 +1109,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 126,
+                        id: 129,
                         title: 'Parando funções com retorno',
                         type: 'learn',
                         completed: false,
@@ -1117,7 +1117,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/03.html'
                     },
                     {
-                        id: 127,
+                        id: 130,
                         title: 'Funções Aplicadas 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1126,7 +1126,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/04.html'
                     },
                     {
-                        id: 128,
+                        id: 131,
                         title: 'Adicionando Loops a Funções',
                         type: 'learn',
                         completed: false,
@@ -1134,7 +1134,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 129,
+                        id: 132,
                         title: 'Looping sobre matrizes',
                         type: 'learn',
                         completed: false,
@@ -1142,7 +1142,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/03.html'
                     },
                     {
-                        id: 130,
+                        id: 133,
                         title: 'Funções Aplicadas 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1151,7 +1151,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/04.html'
                     },
                     {
-                        id: 131,
+                        id: 134,
                         title: 'Array .map()',
                         type: 'learn',
                         completed: false,
@@ -1159,7 +1159,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 132,
+                        id: 135,
                         title: 'Array.filter()',
                         type: 'learn',
                         completed: false,
@@ -1167,7 +1167,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 133,
+                        id: 136,
                         title: 'Array.reduce()',
                         type: 'learn',
                         completed: false,
@@ -1175,7 +1175,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/03.html'
                     },
                     {
-                        id: 134,
+                        id: 137,
                         title: 'Operações de matriz / array',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1184,7 +1184,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/04.html'
                     },
                     {
-                        id: 135,
+                        id: 138,
                         title: 'Jogo de perguntas e respostas PARTE 2',
                         type: 'learn',
                         completed: false,
@@ -1199,7 +1199,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Aprenda a usar objetos e funções JS mais avançadas',
                 locked: true,
                 lessons: [{
-                        id: 136,
+                        id: 139,
                         title: 'Agrupando valores em objetos',
                         type: 'learn',
                         completed: false,
@@ -1207,7 +1207,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/01.html'
                     },
                     {
-                        id: 137,
+                        id: 140,
                         title: 'Usando métodos de objeto',
                         type: 'learn',
                         completed: false,
@@ -1215,7 +1215,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/02.html'
                     },
                     {
-                        id: 138,
+                        id: 141,
                         title: 'O que é JSON',
                         type: 'learn',
                         completed: false,
@@ -1223,7 +1223,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/03.html'
                     },
                     {
-                        id: 139,
+                        id: 142,
                         title: 'Objetos',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1232,7 +1232,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/04.html'
                     },
                     {
-                        id: 140,
+                        id: 143,
                         title: 'Rick e Morty PARTE 1',
                         type: 'learn',
                         completed: false,
@@ -1240,7 +1240,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/05.html'
                     },
                     {
-                        id: 141,
+                        id: 144,
                         title: 'Variáveis ​​e Escopo ES6',
                         type: 'learn',
                         completed: false,
@@ -1248,7 +1248,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/06.html'
                     },
                     {
-                        id: 142,
+                        id: 145,
                         title: 'Funções de seta',
                         type: 'learn',
                         completed: false,
@@ -1256,7 +1256,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/05.html'
                     },
                     {
-                        id: 143,
+                        id: 146,
                         title: 'Parâmetros da função de seta',
                         type: 'learn',
                         completed: false,
@@ -1264,7 +1264,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/06.html'
                     },
                     {
-                        id: 144,
+                        id: 147,
                         title: 'ES6 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1273,7 +1273,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/07.html'
                     },
                     {
-                        id: 145,
+                        id: 148,
                         title: 'Literais de modelo',
                         type: 'learn',
                         completed: false,
@@ -1281,7 +1281,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/05.html'
                     },
                     {
-                        id: 146,
+                        id: 149,
                         title: 'Desestruturação',
                         type: 'learn',
                         completed: false,
@@ -1289,7 +1289,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/06.html'
                     },
                     {
-                        id: 147,
+                        id: 150,
                         title: 'ES6 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1298,7 +1298,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/07.html'
                     },
                     {
-                        id: 148,
+                        id: 151,
                         title: 'Rick e Morty PARTE 2',
                         type: 'learn',
                         completed: false,
