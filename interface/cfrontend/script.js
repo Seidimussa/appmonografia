@@ -1649,7 +1649,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 13,
-                title: 'Classes de JavaScript',
+                title: 'Introdução ao React',
                 description: 'Use React para criar aplicativos da web modernos',
                 locked: true,
                 lessons: [{
@@ -1720,7 +1720,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 195,
-                        title: 'Propriedades',
+                        title: 'Contador de pontos PARTE 1',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1728,7 +1728,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 196,
-                        title: 'Botões',
+                        title: 'Usando folhas de estilo',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1736,7 +1736,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 197,
-                        title: 'Estado',
+                        title: 'Usando propriedades de estilo',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1744,7 +1744,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 198,
-                        title: 'Noções básicas de React 2',
+                        title: 'Noções básicas de React 3',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1753,7 +1753,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 199,
-                        title: 'Estado',
+                        title: 'Contador de pontos PARTE 2',
                         type: 'learn',
                         completed: false,
                         locked: true,
