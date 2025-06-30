@@ -1873,54 +1873,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-classes/08.html'
                     },
                 ]
-            },
-            {
-                id: 16,
-                title: 'Módulos, Bibliotecas e Node',
-                description: 'Use o código de outras pessoas e aprenda o básico do Node',
-                locked: true,
-                lessons: [{
-                        id: 89,
-                        title: 'Introdução aos Módulos',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/modules-node/01.html'
-                    },
-                    {
-                        id: 90,
-                        title: 'Bibliotecas JavaScript',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/modules-node/02.html'
-                    },
-                    {
-                        id: 91,
-                        title: 'Introdução ao Node.js',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/modules-node/03.html'
-                    },
-                    {
-                        id: 92,
-                        title: 'Módulos, Bibliotecas e Node',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/modules-node/04.html'
-                    },
-                    {
-                        id: 93,
-                        title: 'Certificado de Conclusão',
-                        type: 'certificate',
-                        completed: false,
-                        locked: true,
-                        url: './certificate.html'
-                    }
-                ]
             }
         ]
     };
