@@ -1848,7 +1848,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/async/03.html'
                     },
                     {
-                        id: 113,
+                        id: 213,
                         title: 'Componentes Controlados',
                         type: 'learn',
                         completed: false,
@@ -1856,7 +1856,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/async/03.html'
                     },
                     {
-                        id: 114,
+                        id: 214,
                         title: 'Fundamentos do React 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1865,7 +1865,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/async/04.html'
                     },
                     {
-                        id: 115,
+                        id: 215,
                         title: 'Clone de Wordle PARTE 1',
                         type: 'learn',
                         completed: false,
@@ -1876,36 +1876,36 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 15,
-                title: '',
-                description: '',
+                title: 'Mergulho profundo no React',
+                description: 'Mergulhe mais fundo no React para dominar aplicativos de página única',
                 locked: true,
                 lessons: [{
-                        id: 116,
-                        title: 'Usando Classes',
+                        id: 216,
+                        title: 'Crianças',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/js-classes/01.html'
                     },
                     {
-                        id: 82,
-                        title: 'Classes com Métodos',
+                        id: 217,
+                        title: 'Funções de Passagem',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/js-classes/02.html'
                     },
                     {
-                        id: 83,
-                        title: 'Criando Instâncias',
+                        id: 218,
+                        title: 'Perfuração de adereços',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/js-classes/03.html'
                     },
                     {
-                        id: 84,
-                        title: 'Aulas de JavaScript 1',
+                        id: 219,
+                        title: 'React Deep Dive 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1913,37 +1913,86 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-classes/04.html'
                     },
                     {
-                        id: 85,
-                        title: 'Extensão de classes',
+                        id: 220,
+                        title: 'useState',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/js-classes/05.html'
                     },
                     {
-                        id: 86,
-                        title: 'Métodos de substituição',
+                        id: 221,
+                        title: 'useEffect',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/js-classes/06.html'
                     },
                     {
-                        id: 87,
-                        title: 'Propriedades da subclasse de codificação',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/js-classes/07.html'
-                    },
-                    {
-                        id: 88,
-                        title: 'Aulas de JavaScript 2',
+                        id: 222,
+                        title: 'Mergulho Profundo React 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-classes/08.html'
+                        url: './lessons/js-classes/04.html'
+                    },
+                    {
+                        id: 223,
+                        title: 'Buscar',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-classes/01.html'
+                    },
+                    {
+                        id: 224,
+                        title: 'Roteador',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-classes/02.html'
+                    },
+                    {
+                        id: 225,
+                        title: 'Parâmetros de consulta',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-classes/03.html'
+                    },
+                    {
+                        id: 226,
+                        title: 'Mergulho Profundo 3 no React',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-classes/04.html'
+                    },
+                    {
+                        id: 227,
+                        title: 'Pokédex PARTE 1',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-classes/01.html'
+                    },
+                    {
+                        id: 228,
+                        title: 'Pokédex PARTE 2',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-classes/02.html'
+                    },
+                    {
+                        id: 229,
+                        title: 'Pokédex PARTE 3',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-classes/03.html'
                     },
                 ]
             }
