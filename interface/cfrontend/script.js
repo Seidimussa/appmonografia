@@ -1313,7 +1313,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Aprenda sobre a árvore DOM e as relações dos nós',
                 locked: true,
                 lessons: [{
-                        id: 149,
+                        id: 152,
                         title: 'Árvore e nós do documento HTML',
                         type: 'learn',
                         completed: false,
@@ -1321,7 +1321,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/01.html'
                     },
                     {
-                        id: 150,
+                        id: 153,
                         title: 'O Modelo de Objeto de Documento',
                         type: 'learn',
                         completed: false,
@@ -1329,7 +1329,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/02.html'
                     },
                     {
-                        id: 151,
+                        id: 154,
                         title: 'Criando Elementos',
                         type: 'learn',
                         completed: false,
@@ -1337,7 +1337,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/03.html'
                     },
                     {
-                        id: 152,
+                        id: 155,
                         title: 'Removendo Elementos',
                         type: 'learn',
                         completed: false,
@@ -1345,7 +1345,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/03.html'
                     },
                     {
-                        id: 153,
+                        id: 156,
                         title: 'O Modelo de Objeto de Documento',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1354,7 +1354,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/04.html'
                     },
                     {
-                        id: 154,
+                        id: 157,
                         title: 'Usando propriedades de eventos',
                         type: 'learn',
                         completed: false,
@@ -1362,7 +1362,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/05.html'
                     },
                     {
-                        id: 155,
+                        id: 158,
                         title: 'Explorando Propriedades de Eventos',
                         type: 'learn',
                         completed: false,
@@ -1370,7 +1370,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/06.html'
                     },
                     {
-                        id: 156,
+                        id: 159,
                         title: 'Adicionando Eventos com Métodos',
                         type: 'learn',
                         completed: false,
@@ -1378,7 +1378,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/05.html'
                     },
                     {
-                        id: 157,
+                        id: 160,
                         title: 'Eventos de toque',
                         type: 'learn',
                         completed: false,
@@ -1386,7 +1386,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/06.html'
                     },
                     {
-                        id: 158,
+                        id: 161,
                         title: 'Eventos JavaScript',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1395,7 +1395,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/07.html'
                     },
                     {
-                        id: 159,
+                        id: 162,
                         title: 'Cifra de César PARTE 1',
                         type: 'learn',
                         completed: false,
@@ -1410,7 +1410,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Aprenda a criar páginas web acessíveis',
                 locked: true,
                 lessons: [{
-                        id: 160,
+                        id: 163,
                         title: 'Alternativas semânticas',
                         type: 'learn',
                         completed: false,
@@ -1418,7 +1418,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/array-operations/01.html'
                     },
                     {
-                        id: 161,
+                        id: 164,
                         title: 'Estrutura da página semântica',
                         type: 'learn',
                         completed: false,
@@ -1426,7 +1426,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/array-operations/02.html'
                     },
                     {
-                        id: 162,
+                        id: 165,
                         title: 'Elementos que mudam o visual',
                         type: 'learn',
                         completed: false,
@@ -1434,7 +1434,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/array-operations/03.html'
                     },
                     {
-                        id: 163,
+                        id: 166,
                         title: 'HTML semântico',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1443,7 +1443,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/array-operations/04.html'
                     },
                     {
-                        id: 164,
+                        id: 167,
                         title: 'Noções básicas de acessibilidade HTML',
                         type: 'learn',
                         completed: false,
@@ -1451,7 +1451,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/array-operations/02.html'
                     },
                     {
-                        id: 165,
+                        id: 168,
                         title: 'Acessibilidade WAI-ARIA',
                         type: 'learn',
                         completed: false,
@@ -1459,7 +1459,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/array-operations/03.html'
                     },
                     {
-                        id: 166,
+                        id: 169,
                         title: 'Noções básicas de acessibilidade',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1468,7 +1468,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/array-operations/04.html'
                     },
                     {
-                        id: 167,
+                        id: 170,
                         title: 'Criando Formulários',
                         type: 'learn',
                         completed: false,
@@ -1476,7 +1476,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/array-operations/02.html'
                     },
                     {
-                        id: 168,
+                        id: 171,
                         title: 'Formulários com rótulos',
                         type: 'learn',
                         completed: false,
@@ -1484,7 +1484,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/array-operations/03.html'
                     },
                     {
-                        id: 169,
+                        id: 172,
                         title: 'Formulários HTML',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1493,7 +1493,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/array-operations/04.html'
                     },
                     {
-                        id: 170,
+                        id: 173,
                         title: 'Portfólio de Máquina de Escrever PARTE 1',
                         type: 'learn',
                         completed: false,
@@ -1508,7 +1508,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Aprenda como funciona o JavaScript assíncrono',
                 locked: true,
                 lessons: [{
-                        id: 171,
+                        id: 174,
                         title: 'Sincronia e Assincronia em JS',
                         type: 'learn',
                         completed: false,
@@ -1516,7 +1516,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dynamic-webpages/01.html'
                     },
                     {
-                        id: 172,
+                        id: 175,
                         title: 'Comediante Bot PARTE 1',
                         type: 'learn',
                         completed: false,
@@ -1524,7 +1524,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dynamic-webpages/02.html'
                     },
                     {
-                        id: 173,
+                        id: 176,
                         title: 'Tempo limite e intervalos em JS',
                         type: 'learn',
                         completed: false,
@@ -1532,7 +1532,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dynamic-webpages/03.html'
                     },
                     {
-                        id: 174,
+                        id: 177,
                         title: 'Esperando em JS',
                         type: 'learn',
                         completed: false,
@@ -1540,7 +1540,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dynamic-webpages/03.html'
                     },
                     {
-                        id: 175,
+                        id: 178,
                         title: 'Sincronia e Assincronia em JS',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1549,7 +1549,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dynamic-webpages/04.html'
                     },
                     {
-                        id: 176,
+                        id: 179,
                         title: 'Comediante Bot PARTE 2',
                         type: 'learn',
                         completed: false,
@@ -1564,7 +1564,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Crie modelos para objetos usando classes',
                 locked: true,
                 lessons: [{
-                        id: 177,
+                        id: 180,
                         title: 'Usando Classes',
                         type: 'learn',
                         completed: false,
@@ -1572,7 +1572,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dom/01.html'
                     },
                     {
-                        id: 178,
+                        id: 181,
                         title: 'Classes com Métodos',
                         type: 'learn',
                         completed: false,
@@ -1580,7 +1580,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dom/02.html'
                     },
                     {
-                        id: 179,
+                        id: 182,
                         title: 'Criando Instâncias',
                         type: 'learn',
                         completed: false,
@@ -1588,7 +1588,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dom/03.html'
                     },
                     {
-                        id: 180,
+                        id: 183,
                         title: 'Aulas de JavaScript 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1597,7 +1597,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dom/05.html'
                     },
                     {
-                        id: 181,
+                        id: 184,
                         title: 'Patas de Pixel PARTE 1',
                         type: 'learn',
                         completed: false,
@@ -1605,7 +1605,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dom/04.html'
                     },
                     {
-                        id: 182,
+                        id: 185,
                         title: 'Extensão de classes',
                         type: 'learn',
                         completed: false,
@@ -1613,7 +1613,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dom/01.html'
                     },
                     {
-                        id: 183,
+                        id: 186,
                         title: 'Métodos de substituição',
                         type: 'learn',
                         completed: false,
@@ -1621,7 +1621,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dom/02.html'
                     },
                     {
-                        id: 184,
+                        id: 187,
                         title: 'Propriedades da subclasse de codificação',
                         type: 'learn',
                         completed: false,
@@ -1629,7 +1629,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dom/03.html'
                     },
                     {
-                        id: 185,
+                        id: 188,
                         title: 'Aulas de JavaScript 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1638,7 +1638,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dom/05.html'
                     },
                     {
-                        id: 186,
+                        id: 189,
                         title: 'Patas de Pixel PARTE 2',
                         type: 'learn',
                         completed: false,
@@ -1653,7 +1653,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Use React para criar aplicativos da web modernos',
                 locked: true,
                 lessons: [{
-                        id: 187,
+                        id: 190,
                         title: 'Introdução ao React',
                         type: 'learn',
                         completed: false,
@@ -1661,7 +1661,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/01.html'
                     },
                     {
-                        id: 188,
+                        id: 191,
                         title: 'Componentes',
                         type: 'learn',
                         completed: false,
@@ -1669,7 +1669,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/02.html'
                     },
                     {
-                        id: 189,
+                        id: 192,
                         title: 'Noções básicas de React 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1678,7 +1678,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/05.html'
                     },
                     {
-                        id: 190,
+                        id: 193,
                         title: 'JSX',
                         type: 'learn',
                         completed: false,
@@ -1686,7 +1686,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/03.html'
                     },
                     {
-                        id: 191,
+                        id: 194,
                         title: 'Propriedades',
                         type: 'learn',
                         completed: false,
@@ -1694,7 +1694,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/04.html'
                     },
                     {
-                        id: 192,
+                        id: 195,
                         title: 'Botões',
                         type: 'learn',
                         completed: false,
@@ -1702,7 +1702,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/03.html'
                     },
                     {
-                        id: 193,
+                        id: 196,
                         title: 'Estado',
                         type: 'learn',
                         completed: false,
@@ -1710,7 +1710,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/04.html'
                     },
                     {
-                        id: 194,
+                        id: 197,
                         title: 'Noções básicas de React 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1719,7 +1719,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/05.html'
                     },
                     {
-                        id: 195,
+                        id: 198,
                         title: 'Contador de pontos PARTE 1',
                         type: 'learn',
                         completed: false,
@@ -1727,7 +1727,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/04.html'
                     },
                     {
-                        id: 196,
+                        id: 199,
                         title: 'Usando folhas de estilo',
                         type: 'learn',
                         completed: false,
@@ -1735,7 +1735,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/03.html'
                     },
                     {
-                        id: 197,
+                        id: 200,
                         title: 'Usando propriedades de estilo',
                         type: 'learn',
                         completed: false,
@@ -1743,7 +1743,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/04.html'
                     },
                     {
-                        id: 198,
+                        id: 201,
                         title: 'Noções básicas de React 3',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1752,7 +1752,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/05.html'
                     },
                     {
-                        id: 199,
+                        id: 202,
                         title: 'Contador de pontos PARTE 2',
                         type: 'learn',
                         completed: false,
@@ -1767,7 +1767,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: '',
                 locked: true,
                 lessons: [{
-                        id: 200,
+                        id: 203,
                         title: 'Sincronia e Assincronia em JS',
                         type: 'learn',
                         completed: false,
