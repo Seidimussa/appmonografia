@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 locked: false,
                 lessons: [{
                         id: 1,
-                        title: '',
+                        title: 'Criando Variáveis',
                         type: 'learn',
                         completed: false,
                         locked: false,
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 2,
-                        title: '',
+                        title: 'Usando Variáveis',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 3,
-                        title: '',
+                        title: 'Usando Verdadeiro e Falso',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 4,
-                        title: '',
+                        title: 'Verificando a Igualdade numérica',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 5,
-                        title: '',
+                        title: 'Noções básicas de JavaScript',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -58,40 +58,40 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-basics/05.html'
                     },
                     {
-                        id: 1,
-                        title: '',
+                        id: 6,
+                        title: 'Comparando números',
                         type: 'learn',
                         completed: false,
                         locked: false,
                         url: './lessons/js-basics/01.html'
                     },
                     {
-                        id: 2,
-                        title: '',
+                        id: 7,
+                        title: 'Comparando Strings',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/js-basics/02.html'
                     },
                     {
-                        id: 3,
-                        title: '',
+                        id: 8,
+                        title: 'Descobrindo Tipos',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/js-basics/03.html'
                     },
                     {
-                        id: 4,
-                        title: '',
+                        id: 9,
+                        title: 'Operadores Lógicos',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/js-basics/04.html'
                     },
                     {
-                        id: 5,
-                        title: '',
+                        id: 10,
+                        title: 'Tipos e comparações',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -99,16 +99,16 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-basics/05.html'
                     },
                     {
-                        id: 3,
-                        title: '',
+                        id: 11,
+                        title: ' Programa Interruptor de Luz PARTE 1',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/js-basics/03.html'
                     },
                     {
-                        id: 4,
-                        title: '',
+                        id: 12,
+                        title: 'Programa Interruptor de Luz PARTE 2',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Armazene o resultado das comparações em variáveis',
                 locked: true,
                 lessons: [{
-                        id: 6,
+                        id: 13,
                         title: 'Comparando números',
                         type: 'learn',
                         completed: false,
