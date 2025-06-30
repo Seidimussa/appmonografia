@@ -1763,8 +1763,8 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 14,
-                title: '',
-                description: '',
+                title: 'Fundamentos do React',
+                description: 'Aprenda conceitos essenciais do React para aprimorar seus aplicativos',
                 locked: true,
                 lessons: [{
                         id: 203,
