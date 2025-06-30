@@ -1560,49 +1560,90 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 12,
-                title: 'O Modelo de Objeto de Documento',
-                description: 'Aprenda sobre a árvore DOM e o acesso baseado em posição',
+                title: 'Classes de JavaScript',
+                description: 'Crie modelos para objetos usando classes',
                 locked: true,
                 lessons: [{
                         id: 177,
-                        title: 'Árvore e nós do documento HTML',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/dom/01.html'
                     },
                     {
-                        id: 68,
-                        title: 'O Modelo de Objeto de Documento',
+                        id: 178,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/dom/02.html'
                     },
                     {
-                        id: 69,
-                        title: 'Criando Elementos',
+                        id: 179,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/dom/03.html'
                     },
                     {
-                        id: 70,
-                        title: 'Removendo Elementos',
+                        id: 180,
+                        title: '',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/dom/05.html'
+                    },
+                    {
+                        id: 181,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/dom/04.html'
                     },
                     {
-                        id: 71,
-                        title: 'O Modelo de Objeto de Documento',
+                        id: 182,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/dom/01.html'
+                    },
+                    {
+                        id: 183,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/dom/02.html'
+                    },
+                    {
+                        id: 184,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/dom/03.html'
+                    },
+                    {
+                        id: 185,
+                        title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
                         url: './lessons/dom/05.html'
+                    },
+                    {
+                        id: 186,
+                        title: '',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/dom/03.html'
                     },
                 ]
             },
