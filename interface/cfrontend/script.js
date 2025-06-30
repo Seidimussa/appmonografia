@@ -1565,7 +1565,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 locked: true,
                 lessons: [{
                         id: 177,
-                        title: '',
+                        title: 'Usando Classes',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1573,7 +1573,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 178,
-                        title: '',
+                        title: 'Classes com Métodos',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1581,7 +1581,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 179,
-                        title: '',
+                        title: 'Criando Instâncias',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1589,7 +1589,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 180,
-                        title: '',
+                        title: 'Aulas de JavaScript 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1598,7 +1598,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 181,
-                        title: '',
+                        title: 'Patas de Pixel PARTE 1',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1606,7 +1606,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 182,
-                        title: '',
+                        title: 'Extensão de classes',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1614,7 +1614,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 183,
-                        title: '',
+                        title: 'Métodos de substituição',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1622,7 +1622,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 184,
-                        title: '',
+                        title: 'Propriedades da subclasse de codificação',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1630,7 +1630,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 185,
-                        title: '',
+                        title: 'Aulas de JavaScript 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1639,7 +1639,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 186,
-                        title: '',
+                        title: 'Patas de Pixel PARTE 2',
                         type: 'learn',
                         completed: false,
                         locked: true,
