@@ -1768,46 +1768,119 @@ document.addEventListener('DOMContentLoaded', () => {
                 locked: true,
                 lessons: [{
                         id: 203,
-                        title: '',
+                        title: 'Renderização Condicional 1',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/async/01.html'
                     },
                     {
-                        id: 78,
-                        title: '',
+                        id: 204,
+                        title: 'Renderização Condicional 2',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/async/02.html'
                     },
                     {
-                        id: 79,
-                        title: '',
+                        id: 205,
+                        title: 'Fragmentos',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/async/03.html'
                     },
                     {
-                        id: 80,
-                        title: '',
+                        id: 206,
+                        title: 'Fundamentos do React 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
                         url: './lessons/async/04.html'
                     },
+                    {
+                        id: 207,
+                        title: 'Propriedades destrutivas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/async/01.html'
+                    },
+                    {
+                        id: 208,
+                        title: 'Propriedades padrão',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/async/02.html'
+                    },
+                    {
+                        id: 209,
+                        title: 'Propriedades complexas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/async/03.html'
+                    },
+                    {
+                        id: 210,
+                        title: 'Matrizes em React',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/async/01.html'
+                    },
+                    {
+                        id: 211,
+                        title: 'Entrada',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/async/02.html'
+                    },
+                    {
+                        id: 212,
+                        title: 'Área de texto',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/async/03.html'
+                    },
+                    {
+                        id: 113,
+                        title: 'Componentes Controlados',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/async/03.html'
+                    },
+                    {
+                        id: 114,
+                        title: 'Fundamentos do React 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/async/04.html'
+                    },
+                    {
+                        id: 115,
+                        title: 'Clone de Wordle PARTE 1',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/async/03.html'
+                    },
                 ]
             },
             {
                 id: 15,
-                title: 'Classes de JavaScript',
-                description: 'Crie modelos para objetos usando classes',
+                title: '',
+                description: '',
                 locked: true,
                 lessons: [{
-                        id: 81,
+                        id: 116,
                         title: 'Usando Classes',
                         type: 'learn',
                         completed: false,
