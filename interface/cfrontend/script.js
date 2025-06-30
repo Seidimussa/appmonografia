@@ -70,6 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         id: 7,
                         title: 'Linktree PARTE 1',
                         type: 'learn',
+                        description: 'Prepare-se para criar sua própria página no linktree, onde você pode exibir todas as suas redes sociais e outros links importantes em um só lugar.',
                         completed: false,
                         locked: true,
                         url: './lessons/js-basics/05.html'
