@@ -1504,12 +1504,12 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 11,
-                title: 'Páginas da Web dinâmicas',
-                description: 'Use HTML e JavaScript para criar elementos interativos',
+                title: 'Sincronia e Assincronia em JS',
+                description: 'Aprenda como funciona o JavaScript assíncrono',
                 locked: true,
                 lessons: [{
                         id: 171,
-                        title: 'Interagindo com páginas da Web',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1517,7 +1517,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 60,
-                        title: 'Como acessar um elemento HTML',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1525,7 +1525,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 61,
-                        title: 'Acesse vários elementos HTML',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1533,7 +1533,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 62,
-                        title: 'Páginas da Web Dinâmicas 1',
+                        title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1542,7 +1542,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 63,
-                        title: 'Obtendo a entrada do usuário',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1550,7 +1550,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 64,
-                        title: 'Definindo atributos dinamicamente',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1558,7 +1558,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 65,
-                        title: 'Alternando classes CSS',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1566,7 +1566,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 66,
-                        title: 'Páginas da Web Dinâmicas 2',
+                        title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
