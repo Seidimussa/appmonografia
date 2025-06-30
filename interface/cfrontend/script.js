@@ -1763,11 +1763,11 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 14,
-                title: 'Sincronia e Assincronia em JS',
-                description: 'Aprenda como funciona o JavaScript assíncrono',
+                title: '',
+                description: '',
                 locked: true,
                 lessons: [{
-                        id: 195,
+                        id: 200,
                         title: 'Sincronia e Assincronia em JS',
                         type: 'learn',
                         completed: false,
