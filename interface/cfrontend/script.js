@@ -527,7 +527,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/conditionals/05.html'
                     },
                     {
-                       id: 60,
+                        id: 60,
                         title: 'Cardápio da cafeteria',
                         type: 'guided_project',
                         description: 'Mergulhe no mundo de uma cafeteria movimentada, onde você criará um cardápio detalhado e envolvente. Não se trata apenas de listar espressos e lattes; trata-se de estruturar as informações de forma rica e organizada.',
@@ -603,7 +603,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/conditionals/03.html'
                     },
                     {
-                      id: 47,
+                        id: 47,
                         title: 'Cardápio da cafeteria',
                         type: 'guided_project',
                         description: 'Com a estrutura do nosso cardápio pronta, vamos dar vida a ele! Esta fase visa tornar o cardápio da nossa cafeteria visualmente atraente e intuitivo.',
@@ -662,11 +662,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 75,
-                        title: 'Jogo de Adivinhação PARTE 1',
-                        type: 'learn',
+                        title: 'Jogo de Adivinhação',
+                        type: 'guided_project',
+                        description: 'Crie seu próprio jogo! Nesta primeira parte, prepararemos o cenário elaborando a lógica básica do jogo. O objetivo é definir as regras e deixar os jogadores darem o seu melhor.',
+                        subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
-                        url: './lessons/loops/06.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                     {
                         id: 76,
@@ -703,17 +705,19 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 80,
-                        title: 'Jogo de Adivinhação PARTE 2',
-                        type: 'learn',
+                        title: 'Jogo de Adivinhação',
+                        type: 'guided_project',
+                        description: 'Pronto para aumentar as apostas? Agora, estamos introduzindo vidas ao nosso jogo, adicionando aquela camada extra de desafio e suspense. Pronto, Jogador 1?',
+                        subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
-                        url: './lessons/loops/08.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                 ]
             },
             {
                 id: 5,
-                title: 'Caixa flexível',
+                title: 'Caixa flexível / Flexbox',
                 description: 'Crie belos layouts usando Flexbox',
                 locked: true,
                 lessons: [{
@@ -809,11 +813,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 92,
-                        title: 'Galeria PARTE 1',
-                        type: 'learn',
+                        title: 'Galeria',
+                        type: 'guided_project',
+                        description: 'Pronto para criar uma galeria online? Neste segmento, lançaremos as bases, configurando uma tela para exibir imagens cativantes em um layout harmonioso.',
+                        subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
-                        url: './lessons/arrays/01.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                     {
                         id: 93,
@@ -858,11 +864,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 98,
-                        title: 'Galeria PARTE 2',
-                        type: 'learn',
+                        title: 'Galeria',
+                        type: 'guided_project',
+                        description: 'Agora, vamos levar as coisas a um nível mais alto! Apresentaremos um recurso modal elegante, garantindo que cada imagem possa ser admirada de perto e em toda a sua glória.',
+                        subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
-                        url: './lessons/arrays/03.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                 ]
             },
@@ -914,11 +922,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 104,
-                        title: 'Cartão de Visita Digital PARTE 1',
-                        type: 'learn',
+                        title: 'Cartão de Visita Digital',
+                        type: 'guided_project',
+                        description: 'É hora de facilitar o networking! Nesta seção, vamos começar a criar seu próprio cartão de visita digital.',
+                        subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
-                        url: './lessons/functions/06.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                     {
                         id: 105,
@@ -996,11 +1006,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 114,
-                        title: 'Cartão de Visita Digital PARTE 2',
-                        type: 'learn',
+                        title: 'Cartão de Visita Digital',
+                        type: 'guided_project',
+                        description: 'Agora, vamos nos concentrar na capacidade de resposta. Vamos refinar nosso design, garantindo que ele brilhe e impressione em telas grandes e pequenas.',
+                        subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
-                        url: './lessons/functions/06.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                 ]
             },
