@@ -468,6 +468,41 @@ body {
     color: var(--text-muted);
     cursor: not-allowed;
 }
+.certificate-card {
+    flex-direction: row !important;
+    align-items: center;
+    gap: 20px;
+}
+
+.certificate-card .cert-icon-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    background-color: var(--card-bg-active);
+    background-color: #053b15;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: white;
+}
+
+.certificate-card .cert-icon-area .fa-award {
+    font-size: 1.5rem;
+    color: goldenrod;
+}
+
+.certificate-card .cert-icon-area span {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.certificate-card .cert-title {
+    flex-grow: 1;
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
 
 /* --- Responsividade --- */
 @media (min-width: 1024px) {
