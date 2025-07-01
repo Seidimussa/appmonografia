@@ -599,36 +599,28 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 5,
-                title: 'Caixa flexível / Flexbox',
-                description: 'Crie belos layouts usando Flexbox',
+                title: 'Noções básicas do Express',
+                description: 'Use o Express para mergulhar no desenvolvimento de backend',
                 locked: true,
                 lessons: [{
                         id: 67,
-                        title: 'Compreendendo o Flexbox',
+                        title: 'Introdução aos Módulos',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/arrays/01.html'
                     },
                     {
-                        id: 82,
-                        title: 'Usando Flex Direction',
+                        id: 68,
+                        title: 'Introdução ao Node.js',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/arrays/02.html'
                     },
                     {
-                        id: 83,
-                        title: 'Eixos Flexbox',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/arrays/03.html'
-                    },
-                    {
-                        id: 84,
-                        title: 'Noções básicas do Flexbox',
+                        id: 69,
+                        title: 'Módulos, Bibliotecas e Nó',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -636,32 +628,32 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/arrays/05.html'
                     },
                     {
-                        id: 85,
-                        title: 'Justificando grupos de itens',
+                        id: 70,
+                        title: 'Cliente vs Servidores',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/arrays/03.html'
+                    },
+                    {
+                        id: 71,
+                        title: 'Comunicando-se com uma API',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/arrays/01.html'
                     },
                     {
-                        id: 86,
-                        title: 'Justificando linhas e colunas',
+                        id: 72,
+                        title: 'Respostas de solicitação HTTP',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/arrays/02.html'
                     },
                     {
-                        id: 87,
-                        title: 'Alinhando Itens Flexíveis',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/arrays/03.html'
-                    },
-                    {
-                        id: 88,
-                        title: 'Contêineres Flexbox 1',
+                        id: 73,
+                        title: 'Introdução ao Backend 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -669,24 +661,24 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/arrays/05.html'
                     },
                     {
-                        id: 89,
-                        title: 'Envolvendo itens flexíveis',
+                        id: 74,
+                        title: 'ExpressJS',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/arrays/04.html'
                     },
                     {
-                        id: 90,
-                        title: 'Alinhando linhas encapsuladas',
+                        id: 75,
+                        title: 'Objetos de solicitação e resposta',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/arrays/04.html'
                     },
                     {
-                        id: 91,
-                        title: 'Contêineres Flexbox 2',
+                        id: 76,
+                        title: 'Construindo um aplicativo expresso 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -694,50 +686,34 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/arrays/05.html'
                     },
                     {
-                        id: 92,
-                        title: 'Galeria',
+                        id: 77,
+                        title: 'Números aleatórios',
                         type: 'guided_project',
-                        description: 'Pronto para criar uma galeria online? Neste segmento, lançaremos as bases, configurando uma tela para exibir imagens cativantes em um layout harmonioso.',
+                        description: 'Crie um backend que possa ajudar caso você não tenha uma moeda ou dado pronto',
                         subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 93,
-                        title: 'Definindo um tamanho inicial do item',
+                        id: 78,
+                        title: 'Parâmetros de Rota',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/arrays/02.html'
                     },
                     {
-                        id: 94,
-                        title: 'Itens Flex em crescimento',
+                        id: 79,
+                        title: 'Parâmetros de consulta',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/arrays/03.html'
                     },
                     {
-                        id: 95,
-                        title: 'Itens Flexíveis Encolhendo',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/arrays/02.html'
-                    },
-                    {
-                        id: 96,
-                        title: 'Usando a abreviação Flex',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/arrays/03.html'
-                    },
-                    {
-                        id: 97,
-                        title: 'Itens Flexbox',
+                        id: 80,
+                        title: 'Construindo um aplicativo expresso 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -745,10 +721,51 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/arrays/05.html'
                     },
                     {
-                        id: 98,
-                        title: 'Galeria',
+                        id: 81,
+                        title: 'Solicitações POST',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/arrays/02.html'
+                    },
+                    {
+                        id: 82,
+                        title: 'Solicitações PUT',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/arrays/03.html'
+                    },
+                    {
+                        id: 83,
+                        title: 'Solicitações de PATCH',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/arrays/02.html'
+                    },
+                    {
+                        id: 84,
+                        title: 'Solicitações DELETE',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/arrays/03.html'
+                    },
+                    {
+                        id: 85,
+                        title: 'Construindo um aplicativo expresso 3',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/arrays/05.html'
+                    },
+                    {
+                        id: 86,
+                        title: 'Números aleatórios',
                         type: 'guided_project',
-                        description: 'Agora, vamos levar as coisas a um nível mais alto! Apresentaremos um recurso modal elegante, garantindo que cada imagem possa ser admirada de perto e em toda a sua glória.',
+                        description: 'Na segunda parte do projeto, usaremos parâmetros de consulta para adaptar os endpoints às nossas necessidades.',
                         subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
@@ -762,7 +779,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Crie belos layouts usando grid CSS',
                 locked: true,
                 lessons: [{
-                        id: 99,
+                        id: 87,
                         title: 'Criando uma grid CSS',
                         type: 'learn',
                         completed: false,
