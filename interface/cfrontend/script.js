@@ -1591,7 +1591,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dynamic-webpages/04.html'
                     },
                     {
-                        id: 47,
+                        id: 179,
                         title: 'Comediante Bot',
                         type: 'guided_project',
                         description: 'Agora, vamos aprimorar o jogo do nosso Robô Comediante. Nesta fase, incorporaremos interatividade, permitindo que você peça outra piada.',
