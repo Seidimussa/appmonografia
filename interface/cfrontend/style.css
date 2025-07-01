@@ -406,6 +406,36 @@ body {
     cursor: not-allowed;
 }
 
+
+
+/* Estilo para o container da parte inferior do card */
+.lesson-card .lesson-bottom-info {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para o selo "PROJETO GUIADO" */
+.lesson-type.guided-project-label {
+    background-color: transparent;
+    border: 1px solid;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+
+
+/* Estilo para o texto "PARTE 1" */
+.lesson-bottom-info .sub-action-text {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+
 /* --- Responsividade --- */
 @media (min-width: 1024px) {
     .sidebar {

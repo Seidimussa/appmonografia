@@ -66,15 +66,18 @@ document.addEventListener('DOMContentLoaded', () => {
                         locked: true,
                         url: './lessons/js-basics/05.html'
                     },
+                    // ===================== INÍCIO DA ATUALIZAÇÃO DE DADOS =====================
                     {
                         id: 7,
-                        title: 'Linktree PARTE 1',
-                        type: 'learn',
-                        description: 'Prepare-se para criar sua própria página no linktree, onde você pode exibir todas as suas redes sociais e outros links importantes em um só lugar.',
+                        title: 'Linktree',
+                        type: 'guided_project', // Novo tipo
+                        description: 'Prepare-se para criar sua própria página no estilo Linktree, onde você pode exibir todas as suas redes sociais e outros links importantes em um só lugar.', // Nova propriedade
+                        subAction: 'PARTE 1', // Usando a mesma propriedade para consistência
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/05.html'
+                        url: './lessons/projects/linktree-p1.html' // URL de exemplo
                     },
+                    // ====================== FIM DA ATUALIZAÇÃO DE DADOS =======================
                     {
                         id: 8,
                         title: 'Código padrão',
@@ -83,6 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         locked: true,
                         url: './lessons/js-basics/04.html'
                     },
+                    // ... (o restante da sua estrutura de dados permanece igual)
                     {
                         id: 9,
                         title: 'Folha de Estilo e Seletores Básicos',
@@ -159,6 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                 ]
             },
+            // ... O restante da sua estrutura de dados continua aqui ...
             {
                 id: 2,
                 title: 'Páginas Web Interativas',
@@ -2113,12 +2118,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
+    // ===================== INÍCIO DA ATUALIZAÇÃO DA FUNÇÃO =====================
+    // A função renderLessonCard foi completamente reestruturada para suportar múltiplos layouts de card.
     const renderLessonCard = (lesson, index) => {
         const isFirstUnlocked = !lesson.locked && !lesson.completed;
         const lockIcon = '<i class="fas fa-lock status-icon"></i>';
-        const statusIcon = lesson.completed ? '<i class="fas fa-check-circle status-icon"></i>' : '<i class="far fa-circle status-icon"></i>';
+        const statusIcon = lesson.completed ? '<i class="fas fa-check-circle status-icon completed"></i>' : '<i class="far fa-circle status-icon"></i>';
         const linkAttributes = `href="${lesson.url}"`;
 
+        // Lógica para o card de certificado (sem alterações)
         if (lesson.type === 'certificate') {
             return `<a class="lesson-card certificate-card ${lesson.locked ? 'locked' : ''}" data-lesson-id="${lesson.id}" ${linkAttributes}>
                         <div class="cert-icon-area"><i class="fas fa-award"></i><span>JavaScript</span></div>
@@ -2128,25 +2136,65 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const lessonNumber = String(index + 1).padStart(2, '0');
-        let typeInfo = (lesson.type === 'learn') ? `<i class="fa-regular fa-file-lines"></i> APRENDER` : `<i class="fas fa-bolt"></i> PRÁTICA`;
-        let subButtonHTML = (lesson.type === 'practice') ? `<div class="sub-button-container"><button class="sub-button"><i class="fas fa-bolt"></i><div class="lesson-status">
-        ${lesson.subAction}</button>${lesson.locked ? lockIcon : statusIcon}</div>` : '';
 
+        // Variáveis para construir as partes do card dinamicamente
+        let topTypeInfo = '';
+        let bottomContentHTML = '';
+        let mainStatusIcon = '';
+
+        // Adiciona a classe do tipo de lição ao card para estilização (ex: 'learn-card', 'practice-card')
+        const typeClass = `${lesson.type}-card`;
+
+        // Lógica para construir o card com base no 'type' da lição
+        if (lesson.type === 'guided_project') {
+            // NOVO TIPO: Projeto Guiado
+            // Não possui 'typeInfo' no topo. A informação fica na parte de baixo.
+            bottomContentHTML = `
+                <div class="lesson-bottom-info">
+                    <span class="sub-action-text">${lesson.subAction || ''}</span>
+                    <div class="lesson-status">
+                        <span class="lesson-type ${lesson.type} guided-project-label"><i class="fas fa-code"></i> PROJETO GUIADO</span>
+                        ${lesson.locked ? lockIcon : statusIcon}
+                    </div>
+                </div>
+            `;
+        } else if (lesson.type === 'practice') {
+            // TIPO: Prática (existente)
+            topTypeInfo = `<span class="lesson-type ${lesson.type}"><i class="fas fa-bolt"></i> PRÁTICA</span>`;
+            bottomContentHTML = `
+                <div class="lesson-bottom-info">
+                    <button class="sub-button"><i class="fas fa-bolt"></i> ${lesson.subAction || ''}</button>
+                    <div class="lesson-status">
+                        ${lesson.locked ? lockIcon : statusIcon}
+                    </div>
+                </div>`;
+        } else {
+            // TIPO PADRÃO: Aprender (learn)
+            topTypeInfo = `<span class="lesson-type ${lesson.type}"><i class="fa-regular fa-file-lines"></i> APRENDER</span>`;
+            // Para o tipo 'learn', o ícone de status fica no topo.
+            mainStatusIcon = lesson.locked ? lockIcon : statusIcon;
+        }
+
+        // Renderização final do card, montando as peças
         return `
-            <a class="lesson-card ${lesson.locked ? 'locked' : ''} ${isFirstUnlocked ? 'active' : ''}" data-lesson-id="${lesson.id}" ${linkAttributes}>
+            <a class="lesson-card ${typeClass} ${lesson.locked ? 'locked' : ''} ${isFirstUnlocked ? 'active' : ''}" data-lesson-id="${lesson.id}" ${linkAttributes}>
                 <div class="lesson-main-info">
                     <div class="lesson-title-area">
                         <span class="lesson-number">${lessonNumber}</span>
                         <span class="lesson-title">${lesson.title}</span>
                     </div>
                     <div class="lesson-status">
-                        <span class="lesson-type ${lesson.type}">${typeInfo}</span>
-                        ${lesson.type !== 'practice' ? (lesson.locked ? lockIcon : statusIcon) : ''}
+                        ${topTypeInfo}
+                        ${mainStatusIcon}
                     </div>
                 </div>
-                ${subButtonHTML}
+                
+                ${lesson.description ? `<p class="lesson-description">${lesson.description}</p>` : ''}
+
+                ${bottomContentHTML}
             </a>`;
     };
+    // ====================== FIM DA ATUALIZAÇÃO DA FUNÇÃO =======================
 
     const renderApp = () => {
         renderSidebar();
