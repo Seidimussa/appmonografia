@@ -9,6 +9,12 @@
     --border-color: #e0e0e0;
     --green-completed: #226160;
     --yellow-practice: goldenrod;
+
+    /* --- ADIÇÃO: Cores para o novo card de Projeto --- */
+    --project-card-bg: #3B3B5E;
+    --project-card-accent: #57579c;
+    --project-card-text: #C1C1FF;
+    --project-card-border: rgba(255, 255, 255, 0.15);
 }
 
 * {
@@ -255,7 +261,7 @@ body {
     transition: all 0.2s ease;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    /* Removido o 'gap' para controle mais fino com margin/padding */
     text-decoration: none;
     color: inherit;
 }
@@ -279,6 +285,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 16px; /* Adicionado para espaçamento */
 }
 
 .lesson-title-area {
@@ -323,7 +330,7 @@ body {
     font-size: 1.2rem;
 }
 
-.status-icon.completed {
+.fa-check-circle.status-icon.completed, .status-icon.completed { /* Aumentando especificidade */
     color: var(--green-completed);
 }
 
@@ -334,9 +341,6 @@ body {
 .status-icon.unlocked {
     color: var(--text-muted);
 }
-
-/* Círculo vazio */
-
 
 .sub-button-container {
     border-top: 1px solid var(--border-color);
@@ -357,6 +361,65 @@ body {
     align-items: center;
     gap: 8px;
 }
+
+/* --- ADIÇÃO: Estilos do Card de Projeto Guiado --- */
+.lesson-card.guided-project-card {
+    background-color: var(--project-card-bg);
+    border-color: var(--project-card-accent);
+    color: var(--project-card-text);
+}
+
+.guided-project-card .lesson-number,
+.guided-project-card .lesson-title {
+    color: inherit; /* Herda a cor do card pai */
+}
+
+/* Estilo para a descrição que foi adicionada via JS */
+.lesson-card .lesson-description {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+/* Estilo para a parte inferior do card */
+.lesson-card .lesson-bottom-info {
+    border-top: 1px solid var(--project-card-border);
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lesson-bottom-info .sub-action-text {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Estilo para o selo "PROJETO GUIADO" */
+.lesson-type.guided-project-label {
+    border: 1px solid var(--project-card-text);
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.guided-project-label .fa-code {
+    margin-right: 6px;
+}
+
+/* Sobrescreve a cor do ícone de 'concluído' para o card de projeto */
+.guided-project-card .status-icon.completed {
+    color: var(--project-card-text);
+    background-color: var(--project-card-accent);
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem; /* Ajusta o tamanho do checkmark */
+}
+/* --- FIM DA ADIÇÃO --- */
 
 .next-section-card {
     background-color: var(--card-bg);
@@ -406,36 +469,6 @@ body {
     cursor: not-allowed;
 }
 
-
-
-/* Estilo para o container da parte inferior do card */
-.lesson-card .lesson-bottom-info {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* Estilo para o selo "PROJETO GUIADO" */
-.lesson-type.guided-project-label {
-    background-color: transparent;
-    border: 1px solid;
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-weight: bold;
-    color: goldenrod;
-}
-
-
-
-/* Estilo para o texto "PARTE 1" */
-.lesson-bottom-info .sub-action-text {
-    font-size: 14px;
-    text-transform: uppercase;
-}
-
-
-
 /* --- Responsividade --- */
 @media (min-width: 1024px) {
     .sidebar {
@@ -449,5 +482,27 @@ body {
     #open-sidebar-button,
     #close-sidebar-button {
         display: none;
+    }
+}
+/* --- ADIÇÃO: Ajustes de Responsividade para Telas Pequenas --- */
+@media (max-width: 600px) {
+    .main-content {
+        padding: 16px;
+    }
+    .section-title-header h1 {
+        font-size: 1.6rem;
+    }
+    .lesson-card {
+        padding: 16px;
+    }
+
+    .lesson-title-area {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .lesson-card .lesson-bottom-info {
+        align-items: flex-start; 
+        gap: 16px;  
     }
 }
