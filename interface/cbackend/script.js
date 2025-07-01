@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     {
                         id: 3,
                         title: 'Usando Verdadeiro e Falso',
-                        type: 'practice',
+                        type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/js-basics/05.html'
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     {
                         id: 5,
                         title: 'Noções básicas de JavaScript',
-                        type: 'learn',
+                        type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     {
                         id: 8,
                         title: 'Descobrindo Tipos',
-                        type: 'practice',
+                        type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/js-basics/05.html'
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     {
                         id: 10,
                         title: 'Tipos e Comparações',
-                        type: 'learn',
+                        type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
@@ -302,7 +302,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     {
                         id: 33,
                         title: 'Matrizes / arrays',
-                        type: 'learn',
+                        type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
@@ -319,7 +319,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     {
                         id: 35,
                         title: 'Criando Parâmetros',
-                        type: 'practice',
+                        type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/conditionals/05.html'
@@ -335,7 +335,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     {
                         id: 37,
                         title: 'Funções 1',
-                        type: 'learn',
+                        type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
@@ -360,7 +360,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     {
                         id: 40,
                         title: 'Funções 2',
-                        type: 'learn',
+                        type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
@@ -481,98 +481,115 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 4,
-                title: '',
-                description: '',
+                title: 'Objetos e ES6',
+                description: 'Aprenda a usar objetos e funções JS mais avançadas',
                 locked: true,
                 lessons: [{
                         id: 54,
-                        title: '',
+                        title: 'Agrupando valores em objetos',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/loops/01.html'
                     },
                     {
-                        id: 71,
-                        title: 'Atribuição com operadores',
+                        id: 55,
+                        title: 'Usando métodos de objeto',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/loops/02.html'
                     },
                     {
-                        id: 72,
-                        title: 'Repetindo código com loops While',
+                        id: 56,
+                        title: 'O que é JSON',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/loops/03.html'
                     },
                     {
-                        id: 73,
-                        title: 'Parando loops While',
-                        type: 'learn',
+                        id: 57,
+                        title: 'Objetos',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
                         url: './lessons/loops/04.html'
                     },
                     {
-                        id: 74,
-                        title: 'Laços 1',
+                        id: 58,
+                        title: 'Variáveis ​​e Escopo ES6',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/loops/01.html'
+                    },
+                    {
+                        id: 59,
+                        title: 'Funções de seta',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/loops/02.html'
+                    },
+                    {
+                        id: 60,
+                        title: 'Parâmetros da função de seta',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/loops/03.html'
+                    },
+                    {
+                        id: 61,
+                        title: 'ES6 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/loops/05.html'
+                        url: './lessons/loops/04.html'
                     },
                     {
-                        id: 75,
-                        title: 'Jogo de Adivinhação',
+                        id: 62,
+                        title: 'Blackjack',
                         type: 'guided_project',
-                        description: 'Crie seu próprio jogo! Nesta primeira parte, prepararemos o cenário elaborando a lógica básica do jogo. O objetivo é definir as regras e deixar os jogadores darem o seu melhor.',
+                        description: 'No Blackjack, usaremos o que aprendemos até agora para construir nossa própria versão do clássico jogo de cartas',
                         subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 76,
-                        title: 'Controlando loops While',
+                        id: 63,
+                        title: 'Literais de modelo',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/loops/07.html'
                     },
                     {
-                        id: 77,
-                        title: 'Repetindo código com loops For',
+                        id: 64,
+                        title: 'Desestruturação',
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/loops/08.html'
+                        url: './lessons/loops/07.html'
                     },
                     {
-                        id: 78,
-                        title: 'Looping para baixo',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/loops/08.html'
-                    },
-                    {
-                        id: 79,
-                        title: 'Laços 2',
+                        id: 65,
+                        title: 'ES6 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/loops/09.html'
+                        url: './lessons/loops/08.html'
                     },
                     {
-                        id: 80,
-                        title: 'Jogo de Adivinhação',
+                        id: 66,
+                        title: 'Blackjack',
                         type: 'guided_project',
-                        description: 'Pronto para aumentar as apostas? Agora, estamos introduzindo vidas ao nosso jogo, adicionando aquela camada extra de desafio e suspense. Pronto, Jogador 1?',
+                        description: 'Na segunda parte do projeto, completaremos o jogo para podermos jogar contra o computador',
                         subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
@@ -586,7 +603,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Crie belos layouts usando Flexbox',
                 locked: true,
                 lessons: [{
-                        id: 81,
+                        id: 67,
                         title: 'Compreendendo o Flexbox',
                         type: 'learn',
                         completed: false,
