@@ -2026,27 +2026,33 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 227,
-                        title: 'Pokédex PARTE 1',
-                        type: 'learn',
+                        title: 'Pokédex',
+                        type: 'guided_project',
+                        description: 'Estabeleça a base para seu Pokédex buscando dados de Pokémon de uma API e exibindo-os',
+                        subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-classes/01.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                     {
                         id: 228,
-                        title: 'Pokédex PARTE 2',
-                        type: 'learn',
+                        title: 'Pokédex',
+                        type: 'guided_project',
+                        description: 'Melhore seu Pokédex com um recurso de busca para encontrar rapidamente seus Pokémon favoritos',
+                        subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-classes/02.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                     {
                         id: 229,
-                        title: 'Pokédex PARTE 3',
-                        type: 'learn',
+                        title: 'Pokédex',
+                        type: 'guided_project',
+                        description: 'Complete seu Pokédex implementando uma visão detalhada para Pokémon individuais',
+                        subAction: 'PARTE 3',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-classes/03.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                 ]
             }
