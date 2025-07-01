@@ -1768,11 +1768,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 198,
-                        title: 'Contador de pontos PARTE 1',
-                        type: 'learn',
+                        title: 'Contador de pontos',
+                        type: 'guided_project',
+                        description: 'Crie um aplicativo React para monitorar as pontuações de duas equipes usando recursos essenciais do React',
+                        subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-events/04.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                     {
                         id: 199,
@@ -1801,11 +1803,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 202,
-                        title: 'Contador de pontos PARTE 2',
-                        type: 'learn',
+                        title: 'Contador de pontos',
+                        type: 'guided_project',
+                        description: 'Nesta segunda parte, daremos vida ao aplicativo Score Keeper com estilo',
+                        subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-events/04.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                 ]
             },
@@ -1914,11 +1918,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 215,
-                        title: 'Clone de Wordle PARTE 1',
-                        type: 'learn',
+                        title: 'Clone de Wordle',
+                        type: 'guided_project',
+                        description: 'Recrie o mundialmente famoso jogo de palavras construindo sua lógica e mecânica central, passo a passo',
+                        subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
-                        url: './lessons/async/03.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                 ]
             },
