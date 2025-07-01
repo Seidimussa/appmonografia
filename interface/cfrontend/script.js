@@ -412,7 +412,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/05.html'
                     },
                     {
-                        id: 35,
+                        id: 47,
                         title: 'Conversor de unidades',
                         type: 'guided_project',
                         description: 'Agora que temos nosso conversor básico instalado e funcionando, é hora de torná-lo mais interativo e aprimorar seu estilo',
@@ -527,12 +527,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/conditionals/05.html'
                     },
                     {
-                        id: 60,
-                        title: 'Cardápio da cafeteria PARTE 1',
-                        type: 'learn',
+                       id: 60,
+                        title: 'Cardápio da cafeteria',
+                        type: 'guided_project',
+                        description: 'Mergulhe no mundo de uma cafeteria movimentada, onde você criará um cardápio detalhado e envolvente. Não se trata apenas de listar espressos e lattes; trata-se de estruturar as informações de forma rica e organizada.',
+                        subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/03.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                     {
                         id: 61,
@@ -601,12 +603,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/conditionals/03.html'
                     },
                     {
-                        id: 69,
-                        title: 'Cardápio da cafeteria PARTE 2',
-                        type: 'learn',
+                      id: 47,
+                        title: 'Cardápio da cafeteria',
+                        type: 'guided_project',
+                        description: 'Com a estrutura do nosso cardápio pronta, vamos dar vida a ele! Esta fase visa tornar o cardápio da nossa cafeteria visualmente atraente e intuitivo.',
+                        subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/04.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                 ]
             },
