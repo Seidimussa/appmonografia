@@ -1114,11 +1114,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 126,
-                        title: 'Jogo de perguntas e respostas PARTE 1',
-                        type: 'learn',
+                        title: 'Jogo de perguntas e respostas',
+                        type: 'guided_project',
+                        description: 'Pronto para desafiar seus amigos? Nesta apresentação, vamos preparar o cenário para o nosso jogo, adicionando a primeira pergunta e apresentando a mecânica essencial do jogo.',
+                        subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
-                        url: './lessons/objects/01.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                     {
                         id: 127,
@@ -1213,11 +1215,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 138,
-                        title: 'Jogo de perguntas e respostas PARTE 2',
-                        type: 'learn',
+                        title: 'Jogo de perguntas e respostas',
+                        type: 'guided_project',
+                        description: 'Com a lógica implementada, agora tudo se resume ao engajamento do jogador. Vamos aprimorar nosso jogo, introduzindo várias perguntas e exibindo uma pontuação.',
+                        subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
-                        url: './lessons/objects/03.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                 ]
             },
@@ -1261,11 +1265,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 143,
-                        title: 'Rick e Morty PARTE 1',
-                        type: 'learn',
+                        title: 'Rick e Morty',
+                        type: 'guided_project',
+                        description: 'Pronto para embarcar em uma jornada interdimensional? Nesta fase, vamos mergulhar no multiverso do JSON. Analisaremos e apresentaremos dados do mundo de Rick e Morty, estabelecendo a base para nossa bússola de personagens.',
+                        subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
-                        url: './lessons/applied-functions/05.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                     {
                         id: 144,
@@ -1327,11 +1333,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 151,
-                        title: 'Rick e Morty PARTE 2',
-                        type: 'learn',
+                        title: 'Rick e Morty',
+                        type: 'guided_project',
+                        description: 'É hora de se conectar com o cosmos! Agora, estamos migrando do JSON local para a extração de dados em tempo real por meio de uma API. Aproveite o poder da conectividade da web para buscar e exibir detalhes dinâmicos do universo de Rick e Morty.',
+                        subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
-                        url: './lessons/applied-functions/05.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                 ]
             },
@@ -1424,11 +1432,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 162,
-                        title: 'Cifra de César PARTE 1',
-                        type: 'learn',
+                        title: 'Cifra de César',
+                        type: 'guided_project',
+                        description: 'Entre no mundo da criptografia! Neste projeto, estamos construindo um tradutor de Cifra de César ao vivo. Insira sua mensagem e veja como ela é codificada perfeitamente diante dos seus olhos.',
+                        subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
-                        url: './lessons/es6/06.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                 ]
             },
@@ -1522,11 +1532,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 173,
-                        title: 'Portfólio de Máquina de Escrever PARTE 1',
-                        type: 'learn',
+                        title: 'Portfólio de Máquina de Escrever',
+                        type: 'guided_project',
+                        description: 'Abrace o charme do passado com um toque moderno! Neste projeto, estamos criando uma página de portfólio pessoal com o estilo de uma máquina de escrever clássica. Suas conquistas, experiências e habilidades são "digitadas" na tela, apresentando sua jornada de uma forma cativante e nostálgica.',
+                        subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
-                        url: './lessons/array-operations/03.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                 ]
             },
