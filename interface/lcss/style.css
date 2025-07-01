@@ -1,15 +1,20 @@
-/* --- Variáveis de Cores e Estilos Globais (Conforme o seu original) --- */
+/* --- Variáveis de Cores e Estilos Globais (Tema Claro) --- */
 :root {
-    --bg-dark: #F0F2F5;
-    --bg-sidebar: #e6ecf5;
+    --bg-light: #F0F2F5;
+    --bg-sidebar: #FFFFFF;
     --card-bg: #fff;
-    --card-bg-active: #FFFFFF;
     --purple-highlight: #226160;
-    --text-light: #333333;
-    --text-muted: #515158;
-    --border-color: #aecfb3;
+    --text-dark: #333333;
+    --text-muted: #6c757d;
+    --border-color: #e0e0e0;
     --green-completed: #226160;
     --yellow-practice: goldenrod;
+
+    /* --- ADIÇÃO: Cores para o novo card de Projeto --- */
+    --project-card-bg: #3B3B5E;
+    --project-card-accent: #57579c;
+    --project-card-text: #C1C1FF;
+    --project-card-border: rgba(255, 255, 255, 0.15);
 }
 
 * {
@@ -20,8 +25,8 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: var(--bg-dark);
-    color: var(--text-light);
+    background-color: var(--bg-light);
+    color: var(--text-dark);
 }
 
 .dashboard-layout {
@@ -38,7 +43,7 @@ body {
 }
 
 .icon-button:hover {
-    color: var(--text-light);
+    color: var(--text-dark);
 }
 
 /* --- Barra Lateral (Sidebar) --- */
@@ -56,6 +61,7 @@ body {
     transform: translateX(-100%);
     transition: transform 0.3s ease-in-out;
     z-index: 1000;
+    border-right: 1px solid var(--border-color);
 }
 
 .sidebar.visible {
@@ -74,7 +80,8 @@ body {
 }
 
 .sidebar-cert-card {
-    background-color: var(--card-bg);
+    background-color: #f8f9fa;
+    border: 1px solid var(--border-color);
     border-radius: 8px;
     padding: 16px;
     display: flex;
@@ -84,7 +91,7 @@ body {
 
 .sidebar-cert-card .fa-award {
     font-size: 2rem;
-    color: goldenrod;
+    color: var(--yellow-practice);
 }
 
 .cert-info {
@@ -97,7 +104,7 @@ body {
 }
 
 .progress-bar-container {
-    background-color: var(--border-color);
+    background-color: #e9ecef;
     border-radius: 99px;
     height: 6px;
     overflow: hidden;
@@ -127,6 +134,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    overflow-y: auto;
 }
 
 .section-nav-item {
@@ -140,7 +148,7 @@ body {
 }
 
 .section-nav-item:hover {
-    background-color: var(--border-color);
+    background-color: #f1f3f5;
 }
 
 .section-nav-item.active {
@@ -149,7 +157,7 @@ body {
 }
 
 .section-nav-item.locked {
-    opacity: 0.5;
+    opacity: 0.6;
     cursor: not-allowed;
 }
 
@@ -163,6 +171,7 @@ body {
 
 .section-nav-item .status {
     font-size: 0.9rem;
+    font-weight: 600;
     color: var(--text-muted);
 }
 
@@ -221,15 +230,14 @@ body {
     border-radius: 50%;
     display: grid;
     place-items: center;
-    background: conic-gradient(var(--purple-highlight) 0deg, var(--card-bg) 0deg);
+    background: conic-gradient(var(--purple-highlight) 0deg, #e9ecef 0deg);
     transition: background 0.5s ease-in-out;
-    border: 1px solid var(--border-color);
 }
 
 .progress-text {
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--text-light);
+    color: var(--text-dark);
 }
 
 .lessons-label {
@@ -253,10 +261,9 @@ body {
     transition: all 0.2s ease;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    /* Removido o 'gap' para controle mais fino com margin/padding */
     text-decoration: none;
     color: inherit;
-    cursor: default;
 }
 
 .lesson-card.active {
@@ -264,8 +271,9 @@ body {
     cursor: pointer;
 }
 
-.lesson-card.active:hover {
+.lesson-card:not(.locked):hover {
     transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .lesson-card.locked {
@@ -277,6 +285,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 16px; /* Adicionado para espaçamento */
 }
 
 .lesson-title-area {
@@ -316,12 +325,21 @@ body {
     color: var(--yellow-practice);
 }
 
+/* Estilos para os ícones de status da lição */
 .status-icon {
     font-size: 1.2rem;
 }
 
-.status-icon.fa-check-circle {
+.fa-check-circle.status-icon.completed, .status-icon.completed { /* Aumentando especificidade */
     color: var(--green-completed);
+}
+
+.status-icon.locked {
+    color: var(--text-muted);
+}
+
+.status-icon.unlocked {
+    color: var(--text-muted);
 }
 
 .sub-button-container {
@@ -344,12 +362,71 @@ body {
     gap: 8px;
 }
 
+/* --- ADIÇÃO: Estilos do Card de Projeto Guiado --- */
+.lesson-card.guided-project-card {
+    background-color: var(--project-card-bg);
+    border-color: var(--project-card-accent);
+    color: var(--project-card-text);
+}
+
+.guided-project-card .lesson-number,
+.guided-project-card .lesson-title {
+    color: inherit; /* Herda a cor do card pai */
+}
+
+/* Estilo para a descrição que foi adicionada via JS */
+.lesson-card .lesson-description {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+/* Estilo para a parte inferior do card */
+.lesson-card .lesson-bottom-info {
+    border-top: 1px solid var(--project-card-border);
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lesson-bottom-info .sub-action-text {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Estilo para o selo "PROJETO GUIADO" */
+.lesson-type.guided-project-label {
+    border: 1px solid var(--project-card-text);
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.guided-project-label .fa-code {
+    margin-right: 6px;
+}
+
+/* Sobrescreve a cor do ícone de 'concluído' para o card de projeto */
+.guided-project-card .status-icon.completed {
+    color: var(--project-card-text);
+    background-color: var(--project-card-accent);
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem; /* Ajusta o tamanho do checkmark */
+}
+/* --- FIM DA ADIÇÃO --- */
+
 .next-section-card {
     background-color: var(--card-bg);
     border-radius: 8px;
-    border: 1px solid var(--border-color);
     padding: 24px;
     margin-top: 32px;
+    border: 1px solid var(--border-color);
 }
 
 .next-section-card p {
@@ -383,15 +460,14 @@ body {
 }
 
 .continue-button:hover:not(:disabled) {
-    background-color: #1a4a49;
+    background-color: #2c7a78;
 }
 
 .continue-button:disabled {
-    background-color: var(--border-color);
+    background-color: #ced4da;
     color: var(--text-muted);
     cursor: not-allowed;
 }
-
 .certificate-card {
     flex-direction: row !important;
     align-items: center;
@@ -403,11 +479,11 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 4px;
+    background-color: var(--card-bg-active);
     background-color: #053b15;
-    /* Cor escura do seu exemplo original */
     padding: 8px 12px;
     border-radius: 8px;
-    color: #F0F2F5;
+    color: white;
 }
 
 .certificate-card .cert-icon-area .fa-award {
@@ -441,5 +517,27 @@ body {
     #open-sidebar-button,
     #close-sidebar-button {
         display: none;
+    }
+}
+/* --- ADIÇÃO: Ajustes de Responsividade para Telas Pequenas --- */
+@media (max-width: 600px) {
+    .main-content {
+        padding: 16px;
+    }
+    .section-title-header h1 {
+        font-size: 1.6rem;
+    }
+    .lesson-card {
+        padding: 16px;
+    }
+
+    .lesson-title-area {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .lesson-card .lesson-bottom-info {
+        align-items: flex-start; 
+        gap: 16px;  
     }
 }
