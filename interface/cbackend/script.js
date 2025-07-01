@@ -13,12 +13,12 @@ document.addEventListener('DOMContentLoaded', () => {
         currentSectionId: 1,
         sections: [{
                 id: 1,
-                title: 'Introdução ao Desenvolvimento Web',
-                description: 'Crie páginas da web usando HTML e CSS',
+                title: 'Introdução ao JavaScript',
+                description: 'Mergulhe no JavaScript e aprenda o que há de tão especial',
                 locked: false,
                 lessons: [{
                         id: 1,
-                        title: 'descobrindo HTML e Tags',
+                        title: 'Criando Variáveis',
                         type: 'learn',
                         completed: false,
                         locked: false,
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 2,
-                        title: 'Estruturando texto com tags',
+                        title: 'Usando Variáveis',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -34,16 +34,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 3,
-                        title: 'Noções básicas de HTML 1',
+                        title: 'Usando Verdadeiro e Falso',
                         type: 'practice',
-                        subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
                         url: './lessons/js-basics/05.html'
                     },
                     {
                         id: 4,
-                        title: 'Criando Links',
+                        title: 'Verificando a Igualidade numérica',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -51,113 +50,69 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 5,
-                        title: 'Adicionando Imagens',
+                        title: 'Noções básicas de JavaScript',
                         type: 'learn',
+                        subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
                         url: './lessons/js-basics/04.html'
                     },
                     {
                         id: 6,
-                        title: 'Noções básicas de HTML 2',
+                        title: 'Comparando números',
+                        type: 'learn',
+                        completed: false,
+                        locked: false,
+                        url: './lessons/js-basics/01.html'
+                    },
+                    {
+                        id: 7,
+                        title: 'Comparando Strings',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-basics/02.html'
+                    },
+                    {
+                        id: 8,
+                        title: 'Descobrindo Tipos',
                         type: 'practice',
-                        subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
                         url: './lessons/js-basics/05.html'
                     },
-                    // ===================== INÍCIO DA ATUALIZAÇÃO DE DADOS =====================
-                    {
-                        id: 7,
-                        title: 'Linktree',
-                        type: 'guided_project',
-                        description: 'Prepare-se para criar sua própria página no estilo Linktree, onde você pode exibir todas as suas redes sociais e outros links importantes em um só lugar.',
-                        subAction: 'PARTE 1',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/projects/linktree-p1.html'
-                    },
-                    // ====================== FIM DA ATUALIZAÇÃO DE DADOS =======================
-                    {
-                        id: 8,
-                        title: 'Código padrão',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/js-basics/04.html'
-                    },
-                    // ... (o restante da sua estrutura de dados permanece igual)
                     {
                         id: 9,
-                        title: 'Folha de Estilo e Seletores Básicos',
+                        title: 'Operadores Lógicos',
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/04.html'
+                        url: './lessons/js-basics/03.html'
                     },
                     {
                         id: 10,
-                        title: 'Estilizando texto',
+                        title: 'Tipos e Comparações',
                         type: 'learn',
+                        subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
                         url: './lessons/js-basics/04.html'
                     },
                     {
                         id: 11,
-                        title: 'Definindo tamanho e bordas',
-                        type: 'learn',
+                        title: 'Programa Interruptor de Luz',
+                        type: 'guided_project',
+                        description: 'Crie seu primeiro projeto Javascript para operar um interruptor de luz',
+                        subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/04.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                     {
                         id: 12,
-                        title: 'Noções básicas de CSS 1',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/js-basics/05.html'
-                    },
-                    {
-                        id: 13,
-                        title: 'Construindo com o modelo de caixa',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/js-basics/04.html'
-                    },
-                    {
-                        id: 14,
-                        title: 'Adicionando preenchimento com uma linha',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/js-basics/04.html'
-                    },
-                    {
-                        id: 15,
-                        title: 'Estilizando cantos com uma linha',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/js-basics/04.html'
-                    },
-                    {
-                        id: 16,
-                        title: 'Noções básicas de CSS 2',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/js-basics/05.html'
-                    },
-                    {
-                        id: 17,
-                        title: 'Linktree',
+                        title: 'Programa Interruptor de Luz',
                         type: 'guided_project',
-                        description: 'Agora que você configurou o HTML da sua página no estilo Linktree, é hora de dar um toque especial! Nesta parte, usaremos CSS para estilizar e dar personalidade à sua página',
+                        description: 'Na segunda parte do projeto, adicionaremos condições adicionais para verificar se as luzes acenderão',
                         subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
@@ -165,14 +120,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                 ]
             },
-            // ... O restante da sua estrutura de dados continua aqui ...
             {
                 id: 2,
                 title: 'Páginas Web Interativas',
                 description: 'Use HTML e JavaScript para criar páginas da web interativas',
                 locked: true,
                 lessons: [{
-                        id: 18,
+                        id: 13,
                         title: 'Criando Variáveis',
                         type: 'learn',
                         completed: false,
