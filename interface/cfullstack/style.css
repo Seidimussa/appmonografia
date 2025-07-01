@@ -1,136 +1,543 @@
-/* --- Variáveis de Cores e Estilos Globais (Tema Escuro - Mimo) --- */
+/* --- Variáveis de Cores e Estilos Globais (Tema Claro) --- */
 :root {
-    --bg-dark: #181821;
-    --bg-sidebar: #20202c;
-    --card-bg: #2b2b3a;
-    --card-bg-hover: #3c3c50;
-    --purple-highlight: #8a42ff;
-    --purple-light: #a371f7;
-    --text-light: #fdfdfd;
-    --text-muted: #91919c;
-    --border-color: #43435a;
-    --green-completed: #00c853;
-    --yellow-practice: #ffd600;
-    --mimo-icon-color: #4d4d6b;
+    --bg-light: #F0F2F5;
+    --bg-sidebar: #FFFFFF;
+    --card-bg: #fff;
+    --purple-highlight: #226160;
+    --text-dark: #333333;
+    --text-muted: #6c757d;
+    --border-color: #e0e0e0;
+    --green-completed: #226160;
+    --yellow-practice: goldenrod;
+
+    /* --- ADIÇÃO: Cores para o novo card de Projeto --- */
+    --project-card-bg: #3B3B5E;
+    --project-card-accent: #57579c;
+    --project-card-text: #C1C1FF;
+    --project-card-border: rgba(255, 255, 255, 0.15);
 }
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: var(--bg-dark);
-    color: var(--text-light);
+    background-color: var(--bg-light);
+    color: var(--text-dark);
 }
 
-.dashboard-layout { display: flex; }
-.icon-button { background: none; border: none; color: var(--text-muted); font-size: 1.25rem; cursor: pointer; transition: color 0.2s; }
-.icon-button:hover { color: var(--text-light); }
+.dashboard-layout {
+    display: flex;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.icon-button:hover {
+    color: var(--text-dark);
+}
 
 /* --- Barra Lateral (Sidebar) --- */
 .sidebar {
-    width: 320px; height: 100vh; background-color: var(--bg-sidebar); padding: 24px;
-    display: flex; flex-direction: column; gap: 24px; position: fixed; left: 0; top: 0;
-    transform: translateX(-100%); transition: transform 0.3s ease-in-out;
-    z-index: 1000; border-right: 1px solid var(--border-color);
+    width: 320px;
+    height: 100vh;
+    background-color: var(--bg-sidebar);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+    border-right: 1px solid var(--border-color);
 }
-.sidebar.visible { transform: translateX(0); }
-.sidebar-header { display: flex; justify-content: space-between; align-items: flex-start; }
-.sidebar-header .header-info .career-track { font-size: 0.8rem; color: var(--text-muted); font-weight: 500; margin-bottom: 4px; }
-.sidebar-header .header-info h3 { font-size: 1.25rem; }
-.sidebar-header .sidebar-actions { display: flex; gap: 16px; }
+
+.sidebar.visible {
+    transform: translateX(0);
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar-header .sidebar-actions {
+    display: flex;
+    gap: 16px;
+}
 
 .sidebar-cert-card {
-    background: linear-gradient(90deg, #3a3a4a, #2b2b3a); border-radius: 8px;
-    padding: 16px; display: flex; align-items: center; gap: 16px;
+    background-color: #f8f9fa;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
-.sidebar-cert-card .fa-shield-alt { font-size: 2.5rem; color: var(--purple-light); }
-.cert-info { flex-grow: 1; }
-.cert-info p { font-weight: 600; margin-bottom: 8px; }
-.progress-bar-container { background-color: var(--border-color); border-radius: 99px; height: 6px; overflow: hidden; margin-bottom: 4px; }
-.progress-bar { height: 100%; width: 0%; background-color: var(--purple-highlight); border-radius: 99px; transition: width 0.5s ease-in-out; }
-.cert-info span { font-size: 0.8rem; color: var(--text-muted); }
 
-.sidebar-label { font-size: 0.9rem; color: var(--text-muted); text-transform: uppercase; font-weight: 600; }
-.sections-nav-list { display: flex; flex-direction: column; gap: 8px; overflow-y: auto; }
-.section-nav-item { display: flex; justify-content: space-between; align-items: center; padding: 12px; border-radius: 6px; cursor: pointer; transition: background-color 0.2s; font-weight: 500; }
-.section-nav-item:hover:not(.locked) { background-color: var(--card-bg); }
-.section-nav-item.active { background-color: var(--purple-highlight); color: #fff; }
-.section-nav-item.locked { color: var(--text-muted); cursor: not-allowed; }
-.section-nav-item .status .fa-check { color: var(--text-light); }
-.section-nav-item .status .m-icon { font-family: monospace; font-weight: bold; }
+.sidebar-cert-card .fa-award {
+    font-size: 2rem;
+    color: var(--yellow-practice);
+}
+
+.cert-info {
+    flex-grow: 1;
+}
+
+.cert-info p {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.progress-bar-container {
+    background-color: #e9ecef;
+    border-radius: 99px;
+    height: 6px;
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    background-color: var(--purple-highlight);
+    border-radius: 99px;
+    transition: width 0.5s ease-in-out;
+}
+
+.cert-info span {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.sidebar-label {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+}
+
+.sections-nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    overflow-y: auto;
+}
+
+.section-nav-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.section-nav-item:hover {
+    background-color: #f1f3f5;
+}
+
+.section-nav-item.active {
+    background-color: var(--purple-highlight);
+    color: #fff;
+}
+
+.section-nav-item.locked {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.section-nav-item.locked:hover {
+    background: none;
+}
+
+.section-nav-item .title {
+    font-weight: 500;
+}
+
+.section-nav-item .status {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-muted);
+}
+
+.section-nav-item.active .status {
+    color: #fff;
+}
 
 /* --- Conteúdo Principal --- */
-.main-content { flex-grow: 1; padding: 24px 32px; transition: margin-left 0.3s ease-in-out; }
-.main-header { display: flex; align-items: center; gap: 16px; margin-bottom: 32px; }
-.main-header .header-progress-area { display: flex; align-items: center; gap: 24px; flex-grow: 1; }
-.main-header .header-progress-area h2 { font-size: 1.2rem; color: var(--text-muted); }
-.main-header .header-progress-container { flex-grow: 1; display: flex; align-items: center; gap: 12px; }
-.main-header .header-progress-container .progress-bar-container { height: 8px; }
-.main-header #main-header-progress-text { font-size: 0.9rem; font-weight: 600; }
+.main-content {
+    flex-grow: 1;
+    padding: 24px;
+    transition: margin-left 0.3s ease-in-out;
+}
 
-.section-details { margin-bottom: 32px; }
-.section-label { font-size: 0.9rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px; font-weight: 600; }
-.section-title-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; }
-.section-title-header h1 { font-size: 2rem; margin-bottom: 4px; }
-.section-description { color: var(--text-muted); max-width: 600px; }
-.progress-circle { width: 80px; height: 80px; border-radius: 50%; display: grid; place-items: center; background: conic-gradient(var(--purple-highlight) 0deg, var(--card-bg) 0deg); transition: background 0.5s ease-in-out; flex-shrink: 0; }
-.progress-text { font-size: 1.5rem; font-weight: 600; color: var(--text-light); }
-.lessons-label { font-size: 0.9rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 16px; font-weight: 600; }
-.lessons-list { display: flex; flex-direction: column; gap: 12px; }
+.main-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+}
 
-.lesson-card { background-color: var(--card-bg); border-radius: 8px; padding: 16px 20px; transition: background-color 0.2s; text-decoration: none; color: inherit; border: 1px solid var(--border-color); cursor: pointer; }
-.lesson-card:not(.locked):hover { background-color: var(--card-bg-hover); }
-.lesson-card.locked { opacity: 0.6; cursor: not-allowed; }
-.lesson-main-info, .sub-button-container { display: flex; justify-content: space-between; align-items: center; }
-.lesson-title-area { display: flex; align-items: center; gap: 20px; }
-.lesson-number { font-size: 1rem; font-weight: 500; color: var(--text-muted); }
-.lesson-title { font-size: 1.1rem; font-weight: 500; }
-.lesson-status { display: flex; align-items: center; gap: 16px; }
-.lesson-type { font-size: 0.8rem; font-weight: 600; text-transform: uppercase; display: flex; align-items: center; gap: 8px; color: var(--text-light); }
-.lesson-type.practice { color: var(--yellow-practice); }
-.status-icon { font-size: 1.5rem; width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; }
-.status-icon.completed { background-color: var(--purple-highlight); }
-.status-icon.practice-completed { background-color: var(--yellow-practice); }
-.status-icon.locked-icon { background-color: var(--mimo-icon-color); font-family: monospace; font-weight: bold; font-size: 1rem; }
-.status-icon i { font-size: 0.9rem; }
-.sub-button-container { border-top: 1px solid var(--border-color); padding-top: 16px; margin-top: 16px; }
-.sub-button { background: none; border: none; color: var(--yellow-practice); font-size: 0.9rem; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 8px; }
+.main-header h2 {
+    font-size: 1.5rem;
+}
 
-/* Card de Projeto Guiado e Opcional */
-.guided-project-card { padding: 24px; display: flex; flex-direction: column; gap: 16px; }
-.guided-project-header { display: flex; gap: 16px; align-items: flex-start; }
-.guided-project-info { flex-grow: 1; }
-.guided-project-info .lesson-title { font-size: 1.25rem; font-weight: 600; margin-bottom: 8px; display: block; }
-.guided-project-info .lesson-description { color: var(--text-muted); font-size: 0.95rem; line-height: 1.5; }
-.guided-project-preview { width: 150px; height: 90px; background-color: var(--bg-dark); border-radius: 8px; flex-shrink: 0; }
-.guided-project-footer { display: flex; justify-content: space-between; align-items: center; }
-.guided-project-footer .lesson-type { color: var(--purple-light); }
+.section-details {
+    margin-bottom: 32px;
+}
 
-/* Card de Anúncio */
-.advertisement-card { background: linear-gradient(45deg, #5f27cd, #8a42ff); padding: 24px; border-radius: 12px; display: flex; gap: 24px; align-items: center; border: none; cursor: default; }
-.ad-content h3 { font-size: 1.5rem; margin-bottom: 8px; }
-.ad-content p { color: #e0d1ff; margin-bottom: 24px; }
-.ad-content .ad-author { display: flex; align-items: center; gap: 8px; font-size: 0.9rem; font-weight: 500; }
-.ad-author i { font-size: 1.5rem; }
-.ad-features { background-color: rgba(0,0,0,0.2); padding: 20px; border-radius: 8px; }
-.ad-features h4 { text-transform: uppercase; font-size: 1.2rem; margin-bottom: 16px; }
-.ad-features ul { list-style: none; display: flex; flex-direction: column; gap: 12px; }
-.ad-features ul li { display: flex; align-items: center; gap: 12px; }
-.ad-features ul li .fa-check-circle { color: var(--green-completed); }
-.ad-button { background-color: #fff; color: #000; border: none; padding: 14px 24px; border-radius: 25px; font-size: 1rem; font-weight: 700; cursor: pointer; text-align: center; margin-top: 16px; display: block; width: 100%; }
+.section-label {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
 
-/* Next Section Card */
-.next-section-card { background-color: var(--card-bg); border-radius: 8px; padding: 24px; margin-top: 32px; border: 1px solid var(--border-color); }
-.next-section-card p { font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px; font-weight: 600; }
-.next-section-content { display: flex; justify-content: space-between; align-items: center; }
-.next-section-content span { font-size: 1.2rem; font-weight: 600; }
-.continue-button { background-color: var(--purple-highlight); color: #fff; border: none; padding: 12px 24px; border-radius: 25px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: background-color 0.2s; }
-.continue-button:hover:not(:disabled) { background-color: var(--purple-light); }
-.continue-button:disabled { background-color: var(--border-color); color: var(--text-muted); cursor: not-allowed; }
+.section-title-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.section-title-header h1 {
+    font-size: 2rem;
+    margin-bottom: 4px;
+}
+
+.section-description {
+    color: var(--text-muted);
+}
+
+.progress-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: conic-gradient(var(--purple-highlight) 0deg, #e9ecef 0deg);
+    transition: background 0.5s ease-in-out;
+}
+
+.progress-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+.lessons-label {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.lessons-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.lesson-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+    transition: all 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    /* Removido o 'gap' para controle mais fino com margin/padding */
+    text-decoration: none;
+    color: inherit;
+}
+
+.lesson-card.active {
+    border-left: 3px solid var(--purple-highlight);
+    cursor: pointer;
+}
+
+.lesson-card:not(.locked):hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.lesson-card.locked {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.lesson-main-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px; /* Adicionado para espaçamento */
+}
+
+.lesson-title-area {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.lesson-number {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--text-muted);
+}
+
+.lesson-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.lesson-status {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: var(--text-muted);
+}
+
+.lesson-type {
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.lesson-type.practice {
+    color: var(--yellow-practice);
+}
+
+/* Estilos para os ícones de status da lição */
+.status-icon {
+    font-size: 1.2rem;
+}
+
+.fa-check-circle.status-icon.completed, .status-icon.completed { /* Aumentando especificidade */
+    color: var(--green-completed);
+}
+
+.status-icon.locked {
+    color: var(--text-muted);
+}
+
+.status-icon.unlocked {
+    color: var(--text-muted);
+}
+
+.sub-button-container {
+    border-top: 1px solid var(--border-color);
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-button {
+    background: none;
+    border: none;
+    color: var(--yellow-practice);
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* --- ADIÇÃO: Estilos do Card de Projeto Guiado --- */
+.lesson-card.guided-project-card {
+    background-color: var(--project-card-bg);
+    border-color: var(--project-card-accent);
+    color: var(--project-card-text);
+}
+
+.guided-project-card .lesson-number,
+.guided-project-card .lesson-title {
+    color: inherit; /* Herda a cor do card pai */
+}
+
+/* Estilo para a descrição que foi adicionada via JS */
+.lesson-card .lesson-description {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+/* Estilo para a parte inferior do card */
+.lesson-card .lesson-bottom-info {
+    border-top: 1px solid var(--project-card-border);
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lesson-bottom-info .sub-action-text {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Estilo para o selo "PROJETO GUIADO" */
+.lesson-type.guided-project-label {
+    border: 1px solid var(--project-card-text);
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.guided-project-label .fa-code {
+    margin-right: 6px;
+}
+
+/* Sobrescreve a cor do ícone de 'concluído' para o card de projeto */
+.guided-project-card .status-icon.completed {
+    color: var(--project-card-text);
+    background-color: var(--project-card-accent);
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem; /* Ajusta o tamanho do checkmark */
+}
+/* --- FIM DA ADIÇÃO --- */
+
+.next-section-card {
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    padding: 24px;
+    margin-top: 32px;
+    border: 1px solid var(--border-color);
+}
+
+.next-section-card p {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.next-section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.next-section-content span {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.continue-button {
+    background-color: var(--purple-highlight);
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.continue-button:hover:not(:disabled) {
+    background-color: #2c7a78;
+}
+
+.continue-button:disabled {
+    background-color: #ced4da;
+    color: var(--text-muted);
+    cursor: not-allowed;
+}
+.certificate-card {
+    flex-direction: row !important;
+    align-items: center;
+    gap: 20px;
+}
+
+.certificate-card .cert-icon-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    background-color: var(--card-bg-active);
+    background-color: #053b15;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: white;
+}
+
+.certificate-card .cert-icon-area .fa-award {
+    font-size: 1.5rem;
+    color: goldenrod;
+}
+
+.certificate-card .cert-icon-area span {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.certificate-card .cert-title {
+    flex-grow: 1;
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
 
 /* --- Responsividade --- */
 @media (min-width: 1024px) {
-    .sidebar { transform: translateX(0); }
-    .main-content { margin-left: 320px; }
-    #open-sidebar-button, #close-sidebar-button { display: none; }
+    .sidebar {
+        transform: translateX(0);
+    }
+
+    .main-content {
+        margin-left: 320px;
+    }
+
+    #open-sidebar-button,
+    #close-sidebar-button {
+        display: none;
+    }
+}
+/* --- ADIÇÃO: Ajustes de Responsividade para Telas Pequenas --- */
+@media (max-width: 600px) {
+    .main-content {
+        padding: 16px;
+    }
+    .section-title-header h1 {
+        font-size: 1.6rem;
+    }
+    .lesson-card {
+        padding: 16px;
+    }
+
+    .lesson-title-area {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .lesson-card .lesson-bottom-info {
+        align-items: flex-start; 
+        gap: 16px;  
+    }
 }

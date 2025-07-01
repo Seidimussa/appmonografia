@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carreira de Desenvolvedor Full-Stack</title>
+    <title>Desenvolvimento Front-End</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Usando a fonte Inter -->
+    <!-- Usando a fonte Inter, similar à do vídeo -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- Ícones do Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
 
@@ -20,10 +20,7 @@
         <!-- Barra Lateral (Sidebar/Drawer) -->
         <aside class="sidebar" id="sidebar">
             <div class="sidebar-header">
-                <div class="header-info">
-                    <p class="career-track">TRAJETÓRIA DE CARREIRA</p>
-                    <h3>Desenvolvedor Full-Stack</h3>
-                </div>
+                <h3>Desenvolvimento Front-End</h3>
                 <div class="sidebar-actions">
                     <button class="icon-button" id="reset-progress-button" title="Resetar Progresso">
                         <i class="fas fa-sync-alt"></i>
@@ -35,13 +32,13 @@
             </div>
 
             <div class="sidebar-cert-card">
-                <i class="fas fa-shield-alt"></i>
+                <i class="fas fa-award"></i>
                 <div class="cert-info">
-                    <p>Certificado Profissional</p>
+                    <p>Certificado de Conclusão</p>
                     <div class="progress-bar-container">
                         <div class="progress-bar" id="total-progress-bar"></div>
                     </div>
-                    <span id="total-progress-text">0/20 seções</span>
+                    <span id="total-progress-text">0/16 seções</span>
                 </div>
             </div>
 
@@ -55,19 +52,11 @@
                 <button class="icon-button" id="open-sidebar-button">
                     <i class="fas fa-bars"></i>
                 </button>
-                <div class="header-progress-area">
-                    <h2 id="course-title-header">Carreira de Desenvolvedor Full-Stack</h2>
-                    <div class="header-progress-container">
-                        <div class="progress-bar-container">
-                            <div class="progress-bar" id="main-header-progress-bar"></div>
-                        </div>
-                        <span id="main-header-progress-text">1/20</span>
-                    </div>
-                </div>
+                <h2 id="course-title-header">Desenvolvimento Front-End</h2>
             </header>
 
             <section id="main-section-content" class="main-section-content">
-                <!-- O conteúdo da seção será inserido aqui pelo JavaScript -->
+                <!-- O conteúdo da seção (título, progresso, lições) será inserido aqui pelo JavaScript -->
             </section>
         </main>
 
