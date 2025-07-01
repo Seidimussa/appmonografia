@@ -1642,11 +1642,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 184,
-                        title: 'Patas de Pixel PARTE 1',
-                        type: 'learn',
+                        title: 'Patas de Pixel',
+                        type: 'guided_project',
+                        description: 'Neste projeto, daremos vida ao nosso próprio companheiro pixelado. Crie um bichinho charmoso que você possa alimentar e cuidar.',
+                        subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
-                        url: './lessons/dom/04.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                     {
                         id: 185,
@@ -1682,12 +1684,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dom/05.html'
                     },
                     {
-                        id: 189,
-                        title: 'Patas de Pixel PARTE 2',
-                        type: 'learn',
+                        id: 47,
+                        title: 'Patas de Pixel',
+                        type: 'guided_project',
+                        description: 'Sentindo amor pelo seu bichinho? É hora de dar as boas-vindas a outro! Mas, com o dobro de patas pixeladas, vem o dobro de responsabilidade. Nesta fase, não só apresentaremos um novo bichinho, como também adicionaremos níveis de desafio à jogabilidade, garantindo que suas habilidades de cuidador de pets sejam realmente colocadas à prova.',
+                        subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
-                        url: './lessons/dom/03.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                 ]
             },
