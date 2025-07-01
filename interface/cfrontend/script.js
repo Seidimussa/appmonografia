@@ -1557,11 +1557,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 175,
-                        title: 'Comediante Bot PARTE 1',
-                        type: 'learn',
+                        title: 'Comediante Bot',
+                        type: 'guided_project',
+                        description: 'Pronto para algumas risadas? Vamos preparar o cenário para o nosso próprio Robô Comediante. Nesta primeira parte, programaremos nosso robô para fazer uma piada, garantindo que nosso comediante virtual comece com uma apresentação de abertura impactante.',
+                        subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
-                        url: './lessons/dynamic-webpages/02.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                     {
                         id: 176,
@@ -1589,12 +1591,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dynamic-webpages/04.html'
                     },
                     {
-                        id: 179,
-                        title: 'Comediante Bot PARTE 2',
-                        type: 'learn',
+                        id: 47,
+                        title: 'Comediante Bot',
+                        type: 'guided_project',
+                        description: 'Agora, vamos aprimorar o jogo do nosso Robô Comediante. Nesta fase, incorporaremos interatividade, permitindo que você peça outra piada.',
+                        subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
-                        url: './lessons/dynamic-webpages/05.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                 ]
             },
