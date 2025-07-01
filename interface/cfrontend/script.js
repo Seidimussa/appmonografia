@@ -70,12 +70,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     {
                         id: 7,
                         title: 'Linktree',
-                        type: 'guided_project', // Novo tipo
-                        description: 'Prepare-se para criar sua própria página no estilo Linktree, onde você pode exibir todas as suas redes sociais e outros links importantes em um só lugar.', // Nova propriedade
-                        subAction: 'PARTE 1', // Usando a mesma propriedade para consistência
+                        type: 'guided_project',
+                        description: 'Prepare-se para criar sua própria página no estilo Linktree, onde você pode exibir todas as suas redes sociais e outros links importantes em um só lugar.',
+                        subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
-                        url: './lessons/projects/linktree-p1.html' // URL de exemplo
+                        url: './lessons/projects/linktree-p1.html'
                     },
                     // ====================== FIM DA ATUALIZAÇÃO DE DADOS =======================
                     {
@@ -155,11 +155,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 17,
-                        title: 'Linktree PARTE 2',
-                        type: 'learn',
+                        title: 'Linktree',
+                        type: 'guided_project',
+                        description: 'Agora que você configurou o HTML da sua página no estilo Linktree, é hora de dar um toque especial! Nesta parte, usaremos CSS para estilizar e dar personalidade à sua página',
+                        subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/04.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                 ]
             },
@@ -310,11 +312,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 35,
-                        title: 'Conversor de unidades PARTE 1',
-                        type: 'learn',
+                        title: 'Conversor de unidades',
+                        type: 'guided_project',
+                        description: 'Neste projeto, vamos nos aventurar na criação de um conversor de milhas para km. Além de ser uma ferramenta super útil, você também explorará o uso de JavaScript para tornar sites interativos.',
+                        subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                     {
                         id: 36,
@@ -408,12 +412,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/05.html'
                     },
                     {
-                        id: 47,
-                        title: 'Conversor de unidades PARTE 2 ',
-                        type: 'learn',
+                        id: 35,
+                        title: 'Conversor de unidades',
+                        type: 'guided_project',
+                        description: 'Agora que temos nosso conversor básico instalado e funcionando, é hora de torná-lo mais interativo e aprimorar seu estilo',
+                        subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: './lessons/projects/linktree-p1.html'
                     },
                 ]
             },
