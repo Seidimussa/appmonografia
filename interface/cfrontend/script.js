@@ -2054,6 +2054,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         locked: true,
                         url: './lessons/projects/linktree-p1.html'
                     },
+                    {
+                        id: 230,
+                        title: 'Certificado de Conclusão',
+                        type: 'certificate',
+                        completed: false,
+                        locked: true,
+                        url: './certificate.html'
+                    }
                 ]
             }
         ]
