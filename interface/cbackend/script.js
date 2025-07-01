@@ -122,101 +122,19 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 2,
-                title: 'Páginas Web Interativas',
-                description: 'Use HTML e JavaScript para criar páginas da web interativas',
+                title: 'Fluxo do programa',
+                description: 'Aprenda a',
                 locked: true,
                 lessons: [{
                         id: 13,
-                        title: 'Criando Variáveis',
+                        title: 'Tomando decisões',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/types-comparisons/01.html'
                     },
                     {
-                        id: 19,
-                        title: 'Usando Variáveis',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/02.html'
-                    },
-                    {
-                        id: 20,
-                        title: 'Usando Verdadeiro e Falso',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/03.html'
-                    },
-                    {
-                        id: 21,
-                        title: 'Verificando a igualdade numérica',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/04.html'
-                    },
-                    {
-                        id: 22,
-                        title: 'Noções básicas de JavaScript',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/05.html'
-                    },
-                    {
-                        id: 23,
-                        title: 'Comparando números',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/02.html'
-                    },
-                    {
-                        id: 24,
-                        title: 'Comparando Strings',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/02.html'
-                    },
-                    {
-                        id: 25,
-                        title: 'Descobrindo Tipos',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/02.html'
-                    },
-                    {
-                        id: 26,
-                        title: 'Operadores Lógicos',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/02.html'
-                    },
-                    {
-                        id: 27,
-                        title: 'Tipos e Comparações',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/05.html'
-                    },
-                    {
-                        id: 28,
-                        title: 'Tomando decisões',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/02.html'
-                    },
-                    {
-                        id: 29,
+                        id: 14,
                         title: 'Condições de uso',
                         type: 'learn',
                         completed: false,
@@ -224,23 +142,23 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/02.html'
                     },
                     {
-                        id: 30,
+                        id: 15,
                         title: 'Codificando instruções Else',
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: './lessons/types-comparisons/03.html'
                     },
                     {
-                        id: 31,
+                        id: 16,
                         title: 'Incorporando Else If',
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: './lessons/types-comparisons/04.html'
                     },
                     {
-                        id: 32,
+                        id: 17,
                         title: 'Condicionais',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -249,50 +167,50 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/05.html'
                     },
                     {
-                        id: 33,
-                        title: 'Reutilizando código com funções',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/02.html'
-                    },
-                    {
-                        id: 34,
-                        title: 'Interagindo com páginas da Web',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/02.html'
-                    },
-                    {
-                        id: 35,
-                        title: 'Conversor de unidades',
+                        id: 18,
+                        title: 'Ímpar ou Par',
                         type: 'guided_project',
-                        description: 'Neste projeto, vamos nos aventurar na criação de um conversor de milhas para km. Além de ser uma ferramenta super útil, você também explorará o uso de JavaScript para tornar sites interativos.',
+                        description: 'Crie seu próprio jogo! Nesta primeira parte, prepararemos o cenário elaborando a lógica básica do jogo.',
                         subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 36,
-                        title: 'Como acessar um elemento HTML',
+                        id: 19,
+                        title: 'Variáveis ​​autoatribuíveis',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/types-comparisons/02.html'
                     },
                     {
-                        id: 37,
-                        title: 'Acesse vários elementos HTML',
+                        id: 20,
+                        title: 'Atribuição com operadores',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/types-comparisons/02.html'
                     },
                     {
-                        id: 38,
-                        title: 'Páginas da Web Dinâmicas 1',
+                        id: 21,
+                        title: 'Repetindo código com loops While',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/types-comparisons/02.html'
+                    },
+                    {
+                        id: 22,
+                        title: 'Parando loops While',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/types-comparisons/02.html'
+                    },
+                    {
+                        id: 23,
+                        title: 'Laços / loops 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -300,32 +218,32 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/05.html'
                     },
                     {
-                        id: 39,
-                        title: 'Botões de construção',
+                        id: 24,
+                        title: 'Controlando loops While',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/types-comparisons/02.html'
                     },
                     {
-                        id: 40,
-                        title: 'Coletando informações',
+                        id: 25,
+                        title: 'Repetindo código com loops For',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/types-comparisons/02.html'
                     },
                     {
-                        id: 41,
-                        title: 'Obtendo a entrada do usuário',
+                        id: 26,
+                        title: 'Looping para baixo',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/types-comparisons/02.html'
                     },
                     {
-                        id: 42,
-                        title: 'HTML Intermediário',
+                        id: 27,
+                        title: 'Laços / loops 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -333,43 +251,10 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/05.html'
                     },
                     {
-                        id: 43,
-                        title: 'Definindo atributos dinamicamente',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/02.html'
-                    },
-                    {
-                        id: 44,
-                        title: 'Alternando classes CSS',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/02.html'
-                    },
-                    {
-                        id: 45,
-                        title: 'Selecione',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/02.html'
-                    },
-                    {
-                        id: 46,
-                        title: 'Páginas Web Dinâmicas 2',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/05.html'
-                    },
-                    {
-                        id: 47,
-                        title: 'Conversor de unidades',
+                        id: 28,
+                        title: 'Ímpar ou Par',
                         type: 'guided_project',
-                        description: 'Agora que temos nosso conversor básico instalado e funcionando, é hora de torná-lo mais interativo e aprimorar seu estilo',
+                        description: 'Na segunda parte do projeto, estenderemos o jogo para jogar uma melhor de três',
                         subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
@@ -379,144 +264,145 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 3,
-                title: ' HTML e CSS intermediários',
-                description: 'Mergulhe mais fundo em HTML e CSS para criar aplicativos da web impressionantes',
+                title: 'Matrizes e Funções',
+                description: 'Use matrizes e funções para construir programas sofisticados',
                 locked: true,
                 lessons: [{
-                        id: 48,
-                        title: 'Agrupando Elementos',
+                        id: 29,
+                        title: 'Agrupando valores com matrizes / arrays',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/conditionals/01.html'
                     },
                     {
-                        id: 49,
-                        title: 'Listas de construção',
+                        id: 30,
+                        title: 'Alterando valores em matrizes / arrays',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/conditionals/02.html'
                     },
                     {
-                        id: 50,
-                        title: 'Elemento Span',
+                        id: 31,
+                        title: 'Empurrando e removendo matrizes arrays',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/conditionals/03.html'
                     },
                     {
-                        id: 51,
-                        title: 'Estilizando grupos de elementos',
+                        id: 32,
+                        title: 'Decidindo com Arrays',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/conditionals/04.html'
                     },
                     {
-                        id: 52,
-                        title: 'Descobrindo Elementos Filhos',
+                        id: 33,
+                        title: 'Matrizes / arrays',
                         type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/conditionals/03.html'
-                    },
-                    {
-                        id: 53,
-                        title: 'Usando classes para layouts',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/conditionals/04.html'
-                    },
-                    {
-                        id: 54,
-                        title: 'CSS Intermediário 1',
-                        type: 'practice',
                         subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/03.html'
+                    },
+                    {
+                        id: 34,
+                        title: 'Reutilizando código com funções',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/04.html'
+                    },
+                    {
+                        id: 35,
+                        title: 'Criando Parâmetros',
+                        type: 'practice',
                         completed: false,
                         locked: true,
                         url: './lessons/conditionals/05.html'
                     },
                     {
-                        id: 55,
-                        title: 'Adicionando cor com valores hexadecimais',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/conditionals/03.html'
-                    },
-                    {
-                        id: 56,
-                        title: 'Definindo o tamanho com porcentagens',
+                        id: 36,
+                        title: 'Retornando Valores',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/conditionals/04.html'
                     },
                     {
-                        id: 57,
-                        title: 'Combinando várias classes',
+                        id: 37,
+                        title: 'Funções 1',
                         type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/conditionals/03.html'
-                    },
-                    {
-                        id: 58,
-                        title: 'Seletores de agrupamento',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/conditionals/04.html'
-                    },
-                    {
-                        id: 59,
-                        title: 'CSS Intermediário 2',
-                        type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/05.html'
+                        url: './lessons/conditionals/03.html'
                     },
                     {
-                        id: 60,
-                        title: 'Cardápio da cafeteria',
+                        id: 38,
+                        title: 'Usando vários parâmetros',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/04.html'
+                    },
+                    {
+                        id: 39,
+                        title: 'Compreendendo Funções',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/03.html'
+                    },
+                    {
+                        id: 40,
+                        title: 'Funções 2',
+                        type: 'learn',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/04.html'
+                    },
+                    {
+                        id: 41,
+                        title: 'Lista de tarefas',
                         type: 'guided_project',
-                        description: 'Mergulhe no mundo de uma cafeteria movimentada, onde você criará um cardápio detalhado e envolvente. Não se trata apenas de listar espressos e lattes; trata-se de estruturar as informações de forma rica e organizada.',
+                        description: 'Muita coisa para fazer? Muitas coisas para conciliar ao mesmo tempo? Neste projeto, vamos criar um gerenciador de tarefas para ajudar com isso!',
                         subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 61,
-                        title: 'Exibindo Elementos',
+                        id: 42,
+                        title: 'Condicionais de aninhamento',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/conditionals/04.html'
                     },
                     {
-                        id: 62,
-                        title: 'Imagens Flutuantes',
+                        id: 43,
+                        title: 'Usando Condições e Funções',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/conditionals/03.html'
                     },
                     {
-                        id: 63,
-                        title: 'Posicionamento Relativo',
+                        id: 44,
+                        title: 'Parando funções com retorno',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/conditionals/04.html'
                     },
                     {
-                        id: 64,
-                        title: 'Fundamentos de Layout CSS 1',
+                        id: 45,
+                        title: 'Funções Aplicadas 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -524,33 +410,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/conditionals/05.html'
                     },
                     {
-                        id: 65,
-                        title: 'Posição Absoluta',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/conditionals/03.html'
-                    },
-                    {
-                        id: 66,
-                        title: 'Índice Z',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/conditionals/04.html'
-                    },
-                    {
-                        id: 67,
-                        title: 'Fundamentos de Layout CSS 2',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/conditionals/05.html'
-                    },
-                    {
-                        id: 68,
-                        title: 'Bibliotecas JavaScript',
+                        id: 46,
+                        title: 'Adicionando Loops a Funções',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -558,9 +419,59 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 47,
-                        title: 'Cardápio da cafeteria',
+                        title: 'Looping sobre matrizes',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/04.html'
+                    },
+                    {
+                        id: 48,
+                        title: 'Funções Aplicadas 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/05.html'
+                    },
+                    {
+                        id: 49,
+                        title: 'Matriz .map() / Array .map()',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/03.html'
+                    },
+                    {
+                        id: 50,
+                        title: 'Matriz.filtro() / Array.filter()',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/03.html'
+                    },
+                    {
+                        id: 51,
+                        title: 'Matriz.reduzir() / Array.reduce()',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/04.html'
+                    },
+                    {
+                        id: 52,
+                        title: 'Operações de matriz / arrays',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/05.html'
+                    },
+                    {
+                        id: 53,
+                        title: 'Lista de tarefas',
                         type: 'guided_project',
-                        description: 'Com a estrutura do nosso cardápio pronta, vamos dar vida a ele! Esta fase visa tornar o cardápio da nossa cafeteria visualmente atraente e intuitivo.',
+                        description: 'Adicionar tarefas é útil, mas também queremos removê-las novamente. É isso que planejamos fazer na segunda parte do projeto.',
                         subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
@@ -570,12 +481,12 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 4,
-                title: 'Laços / Loops',
-                description: 'Condicionais de código para construir programas que tomam decisões',
+                title: '',
+                description: '',
                 locked: true,
                 lessons: [{
-                        id: 70,
-                        title: 'Variáveis ​​autoatribuíveis',
+                        id: 54,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
