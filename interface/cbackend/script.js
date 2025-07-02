@@ -1110,36 +1110,36 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 8,
-                title: 'Objetos e ES 6',
-                description: 'Aprenda a usar objetos e funções JS mais avançadas',
+                title: 'SQL em profundidade',
+                description: 'Obtenha insights de dados usando operações e filtros',
                 locked: true,
                 lessons: [{
                         id: 125,
-                        title: 'Agrupando valores em objetos',
+                        title: 'Filtragem com intervalos',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/applied-functions/01.html'
                     },
                     {
-                        id: 140,
-                        title: 'Usando métodos de objeto',
+                        id: 126,
+                        title: 'Filtrando por padrões',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/applied-functions/02.html'
                     },
                     {
-                        id: 141,
-                        title: 'O que é JSON',
+                        id: 127,
+                        title: 'Filtrando com opções',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/applied-functions/03.html'
                     },
                     {
-                        id: 142,
-                        title: 'Objetos',
+                        id: 128,
+                        title: 'Filtros SQL 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1147,18 +1147,134 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/04.html'
                     },
                     {
-                        id: 143,
-                        title: 'Rick e Morty',
+                        id: 129,
+                        title: 'Usando AND',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/02.html'
+                    },
+                    {
+                        id: 130,
+                        title: 'Usando OU',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/03.html'
+                    },
+                    {
+                        id: 131,
+                        title: 'Filtros SQL 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/04.html'
+                    },
+                    {
+                        id: 132,
+                        title: 'Contador',
                         type: 'guided_project',
-                        description: 'Pronto para embarcar em uma jornada interdimensional? Nesta fase, vamos mergulhar no multiverso do JSON. Analisaremos e apresentaremos dados do mundo de Rick e Morty, estabelecendo a base para nossa bússola de personagens.',
+                        description: 'Crie um backend que registre todos os livros que você lê. Com a ajuda de um banco de dados, você criará a estante digital perfeita.',
                         subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
+                        id: 133,
+                        title: 'Encontrando MIN, MAX e Média',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/06.html'
+                    },
+                    {
+                        id: 134,
+                        title: 'Contando e Somando',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/05.html'
+                    },
+                    {
+                        id: 135,
+                        title: 'Agrupando resultados da consulta',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/06.html'
+                    },
+                    {
+                        id: 136,
+                        title: 'Funções de agregação SQL',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/07.html'
+                    },
+                    {
+                        id: 137,
+                        title: 'Apresentando INNER JOINs',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/05.html'
+                    },
+                    {
+                        id: 138,
+                        title: 'Usando INNER JOINs',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/06.html'
+                    },
+                    {
+                        id: 139,
+                        title: 'Usando LEFT JOINs',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/06.html'
+                    },
+                    {
+                        id: 140,
+                        title: 'SQL Junções 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/07.html'
+                    },
+                    {
+                        id: 141,
+                        title: 'Usando RIGHT JOINs',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/06.html'
+                    },
+                    {
+                        id: 142,
+                        title: 'Usando FULL OUTER JOINs',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/06.html'
+                    },
+                    {
+                        id: 143,
+                        title: 'SQL Junções 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/07.html'
+                    },
+                    {
                         id: 144,
-                        title: 'Variáveis ​​e Escopo ES6',
+                        title: 'Subconsultas com agregados',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1166,59 +1282,26 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 145,
-                        title: 'Funções de seta',
+                        title: 'Subconsultas com IN',
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/applied-functions/05.html'
+                        url: './lessons/applied-functions/06.html'
                     },
                     {
                         id: 146,
-                        title: 'Parâmetros da função de seta',
-                        type: 'learn',
+                        title: 'Subconsultas SQL',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/applied-functions/06.html'
+                        url: './lessons/applied-functions/07.html'
                     },
                     {
                         id: 147,
-                        title: 'ES6 1',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/applied-functions/07.html'
-                    },
-                    {
-                        id: 148,
-                        title: 'Literais de modelo',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/applied-functions/05.html'
-                    },
-                    {
-                        id: 149,
-                        title: 'Desestruturação',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/applied-functions/06.html'
-                    },
-                    {
-                        id: 150,
-                        title: 'ES6 2',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/applied-functions/07.html'
-                    },
-                    {
-                        id: 151,
-                        title: 'Rick e Morty',
+                        title: 'Contador',
                         type: 'guided_project',
-                        description: 'É hora de se conectar com o cosmos! Agora, estamos migrando do JSON local para a extração de dados em tempo real por meio de uma API. Aproveite o poder da conectividade da web para buscar e exibir detalhes dinâmicos do universo de Rick e Morty.',
+                        description: 'Anotar os principais aprendizados de um ótimo livro pode ser uma ótima maneira de se lembrar dele. Aqui, criaremos um aplicativo para nos ajudar a fazer exatamente isso.',
                         subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
@@ -1228,12 +1311,12 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 9,
-                title: 'DOM e Eventos',
-                description: 'Aprenda sobre a árvore DOM e as relações dos nós',
+                title: '',
+                description: '',
                 locked: true,
                 lessons: [{
                         id: 152,
-                        title: 'Árvore e nós do documento HTML',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1241,7 +1324,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 153,
-                        title: 'O Modelo de Objeto de Documento',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1249,7 +1332,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 154,
-                        title: 'Criando Elementos',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1257,7 +1340,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 155,
-                        title: 'Removendo Elementos',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1265,7 +1348,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 156,
-                        title: 'O Modelo de Objeto de Documento',
+                        title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1274,7 +1357,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 157,
-                        title: 'Usando propriedades de eventos',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1282,7 +1365,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 158,
-                        title: 'Explorando Propriedades de Eventos',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1290,7 +1373,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 159,
-                        title: 'Adicionando Eventos com Métodos',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1298,7 +1381,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 160,
-                        title: 'Eventos de toque',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1306,7 +1389,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 161,
-                        title: 'Eventos JavaScript',
+                        title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1315,9 +1398,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 162,
-                        title: 'Cifra de César',
+                        title: '',
                         type: 'guided_project',
-                        description: 'Entre no mundo da criptografia! Neste projeto, estamos construindo um tradutor de Cifra de César ao vivo. Insira sua mensagem e veja como ela é codificada perfeitamente diante dos seus olhos.',
+                        description: '',
                         subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
