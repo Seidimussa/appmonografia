@@ -603,7 +603,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/conditionals/03.html'
                     },
                     {
-                        id: 47,
+                        id: 69,
                         title: 'Cardápio da cafeteria',
                         type: 'guided_project',
                         description: 'Com a estrutura do nosso cardápio pronta, vamos dar vida a ele! Esta fase visa tornar o cardápio da nossa cafeteria visualmente atraente e intuitivo.',
@@ -1684,7 +1684,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dom/05.html'
                     },
                     {
-                        id: 47,
+                        id: 189,
                         title: 'Patas de Pixel',
                         type: 'guided_project',
                         description: 'Sentindo amor pelo seu bichinho? É hora de dar as boas-vindas a outro! Mas, com o dobro de patas pixeladas, vem o dobro de responsabilidade. Nesta fase, não só apresentaremos um novo bichinho, como também adicionaremos níveis de desafio à jogabilidade, garantindo que suas habilidades de cuidador de pets sejam realmente colocadas à prova.',
@@ -2053,6 +2053,295 @@ document.addEventListener('DOMContentLoaded', () => {
                         completed: false,
                         locked: true,
                         url: './lessons/projects/linktree-p1.html'
+                    }
+                ]
+            },
+            {
+                id: 16,
+                title: 'Introdução ao Back-end com Node.js',
+                description: 'Explore o lado do servidor com Node.js e crie aplicações poderosas',
+                locked: true,
+                lessons: [{
+                        id: 231,
+                        title: 'O que é Node.js?',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/node-intro.html'
+                    },
+                    {
+                        id: 232,
+                        title: 'Executando Arquivos JavaScript',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/node-run.html'
+                    },
+                    {
+                        id: 233,
+                        title: 'Módulos e Require',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/node-modules.html'
+                    },
+                    {
+                        id: 234,
+                        title: 'Gerenciador de Pacotes (NPM)',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/node-npm.html'
+                    },
+                    {
+                        id: 235,
+                        title: 'Node.js Básico',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/node-practice1.html'
+                    },
+                    {
+                        id: 236,
+                        title: 'Sistema de Arquivos (File System)',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/node-fs.html'
+                    },
+                    {
+                        id: 237,
+                        title: 'Ferramenta de Linha de Comando',
+                        type: 'guided_project',
+                        description: 'Crie uma ferramenta de linha de comando interativa para gerenciar notas ou tarefas.',
+                        subAction: 'PARTE 1',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/projects/cli-tool-p1.html'
+                    }
+                ]
+            },
+            {
+                id: 17,
+                title: 'Construindo APIs com Express.js',
+                description: 'Crie APIs RESTful robustas e escaláveis com o framework Express.js',
+                locked: true,
+                lessons: [{
+                        id: 238,
+                        title: 'Introdução ao Express.js',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/express-intro.html'
+                    },
+                    {
+                        id: 239,
+                        title: 'Configurando o Servidor',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/express-server.html'
+                    },
+                    {
+                        id: 240,
+                        title: 'Roteamento Básico',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/express-routing.html'
+                    },
+                    {
+                        id: 241,
+                        title: 'Middleware',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/express-middleware.html'
+                    },
+                    {
+                        id: 242,
+                        title: 'API com Express',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/express-practice1.html'
+                    },
+                    {
+                        id: 243,
+                        title: 'Parâmetros de Rota e Consulta',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/express-params.html'
+                    },
+                    {
+                        id: 244,
+                        title: 'API de Blog',
+                        type: 'guided_project',
+                        description: 'Construa o back-end para um blog, gerenciando posts e autores através de uma API RESTful.',
+                        subAction: 'PARTE 1',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/projects/blog-api-p1.html'
+                    }
+                ]
+            },
+            {
+                id: 18,
+                title: 'Bancos de Dados para Aplicações Web',
+                description: 'Aprenda a persistir dados usando bancos de dados SQL e NoSQL',
+                locked: true,
+                lessons: [{
+                        id: 245,
+                        title: 'SQL vs NoSQL',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/database/sql-vs-nosql.html'
+                    },
+                    {
+                        id: 246,
+                        title: 'Conectando com MongoDB',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/database/mongodb-connect.html'
+                    },
+                    {
+                        id: 247,
+                        title: 'Operações CRUD',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/database/crud.html'
+                    },
+                    {
+                        id: 248,
+                        title: 'Schemas e Modelos com Mongoose',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/database/mongoose.html'
+                    },
+                    {
+                        id: 249,
+                        title: 'Persistência de Dados',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/database/db-practice.html'
+                    },
+                    {
+                        id: 250,
+                        title: 'API de Blog com Banco de Dados',
+                        type: 'guided_project',
+                        description: 'Integre um banco de dados MongoDB à sua API de Blog para persistir os dados.',
+                        subAction: 'PARTE 2',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/projects/blog-api-p2.html'
+                    }
+                ]
+            },
+            {
+                id: 19,
+                title: 'Autenticação e Segurança',
+                description: 'Implemente sistemas de autenticação seguros para proteger suas aplicações',
+                locked: true,
+                lessons: [{
+                        id: 251,
+                        title: 'Hashing de Senhas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/auth/hashing.html'
+                    },
+                    {
+                        id: 252,
+                        title: 'JSON Web Tokens (JWT)',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/auth/jwt.html'
+                    },
+                    {
+                        id: 253,
+                        title: 'Criando Rotas Protegidas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/auth/protected-routes.html'
+                    },
+                    {
+                        id: 254,
+                        title: 'Cookies e Sessões',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/auth/cookies.html'
+                    },
+                    {
+                        id: 255,
+                        title: 'Login e Registro',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/auth/auth-practice.html'
+                    },
+                    {
+                        id: 256,
+                        title: 'API de Blog com Autenticação',
+                        type: 'guided_project',
+                        description: 'Adicione registro de usuário e login à sua API, protegendo rotas que exigem autenticação.',
+                        subAction: 'PARTE 3',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/projects/blog-api-p3.html'
+                    }
+                ]
+            },
+            {
+                id: 20,
+                title: 'Projeto Final e Implantação',
+                description: 'Una todas as suas habilidades para construir e implantar um projeto full-stack completo',
+                locked: true,
+                lessons: [{
+                        id: 257,
+                        title: 'Preparando para Produção',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/deployment/production-prep.html'
+                    },
+                    {
+                        id: 258,
+                        title: 'Variáveis de Ambiente',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/deployment/env-vars.html'
+                    },
+                    {
+                        id: 259,
+                        title: 'Implantando em um Serviço de Nuvem',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/deployment/deploy.html'
+                    },
+                    {
+                        id: 260,
+                        title: 'Projeto Final: E-commerce',
+                        type: 'guided_project',
+                        description: 'Construa uma aplicação de e-commerce full-stack, desde a vitrine de produtos até o checkout.',
+                        subAction: 'PROJETO FINAL',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/projects/final-project.html'
                     },
                     {
                         id: 230,
