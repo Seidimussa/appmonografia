@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         title: 'Comparando números',
                         type: 'learn',
                         completed: false,
-                        locked: false,
+                        locked: true,
                         url: './lessons/js-basics/01.html'
                     },
                     {
@@ -775,36 +775,36 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 6,
-                title: 'Grid',
-                description: 'Crie belos layouts usando grid CSS',
+                title: 'Classes e Padrões Assíncronos',
+                description: 'Aprenda a usar classes e JavaScript assíncrono',
                 locked: true,
                 lessons: [{
                         id: 87,
-                        title: 'Criando uma grid CSS',
+                        title: 'Sincronia e Assincronia em JS',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/functions/01.html'
                     },
                     {
-                        id: 100,
-                        title: 'Criando colunas de grid',
+                        id: 88,
+                        title: 'Tempo limite e intervalos em JS',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/functions/02.html'
                     },
                     {
-                        id: 101,
-                        title: 'Criando Linhas de Grid',
+                        id: 89,
+                        title: 'Esperando em JS',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/functions/03.html'
                     },
                     {
-                        id: 102,
-                        title: 'Grid CSS 1',
+                        id: 90,
+                        title: 'Sincronia e Assincronia em JS',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -812,42 +812,75 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/functions/04.html'
                     },
                     {
-                        id: 103,
-                        title: 'Definindo colunas e linhas da grade',
+                        id: 91,
+                        title: 'Usando Classes',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/projects/linktree-p1.html'
+                    },
+                    {
+                        id: 92,
+                        title: 'Classes com Métodos',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/functions/05.html'
                     },
                     {
-                        id: 104,
-                        title: 'Cartão de Visita Digital',
+                        id: 93,
+                        title: 'Criando Instâncias',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/06.html'
+                    },
+                    {
+                        id: 94,
+                        title: 'Aulas de JavaScript 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/07.html'
+                    },
+                    {
+                        id: 95,
+                        title: 'Biblioteca de mídia',
                         type: 'guided_project',
-                        description: 'É hora de facilitar o networking! Nesta seção, vamos começar a criar seu próprio cartão de visita digital.',
+                        description: 'Crie um servidor para ajudar a encontrar o filme perfeito para a ocasião',
                         subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 105,
-                        title: 'Lacunas na grid',
+                        id: 96,
+                        title: 'Extensão de classes',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/functions/05.html'
                     },
                     {
-                        id: 106,
-                        title: 'Definindo o tamanho de um item da grid',
+                        id: 97,
+                        title: 'Métodos de substituição',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/functions/06.html'
                     },
                     {
-                        id: 107,
-                        title: 'Grid CSS 2',
+                        id: 98,
+                        title: 'Propriedades da subclasse de codificação',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/05.html'
+                    },
+                    {
+                        id: 99,
+                        title: 'Aulas de JavaScript 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -855,59 +888,10 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/functions/07.html'
                     },
                     {
-                        id: 108,
-                        title: 'Criando áreas nomeadas',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/functions/05.html'
-                    },
-                    {
-                        id: 109,
-                        title: 'Seções usando áreas nomeadas',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/functions/06.html'
-                    },
-                    {
-                        id: 110,
-                        title: 'Alinhando itens da grade',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/functions/05.html'
-                    },
-                    {
-                        id: 111,
-                        title: 'Usando CSS Grid e Flexbox',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/functions/06.html'
-                    },
-                    {
-                        id: 112,
-                        title: 'Grade CSS 3',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/functions/07.html'
-                    },
-                    {
-                        id: 113,
-                        title: 'Webdesign responsivo',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/functions/05.html'
-                    },
-                    {
-                        id: 114,
-                        title: 'Cartão de Visita Digital',
+                        id: 100,
+                        title: 'Biblioteca de mídia',
                         type: 'guided_project',
-                        description: 'Agora, vamos nos concentrar na capacidade de resposta. Vamos refinar nosso design, garantindo que ele brilhe e impressione em telas grandes e pequenas.',
+                        description: 'Na segunda parte do projeto, otimizaremos a estrutura de dados para torná-la escalável',
                         subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
@@ -921,7 +905,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Use matrizes / Arrays e funções para construir programas sofisticados',
                 locked: true,
                 lessons: [{
-                        id: 115,
+                        id: 101,
                         title: 'Agrupando valores com matrizes / arrays',
                         type: 'learn',
                         completed: false,
