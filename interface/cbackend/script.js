@@ -1311,44 +1311,52 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 9,
-                title: '',
-                description: '',
+                title: 'Mergulho profundo expresso',
+                description: 'Crie aplicativos complexos do lado do servidor usando o Express',
                 locked: true,
                 lessons: [{
-                        id: 152,
-                        title: '',
+                        id: 148,
+                        title: 'Middleware',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/es6/01.html'
                     },
                     {
-                        id: 153,
-                        title: '',
+                        id: 149,
+                        title: 'Introdução ao Express Router',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/es6/02.html'
                     },
                     {
-                        id: 154,
-                        title: '',
+                        id: 150,
+                        title: 'Usando o Roteador Expresso',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/es6/03.html'
                     },
                     {
-                        id: 155,
-                        title: '',
+                        id: 151,
+                        title: 'Redirecionando',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/es6/03.html'
                     },
                     {
-                        id: 156,
-                        title: '',
+                        id: 152,
+                        title: 'Tratamento de erros',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/es6/03.html'
+                    },
+                    {
+                        id: 153,
+                        title: 'Mergulho Profundo Expresso',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1356,59 +1364,28 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/04.html'
                     },
                     {
-                        id: 157,
-                        title: '',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/es6/05.html'
-                    },
-                    {
-                        id: 158,
-                        title: '',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/es6/06.html'
-                    },
-                    {
-                        id: 159,
-                        title: '',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/es6/05.html'
-                    },
-                    {
-                        id: 160,
-                        title: '',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/es6/06.html'
-                    },
-                    {
-                        id: 161,
-                        title: '',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/es6/07.html'
-                    },
-                    {
-                        id: 162,
-                        title: '',
+                        id: 154,
+                        title: 'Questionário',
                         type: 'guided_project',
-                        description: '',
+                        description: 'Aproveite o poder do Express para criar um aplicativo de quiz bem estruturado e complexo',
                         subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 163,
-                        title: 'Certificado de Conclusão',
+                        id: 155,
+                        title: 'Questionário',
+                        type: 'guided_project',
+                        description: 'Na segunda parte do projeto, você adicionará um banco de dados à mistura',
+                        subAction: 'PARTE 2',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/projects/linktree-p1.html'
+                    },
+                    {
+                        id: 156,
+                        title: '',
                         type: 'certificate',
                         completed: false,
                         locked: true,
