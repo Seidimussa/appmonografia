@@ -2058,44 +2058,86 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 16,
-                title: 'Introdução ao Back-end com Node.js',
-                description: 'Explore o lado do servidor com Node.js e crie aplicações poderosas',
+                title: 'Noções básicas do Express',
+                description: 'Use o Express para mergulhar no desenvolvimento de backend',
                 locked: true,
                 lessons: [{
-                        id: 231,
-                        title: 'O que é Node.js?',
+                        id: 230,
+                        title: 'Introdução aos Módulos',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/backend/node-intro.html'
                     },
                     {
-                        id: 232,
-                        title: 'Executando Arquivos JavaScript',
+                        id: 231,
+                        title: 'Introdução ao Node.js',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/backend/node-run.html'
                     },
                     {
-                        id: 233,
-                        title: 'Módulos e Require',
+                        id: 234,
+                        title: 'Módulos, Bibliotecas e Nó',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/node-practice1.html'
+                    },
+                    {
+                        id: 232,
+                        title: 'Cliente vs Servidores',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/backend/node-modules.html'
                     },
                     {
-                        id: 234,
-                        title: 'Gerenciador de Pacotes (NPM)',
+                        id: 232,
+                        title: 'Comunicando-se com uma API',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/node-modules.html'
+                    },
+                    {
+                        id: 233,
+                        title: 'Respostas de solicitação HTTP',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/backend/node-npm.html'
                     },
                     {
+                        id: 234,
+                        title: 'Introdução ao Backend 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/node-practice1.html'
+                    },
+                    {
                         id: 235,
-                        title: 'Node.js Básico',
+                        title: 'ExpressJS',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/node-fs.html'
+                    },
+                    {
+                        id: 233,
+                        title: 'Objetos de solicitação e resposta',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/node-npm.html'
+                    },
+                    {
+                        id: 234,
+                        title: 'Construindo um aplicativo expresso 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -2104,22 +2146,90 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 236,
-                        title: 'Sistema de Arquivos (File System)',
+                        title: 'Números aleatórios',
+                        type: 'guided_project',
+                        description: 'Crie um backend que possa ajudar caso você não tenha uma moeda ou dado pronto',
+                        subAction: 'PARTE 1',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/projects/cli-tool-p1.html'
+                    },
+                    {
+                        id: 235,
+                        title: 'Parâmetros de Rota',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/backend/node-fs.html'
                     },
                     {
-                        id: 237,
-                        title: 'Ferramenta de Linha de Comando',
+                        id: 233,
+                        title: 'Parâmetros de consulta',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/node-npm.html'
+                    },
+                    {
+                        id: 234,
+                        title: 'Construindo um aplicativo expresso 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/node-practice1.html'
+                    },
+                    {
+                        id: 235,
+                        title: 'Solicitações POST',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/node-fs.html'
+                    },
+                    {
+                        id: 233,
+                        title: 'Solicitações PUT',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/node-npm.html'
+                    },
+                    {
+                        id: 235,
+                        title: 'Solicitações de PATCH',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/node-fs.html'
+                    },
+                    {
+                        id: 233,
+                        title: 'Solicitações DELETE',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/node-npm.html'
+                    },
+                    {
+                        id: 234,
+                        title: 'Construindo um aplicativo expresso 3',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/node-practice1.html'
+                    },
+                    {
+                        id: 236,
+                        title: 'Números aleatórios',
                         type: 'guided_project',
-                        description: 'Crie uma ferramenta de linha de comando interativa para gerenciar notas ou tarefas.',
-                        subAction: 'PARTE 1',
+                        description: 'Na segunda parte do projeto, usaremos parâmetros de consulta para adaptar os endpoints às nossas necessidades.',
+                        subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
                         url: './lessons/projects/cli-tool-p1.html'
-                    }
+                    },
                 ]
             },
             {
@@ -2128,7 +2238,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Crie APIs RESTful robustas e escaláveis com o framework Express.js',
                 locked: true,
                 lessons: [{
-                        id: 238,
+                        id: 237,
                         title: 'Introdução ao Express.js',
                         type: 'learn',
                         completed: false,
@@ -2136,7 +2246,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-intro.html'
                     },
                     {
-                        id: 239,
+                        id: 238,
                         title: 'Configurando o Servidor',
                         type: 'learn',
                         completed: false,
@@ -2144,7 +2254,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-server.html'
                     },
                     {
-                        id: 240,
+                        id: 239,
                         title: 'Roteamento Básico',
                         type: 'learn',
                         completed: false,
@@ -2152,7 +2262,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-routing.html'
                     },
                     {
-                        id: 241,
+                        id: 240,
                         title: 'Middleware',
                         type: 'learn',
                         completed: false,
@@ -2160,7 +2270,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-middleware.html'
                     },
                     {
-                        id: 242,
+                        id: 241,
                         title: 'API com Express',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -2169,7 +2279,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-practice1.html'
                     },
                     {
-                        id: 243,
+                        id: 242,
                         title: 'Parâmetros de Rota e Consulta',
                         type: 'learn',
                         completed: false,
@@ -2177,7 +2287,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-params.html'
                     },
                     {
-                        id: 244,
+                        id: 243,
                         title: 'API de Blog',
                         type: 'guided_project',
                         description: 'Construa o back-end para um blog, gerenciando posts e autores através de uma API RESTful.',
@@ -2194,7 +2304,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Aprenda a persistir dados usando bancos de dados SQL e NoSQL',
                 locked: true,
                 lessons: [{
-                        id: 245,
+                        id: 244,
                         title: 'SQL vs NoSQL',
                         type: 'learn',
                         completed: false,
@@ -2202,7 +2312,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/sql-vs-nosql.html'
                     },
                     {
-                        id: 246,
+                        id: 245,
                         title: 'Conectando com MongoDB',
                         type: 'learn',
                         completed: false,
@@ -2210,7 +2320,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/mongodb-connect.html'
                     },
                     {
-                        id: 247,
+                        id: 246,
                         title: 'Operações CRUD',
                         type: 'learn',
                         completed: false,
@@ -2218,7 +2328,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/crud.html'
                     },
                     {
-                        id: 248,
+                        id: 247,
                         title: 'Schemas e Modelos com Mongoose',
                         type: 'learn',
                         completed: false,
@@ -2226,7 +2336,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/mongoose.html'
                     },
                     {
-                        id: 249,
+                        id: 248,
                         title: 'Persistência de Dados',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -2235,7 +2345,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/db-practice.html'
                     },
                     {
-                        id: 250,
+                        id: 249,
                         title: 'API de Blog com Banco de Dados',
                         type: 'guided_project',
                         description: 'Integre um banco de dados MongoDB à sua API de Blog para persistir os dados.',
@@ -2252,7 +2362,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Implemente sistemas de autenticação seguros para proteger suas aplicações',
                 locked: true,
                 lessons: [{
-                        id: 251,
+                        id: 250,
                         title: 'Hashing de Senhas',
                         type: 'learn',
                         completed: false,
@@ -2260,7 +2370,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/auth/hashing.html'
                     },
                     {
-                        id: 252,
+                        id: 251,
                         title: 'JSON Web Tokens (JWT)',
                         type: 'learn',
                         completed: false,
@@ -2268,7 +2378,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/auth/jwt.html'
                     },
                     {
-                        id: 253,
+                        id: 252,
                         title: 'Criando Rotas Protegidas',
                         type: 'learn',
                         completed: false,
@@ -2276,7 +2386,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/auth/protected-routes.html'
                     },
                     {
-                        id: 254,
+                        id: 253,
                         title: 'Cookies e Sessões',
                         type: 'learn',
                         completed: false,
@@ -2284,7 +2394,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/auth/cookies.html'
                     },
                     {
-                        id: 255,
+                        id: 254,
                         title: 'Login e Registro',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -2293,7 +2403,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/auth/auth-practice.html'
                     },
                     {
-                        id: 256,
+                        id: 255,
                         title: 'API de Blog com Autenticação',
                         type: 'guided_project',
                         description: 'Adicione registro de usuário e login à sua API, protegendo rotas que exigem autenticação.',
@@ -2310,7 +2420,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Una todas as suas habilidades para construir e implantar um projeto full-stack completo',
                 locked: true,
                 lessons: [{
-                        id: 257,
+                        id: 256,
                         title: 'Preparando para Produção',
                         type: 'learn',
                         completed: false,
@@ -2318,7 +2428,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/deployment/production-prep.html'
                     },
                     {
-                        id: 258,
+                        id: 257,
                         title: 'Variáveis de Ambiente',
                         type: 'learn',
                         completed: false,
@@ -2326,7 +2436,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/deployment/env-vars.html'
                     },
                     {
-                        id: 259,
+                        id: 258,
                         title: 'Implantando em um Serviço de Nuvem',
                         type: 'learn',
                         completed: false,
@@ -2334,7 +2444,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/deployment/deploy.html'
                     },
                     {
-                        id: 260,
+                        id: 259,
                         title: 'Projeto Final: E-commerce',
                         type: 'guided_project',
                         description: 'Construa uma aplicação de e-commerce full-stack, desde a vitrine de produtos até o checkout.',
@@ -2344,7 +2454,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/final-project.html'
                     },
                     {
-                        id: 230,
+                        id: 260,
                         title: 'Certificado de Conclusão',
                         type: 'certificate',
                         completed: false,
