@@ -2234,12 +2234,12 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 17,
-                title: 'Construindo APIs com Express.js',
-                description: 'Crie APIs RESTful robustas e escaláveis com o framework Express.js',
+                title: 'Trabalhando com bancos de dados',
+                description: 'Aprenda a trabalhar com bancos de dados e gerenciar dados em SQL',
                 locked: true,
                 lessons: [{
                         id: 237,
-                        title: 'Introdução ao Express.js',
+                        title: 'Selecionando Dados',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -2247,7 +2247,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 238,
-                        title: 'Configurando o Servidor',
+                        title: 'Dados do pedido',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -2255,23 +2255,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 239,
-                        title: 'Roteamento Básico',
+                        title: 'Filtrando dados',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/backend/express-routing.html'
                     },
                     {
-                        id: 240,
-                        title: 'Middleware',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/backend/express-middleware.html'
-                    },
-                    {
                         id: 241,
-                        title: 'API com Express',
+                        title: 'Noções básicas de SQL 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -2279,23 +2271,174 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-practice1.html'
                     },
                     {
-                        id: 242,
-                        title: 'Parâmetros de Rota e Consulta',
+                        id: 237,
+                        title: 'Usando o Operador de Desigualdade',
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/backend/express-params.html'
+                        url: './lessons/backend/express-intro.html'
+                    },
+                    {
+                        id: 238,
+                        title: 'Usando comparações',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/express-server.html'
+                    },
+                    {
+                        id: 239,
+                        title: 'Aliasing',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/express-routing.html'
+                    },
+                    {
+                        id: 241,
+                        title: 'Noções básicas de SQL 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/express-practice1.html'
+                    },
+                    {
+                        id: 237,
+                        title: 'Adicionar e remover dados',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/express-intro.html'
+                    },
+                    {
+                        id: 238,
+                        title: 'Atualização SQL',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/express-server.html'
+                    },
+                    {
+                        id: 239,
+                        title: 'Criação de tabela SQL',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/express-routing.html'
+                    },
+                    {
+                        id: 241,
+                        title: 'Gerenciamento de Tabelas SQL 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/express-practice1.html'
+                    },
+                    {
+                        id: 237,
+                        title: 'Introdução ao SQLite',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/express-intro.html'
+                    },
+                    {
+                        id: 238,
+                        title: 'Configuração do banco de dados',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/express-server.html'
+                    },
+                    {
+                        id: 239,
+                        title: 'Consultas Parametrizadas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/express-routing.html'
+                    },
+                    {
+                        id: 239,
+                        title: 'Transações',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/express-routing.html'
+                    },
+                    {
+                        id: 241,
+                        title: 'SQLite',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/express-practice1.html'
+                    },
+                    {
+                        id: 239,
+                        title: 'Estruturação de endpoints',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/express-routing.html'
+                    },
+                    {
+                        id: 241,
+                        title: 'Estruturação de endpoints',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/express-practice1.html'
                     },
                     {
                         id: 243,
-                        title: 'API de Blog',
+                        title: 'Gerenciador de Tarefas',
                         type: 'guided_project',
-                        description: 'Construa o back-end para um blog, gerenciando posts e autores através de uma API RESTful.',
+                        description: 'Neste projeto, voltaremos a gerenciar tarefas. Desta vez, criaremos um servidor com um banco de dados para acompanhar nossas tarefas.',
                         subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
                         url: './lessons/projects/blog-api-p1.html'
-                    }
+                    },
+                    {
+                        id: 239,
+                        title: 'Alteração SQL',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/express-routing.html'
+                    },
+                    {
+                        id: 239,
+                        title: 'Listando e Excluindo Tabelas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/express-routing.html'
+                    },
+                    {
+                        id: 241,
+                        title: 'Gerenciamento de Tabelas SQL 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/backend/express-practice1.html'
+                    },
+                    {
+                        id: 243,
+                        title: 'Gerenciador de Tarefas',
+                        type: 'guided_project',
+                        description: 'Na segunda parte do projeto, permitiremos que nossos usuários definam tarefas como concluídas e, com isso, tornar o gerenciador de tarefas uma ferramenta útil',
+                        subAction: 'PARTE 2',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/projects/blog-api-p1.html'
+                    },
                 ]
             },
             {
