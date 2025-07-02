@@ -2916,7 +2916,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Lógica para o card de certificado (sem alterações)
         if (lesson.type === 'certificate') {
             return `<a class="lesson-card certificate-card ${lesson.locked ? 'locked' : ''}" data-lesson-id="${lesson.id}" ${linkAttributes}>
-                        <div class="cert-icon-area"><i class="fas fa-award"></i><span>JavaScript</span></div>
+                        <div class="cert-icon-area"><i class="fas fa-award"></i><span>20. Full-Stack</span></div>
                         <div class="cert-title">${lesson.title}</div>
                         ${lesson.locked ? lockIcon : statusIcon}
                     </a>`;
