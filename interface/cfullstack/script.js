@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const totalProgressBar = document.getElementById('total-progress-bar');
     const totalProgressText = document.getElementById('total-progress-text');
 
-    // --- ESTRUTURA DE DADOS COMPLETA PARA O CURSO DE FRONT-END ---
+    // --- ESTRUTURA DE DADOS COMPLETA PARA O CURSO DE FULLSTACK ---
     const initialCourseData = {
         currentSectionId: 1,
         sections: [{
