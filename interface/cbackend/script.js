@@ -901,7 +901,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 7,
-                title: 'Matrizes / Arrays e Funções ',
+                title: ' ',
                 description: 'Use matrizes / Arrays e funções para construir programas sofisticados',
                 locked: true,
                 lessons: [{
