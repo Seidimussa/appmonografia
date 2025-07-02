@@ -901,36 +901,152 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 7,
-                title: ' ',
-                description: 'Use matrizes / Arrays e funções para construir programas sofisticados',
+                title: 'Trabalhando com bancos de dados ',
+                description: 'Aprenda a trabalhar com bancos de dados e gerenciar dados em SQL',
                 locked: true,
                 lessons: [{
                         id: 101,
-                        title: 'Agrupando valores com matrizes / arrays',
+                        title: 'Selecionando Dados',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/objects/01.html'
                     },
                     {
-                        id: 116,
-                        title: 'Alterando valores em matrizes / arrays',
+                        id: 102,
+                        title: 'Dados do pedido',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/objects/02.html'
+                    },
+                    {
+                        id: 103,
+                        title: 'Filtrando dados',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/02.html'
+                    },
+                    {
+                        id: 104,
+                        title: 'Noções básicas de SQL 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/04.html'
+                    },
+                    {
+                        id: 105,
+                        title: 'Usando o Operador de Desigualdade',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/03.html'
+                    },
+                    {
+                        id: 106,
+                        title: 'Usando comparações',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/02.html'
+                    },
+                    {
+                        id: 107,
+                        title: 'Aliasing',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/03.html'
+                    },
+                    {
+                        id: 108,
+                        title: 'Noções básicas de SQL 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/04.html'
+                    },
+                    {
+                        id: 109,
+                        title: 'Adicionar e remover dados',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/02.html'
+                    },
+                    {
+                        id: 110,
+                        title: 'Atualização SQL',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/03.html'
+                    },
+                    {
+                        id: 111,
+                        title: 'Criação de tabela SQL',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/03.html'
+                    },
+                    {
+                        id: 112,
+                        title: 'Gerenciamento de Tabelas SQL 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/04.html'
+                    },
+                    {
+                        id: 113,
+                        title: 'Introdução ao SQLite',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/02.html'
+                    },
+                    {
+                        id: 114,
+                        title: 'Configuração do banco de dados',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/03.html'
+                    },
+                    {
+                        id: 115,
+                        title: 'Consultas Parametrizadas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/03.html'
+                    },
+                    {
+                        id: 116,
+                        title: 'Transações',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/03.html'
                     },
                     {
                         id: 117,
-                        title: 'Empurrando e removendo matrizes / arrays',
-                        type: 'learn',
+                        title: 'SQLite',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/objects/02.html'
+                        url: './lessons/objects/04.html'
                     },
                     {
                         id: 118,
-                        title: 'Decidindo com Arrays',
+                        title: 'Estruturação de endpoints',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -938,7 +1054,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 119,
-                        title: 'Matrizes / Arrays',
+                        title: 'Estruturação de endpoints',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -947,91 +1063,33 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 120,
-                        title: 'Criando Parâmetros',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/02.html'
-                    },
-                    {
-                        id: 121,
-                        title: 'Retornando Valores',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/03.html'
-                    },
-                    {
-                        id: 122,
-                        title: 'Funções 1',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/04.html'
-                    },
-                    {
-                        id: 123,
-                        title: 'Usando vários parâmetros',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/02.html'
-                    },
-                    {
-                        id: 124,
-                        title: 'Compreendendo Funções',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/03.html'
-                    },
-                    {
-                        id: 125,
-                        title: 'Funções 2',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/04.html'
-                    },
-                    {
-                        id: 126,
-                        title: 'Jogo de perguntas e respostas',
+                        title: 'Gerenciador de Tarefas',
                         type: 'guided_project',
-                        description: 'Pronto para desafiar seus amigos? Nesta apresentação, vamos preparar o cenário para o nosso jogo, adicionando a primeira pergunta e apresentando a mecânica essencial do jogo.',
+                        description: 'Neste projeto, voltaremos a gerenciar tarefas. Desta vez, criaremos um servidor com um banco de dados para acompanhar nossas tarefas.',
                         subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 127,
-                        title: 'Condicionais de aninhamento',
+                        id: 121,
+                        title: 'Alteração SQL',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 128,
-                        title: 'Usando Condições e Funções',
+                        id: 122,
+                        title: 'Listando e Excluindo Tabelas',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 129,
-                        title: 'Parando funções com retorno',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/03.html'
-                    },
-                    {
-                        id: 130,
-                        title: 'Funções Aplicadas 1',
+                        id: 123,
+                        title: 'Gerenciamento de Tabelas SQL 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1039,68 +1097,10 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/04.html'
                     },
                     {
-                        id: 131,
-                        title: 'Adicionando Loops a Funções',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/02.html'
-                    },
-                    {
-                        id: 132,
-                        title: 'Looping sobre matrizes',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/03.html'
-                    },
-                    {
-                        id: 133,
-                        title: 'Funções Aplicadas 2',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/04.html'
-                    },
-                    {
-                        id: 134,
-                        title: 'Array .map()',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/02.html'
-                    },
-                    {
-                        id: 135,
-                        title: 'Array.filter()',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/02.html'
-                    },
-                    {
-                        id: 136,
-                        title: 'Array.reduce()',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/03.html'
-                    },
-                    {
-                        id: 137,
-                        title: 'Operações de matriz / array',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/04.html'
-                    },
-                    {
-                        id: 138,
-                        title: 'Jogo de perguntas e respostas',
+                        id: 124,
+                        title: 'Gerenciador de Tarefas',
                         type: 'guided_project',
-                        description: 'Com a lógica implementada, agora tudo se resume ao engajamento do jogador. Vamos aprimorar nosso jogo, introduzindo várias perguntas e exibindo uma pontuação.',
+                        description: 'Na segunda parte do projeto, permitiremos que nossos usuários definam tarefas como concluídas e, com isso, tornar o gerenciador de tarefas uma ferramenta útil',
                         subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
@@ -1114,7 +1114,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Aprenda a usar objetos e funções JS mais avançadas',
                 locked: true,
                 lessons: [{
-                        id: 139,
+                        id: 125,
                         title: 'Agrupando valores em objetos',
                         type: 'learn',
                         completed: false,
