@@ -2443,12 +2443,12 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 18,
-                title: 'Bancos de Dados para Aplicações Web',
-                description: 'Aprenda a persistir dados usando bancos de dados SQL e NoSQL',
+                title: 'SQL em profundidade',
+                description: 'Obtenha insights de dados usando operações e filtros',
                 locked: true,
                 lessons: [{
                         id: 244,
-                        title: 'SQL vs NoSQL',
+                        title: 'Filtragem com intervalos',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -2456,7 +2456,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 245,
-                        title: 'Conectando com MongoDB',
+                        title: 'Filtrando por padrões',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -2464,23 +2464,48 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 246,
-                        title: 'Operações CRUD',
+                        title: 'Filtrando com opções',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/database/crud.html'
                     },
                     {
+                        id: 248,
+                        title: 'Filtros SQL 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/database/db-practice.html'
+                    },
+                    {
                         id: 247,
-                        title: 'Schemas e Modelos com Mongoose',
+                        title: 'Usando AND',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/database/mongoose.html'
                     },
                     {
+                        id: 245,
+                        title: 'Usando OU',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/database/mongodb-connect.html'
+                    },
+                    {
+                        id: 246,
+                        title: 'Usando NÃO',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/database/crud.html'
+                    },
+                    {
                         id: 248,
-                        title: 'Persistência de Dados',
+                        title: 'Filtros SQL 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -2489,24 +2514,150 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 249,
-                        title: 'API de Blog com Banco de Dados',
+                        title: 'Contador',
                         type: 'guided_project',
-                        description: 'Integre um banco de dados MongoDB à sua API de Blog para persistir os dados.',
+                        description: 'Crie um backend que registre todos os livros que você lê. Com a ajuda de um banco de dados, você criará a estante digital perfeita.',
+                        subAction: 'PARTE 1',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/projects/blog-api-p2.html'
+                    },
+                    {
+                        id: 247,
+                        title: 'Encontrando MIN, MAX e Média',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/database/mongoose.html'
+                    },
+                    {
+                        id: 245,
+                        title: 'Contando e Somando',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/database/mongodb-connect.html'
+                    },
+                    {
+                        id: 246,
+                        title: 'Agrupando resultados da consulta',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/database/crud.html'
+                    },
+                    {
+                        id: 248,
+                        title: 'Funções de agregação SQL',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/database/db-practice.html'
+                    },
+                    {
+                        id: 247,
+                        title: 'Apresentando INNER JOINs',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/database/mongoose.html'
+                    },
+                    {
+                        id: 245,
+                        title: 'Usando INNER JOINs',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/database/mongodb-connect.html'
+                    },
+                    {
+                        id: 246,
+                        title: 'Usando LEFT JOINs',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/database/crud.html'
+                    },
+                    {
+                        id: 248,
+                        title: 'SQL Junções 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/database/db-practice.html'
+                    },
+                    {
+                        id: 245,
+                        title: 'Usando RIGHT JOINs',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/database/mongodb-connect.html'
+                    },
+                    {
+                        id: 246,
+                        title: 'Usando FULL OUTER JOINs',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/database/crud.html'
+                    },
+                    {
+                        id: 248,
+                        title: 'SQL Junções 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/database/db-practice.html'
+                    },
+                    {
+                        id: 245,
+                        title: 'Subconsultas com agregados',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/database/mongodb-connect.html'
+                    },
+                    {
+                        id: 246,
+                        title: 'Subconsultas com IN',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/database/crud.html'
+                    },
+                    {
+                        id: 248,
+                        title: 'Subconsultas SQL',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/database/db-practice.html'
+                    },
+                    {
+                        id: 249,
+                        title: 'Contador',
+                        type: 'guided_project',
+                        description: 'Anotar os principais aprendizados de um ótimo livro pode ser uma ótima maneira de se lembrar dele. Aqui, criaremos um aplicativo para nos ajudar a fazer exatamente isso.',
                         subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
                         url: './lessons/projects/blog-api-p2.html'
-                    }
+                    },
                 ]
             },
             {
                 id: 19,
-                title: 'Autenticação e Segurança',
-                description: 'Implemente sistemas de autenticação seguros para proteger suas aplicações',
+                title: ' Mergulho profundo expresso',
+                description: 'Crie aplicativos complexos do lado do servidor usando o Express',
                 locked: true,
                 lessons: [{
                         id: 250,
-                        title: 'Hashing de Senhas',
+                        title: 'Middleware',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -2514,7 +2665,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 251,
-                        title: 'JSON Web Tokens (JWT)',
+                        title: 'Introdução ao Express Router',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/auth/jwt.html'
+                    },
+                    {
+                        id: 251,
+                        title: 'Usando o Roteador Expresso',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -2522,7 +2681,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 252,
-                        title: 'Criando Rotas Protegidas',
+                        title: 'Redirecionando',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -2530,7 +2689,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 253,
-                        title: 'Cookies e Sessões',
+                        title: 'Tratamento de erros',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -2538,7 +2697,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 254,
-                        title: 'Login e Registro',
+                        title: 'Mergulho Profundo Expresso',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -2547,24 +2706,34 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 255,
-                        title: 'API de Blog com Autenticação',
+                        title: 'Questionário',
                         type: 'guided_project',
-                        description: 'Adicione registro de usuário e login à sua API, protegendo rotas que exigem autenticação.',
-                        subAction: 'PARTE 3',
+                        description: 'proveite o poder do Express para criar um aplicativo de quiz bem estruturado e complexo',
+                        subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
                         url: './lessons/projects/blog-api-p3.html'
-                    }
+                    },
+                    {
+                        id: 255,
+                        title: 'Questionário',
+                        type: 'guided_project',
+                        description: 'Na segunda parte do projeto, você adicionará um banco de dados à mistura',
+                        subAction: 'PARTE 2',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/projects/blog-api-p3.html'
+                    },
                 ]
             },
             {
                 id: 20,
-                title: 'Projeto Final e Implantação',
-                description: 'Una todas as suas habilidades para construir e implantar um projeto full-stack completo',
+                title: '',
+                description: '',
                 locked: true,
                 lessons: [{
                         id: 256,
-                        title: 'Preparando para Produção',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -2572,7 +2741,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 257,
-                        title: 'Variáveis de Ambiente',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -2580,7 +2749,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 258,
-                        title: 'Implantando em um Serviço de Nuvem',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -2588,9 +2757,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 259,
-                        title: 'Projeto Final: E-commerce',
+                        title: '',
                         type: 'guided_project',
-                        description: 'Construa uma aplicação de e-commerce full-stack, desde a vitrine de produtos até o checkout.',
+                        description: '',
                         subAction: 'PROJETO FINAL',
                         completed: false,
                         locked: true,
