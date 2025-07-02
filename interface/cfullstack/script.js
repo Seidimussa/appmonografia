@@ -2728,42 +2728,56 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 20,
-                title: '',
-                description: '',
+                title: 'Pilha completa / Full-Stack',
+                description: 'Junte tudo o que você aprendeu até agora',
                 locked: true,
                 lessons: [{
                         id: 256,
-                        title: '',
+                        title: 'Seu primeiro aplicativo full-stack',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/deployment/production-prep.html'
                     },
                     {
-                        id: 257,
-                        title: '',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/deployment/env-vars.html'
-                    },
-                    {
-                        id: 258,
-                        title: '',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/deployment/deploy.html'
-                    },
-                    {
-                        id: 259,
-                        title: '',
+                        id: 255,
+                        title: 'Pixel Grid',
                         type: 'guided_project',
-                        description: '',
-                        subAction: 'PROJETO FINAL',
+                        description: 'Crie um aplicativo de desenho colaborativo que permita que seus usuários sejam criativos. Na primeira parte, você configurará o back-end inicial.',
+                        subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
-                        url: './lessons/projects/final-project.html'
+                        url: './lessons/projects/blog-api-p3.html'
+                    },
+                    {
+                        id: 255,
+                        title: 'Pixel Grid',
+                        type: 'guided_project',
+                        description: 'Na segunda parte, você configurará o front-ent para consumir a API e exibir a grade que o back-end retorna',
+                        subAction: 'PARTE 2',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/projects/blog-api-p3.html'
+                    },
+                    {
+                        id: 255,
+                        title: 'Pixel Grid',
+                        type: 'guided_project',
+                        description: 'Na terceira parte, você implementará um novo endpoint para permitir que seus usuários atualizem pixels na grade',
+                        subAction: 'PARTE 3',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/projects/blog-api-p3.html'
+                    },
+                    {
+                        id: 255,
+                        title: 'Pixel Grid',
+                        type: 'guided_project',
+                        description: 'Na parte final, você estenderá o front-end para permitir que os usuários pintem na tela digital e exibam o desenho atualizado',
+                        subAction: 'PARTE 4',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/projects/blog-api-p3.html'
                     },
                     {
                         id: 260,
