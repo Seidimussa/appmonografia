@@ -58,8 +58,21 @@ document.addEventListener('DOMContentLoaded', () => {
         ]
     };
     
-    let courseData = JSON.parse(localStorage.getItem('courseProgress_ts_full')) || JSON.parse(JSON.stringify(initialCourseData));
-    const saveProgress = () => localStorage.setItem('courseProgress_ts_full', JSON.stringify(courseData));
+    // let courseData = JSON.parse(localStorage.getItem('courseProgress_ts_full')) || JSON.parse(JSON.stringify(initialCourseData));
+    // const saveProgress = () => localStorage.setItem('courseProgress_ts_full', JSON.stringify(courseData));
+
+     let courseData = JSON.parse(localStorage.getItem(COURSE_STORAGE_KEY)) || JSON.parse(JSON.stringify(initialCourseData));
+
+    // --- FUNÇÕES DE LÓGICA E ESTADO ---
+    const saveProgress = () => localStorage.setItem(COURSE_STORAGE_KEY, JSON.stringify(courseData));
+
+    const resetProgress = () => {
+        if (confirm('Tem certeza que deseja resetar todo o seu progresso?')) {
+            localStorage.removeItem(COURSE_STORAGE_KEY);
+            courseData = JSON.parse(JSON.stringify(initialCourseData));
+            renderApp();
+        }
+    };
 
     const completeLesson = (lessonId) => {
         const currentSection = courseData.sections.find(s => s.id === courseData.currentSectionId);

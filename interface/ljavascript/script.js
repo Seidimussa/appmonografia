@@ -898,7 +898,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // let courseData = JSON.parse(localStorage.getItem('courseProgress_js')) || JSON.parse(JSON.stringify(initialCourseData));
     // const saveProgress = () => localStorage.setItem('courseProgress_js', JSON.stringify(courseData));
 
-     let courseData = JSON.parse(localStorage.getItem(COURSE_STORAGE_KEY)) || JSON.parse(JSON.stringify(initialCourseData));
+    let courseData = JSON.parse(localStorage.getItem(COURSE_STORAGE_KEY)) || JSON.parse(JSON.stringify(initialCourseData));
 
     // --- FUNÇÕES DE LÓGICA E ESTADO ---
     const saveProgress = () => localStorage.setItem(COURSE_STORAGE_KEY, JSON.stringify(courseData));

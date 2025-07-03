@@ -2795,6 +2795,8 @@ document.addEventListener('DOMContentLoaded', () => {
         ]
     };
 
+
+    
     // Pega a chave do curso dinamicamente do atributo data-course-key no body
     const courseKey = document.body.dataset.courseKey;
     if (!courseKey) {

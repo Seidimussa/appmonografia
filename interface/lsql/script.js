@@ -14,87 +14,387 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- ESTRUTURA DE DADOS COMPLETA PARA O CURSO DE SQL ---
     const initialCourseData = {
         currentSectionId: 1,
-        sections: [
-            {
-                id: 1, title: 'Noções básicas de SQL', description: 'Selecione e filtre os dados de uma tabela', locked: false,
-                lessons: [
-                    { id: 1, title: 'Selecionando Dados', type: 'learn', completed: false, locked: false, url: './lessons/sql-basics/01.html' },
-                    { id: 2, title: 'Dados do pedido', type: 'learn', completed: false, locked: true, url: './lessons/sql-basics/02.html' },
-                    { id: 3, title: 'Filtrando dados', type: 'learn', completed: false, locked: true, url: './lessons/sql-basics/03.html' },
-                    { id: 4, title: 'Noções básicas de SQL 1', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/sql-basics/04.html' },
-                    { id: 5, title: 'Usando o Operador de Desigualdade', type: 'learn', completed: false, locked: true, url: './lessons/sql-basics/05.html' },
-                    { id: 6, title: 'Usando comparações', type: 'learn', completed: false, locked: true, url: './lessons/sql-basics/06.html' },
-                    { id: 7, title: 'Noções básicas de SQL 2', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/sql-basics/07.html' },
+        sections: [{
+                id: 1,
+                title: 'Noções básicas de SQL',
+                description: 'Selecione e filtre os dados de uma tabela',
+                locked: false,
+                lessons: [{
+                        id: 1,
+                        title: 'Selecionando Dados',
+                        type: 'learn',
+                        completed: false,
+                        locked: false,
+                        url: './lessons/sql-basics/01.html'
+                    },
+                    {
+                        id: 2,
+                        title: 'Dados do pedido',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/sql-basics/02.html'
+                    },
+                    {
+                        id: 3,
+                        title: 'Filtrando dados',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/sql-basics/03.html'
+                    },
+                    {
+                        id: 4,
+                        title: 'Noções básicas de SQL 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/sql-basics/04.html'
+                    },
+                    {
+                        id: 5,
+                        title: 'Usando o Operador de Desigualdade',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/sql-basics/05.html'
+                    },
+                    {
+                        id: 6,
+                        title: 'Usando comparações',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/sql-basics/06.html'
+                    },
+                    {
+                        id: 7,
+                        title: 'Noções básicas de SQL 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/sql-basics/07.html'
+                    },
                 ]
             },
             {
-                id: 2, title: 'Gestão de mesas', description: 'Aprenda a criar e gerenciar tabelas em SQL', locked: true,
-                lessons: [
-                    { id: 8, title: 'Adicionar e remover dados', type: 'learn', completed: false, locked: true, url: './lessons/table-management/01.html' },
-                    { id: 9, title: 'Atualização SQL', type: 'learn', completed: false, locked: true, url: './lessons/table-management/02.html' },
-                    { id: 10, title: 'Criação de tabela SQL', type: 'learn', completed: false, locked: true, url: './lessons/table-management/03.html' },
-                    { id: 11, title: 'Gerenciamento de Tabelas SQL 1', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/table-management/04.html' },
-                    { id: 12, title: 'Alteração SQL', type: 'learn', completed: false, locked: true, url: './lessons/table-management/05.html' },
-                    { id: 13, title: 'Listando e Excluindo Tabelas', type: 'learn', completed: false, locked: true, url: './lessons/table-management/06.html' },
-                    { id: 14, title: 'Gerenciamento de Tabelas SQL 2', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/table-management/07.html' },
+                id: 2,
+                title: 'Gestão de mesas',
+                description: 'Aprenda a criar e gerenciar tabelas em SQL',
+                locked: true,
+                lessons: [{
+                        id: 8,
+                        title: 'Adicionar e remover dados',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/table-management/01.html'
+                    },
+                    {
+                        id: 9,
+                        title: 'Atualização SQL',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/table-management/02.html'
+                    },
+                    {
+                        id: 10,
+                        title: 'Criação de tabela SQL',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/table-management/03.html'
+                    },
+                    {
+                        id: 11,
+                        title: 'Gerenciamento de Tabelas SQL 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/table-management/04.html'
+                    },
+                    {
+                        id: 12,
+                        title: 'Alteração SQL',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/table-management/05.html'
+                    },
+                    {
+                        id: 13,
+                        title: 'Listando e Excluindo Tabelas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/table-management/06.html'
+                    },
+                    {
+                        id: 14,
+                        title: 'Gerenciamento de Tabelas SQL 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/table-management/07.html'
+                    },
                 ]
             },
             {
-                id: 3, title: 'Filtros', description: 'Use um ou mais filtros avançados para restringir os resultados', locked: true,
-                lessons: [
-                    { id: 15, title: 'Filtragem com Intervalos', type: 'learn', completed: false, locked: true, url: './lessons/filters/01.html' },
-                    { id: 16, title: 'Filtrando por padrões', type: 'learn', completed: false, locked: true, url: './lessons/filters/02.html' },
-                    { id: 17, title: 'Filtrando com opções', type: 'learn', completed: false, locked: true, url: './lessons/filters/03.html' },
-                    { id: 18, title: 'Filtros SQL 1', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/filters/04.html' },
-                    { id: 19, title: 'Usando AND', type: 'learn', completed: false, locked: true, url: './lessons/filters/05.html' },
-                    { id: 20, title: 'Usando OU', type: 'learn', completed: false, locked: true, url: './lessons/filters/06.html' },
-                    { id: 21, title: 'Usando NÃO', type: 'learn', completed: false, locked: true, url: './lessons/filters/07.html' },
-                    { id: 22, title: 'Filtros SQL 2', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/filters/08.html' },
+                id: 3,
+                title: 'Filtros',
+                description: 'Use um ou mais filtros avançados para restringir os resultados',
+                locked: true,
+                lessons: [{
+                        id: 15,
+                        title: 'Filtragem com Intervalos',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/filters/01.html'
+                    },
+                    {
+                        id: 16,
+                        title: 'Filtrando por padrões',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/filters/02.html'
+                    },
+                    {
+                        id: 17,
+                        title: 'Filtrando com opções',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/filters/03.html'
+                    },
+                    {
+                        id: 18,
+                        title: 'Filtros SQL 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/filters/04.html'
+                    },
+                    {
+                        id: 19,
+                        title: 'Usando AND',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/filters/05.html'
+                    },
+                    {
+                        id: 20,
+                        title: 'Usando OU',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/filters/06.html'
+                    },
+                    {
+                        id: 21,
+                        title: 'Usando NÃO',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/filters/07.html'
+                    },
+                    {
+                        id: 22,
+                        title: 'Filtros SQL 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/filters/08.html'
+                    },
                 ]
             },
             {
-                id: 4, title: 'Funções Agregadas', description: 'Obtenha insights de dados usando operações matemáticas', locked: true,
-                lessons: [
-                    { id: 23, title: 'Aliasing', type: 'learn', completed: false, locked: true, url: './lessons/aggregate-functions/01.html' },
-                    { id: 24, title: 'Encontrando MIN, MAX e Média', type: 'learn', completed: false, locked: true, url: './lessons/aggregate-functions/02.html' },
-                    { id: 25, title: 'Contando e Somando', type: 'learn', completed: false, locked: true, url: './lessons/aggregate-functions/03.html' },
-                    { id: 26, title: 'Agrupando resultados da consulta', type: 'learn', completed: false, locked: true, url: './lessons/aggregate-functions/04.html' },
-                    { id: 27, title: 'Funções de agregação SQL', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/aggregate-functions/05.html' },
+                id: 4,
+                title: 'Funções Agregadas',
+                description: 'Obtenha insights de dados usando operações matemáticas',
+                locked: true,
+                lessons: [{
+                        id: 23,
+                        title: 'Aliasing',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/aggregate-functions/01.html'
+                    },
+                    {
+                        id: 24,
+                        title: 'Encontrando MIN, MAX e Média',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/aggregate-functions/02.html'
+                    },
+                    {
+                        id: 25,
+                        title: 'Contando e Somando',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/aggregate-functions/03.html'
+                    },
+                    {
+                        id: 26,
+                        title: 'Agrupando resultados da consulta',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/aggregate-functions/04.html'
+                    },
+                    {
+                        id: 27,
+                        title: 'Funções de agregação SQL',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/aggregate-functions/05.html'
+                    },
                 ]
             },
             {
-                id: 5, title: 'Junta-se', description: 'Consultar dados distribuídos em várias tabelas', locked: true,
-                lessons: [
-                    { id: 28, title: 'Apresentando INNER JOINs', type: 'learn', completed: false, locked: true, url: './lessons/joins/01.html' },
-                    { id: 29, title: 'Usando INNER JOINs', type: 'learn', completed: false, locked: true, url: './lessons/joins/02.html' },
-                    { id: 30, title: 'Usando LEFT JOINs', type: 'learn', completed: false, locked: true, url: './lessons/joins/03.html' },
-                    { id: 31, title: 'SQL Junções 1', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/joins/04.html' },
-                    { id: 32, title: 'Usando RIGHT JOINs', type: 'learn', completed: false, locked: true, url: './lessons/joins/05.html' },
-                    { id: 33, title: 'Usando FULL OUTER JOINs', type: 'learn', completed: false, locked: true, url: './lessons/joins/06.html' },
-                    { id: 34, title: 'SQL Junções 2', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/joins/07.html' },
+                id: 5,
+                title: 'Junta-se',
+                description: 'Consultar dados distribuídos em várias tabelas',
+                locked: true,
+                lessons: [{
+                        id: 28,
+                        title: 'Apresentando INNER JOINs',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/joins/01.html'
+                    },
+                    {
+                        id: 29,
+                        title: 'Usando INNER JOINs',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/joins/02.html'
+                    },
+                    {
+                        id: 30,
+                        title: 'Usando LEFT JOINs',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/joins/03.html'
+                    },
+                    {
+                        id: 31,
+                        title: 'SQL Junções 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/joins/04.html'
+                    },
+                    {
+                        id: 32,
+                        title: 'Usando RIGHT JOINs',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/joins/05.html'
+                    },
+                    {
+                        id: 33,
+                        title: 'Usando FULL OUTER JOINs',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/joins/06.html'
+                    },
+                    {
+                        id: 34,
+                        title: 'SQL Junções 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/joins/07.html'
+                    },
                 ]
             },
             {
-                id: 6, title: 'Subconsultas', description: 'Use o resultado de uma consulta dentro de outra consulta', locked: true,
-                lessons: [
-                    { id: 35, title: 'Subconsultas com agregados', type: 'learn', completed: false, locked: true, url: './lessons/subqueries/01.html' },
-                    { id: 36, title: 'Subconsultas com IN', type: 'learn', completed: false, locked: true, url: './lessons/subqueries/02.html' },
-                    { id: 37, title: 'Subconsultas SQL', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/subqueries/03.html' },
-                    { id: 38, title: 'Certificado de Conclusão', type: 'certificate', completed: false, locked: true, url: './certificate.html' }
+                id: 6,
+                title: 'Subconsultas',
+                description: 'Use o resultado de uma consulta dentro de outra consulta',
+                locked: true,
+                lessons: [{
+                        id: 35,
+                        title: 'Subconsultas com agregados',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/subqueries/01.html'
+                    },
+                    {
+                        id: 36,
+                        title: 'Subconsultas com IN',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/subqueries/02.html'
+                    },
+                    {
+                        id: 37,
+                        title: 'Subconsultas SQL',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/subqueries/03.html'
+                    },
+                    {
+                        id: 38,
+                        title: 'Certificado de Conclusão',
+                        type: 'certificate',
+                        completed: false,
+                        locked: true,
+                        url: './certificate.html'
+                    }
                 ]
             }
         ]
     };
-    
-    let courseData = JSON.parse(localStorage.getItem('courseProgress_sql_full')) || JSON.parse(JSON.stringify(initialCourseData));
-    const saveProgress = () => localStorage.setItem('courseProgress_sql_full', JSON.stringify(courseData));
+
+    // let courseData = JSON.parse(localStorage.getItem('courseProgress_sql_full')) || JSON.parse(JSON.stringify(initialCourseData));
+    // const saveProgress = () => localStorage.setItem('courseProgress_sql_full', JSON.stringify(courseData));
+
+     let courseData = JSON.parse(localStorage.getItem(COURSE_STORAGE_KEY)) || JSON.parse(JSON.stringify(initialCourseData));
+
+    // --- FUNÇÕES DE LÓGICA E ESTADO ---
+    const saveProgress = () => localStorage.setItem(COURSE_STORAGE_KEY, JSON.stringify(courseData));
+
+    const resetProgress = () => {
+        if (confirm('Tem certeza que deseja resetar todo o seu progresso?')) {
+            localStorage.removeItem(COURSE_STORAGE_KEY);
+            courseData = JSON.parse(JSON.stringify(initialCourseData));
+            renderApp();
+        }
+    };
 
     const completeLesson = (lessonId) => {
         const currentSection = courseData.sections.find(s => s.id === courseData.currentSectionId);
         const lesson = currentSection.lessons.find(l => l.id === lessonId);
 
         if (!lesson || lesson.completed || lesson.locked || lesson.type === 'certificate') return;
-        
+
         lesson.completed = true;
 
         const lessonIndex = currentSection.lessons.findIndex(l => l.id === lessonId);
@@ -104,7 +404,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const regularLessons = currentSection.lessons.filter(l => l.type !== 'certificate');
         const allSectionLessonsCompleted = regularLessons.every(l => l.completed);
-        
+
         if (allSectionLessonsCompleted) {
             const currentSectionIndex = courseData.sections.findIndex(s => s.id === courseData.currentSectionId);
             if (currentSectionIndex + 1 < courseData.sections.length) {
@@ -115,7 +415,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
         }
-        
+
         saveProgress();
         renderApp();
     };
@@ -123,15 +423,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const renderSidebar = () => {
         sectionsNavList.innerHTML = '';
         let completedSectionsCount = 0;
-        
+
         courseData.sections.forEach(section => {
             const regularLessons = section.lessons.filter(l => l.type !== 'certificate');
             const completedLessons = regularLessons.filter(l => l.completed).length;
-            
+
             if (regularLessons.length > 0 && completedLessons === regularLessons.length) {
                 completedSectionsCount++;
             }
-            
+
             const navItem = document.createElement('div');
             navItem.className = 'section-nav-item';
             navItem.classList.toggle('active', section.id === courseData.currentSectionId);
@@ -198,7 +498,7 @@ document.addEventListener('DOMContentLoaded', () => {
             continueBtn.addEventListener('click', (e) => changeSection(parseInt(e.target.dataset.nextSectionId)));
         }
     };
-    
+
     const renderLessonCard = (lesson, index) => {
         const isFirstUnlocked = !lesson.locked && !lesson.completed;
         const lockIcon = '<i class="fas fa-lock status-icon"></i>';
@@ -237,7 +537,7 @@ document.addEventListener('DOMContentLoaded', () => {
         renderSidebar();
         renderMainContent();
     };
-    
+
     const changeSection = (sectionId) => {
         const section = courseData.sections.find(s => s.id === sectionId);
         if (section && !section.locked) {
@@ -256,6 +556,6 @@ document.addEventListener('DOMContentLoaded', () => {
             renderApp();
         }
     });
-    
+
     renderApp();
 });
