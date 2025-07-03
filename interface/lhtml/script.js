@@ -263,25 +263,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const completeLesson = (lessonId) => {
         const currentSection = courseData.sections.find(s => s.id === courseData.currentSectionId);
+        const lesson = currentSection.lessons.find(l => l.id === lessonId);
+
+        if (!lesson || lesson.completed || lesson.locked || lesson.type === 'certificate') return;
+
+        lesson.completed = true;
+
         const lessonIndex = currentSection.lessons.findIndex(l => l.id === lessonId);
-
-        if (lessonIndex === -1 || currentSection.lessons[lessonIndex].completed || currentSection.lessons[lessonIndex].locked) return;
-        if (currentSection.lessons[lessonIndex].type === 'certificate') return;
-
-        currentSection.lessons[lessonIndex].completed = true;
-
         if (lessonIndex + 1 < currentSection.lessons.length) {
             currentSection.lessons[lessonIndex + 1].locked = false;
         }
 
-        const allLessonsCompleted = currentSection.lessons.filter(l => l.type !== 'certificate').every(l => l.completed);
-        if (allLessonsCompleted) {
+        const regularLessons = currentSection.lessons.filter(l => l.type !== 'certificate');
+        const allSectionLessonsCompleted = regularLessons.every(l => l.completed);
+        if (allSectionLessonsCompleted) {
             const currentSectionIndex = courseData.sections.findIndex(s => s.id === courseData.currentSectionId);
-            const nextSectionIndex = currentSectionIndex + 1;
-            if (nextSectionIndex < courseData.sections.length) {
-                const nextSection = courseData.sections[nextSectionIndex];
+            if (currentSectionIndex + 1 < courseData.sections.length) {
+                const nextSection = courseData.sections[currentSectionIndex + 1];
                 nextSection.locked = false;
-                if (nextSection.lessons && nextSection.lessons.length > 0) {
+                if (nextSection.lessons.length > 0) {
                     nextSection.lessons[0].locked = false;
                 }
             }
@@ -343,29 +343,23 @@ document.addEventListener('DOMContentLoaded', () => {
             ${nextSection ? `<section class="next-section-card"><p>PRÓXIMA SEÇÃO</p><div class="next-section-content"><span>${nextSection.title}</span><button class="continue-button" ${progressPercentage < 100 ? 'disabled' : ''} data-next-section-id="${nextSection.id}">Continuar</button></div></section>` : ''}
         `;
 
-        // --- ALTERAÇÃO: Event listener ajustado para lidar com links ---
         document.getElementById('lessons-list-container').addEventListener('click', (e) => {
             const card = e.target.closest('.lesson-card');
-            if (!card) return; // Se o clique não foi em um cartão, ignora
+            if (!card) return;
 
-            // Se o cartão está bloqueado, previne o clique e o redirecionamento
             if (card.classList.contains('locked')) {
                 e.preventDefault();
                 return;
             }
 
-            // Se o botão "sobrecarregar" foi clicado, mostra o alerta e previne o redirecionamento
             if (e.target.closest('.sub-button')) {
                 e.preventDefault();
                 alert(`Prática "${card.querySelector('.lesson-title').textContent}" sobrecarregada!`);
                 return;
             }
 
-            // Se for um clique válido em um cartão desbloqueado (que não seja o certificado), completa a lição
-            // A ação padrão do link (navegação) ocorrerá normalmente após este código executar.
-            if (!card.classList.contains('certificate-card')) {
-                completeLesson(parseInt(card.dataset.lessonId));
-            }
+            const lessonId = parseInt(card.dataset.lessonId);
+            completeLesson(lessonId);
         });
 
         const continueBtn = document.querySelector('.continue-button');
@@ -374,27 +368,25 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // --- ALTERAÇÃO: O cartão agora é uma tag <a> com href ---
     const renderLessonCard = (lesson, index) => {
         const isFirstUnlocked = !lesson.locked && !lesson.completed;
-        const statusIcon = lesson.locked ? '<i class="fas fa-lock status-icon"></i>' : '<i class="fas fa-check-circle status-icon"></i>';
-
-        // Define o href. Para cartões bloqueados, o clique já é prevenido no event listener.
-        const href = `href="${lesson.url}" target="_blank" rel="noopener noreferrer"`;
+        const lockIcon = '<i class="fas fa-lock status-icon"></i>';
+        const statusIcon = lesson.completed ? '<i class="fas fa-check-circle status-icon"></i>' : '<i class="far fa-circle status-icon"></i>';
+        const linkAttributes = `href="${lesson.url}"`;
 
         if (lesson.type === 'certificate') {
-            return `<a class="lesson-card certificate-card ${lesson.locked ? 'locked' : ''}" data-lesson-id="${lesson.id}" ${href}>
+            return `<a class="lesson-card certificate-card ${lesson.locked ? 'locked' : ''}" data-lesson-id="${lesson.id}" ${linkAttributes}>
                         <div class="cert-icon-area"><i class="fas fa-award"></i><span>HTML</span></div>
                         <div class="cert-title">${lesson.title}</div>
-                        ${statusIcon}
+                        ${lesson.locked ? lockIcon : statusIcon}
                     </a>`;
         }
         const lessonNumber = String(index + 1).padStart(2, '0');
         let typeInfo = (lesson.type === 'learn') ? `<i class="fa-regular fa-file-lines"></i> APRENDER` : `<i class="fas fa-bolt"></i> PRÁTICA`;
-        let subButtonHTML = (lesson.type === 'practice') ? `<div class="sub-button-container"><button class="sub-button"><i class="fas fa-bolt"></i> SOBRECARREGAR</button>${statusIcon}</div>` : '';
+        let subButtonHTML = (lesson.type === 'practice') ? `<div class="sub-button-container"><button class="sub-button"><i class="fas fa-bolt"></i> SOBRECARREGAR</button>${lesson.locked ? lockIcon : statusIcon}</div>` : '';
 
         return `
-            <a class="lesson-card ${lesson.locked ? 'locked' : ''} ${isFirstUnlocked ? 'active' : ''}" data-lesson-id="${lesson.id}" ${href}>
+            <a class="lesson-card ${lesson.locked ? 'locked' : ''} ${isFirstUnlocked ? 'active' : ''}" data-lesson-id="${lesson.id}" ${linkAttributes}>
                 <div class="lesson-main-info">
                     <div class="lesson-title-area">
                         <span class="lesson-number">${lessonNumber}</span>
@@ -402,7 +394,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                     <div class="lesson-status">
                         <span class="lesson-type ${lesson.type}">${typeInfo}</span>
-                        ${lesson.type !== 'practice' ? statusIcon : ''}
+                        ${lesson.type !== 'practice' ? (lesson.locked ? lockIcon : statusIcon) : ''}
                     </div>
                 </div>
                 ${subButtonHTML}
