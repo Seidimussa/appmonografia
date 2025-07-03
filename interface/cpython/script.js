@@ -16,12 +16,12 @@ document.addEventListener('DOMContentLoaded', () => {
         currentSectionId: 1,
         sections: [{
                 id: 1,
-                title: 'Introdução ao Desenvolvimento Web',
-                description: 'Crie páginas da web usando HTML e CSS',
+                title: 'Introdução ao Python',
+                description: 'Crie variáveis ​​que armazenam números, strings e booleanos',
                 locked: false,
                 lessons: [{
                         id: 1,
-                        title: 'descobrindo HTML e Tags',
+                        title: 'Criando Variáveis',
                         type: 'learn',
                         completed: false,
                         locked: false,
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 2,
-                        title: 'Estruturando texto com tags',
+                        title: 'Usando Variáveis',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -37,7 +37,31 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 3,
-                        title: 'Noções básicas de HTML 1',
+                        title: 'Verdadeiro e Falso',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-basics/02.html'
+                    },
+                    {
+                        id: 4,
+                        title: 'verificando a igualdade numérica',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-basics/02.html'
+                    },
+                    {
+                        id: 5,
+                        title: 'Formatando Strings',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/js-basics/02.html'
+                    },
+                    {
+                        id: 6,
+                        title: 'Noções básicas de Python',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -45,54 +69,26 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-basics/05.html'
                     },
                     {
-                        id: 4,
-                        title: 'Criando Links',
+                        id: 7,
+                        title: 'Robô',
+                        type: 'guided_project',
+                        description: 'Prepare-se para construir seu primeiro projeto Python: uma conversa com bots',
+                        subAction: 'PARTE 1',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/projects/linktree-p1.html'
+                    },
+                    {
+                        id: 8,
+                        title: 'Comparando números',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/js-basics/03.html'
                     },
                     {
-                        id: 5,
-                        title: 'Adicionando Imagens',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/js-basics/04.html'
-                    },
-                    {
-                        id: 6,
-                        title: 'Noções básicas de HTML 2',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/js-basics/05.html'
-                    },
-                    // ===================== INÍCIO DA ATUALIZAÇÃO DE DADOS =====================
-                    {
-                        id: 7,
-                        title: 'Linktree',
-                        type: 'guided_project',
-                        description: 'Prepare-se para criar sua própria página no estilo Linktree, onde você pode exibir todas as suas redes sociais e outros links importantes em um só lugar.',
-                        subAction: 'PARTE 1',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/projects/linktree-p1.html'
-                    },
-                    // ====================== FIM DA ATUALIZAÇÃO DE DADOS =======================
-                    {
-                        id: 8,
-                        title: 'Código padrão',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/js-basics/04.html'
-                    },
-                    // ... (o restante da sua estrutura de dados permanece igual)
-                    {
                         id: 9,
-                        title: 'Folha de Estilo e Seletores Básicos',
+                        title: 'Comparando Strings',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -100,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 10,
-                        title: 'Estilizando texto',
+                        title: 'Descobrindo Tipos',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -108,59 +104,26 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 11,
-                        title: 'Definindo tamanho e bordas',
-                        type: 'learn',
+                        title: 'Tipos e Comparações',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/04.html'
+                        url: './lessons/js-basics/05.html'
                     },
                     {
                         id: 12,
-                        title: 'Noções básicas de CSS 1',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
+                        title: 'Entrada',
+                        type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/05.html'
+                        url: './lessons/js-basics/04.html'
                     },
                     {
                         id: 13,
-                        title: 'Construindo com o modelo de caixa',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/js-basics/04.html'
-                    },
-                    {
-                        id: 14,
-                        title: 'Adicionando preenchimento com uma linha',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/js-basics/04.html'
-                    },
-                    {
-                        id: 15,
-                        title: 'Estilizando cantos com uma linha',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/js-basics/04.html'
-                    },
-                    {
-                        id: 16,
-                        title: 'Noções básicas de CSS 2',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/js-basics/05.html'
-                    },
-                    {
-                        id: 17,
-                        title: 'Linktree',
+                        title: 'Robô',
                         type: 'guided_project',
-                        description: 'Agora que você configurou o HTML da sua página no estilo Linktree, é hora de dar um toque especial! Nesta parte, usaremos CSS para estilizar e dar personalidade à sua página',
+                        description: 'Na parte 2, você usará a função de entrada para tornar o bot interativo e permitir que seus usuários conversem com ele',
                         subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
@@ -168,15 +131,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                 ]
             },
-            // ... O restante da sua estrutura de dados continua aqui ...
             {
                 id: 2,
-                title: 'Páginas Web Interativas',
-                description: 'Use HTML e JavaScript para criar páginas da web interativas',
+                title: 'Controle de fluxo',
+                description: 'Codifique condicionais e loops para construir programas inteligentes',
                 locked: true,
                 lessons: [{
-                        id: 18,
-                        title: 'Criando Variáveis',
+                        id: 14,
+                        title: 'Tomando decisões',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -184,31 +146,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 19,
-                        title: 'Usando Variáveis',
+                        title: 'Condições de uso',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/types-comparisons/02.html'
                     },
                     {
-                        id: 20,
-                        title: 'Usando Verdadeiro e Falso',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/03.html'
-                    },
-                    {
-                        id: 21,
-                        title: 'Verificando a igualdade numérica',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/04.html'
-                    },
-                    {
                         id: 22,
-                        title: 'Noções básicas de JavaScript',
+                        title: 'Declarações Condicionais 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -216,16 +162,51 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/05.html'
                     },
                     {
+                        id: 20,
+                        title: 'Codificando instruções Else',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/types-comparisons/03.html'
+                    },
+                    {
+                        id: 21,
+                        title: 'Incorporando Elif ',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/types-comparisons/04.html'
+                    },
+                    {
                         id: 23,
-                        title: 'Comparando números',
+                        title: 'Usando Decisões Complexas',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/types-comparisons/02.html'
                     },
                     {
+                        id: 22,
+                        title: 'Declarações Condicionais 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/types-comparisons/05.html'
+                    },
+                    {
+                        id: 35,
+                        title: 'Pedra, Papel e Tesoura',
+                        type: 'guided_project',
+                        description: 'Crie seu próprio jogo! Nesta primeira parte, prepararemos o cenário, elaborando a lógica básica do jogo. Deixaremos o jogador e o computador escolherem uma opção e determinarem o vencedor.',
+                        subAction: 'PARTE 1',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/projects/linktree-p1.html'
+                    },
+                    {
                         id: 24,
-                        title: 'Comparando Strings',
+                        title: 'Autoatribuição e Operadores',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -233,7 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 25,
-                        title: 'Descobrindo Tipos',
+                        title: 'Laços / loops While',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -241,7 +222,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 26,
-                        title: 'Operadores Lógicos',
+                        title: 'Parando loops While',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -249,7 +230,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 27,
-                        title: 'Tipos e Comparações',
+                        title: 'Laços 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -258,7 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 28,
-                        title: 'Tomando decisões',
+                        title: 'Controlando loops While',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -266,23 +247,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 29,
-                        title: 'Condições de uso',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/02.html'
-                    },
-                    {
-                        id: 30,
-                        title: 'Codificando instruções Else',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/02.html'
-                    },
-                    {
-                        id: 31,
-                        title: 'Incorporando Else If',
+                        title: 'Para laços / loops For',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -290,7 +255,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 32,
-                        title: 'Condicionais',
+                        title: 'Laços 2 ',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -299,107 +264,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 33,
-                        title: 'Reutilizando código com funções',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/02.html'
-                    },
-                    {
-                        id: 34,
-                        title: 'Interagindo com páginas da Web',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/02.html'
-                    },
-                    {
-                        id: 35,
-                        title: 'Conversor de unidades',
-                        type: 'guided_project',
-                        description: 'Neste projeto, vamos nos aventurar na criação de um conversor de milhas para km. Além de ser uma ferramenta super útil, você também explorará o uso de JavaScript para tornar sites interativos.',
-                        subAction: 'PARTE 1',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/projects/linktree-p1.html'
-                    },
-                    {
-                        id: 36,
-                        title: 'Como acessar um elemento HTML',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/02.html'
-                    },
-                    {
-                        id: 37,
-                        title: 'Acesse vários elementos HTML',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/02.html'
-                    },
-                    {
-                        id: 38,
-                        title: 'Páginas da Web Dinâmicas 1',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/05.html'
-                    },
-                    {
-                        id: 39,
-                        title: 'Botões de construção',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/02.html'
-                    },
-                    {
-                        id: 40,
-                        title: 'Coletando informações',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/02.html'
-                    },
-                    {
-                        id: 41,
-                        title: 'Obtendo a entrada do usuário',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/02.html'
-                    },
-                    {
-                        id: 42,
-                        title: 'HTML Intermediário',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/05.html'
-                    },
-                    {
-                        id: 43,
-                        title: 'Definindo atributos dinamicamente',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/02.html'
-                    },
-                    {
-                        id: 44,
-                        title: 'Alternando classes CSS',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/types-comparisons/02.html'
-                    },
-                    {
-                        id: 45,
-                        title: 'Selecione',
+                        title: 'Laços 2 ',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -407,7 +272,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 46,
-                        title: 'Páginas Web Dinâmicas 2',
+                        title: 'Laços 3',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -416,9 +281,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 47,
-                        title: 'Conversor de unidades',
+                        title: 'Pedra, Papel e Tesoura',
                         type: 'guided_project',
-                        description: 'Agora que temos nosso conversor básico instalado e funcionando, é hora de torná-lo mais interativo e aprimorar seu estilo',
+                        description: 'Aqui, estenderemos o projeto para jogar uma melhor de três e, com isso, torná-lo um jogo real',
                         subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
@@ -428,12 +293,12 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 3,
-                title: ' HTML e CSS intermediários',
-                description: 'Mergulhe mais fundo em HTML e CSS para criar aplicativos da web impressionantes',
+                title: 'Listas ',
+                description: 'Crie listas para organizar grupos de valores',
                 locked: true,
                 lessons: [{
                         id: 48,
-                        title: 'Agrupando Elementos',
+                        title: 'Agrupando dados em listas',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -441,7 +306,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 49,
-                        title: 'Listas de construção',
+                        title: 'Alterando dados em listas',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -449,39 +314,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 50,
-                        title: 'Elemento Span',
+                        title: 'Atualizando Listas',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/conditionals/03.html'
-                    },
-                    {
-                        id: 51,
-                        title: 'Estilizando grupos de elementos',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/conditionals/04.html'
-                    },
-                    {
-                        id: 52,
-                        title: 'Descobrindo Elementos Filhos',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/conditionals/03.html'
-                    },
-                    {
-                        id: 53,
-                        title: 'Usando classes para layouts',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/conditionals/04.html'
                     },
                     {
                         id: 54,
-                        title: 'CSS Intermediário 1',
+                        title: 'Organizando Dados 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -490,7 +331,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 55,
-                        title: 'Adicionando cor com valores hexadecimais',
+                        title: 'Looping sobre listas ',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -498,23 +339,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 56,
-                        title: 'Definindo o tamanho com porcentagens',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/conditionals/04.html'
-                    },
-                    {
-                        id: 57,
-                        title: 'Combinando várias classes',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/conditionals/03.html'
-                    },
-                    {
-                        id: 58,
-                        title: 'Seletores de agrupamento',
+                        title: 'Decidindo com Listas',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -522,7 +347,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 59,
-                        title: 'CSS Intermediário 2',
+                        title: 'Organizando Dados 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -531,9 +356,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 60,
-                        title: 'Cardápio da cafeteria',
+                        title: 'Lista de tarefas',
                         type: 'guided_project',
-                        description: 'Mergulhe no mundo de uma cafeteria movimentada, onde você criará um cardápio detalhado e envolvente. Não se trata apenas de listar espressos e lattes; trata-se de estruturar as informações de forma rica e organizada.',
+                        description: 'Comece a criar seu aplicativo de lista de tarefas. Este primeiro passo se concentra em criar a estrutura básica e adicionar tarefas.',
                         subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
@@ -541,7 +366,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 61,
-                        title: 'Exibindo Elementos',
+                        title: 'Encontrando Dados Extremos',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -549,7 +374,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 62,
-                        title: 'Imagens Flutuantes',
+                        title: 'Classificando Dados',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -557,7 +382,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 63,
-                        title: 'Posicionamento Relativo',
+                        title: 'Somando Dados',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -565,7 +390,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 64,
-                        title: 'Fundamentos de Layout CSS 1',
+                        title: 'Usando Listas 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -574,7 +399,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 65,
-                        title: 'Posição Absoluta',
+                        title: 'Listas de adesão',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -582,7 +407,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 66,
-                        title: 'Índice Z',
+                        title: 'Contando Elementos',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -590,7 +415,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 67,
-                        title: 'Fundamentos de Layout CSS 2',
+                        title: 'Usando Listas 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -598,18 +423,10 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/conditionals/05.html'
                     },
                     {
-                        id: 68,
-                        title: 'Bibliotecas JavaScript',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/conditionals/03.html'
-                    },
-                    {
                         id: 47,
-                        title: 'Cardápio da cafeteria',
+                        title: 'Lista de tarefas',
                         type: 'guided_project',
-                        description: 'Com a estrutura do nosso cardápio pronta, vamos dar vida a ele! Esta fase visa tornar o cardápio da nossa cafeteria visualmente atraente e intuitivo.',
+                        description: 'Adicione um menu interativo à sua lista de tarefas e aprimore-a permitindo a exclusão de tarefas novamente',
                         subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
