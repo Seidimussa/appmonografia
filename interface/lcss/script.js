@@ -8,6 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const totalProgressBar = document.getElementById('total-progress-bar');
     const totalProgressText = document.getElementById('total-progress-text');
 
+    // --- CHAVE DE ARMAZENAMENTO ESPECÍFICA DO CURSO ---
+    const COURSE_STORAGE_KEY = 'courseProgress_css';
+
     // --- ESTRUTURA DE DADOS COMPLETA, IDÊNTICA AO VÍDEO ---
     const initialCourseData = {
         currentSectionId: 1,
@@ -487,9 +490,12 @@ document.addEventListener('DOMContentLoaded', () => {
         ]
     };
 
-    // O NOME DA CHAVE NO LOCALSTORAGE FOI ALTERADO PARA EVITAR CONFLITOS COM VERSÕES ANTIGAS
-    let courseData = JSON.parse(localStorage.getItem('courseProgress_css_full')) || JSON.parse(JSON.stringify(initialCourseData));
-    const saveProgress = () => localStorage.setItem('courseProgress_css_full', JSON.stringify(courseData));
+    // Carrega o progresso do localStorage usando a chave específica do curso,
+    // ou usa os dados iniciais se não houver progresso salvo.
+    let courseData = JSON.parse(localStorage.getItem(COURSE_STORAGE_KEY)) || JSON.parse(JSON.stringify(initialCourseData));
+
+    // Salva o progresso atual no localStorage.
+    const saveProgress = () => localStorage.setItem(COURSE_STORAGE_KEY, JSON.stringify(courseData));
 
     const completeLesson = (lessonId) => {
         const currentSection = courseData.sections.find(s => s.id === courseData.currentSectionId);
@@ -653,7 +659,7 @@ document.addEventListener('DOMContentLoaded', () => {
     closeSidebarButton.addEventListener('click', () => sidebar.classList.remove('visible'));
     resetProgressButton.addEventListener('click', () => {
         if (confirm('Tem certeza que deseja resetar todo o seu progresso?')) {
-            localStorage.removeItem('courseProgress_css_full');
+            localStorage.removeItem(COURSE_STORAGE_KEY);
             courseData = JSON.parse(JSON.stringify(initialCourseData));
             renderApp();
         }

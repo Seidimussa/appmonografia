@@ -8,7 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const totalProgressBar = document.getElementById('total-progress-bar');
     const totalProgressText = document.getElementById('total-progress-text');
 
-    // --- ESTRUTURA DE DADOS COMPLETA PARA O CURSO DE FRONT-END ---
+    // --- CHAVE DE ARMAZENAMENTO ESPECÍFICA DO CURSO ---
+    const COURSE_STORAGE_KEY = 'courseProgress_python_full';
+
+    // --- ESTRUTURA DE DADOS COMPLETA PARA O CURSO DE  ---
     const initialCourseData = {
         currentSectionId: 1,
         sections: [{

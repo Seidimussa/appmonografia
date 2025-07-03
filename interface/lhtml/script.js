@@ -10,6 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const totalProgressBar = document.getElementById('total-progress-bar');
     const totalProgressText = document.getElementById('total-progress-text');
 
+    // --- CHAVE DE ARMAZENAMENTO ESPECÍFICA DO CURSO ---
+    const COURSE_STORAGE_KEY = 'courseProgress_html';
+
     // --- DADOS DO CURSO (COMPLETOS) ---
     // --- ALTERAÇÃO: Adicionada a propriedade 'url' em cada lição ---
     const initialCourseData = {
@@ -236,14 +239,14 @@ document.addEventListener('DOMContentLoaded', () => {
         ]
     };
 
-    let courseData = JSON.parse(localStorage.getItem('courseProgress')) || JSON.parse(JSON.stringify(initialCourseData));
+    let courseData = JSON.parse(localStorage.getItem(COURSE_STORAGE_KEY)) || JSON.parse(JSON.stringify(initialCourseData));
 
     // --- FUNÇÕES DE LÓGICA E ESTADO ---
-    const saveProgress = () => localStorage.setItem('courseProgress', JSON.stringify(courseData));
+    const saveProgress = () => localStorage.setItem(COURSE_STORAGE_KEY, JSON.stringify(courseData));
 
     const resetProgress = () => {
         if (confirm('Tem certeza que deseja resetar todo o seu progresso?')) {
-            localStorage.removeItem('courseProgress');
+            localStorage.removeItem(COURSE_STORAGE_KEY);
             courseData = JSON.parse(JSON.stringify(initialCourseData));
             renderApp();
         }

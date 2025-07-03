@@ -8,6 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const totalProgressBar = document.getElementById('total-progress-bar');
     const totalProgressText = document.getElementById('total-progress-text');
 
+    // --- CHAVE DE ARMAZENAMENTO ESPECÍFICA DO CURSO ---
+    const COURSE_STORAGE_KEY = 'courseProgress_js';
+
     // --- ESTRUTURA DE DADOS COMPLETA PARA O CURSO DE JAVASCRIPT ---
     const initialCourseData = {
         currentSectionId: 1,
@@ -892,8 +895,21 @@ document.addEventListener('DOMContentLoaded', () => {
         ]
     };
 
-    let courseData = JSON.parse(localStorage.getItem('courseProgress_js_full')) || JSON.parse(JSON.stringify(initialCourseData));
-    const saveProgress = () => localStorage.setItem('courseProgress_js_full', JSON.stringify(courseData));
+    // let courseData = JSON.parse(localStorage.getItem('courseProgress_js')) || JSON.parse(JSON.stringify(initialCourseData));
+    // const saveProgress = () => localStorage.setItem('courseProgress_js', JSON.stringify(courseData));
+
+     let courseData = JSON.parse(localStorage.getItem(COURSE_STORAGE_KEY)) || JSON.parse(JSON.stringify(initialCourseData));
+
+    // --- FUNÇÕES DE LÓGICA E ESTADO ---
+    const saveProgress = () => localStorage.setItem(COURSE_STORAGE_KEY, JSON.stringify(courseData));
+
+    const resetProgress = () => {
+        if (confirm('Tem certeza que deseja resetar todo o seu progresso?')) {
+            localStorage.removeItem(COURSE_STORAGE_KEY);
+            courseData = JSON.parse(JSON.stringify(initialCourseData));
+            renderApp();
+        }
+    };
 
     const completeLesson = (lessonId) => {
         const currentSection = courseData.sections.find(s => s.id === courseData.currentSectionId);
