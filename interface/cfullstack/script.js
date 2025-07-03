@@ -2792,8 +2792,16 @@ document.addEventListener('DOMContentLoaded', () => {
         ]
     };
 
-    let courseData = JSON.parse(localStorage.getItem('courseProgress_js_full')) || JSON.parse(JSON.stringify(initialCourseData));
-    const saveProgress = () => localStorage.setItem('courseProgress_js_full', JSON.stringify(courseData));
+    // Pega a chave do curso dinamicamente do atributo data-course-key no body
+    const courseKey = document.body.dataset.courseKey;
+    if (!courseKey) {
+        console.error("A chave do curso (data-course-key) não foi definida no elemento <body> do HTML.");
+        // Opcional: desabilitar a funcionalidade se a chave não for encontrada
+        return;
+    }
+
+    let courseData = JSON.parse(localStorage.getItem(courseKey)) || structuredClone(initialCourseData);
+    const saveProgress = () => localStorage.setItem(courseKey, JSON.stringify(courseData));
 
     const completeLesson = (lessonId) => {
         const currentSection = courseData.sections.find(s => s.id === courseData.currentSectionId);
@@ -2876,9 +2884,9 @@ document.addEventListener('DOMContentLoaded', () => {
             </section>
             <section class="lessons-container">
                 <p class="lessons-label">LIÇÕES</p>
-                <div class="lessons-list" id="lessons-list-container">
-                    ${section.lessons.map((lesson, index) => renderLessonCard(lesson, index)).join('')}
-                </div>
+                <div class="lessons-list" id="lessons-list-container">${
+                    section.lessons.map((lesson, index) => renderLessonCard(lesson, section, index)).join('')
+                }</div>
             </section>
             ${nextSection ? `<section class="next-section-card"><p>PRÓXIMA SEÇÃO</p><div class="next-section-content"><span>${nextSection.title}</span><button class="continue-button" ${progressPercentage < 100 ? 'disabled' : ''} data-next-section-id="${nextSection.id}">Continuar</button></div></section>` : ''}
         `;
@@ -2907,16 +2915,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ===================== INÍCIO DA ATUALIZAÇÃO DA FUNÇÃO =====================
     // A função renderLessonCard foi completamente reestruturada para suportar múltiplos layouts de card.
-    const renderLessonCard = (lesson, index) => {
+    const renderLessonCard = (lesson, section, index) => {
         const isFirstUnlocked = !lesson.locked && !lesson.completed;
         const lockIcon = '<i class="fas fa-lock status-icon"></i>';
         const statusIcon = lesson.completed ? '<i class="fas fa-check-circle status-icon completed"></i>' : '<i class="far fa-circle status-icon"></i>';
         const linkAttributes = `href="${lesson.url}"`;
 
-        // Lógica para o card de certificado (sem alterações)
+        // Lógica para o card de certificado (agora dinâmico)
         if (lesson.type === 'certificate') {
             return `<a class="lesson-card certificate-card ${lesson.locked ? 'locked' : ''}" data-lesson-id="${lesson.id}" ${linkAttributes}>
-                        <div class="cert-icon-area"><i class="fas fa-award"></i><span>20. Full-Stack</span></div>
+                        <div class="cert-icon-area"><i class="fas fa-award"></i><span>${section.id}. ${section.title}</span></div>
                         <div class="cert-title">${lesson.title}</div>
                         ${lesson.locked ? lockIcon : statusIcon}
                     </a>`;
@@ -3001,8 +3009,8 @@ document.addEventListener('DOMContentLoaded', () => {
     closeSidebarButton.addEventListener('click', () => sidebar.classList.remove('visible'));
     resetProgressButton.addEventListener('click', () => {
         if (confirm('Tem certeza que deseja resetar todo o seu progresso?')) {
-            localStorage.removeItem('courseProgress_js_full');
-            courseData = JSON.parse(JSON.stringify(initialCourseData));
+            localStorage.removeItem(courseKey);
+            courseData = structuredClone(initialCourseData);
             renderApp();
         }
     });

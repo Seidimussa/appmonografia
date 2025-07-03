@@ -1396,8 +1396,16 @@ document.addEventListener('DOMContentLoaded', () => {
         ]
     };
 
-    let courseData = JSON.parse(localStorage.getItem('courseProgress_js_full')) || JSON.parse(JSON.stringify(initialCourseData));
-    const saveProgress = () => localStorage.setItem('courseProgress_js_full', JSON.stringify(courseData));
+    // Pega a chave do curso dinamicamente do atributo data-course-key no body
+    const courseKey = document.body.dataset.courseKey;
+    if (!courseKey) {
+        console.error("A chave do curso (data-course-key) não foi definida no elemento <body> do HTML.");
+        // Opcional: desabilitar a funcionalidade se a chave não for encontrada
+        return;
+    }
+
+    let courseData = JSON.parse(localStorage.getItem(courseKey)) || structuredClone(initialCourseData);
+    const saveProgress = () => localStorage.setItem(courseKey, JSON.stringify(courseData));
 
     const completeLesson = (lessonId) => {
         const currentSection = courseData.sections.find(s => s.id === courseData.currentSectionId);
@@ -1605,8 +1613,8 @@ document.addEventListener('DOMContentLoaded', () => {
     closeSidebarButton.addEventListener('click', () => sidebar.classList.remove('visible'));
     resetProgressButton.addEventListener('click', () => {
         if (confirm('Tem certeza que deseja resetar todo o seu progresso?')) {
-            localStorage.removeItem('courseProgress_js_full');
-            courseData = JSON.parse(JSON.stringify(initialCourseData));
+            localStorage.removeItem(courseKey);
+            courseData = structuredClone(initialCourseData);
             renderApp();
         }
     });
