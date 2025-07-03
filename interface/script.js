@@ -1,58 +1,90 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Funcionalidade do botão "Fechar"
-    const closeButton = document.querySelector('.close-button');
+    /**
+     * Mapeia a URL de cada curso para a chave correspondente no localStorage.
+     * IMPORTANTE: Você talvez precise ajustar essas chaves se elas forem diferentes.
+     * Baseei-me no padrão de 'courseProgress_js_full' do seu curso full-stack.
+     */
+    const courseKeyMap = {
+        'lhtml/index.html': 'courseProgress_html',
+        'lcss/index.html': 'courseProgress_css',
+        'ljavascript/index.html': 'courseProgress_js',
+        'lsql/index.html': 'courseProgress_sql',
+        'lreact/index.html': 'courseProgress_react',
+        'ltypescript/index.html': 'courseProgress_ts',
+        'lpython/index.html': 'courseProgress_python',
+        'cfrontend/index.html': 'courseProgress_frontend',
+        'cbackend/index.html': 'courseProgress_backend',
+        'cfullstack/index.html': 'courseProgress_js_full', // Chave confirmada do seu script
+        'cpython/index.html': 'courseProgress_python_full'
+    };
 
-    if (closeButton) {
-        closeButton.addEventListener('click', () => {
-            // Exemplo de ação: Volta para a página anterior no histórico do navegador
-            // Ou você pode redirecionar para uma URL específica:
-            // window.location.href = 'outra_pagina.html';
-            window.history.back();
-            console.log('Botão Fechar clicado!');
+    /**
+     * Calcula o progresso com base no número de seções concluídas.
+     * Uma seção é considerada concluída se todas as suas lições (exceto o certificado) estiverem completas.
+     * @param {object} courseData - O objeto de progresso do curso lido do localStorage.
+     * @returns {{completed: number, total: number, percentage: number}}
+     */
+    function calculateProgress(courseData) {
+        if (!courseData || !Array.isArray(courseData.sections) || courseData.sections.length === 0) {
+            return { completed: 0, total: 0, percentage: 0 };
+        }
+
+        let completedSectionsCount = 0;
+        const totalSections = courseData.sections.length;
+
+        courseData.sections.forEach(section => {
+            const regularLessons = section.lessons.filter(l => l.type !== 'certificate');
+            if (regularLessons.length > 0 && regularLessons.every(l => l.completed)) {
+                completedSectionsCount++;
+            }
+        });
+
+        const percentage = totalSections > 0 ? (completedSectionsCount / totalSections) * 100 : 0;
+        return { completed: completedSectionsCount, total: totalSections, percentage };
+    }
+
+    /**
+     * Itera sobre todos os cards de curso na página e atualiza seu progresso.
+     */
+    function updateAllCourseProgress() {
+        const courseCards = document.querySelectorAll('.card-link');
+
+        courseCards.forEach(cardLink => {
+            const href = cardLink.getAttribute('href');
+            const storageKey = courseKeyMap[href];
+
+            if (!storageKey) return;
+
+            const progressDataJSON = localStorage.getItem(storageKey);
+            if (progressDataJSON) {
+                try {
+                    const courseData = JSON.parse(progressDataJSON);
+                    const progress = calculateProgress(courseData);
+
+                    // Atualiza o texto do progresso (ex: "5/20")
+                    const progressTextElement = cardLink.querySelector('.progress-info .progress');
+                    if (progressTextElement) {
+                        progressTextElement.textContent = `${progress.completed}/${progress.total}`;
+                    }
+
+                    // Atualiza a largura da barra de progresso
+                    const progressBarElement = cardLink.querySelector('.progress-bar');
+                    if (progressBarElement) {
+                        progressBarElement.style.setProperty('--progress-width', `${progress.percentage}%`);
+                    }
+                } catch (e) {
+                    console.error(`Erro ao processar o progresso para o curso ${storageKey}:`, e);
+                }
+            }
         });
     }
 
-    // 2. Exemplo de como você poderia atualizar o progresso (apenas a barra linear aqui)
-    // Para o progresso circular, seria mais complexo e talvez envolvesse bibliotecas ou SVG.
+    // Executa a função principal para atualizar a UI.
+    updateAllCourseProgress();
 
-    const progressCards = document.querySelectorAll('.card');
-
-    progressCards.forEach(card => {
-        const progressBar = card.querySelector('.progress-bar::before'); // Não funciona assim diretamente para pseudo-elementos
-        const progressText = card.querySelector('.progress-info .progress');
-
-        if (progressText) {
-            // Exemplo: Pegar o progresso do texto "1/20"
-            const textContent = progressText.textContent; // Ex: "1/20" ou "3/16"
-            const parts = textContent.split('/');
-            if (parts.length === 2) {
-                const completed = parseInt(parts[0]);
-                const total = parseInt(parts[1]);
-
-                if (!isNaN(completed) && !isNaN(total) && total > 0) {
-                    const percentage = (completed / total) * 100;
-
-                    // Esta parte só funcionaria se .progress-bar::before fosse um elemento real
-                    // Para manipular pseudo-elementos, você teria que alterar uma custom property CSS
-                    // ou criar um elemento real para a barra de progresso.
-                    // Exemplo para um elemento real:
-                    const innerProgressBar = document.createElement('div');
-                    innerProgressBar.className = 'inner-progress';
-                    innerProgressBar.style.width = `${percentage}%`;
-                    const existingProgressBar = card.querySelector('.progress-bar');
-                    if(existingProgressBar && !existingProgressBar.querySelector('.inner-progress')) {
-                        existingProgressBar.appendChild(innerProgressBar);
-                    }
-                }
-            }
-        }
-    });
-
-    // Para o progresso circular, você normalmente faria algo como:
-    // function updateCircularProgress(element, percentage) {
-    //     // Lógica para manipular SVG ou conic-gradient
-    //     // Ex: element.style.backgroundImage = `conic-gradient(purple ${percentage}%, #eee ${percentage}%)`;
-    // }
-    // Encontraria os elementos de progresso circular e chamaria esta função com os dados.
-
+    // Atualiza o ano no rodapé
+    const yearSpan = document.getElementById('current-year');
+    if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+    }
 });

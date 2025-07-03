@@ -394,3 +394,21 @@ section h2 {
         margin-right: 4px;
     }
 }
+/* Adicione este estilo para a barra de progresso funcionar */
+.progress-bar {
+    background-color: #333; /* Cor de fundo da barra */
+    border-radius: 4px;
+    height: 8px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.progress-bar::before {
+    content: '';
+    display: block;
+    height: 100%;
+    background-color: #226160; /* Cor da barra de progresso */
+    width: var(--progress-width, 0%); /* Controlado pelo JS */
+    border-radius: 4px;
+    transition: width 0.4s ease;
+}

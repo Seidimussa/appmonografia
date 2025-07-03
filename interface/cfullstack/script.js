@@ -2078,7 +2078,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/node-run.html'
                     },
                     {
-                        id: 234,
+                        id: 232,
                         title: 'Módulos, Bibliotecas e Nó',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -2087,7 +2087,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/node-practice1.html'
                     },
                     {
-                        id: 232,
+                        id: 233,
                         title: 'Cliente vs Servidores',
                         type: 'learn',
                         completed: false,
@@ -2095,7 +2095,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/node-modules.html'
                     },
                     {
-                        id: 232,
+                        id: 234,
                         title: 'Comunicando-se com uma API',
                         type: 'learn',
                         completed: false,
@@ -2103,7 +2103,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/node-modules.html'
                     },
                     {
-                        id: 233,
+                        id: 235,
                         title: 'Respostas de solicitação HTTP',
                         type: 'learn',
                         completed: false,
@@ -2111,7 +2111,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/node-npm.html'
                     },
                     {
-                        id: 234,
+                        id: 236,
                         title: 'Introdução ao Backend 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -2120,7 +2120,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/node-practice1.html'
                     },
                     {
-                        id: 235,
+                        id: 237,
                         title: 'ExpressJS',
                         type: 'learn',
                         completed: false,
@@ -2128,7 +2128,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/node-fs.html'
                     },
                     {
-                        id: 233,
+                        id: 238,
                         title: 'Objetos de solicitação e resposta',
                         type: 'learn',
                         completed: false,
@@ -2136,7 +2136,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/node-npm.html'
                     },
                     {
-                        id: 234,
+                        id: 239,
                         title: 'Construindo um aplicativo expresso 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -2145,7 +2145,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/node-practice1.html'
                     },
                     {
-                        id: 236,
+                        id: 240,
                         title: 'Números aleatórios',
                         type: 'guided_project',
                         description: 'Crie um backend que possa ajudar caso você não tenha uma moeda ou dado pronto',
@@ -2155,7 +2155,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/cli-tool-p1.html'
                     },
                     {
-                        id: 235,
+                        id: 241,
                         title: 'Parâmetros de Rota',
                         type: 'learn',
                         completed: false,
@@ -2163,7 +2163,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/node-fs.html'
                     },
                     {
-                        id: 233,
+                        id: 242,
                         title: 'Parâmetros de consulta',
                         type: 'learn',
                         completed: false,
@@ -2171,7 +2171,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/node-npm.html'
                     },
                     {
-                        id: 234,
+                        id: 243,
                         title: 'Construindo um aplicativo expresso 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -2180,7 +2180,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/node-practice1.html'
                     },
                     {
-                        id: 235,
+                        id: 244,
                         title: 'Solicitações POST',
                         type: 'learn',
                         completed: false,
@@ -2188,7 +2188,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/node-fs.html'
                     },
                     {
-                        id: 233,
+                        id: 245,
                         title: 'Solicitações PUT',
                         type: 'learn',
                         completed: false,
@@ -2196,7 +2196,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/node-npm.html'
                     },
                     {
-                        id: 235,
+                        id: 246,
                         title: 'Solicitações de PATCH',
                         type: 'learn',
                         completed: false,
@@ -2204,7 +2204,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/node-fs.html'
                     },
                     {
-                        id: 233,
+                        id: 247,
                         title: 'Solicitações DELETE',
                         type: 'learn',
                         completed: false,
@@ -2212,7 +2212,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/node-npm.html'
                     },
                     {
-                        id: 234,
+                        id: 248,
                         title: 'Construindo um aplicativo expresso 3',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -2221,7 +2221,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/node-practice1.html'
                     },
                     {
-                        id: 236,
+                        id: 249,
                         title: 'Números aleatórios',
                         type: 'guided_project',
                         description: 'Na segunda parte do projeto, usaremos parâmetros de consulta para adaptar os endpoints às nossas necessidades.',
@@ -2238,7 +2238,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Aprenda a trabalhar com bancos de dados e gerenciar dados em SQL',
                 locked: true,
                 lessons: [{
-                        id: 237,
+                        id: 250,
                         title: 'Selecionando Dados',
                         type: 'learn',
                         completed: false,
@@ -2246,7 +2246,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-intro.html'
                     },
                     {
-                        id: 238,
+                        id: 251,
                         title: 'Dados do pedido',
                         type: 'learn',
                         completed: false,
@@ -2254,7 +2254,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-server.html'
                     },
                     {
-                        id: 239,
+                        id: 252,
                         title: 'Filtrando dados',
                         type: 'learn',
                         completed: false,
@@ -2262,7 +2262,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-routing.html'
                     },
                     {
-                        id: 241,
+                        id: 253,
                         title: 'Noções básicas de SQL 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -2271,7 +2271,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-practice1.html'
                     },
                     {
-                        id: 237,
+                        id: 254,
                         title: 'Usando o Operador de Desigualdade',
                         type: 'learn',
                         completed: false,
@@ -2279,7 +2279,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-intro.html'
                     },
                     {
-                        id: 238,
+                        id: 255,
                         title: 'Usando comparações',
                         type: 'learn',
                         completed: false,
@@ -2287,7 +2287,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-server.html'
                     },
                     {
-                        id: 239,
+                        id: 256,
                         title: 'Aliasing',
                         type: 'learn',
                         completed: false,
@@ -2295,7 +2295,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-routing.html'
                     },
                     {
-                        id: 241,
+                        id: 257,
                         title: 'Noções básicas de SQL 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -2304,7 +2304,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-practice1.html'
                     },
                     {
-                        id: 237,
+                        id: 258,
                         title: 'Adicionar e remover dados',
                         type: 'learn',
                         completed: false,
@@ -2312,7 +2312,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-intro.html'
                     },
                     {
-                        id: 238,
+                        id: 259,
                         title: 'Atualização SQL',
                         type: 'learn',
                         completed: false,
@@ -2320,7 +2320,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-server.html'
                     },
                     {
-                        id: 239,
+                        id: 260,
                         title: 'Criação de tabela SQL',
                         type: 'learn',
                         completed: false,
@@ -2328,7 +2328,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-routing.html'
                     },
                     {
-                        id: 241,
+                        id: 261,
                         title: 'Gerenciamento de Tabelas SQL 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -2337,7 +2337,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-practice1.html'
                     },
                     {
-                        id: 237,
+                        id: 262,
                         title: 'Introdução ao SQLite',
                         type: 'learn',
                         completed: false,
@@ -2345,7 +2345,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-intro.html'
                     },
                     {
-                        id: 238,
+                        id: 263,
                         title: 'Configuração do banco de dados',
                         type: 'learn',
                         completed: false,
@@ -2353,7 +2353,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-server.html'
                     },
                     {
-                        id: 239,
+                        id: 264,
                         title: 'Consultas Parametrizadas',
                         type: 'learn',
                         completed: false,
@@ -2361,7 +2361,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-routing.html'
                     },
                     {
-                        id: 239,
+                        id: 265,
                         title: 'Transações',
                         type: 'learn',
                         completed: false,
@@ -2369,7 +2369,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-routing.html'
                     },
                     {
-                        id: 241,
+                        id: 266,
                         title: 'SQLite',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -2378,7 +2378,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-practice1.html'
                     },
                     {
-                        id: 239,
+                        id: 267,
                         title: 'Estruturação de endpoints',
                         type: 'learn',
                         completed: false,
@@ -2386,7 +2386,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-routing.html'
                     },
                     {
-                        id: 241,
+                        id: 268,
                         title: 'Estruturação de endpoints',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -2395,7 +2395,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-practice1.html'
                     },
                     {
-                        id: 243,
+                        id: 269,
                         title: 'Gerenciador de Tarefas',
                         type: 'guided_project',
                         description: 'Neste projeto, voltaremos a gerenciar tarefas. Desta vez, criaremos um servidor com um banco de dados para acompanhar nossas tarefas.',
@@ -2405,7 +2405,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/blog-api-p1.html'
                     },
                     {
-                        id: 239,
+                        id: 270,
                         title: 'Alteração SQL',
                         type: 'learn',
                         completed: false,
@@ -2413,7 +2413,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-routing.html'
                     },
                     {
-                        id: 239,
+                        id: 271,
                         title: 'Listando e Excluindo Tabelas',
                         type: 'learn',
                         completed: false,
@@ -2421,7 +2421,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-routing.html'
                     },
                     {
-                        id: 241,
+                        id: 272,
                         title: 'Gerenciamento de Tabelas SQL 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -2430,7 +2430,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/backend/express-practice1.html'
                     },
                     {
-                        id: 243,
+                        id: 273,
                         title: 'Gerenciador de Tarefas',
                         type: 'guided_project',
                         description: 'Na segunda parte do projeto, permitiremos que nossos usuários definam tarefas como concluídas e, com isso, tornar o gerenciador de tarefas uma ferramenta útil',
@@ -2447,7 +2447,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Obtenha insights de dados usando operações e filtros',
                 locked: true,
                 lessons: [{
-                        id: 244,
+                        id: 274,
                         title: 'Filtragem com intervalos',
                         type: 'learn',
                         completed: false,
@@ -2455,7 +2455,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/sql-vs-nosql.html'
                     },
                     {
-                        id: 245,
+                        id: 275,
                         title: 'Filtrando por padrões',
                         type: 'learn',
                         completed: false,
@@ -2463,7 +2463,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/mongodb-connect.html'
                     },
                     {
-                        id: 246,
+                        id: 276,
                         title: 'Filtrando com opções',
                         type: 'learn',
                         completed: false,
@@ -2471,7 +2471,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/crud.html'
                     },
                     {
-                        id: 248,
+                        id: 277,
                         title: 'Filtros SQL 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -2480,7 +2480,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/db-practice.html'
                     },
                     {
-                        id: 247,
+                        id: 278,
                         title: 'Usando AND',
                         type: 'learn',
                         completed: false,
@@ -2488,7 +2488,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/mongoose.html'
                     },
                     {
-                        id: 245,
+                        id: 279,
                         title: 'Usando OU',
                         type: 'learn',
                         completed: false,
@@ -2496,7 +2496,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/mongodb-connect.html'
                     },
                     {
-                        id: 246,
+                        id: 280,
                         title: 'Usando NÃO',
                         type: 'learn',
                         completed: false,
@@ -2504,7 +2504,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/crud.html'
                     },
                     {
-                        id: 248,
+                        id: 281,
                         title: 'Filtros SQL 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -2513,7 +2513,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/db-practice.html'
                     },
                     {
-                        id: 249,
+                        id: 282,
                         title: 'Contador',
                         type: 'guided_project',
                         description: 'Crie um backend que registre todos os livros que você lê. Com a ajuda de um banco de dados, você criará a estante digital perfeita.',
@@ -2523,7 +2523,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/blog-api-p2.html'
                     },
                     {
-                        id: 247,
+                        id: 283,
                         title: 'Encontrando MIN, MAX e Média',
                         type: 'learn',
                         completed: false,
@@ -2531,7 +2531,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/mongoose.html'
                     },
                     {
-                        id: 245,
+                        id: 284,
                         title: 'Contando e Somando',
                         type: 'learn',
                         completed: false,
@@ -2539,7 +2539,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/mongodb-connect.html'
                     },
                     {
-                        id: 246,
+                        id: 285,
                         title: 'Agrupando resultados da consulta',
                         type: 'learn',
                         completed: false,
@@ -2547,7 +2547,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/crud.html'
                     },
                     {
-                        id: 248,
+                        id: 286,
                         title: 'Funções de agregação SQL',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -2556,7 +2556,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/db-practice.html'
                     },
                     {
-                        id: 247,
+                        id: 287,
                         title: 'Apresentando INNER JOINs',
                         type: 'learn',
                         completed: false,
@@ -2564,7 +2564,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/mongoose.html'
                     },
                     {
-                        id: 245,
+                        id: 288,
                         title: 'Usando INNER JOINs',
                         type: 'learn',
                         completed: false,
@@ -2572,7 +2572,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/mongodb-connect.html'
                     },
                     {
-                        id: 246,
+                        id: 289,
                         title: 'Usando LEFT JOINs',
                         type: 'learn',
                         completed: false,
@@ -2580,7 +2580,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/crud.html'
                     },
                     {
-                        id: 248,
+                        id: 290,
                         title: 'SQL Junções 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -2589,7 +2589,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/db-practice.html'
                     },
                     {
-                        id: 245,
+                        id: 291,
                         title: 'Usando RIGHT JOINs',
                         type: 'learn',
                         completed: false,
@@ -2597,7 +2597,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/mongodb-connect.html'
                     },
                     {
-                        id: 246,
+                        id: 292,
                         title: 'Usando FULL OUTER JOINs',
                         type: 'learn',
                         completed: false,
@@ -2605,7 +2605,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/crud.html'
                     },
                     {
-                        id: 248,
+                        id: 293,
                         title: 'SQL Junções 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -2614,7 +2614,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/db-practice.html'
                     },
                     {
-                        id: 245,
+                        id: 294,
                         title: 'Subconsultas com agregados',
                         type: 'learn',
                         completed: false,
@@ -2622,7 +2622,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/mongodb-connect.html'
                     },
                     {
-                        id: 246,
+                        id: 295,
                         title: 'Subconsultas com IN',
                         type: 'learn',
                         completed: false,
@@ -2630,7 +2630,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/crud.html'
                     },
                     {
-                        id: 248,
+                        id: 296,
                         title: 'Subconsultas SQL',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -2639,7 +2639,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/database/db-practice.html'
                     },
                     {
-                        id: 249,
+                        id: 297,
                         title: 'Contador',
                         type: 'guided_project',
                         description: 'Anotar os principais aprendizados de um ótimo livro pode ser uma ótima maneira de se lembrar dele. Aqui, criaremos um aplicativo para nos ajudar a fazer exatamente isso.',
@@ -2656,7 +2656,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Crie aplicativos complexos do lado do servidor usando o Express',
                 locked: true,
                 lessons: [{
-                        id: 250,
+                        id: 298,
                         title: 'Middleware',
                         type: 'learn',
                         completed: false,
@@ -2664,7 +2664,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/auth/hashing.html'
                     },
                     {
-                        id: 251,
+                        id: 299,
                         title: 'Introdução ao Express Router',
                         type: 'learn',
                         completed: false,
@@ -2672,7 +2672,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/auth/jwt.html'
                     },
                     {
-                        id: 251,
+                        id: 300,
                         title: 'Usando o Roteador Expresso',
                         type: 'learn',
                         completed: false,
@@ -2680,7 +2680,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/auth/jwt.html'
                     },
                     {
-                        id: 252,
+                        id: 301,
                         title: 'Redirecionando',
                         type: 'learn',
                         completed: false,
@@ -2688,7 +2688,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/auth/protected-routes.html'
                     },
                     {
-                        id: 253,
+                        id: 302,
                         title: 'Tratamento de erros',
                         type: 'learn',
                         completed: false,
@@ -2696,7 +2696,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/auth/cookies.html'
                     },
                     {
-                        id: 254,
+                        id: 303,
                         title: 'Mergulho Profundo Expresso',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -2705,7 +2705,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/auth/auth-practice.html'
                     },
                     {
-                        id: 255,
+                        id: 304,
                         title: 'Questionário',
                         type: 'guided_project',
                         description: 'proveite o poder do Express para criar um aplicativo de quiz bem estruturado e complexo',
@@ -2715,7 +2715,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/blog-api-p3.html'
                     },
                     {
-                        id: 255,
+                        id: 305,
                         title: 'Questionário',
                         type: 'guided_project',
                         description: 'Na segunda parte do projeto, você adicionará um banco de dados à mistura',
@@ -2732,7 +2732,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Junte tudo o que você aprendeu até agora',
                 locked: true,
                 lessons: [{
-                        id: 256,
+                        id: 306,
                         title: 'Seu primeiro aplicativo full-stack',
                         type: 'learn',
                         completed: false,
@@ -2740,7 +2740,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/deployment/production-prep.html'
                     },
                     {
-                        id: 255,
+                        id: 307,
                         title: 'Pixel Grid',
                         type: 'guided_project',
                         description: 'Crie um aplicativo de desenho colaborativo que permita que seus usuários sejam criativos. Na primeira parte, você configurará o back-end inicial.',
@@ -2750,7 +2750,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/blog-api-p3.html'
                     },
                     {
-                        id: 255,
+                        id: 308,
                         title: 'Pixel Grid',
                         type: 'guided_project',
                         description: 'Na segunda parte, você configurará o front-ent para consumir a API e exibir a grade que o back-end retorna',
@@ -2760,7 +2760,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/blog-api-p3.html'
                     },
                     {
-                        id: 255,
+                        id: 309,
                         title: 'Pixel Grid',
                         type: 'guided_project',
                         description: 'Na terceira parte, você implementará um novo endpoint para permitir que seus usuários atualizem pixels na grade',
@@ -2770,7 +2770,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/blog-api-p3.html'
                     },
                     {
-                        id: 255,
+                        id: 310,
                         title: 'Pixel Grid',
                         type: 'guided_project',
                         description: 'Na parte final, você estenderá o front-end para permitir que os usuários pintem na tela digital e exibam o desenho atualizado',
@@ -2780,7 +2780,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/blog-api-p3.html'
                     },
                     {
-                        id: 260,
+                        id: 311,
                         title: 'Certificado de Conclusão',
                         type: 'certificate',
                         completed: false,
