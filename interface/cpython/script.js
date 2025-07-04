@@ -668,20 +668,29 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 6,
-                title: '',
-                description: '',
+                title: 'Módulos e APIs',
+                description: 'Use módulos e APIs para estender seu kit de ferramentas Python',
                 locked: true,
                 lessons: [{
                         id: 77,
-                        title: '',
+                        title: 'Módulos',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/functions/01.html'
-                    },
+                },
+                {
+                    id: 80,
+                    title: 'Módulos',
+                    type: 'practice',
+                    subAction: 'SOBRECARREGAR',
+                    completed: false,
+                    locked: true,
+                    url: './lessons/functions/04.html'
+                },
                     {
                         id: 78,
-                        title: '',
+                        title: 'Erros e exceções',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -689,7 +698,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 79,
-                        title: 'Criando Linhas de Grid',
+                        title: 'Gerando exceções',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -697,7 +706,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 80,
-                        title: 'Grid CSS 1',
+                        title: 'Erros e exceções',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -706,7 +715,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 81,
-                        title: 'Definindo colunas e linhas da grade',
+                        title: 'Comunicando-se com uma API',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/05.html'
+                    },
+                    {
+                        id: 81,
+                        title: 'Introdução às Solicitações ',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -714,93 +731,19 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 82,
-                        title: 'Cartão de Visita Digital',
+                        title: 'API de Star Wars',
                         type: 'guided_project',
-                        description: 'É hora de facilitar o networking! Nesta seção, vamos começar a criar seu próprio cartão de visita digital.',
+                        description: 'Lançamento na galáxia com um projeto que chama a API de Star Wars para recuperar personagens do vasto universo de Star Wars',
                         subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 83,
-                        title: 'Lacunas na grid',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/functions/05.html'
-                    },
-                    {
-                        id: 84,
-                        title: 'Definindo o tamanho de um item da grid',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/functions/06.html'
-                    },
-                    {
-                        id: 85,
-                        title: 'Grid CSS 2',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/functions/07.html'
-                    },
-                    {
-                        id: 86,
-                        title: 'Criando áreas nomeadas',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/functions/05.html'
-                    },
-                    {
-                        id: 87,
-                        title: 'Seções usando áreas nomeadas',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/functions/06.html'
-                    },
-                    {
-                        id: 88,
-                        title: 'Alinhando itens da grade',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/functions/05.html'
-                    },
-                    {
-                        id: 89,
-                        title: 'Usando CSS Grid e Flexbox',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/functions/06.html'
-                    },
-                    {
-                        id: 90,
-                        title: 'Grade CSS 3',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/functions/07.html'
-                    },
-                    {
-                        id: 91,
-                        title: 'Webdesign responsivo',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/functions/05.html'
-                    },
-                    {
                         id: 92,
-                        title: 'Cartão de Visita Digital',
+                        title: 'API de Star Wars',
                         type: 'guided_project',
-                        description: 'Agora, vamos nos concentrar na capacidade de resposta. Vamos refinar nosso design, garantindo que ele brilhe e impressione em telas grandes e pequenas.',
+                        description: 'Dê poder aos usuários nesta sequência, permitindo que eles escolham quantos personagens baixar e explorar',
                         subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
