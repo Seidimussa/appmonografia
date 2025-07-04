@@ -678,16 +678,16 @@ document.addEventListener('DOMContentLoaded', () => {
                         completed: false,
                         locked: true,
                         url: './lessons/functions/01.html'
-                },
-                {
-                    id: 80,
-                    title: 'Módulos',
-                    type: 'practice',
-                    subAction: 'SOBRECARREGAR',
-                    completed: false,
-                    locked: true,
-                    url: './lessons/functions/04.html'
-                },
+                    },
+                    {
+                        id: 80,
+                        title: 'Módulos',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/04.html'
+                    },
                     {
                         id: 78,
                         title: 'Erros e exceções',
@@ -863,12 +863,12 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 8,
-                title: '',
-                description: '',
+                title: 'Programação Orientada a Objetos',
+                description: 'Use programação orientada a objetos para aplicativos sofisticados',
                 locked: true,
                 lessons: [{
                         id: 117,
-                        title: '',
+                        title: 'Usando Classes',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -876,7 +876,31 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 118,
-                        title: '',
+                        title: 'Criando Instâncias',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/02.html'
+                    },
+                    {
+                        id: 120,
+                        title: 'Aulas 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/04.html'
+                    },
+                    {
+                        id: 117,
+                        title: 'Classes com Métodos',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/applied-functions/01.html'
+                    }, {
+                        id: 118,
+                        title: 'Construtores',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -884,7 +908,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 119,
-                        title: '',
+                        title: 'Compreendendo Classes',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -892,7 +916,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 120,
-                        title: '',
+                        title: 'Aulas 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -901,9 +925,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 121,
-                        title: '',
+                        title: 'Biblioteca',
                         type: 'guided_project',
-                        description: '',
+                        description: 'Mergulhe na POO criando objetos de livros. Esta primeira parte do projeto apresenta a criação e o gerenciamento da sua própria estante digital.',
                         subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
@@ -911,7 +935,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 122,
-                        title: '',
+                        title: 'Encapsulando Objetos',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -919,7 +943,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 123,
-                        title: '',
+                        title: 'Aplicando Herança em POO',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -927,40 +951,23 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 124,
-                        title: '',
+                        title: 'Abstraindo Objetos',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/applied-functions/06.html'
                     },
                     {
-                        id: 125,
-                        title: '',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/applied-functions/07.html'
-                    },
-                    {
                         id: 126,
-                        title: '',
+                        title: 'Objetos Polimórficos',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/applied-functions/05.html'
                     },
                     {
-                        id: 127,
-                        title: '',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/applied-functions/06.html'
-                    },
-                    {
-                        id: 128,
-                        title: '',
+                        id: 125,
+                        title: 'Programação Orientada a Objetos',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -969,9 +976,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 129,
-                        title: '',
+                        title: 'Biblioteca',
                         type: 'guided_project',
-                        description: '',
+                        description: 'Expanda seu projeto para um sistema de biblioteca completo que organize e armazene todos os seus livros',
                         subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
@@ -982,7 +989,7 @@ document.addEventListener('DOMContentLoaded', () => {
             {
                 id: 9,
                 title: '',
-                description: 'Aprenda sobre a árvore DOM e as relações dos nós',
+                description: '',
                 locked: true,
                 lessons: [{
                         id: 130,
@@ -1092,7 +1099,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // let courseData = JSON.parse(localStorage.getItem('courseProgress_js_full')) || JSON.parse(JSON.stringify(initialCourseData));
     // const saveProgress = () => localStorage.setItem('courseProgress_js_full', JSON.stringify(courseData));
 
-     let courseData = JSON.parse(localStorage.getItem(COURSE_STORAGE_KEY)) || JSON.parse(JSON.stringify(initialCourseData));
+    let courseData = JSON.parse(localStorage.getItem(COURSE_STORAGE_KEY)) || JSON.parse(JSON.stringify(initialCourseData));
 
     // --- FUNÇÕES DE LÓGICA E ESTADO ---
     const saveProgress = () => localStorage.setItem(COURSE_STORAGE_KEY, JSON.stringify(courseData));
