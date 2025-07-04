@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/01.html'
                     },
                     {
-                        id: 19,
+                        id: 15,
                         title: 'Condições de uso',
                         type: 'learn',
                         completed: false,
@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/02.html'
                     },
                     {
-                        id: 22,
+                        id: 16,
                         title: 'Declarações Condicionais 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/05.html'
                     },
                     {
-                        id: 20,
+                        id: 17,
                         title: 'Codificando instruções Else',
                         type: 'learn',
                         completed: false,
@@ -170,7 +170,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/03.html'
                     },
                     {
-                        id: 21,
+                        id: 18,
                         title: 'Incorporando Elif ',
                         type: 'learn',
                         completed: false,
@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/04.html'
                     },
                     {
-                        id: 23,
+                        id: 19,
                         title: 'Usando Decisões Complexas',
                         type: 'learn',
                         completed: false,
@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/02.html'
                     },
                     {
-                        id: 22,
+                        id: 20,
                         title: 'Declarações Condicionais 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -195,7 +195,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/05.html'
                     },
                     {
-                        id: 35,
+                        id: 21,
                         title: 'Pedra, Papel e Tesoura',
                         type: 'guided_project',
                         description: 'Crie seu próprio jogo! Nesta primeira parte, prepararemos o cenário, elaborando a lógica básica do jogo. Deixaremos o jogador e o computador escolherem uma opção e determinarem o vencedor.',
@@ -205,7 +205,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 24,
+                        id: 22,
                         title: 'Autoatribuição e Operadores',
                         type: 'learn',
                         completed: false,
@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/02.html'
                     },
                     {
-                        id: 25,
+                        id: 23,
                         title: 'Laços / loops While',
                         type: 'learn',
                         completed: false,
@@ -221,7 +221,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/02.html'
                     },
                     {
-                        id: 26,
+                        id: 24,
                         title: 'Parando loops While',
                         type: 'learn',
                         completed: false,
@@ -229,7 +229,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/02.html'
                     },
                     {
-                        id: 27,
+                        id: 25,
                         title: 'Laços 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -238,7 +238,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/05.html'
                     },
                     {
-                        id: 28,
+                        id: 26,
                         title: 'Controlando loops While',
                         type: 'learn',
                         completed: false,
@@ -246,7 +246,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/02.html'
                     },
                     {
-                        id: 29,
+                        id: 27,
                         title: 'Para laços / loops For',
                         type: 'learn',
                         completed: false,
@@ -254,7 +254,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/02.html'
                     },
                     {
-                        id: 32,
+                        id: 28,
                         title: 'Laços 2 ',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -263,7 +263,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/05.html'
                     },
                     {
-                        id: 33,
+                        id: 29,
                         title: 'Laços 2 ',
                         type: 'learn',
                         completed: false,
@@ -271,7 +271,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/02.html'
                     },
                     {
-                        id: 46,
+                        id: 30,
                         title: 'Laços 3',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -280,7 +280,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/types-comparisons/05.html'
                     },
                     {
-                        id: 47,
+                        id: 31,
                         title: 'Pedra, Papel e Tesoura',
                         type: 'guided_project',
                         description: 'Aqui, estenderemos o projeto para jogar uma melhor de três e, com isso, torná-lo um jogo real',
@@ -297,7 +297,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Crie listas para organizar grupos de valores',
                 locked: true,
                 lessons: [{
-                        id: 48,
+                        id: 32,
                         title: 'Agrupando dados em listas',
                         type: 'learn',
                         completed: false,
@@ -305,7 +305,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/conditionals/01.html'
                     },
                     {
-                        id: 49,
+                        id: 33,
                         title: 'Alterando dados em listas',
                         type: 'learn',
                         completed: false,
@@ -313,7 +313,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/conditionals/02.html'
                     },
                     {
-                        id: 50,
+                        id: 34,
                         title: 'Atualizando Listas',
                         type: 'learn',
                         completed: false,
@@ -321,7 +321,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/conditionals/03.html'
                     },
                     {
-                        id: 54,
+                        id: 35,
                         title: 'Organizando Dados 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -330,7 +330,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/conditionals/05.html'
                     },
                     {
-                        id: 55,
+                        id: 36,
                         title: 'Looping sobre listas ',
                         type: 'learn',
                         completed: false,
@@ -338,7 +338,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/conditionals/03.html'
                     },
                     {
-                        id: 56,
+                        id: 37,
                         title: 'Decidindo com Listas',
                         type: 'learn',
                         completed: false,
@@ -346,7 +346,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/conditionals/04.html'
                     },
                     {
-                        id: 59,
+                        id: 38,
                         title: 'Organizando Dados 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -355,7 +355,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/conditionals/05.html'
                     },
                     {
-                        id: 60,
+                        id: 39,
                         title: 'Lista de tarefas',
                         type: 'guided_project',
                         description: 'Comece a criar seu aplicativo de lista de tarefas. Este primeiro passo se concentra em criar a estrutura básica e adicionar tarefas.',
@@ -365,7 +365,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 61,
+                        id: 40,
                         title: 'Encontrando Dados Extremos',
                         type: 'learn',
                         completed: false,
@@ -373,7 +373,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/conditionals/04.html'
                     },
                     {
-                        id: 62,
+                        id: 41,
                         title: 'Classificando Dados',
                         type: 'learn',
                         completed: false,
@@ -381,7 +381,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/conditionals/03.html'
                     },
                     {
-                        id: 63,
+                        id: 42,
                         title: 'Somando Dados',
                         type: 'learn',
                         completed: false,
@@ -389,7 +389,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/conditionals/04.html'
                     },
                     {
-                        id: 64,
+                        id: 43,
                         title: 'Usando Listas 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -398,7 +398,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/conditionals/05.html'
                     },
                     {
-                        id: 65,
+                        id: 44,
                         title: 'Listas de adesão',
                         type: 'learn',
                         completed: false,
@@ -406,7 +406,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/conditionals/03.html'
                     },
                     {
-                        id: 66,
+                        id: 45,
                         title: 'Contando Elementos',
                         type: 'learn',
                         completed: false,
@@ -414,7 +414,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/conditionals/04.html'
                     },
                     {
-                        id: 67,
+                        id: 46,
                         title: 'Usando Listas 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -436,44 +436,52 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 4,
-                title: 'Laços / Loops',
-                description: 'Condicionais de código para construir programas que tomam decisões',
+                title: 'Funções',
+                description: 'Funções de código para tornar o código reutilizável e mais fácil de ler',
                 locked: true,
                 lessons: [{
-                        id: 70,
-                        title: 'Variáveis ​​autoatribuíveis',
+                        id: 48,
+                        title: 'Reutilizando código com funções',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/loops/01.html'
                     },
                     {
-                        id: 71,
-                        title: 'Atribuição com operadores',
+                        id: 49,
+                        title: 'Criando Parâmetros',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/loops/02.html'
                     },
                     {
-                        id: 72,
-                        title: 'Repetindo código com loops While',
+                        id: 50,
+                        title: 'Retornando Valores',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/loops/03.html'
                     },
                     {
-                        id: 73,
-                        title: 'Parando loops While',
+                        id: 51,
+                        title: 'Usando vários parâmetros',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/loops/04.html'
                     },
                     {
-                        id: 74,
-                        title: 'Laços 1',
+                        id: 51,
+                        title: 'Compreendendo Funções',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/loops/04.html'
+                    },
+                    {
+                        id: 52,
+                        title: 'Funções 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -481,42 +489,50 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/loops/05.html'
                     },
                     {
-                        id: 75,
-                        title: 'Jogo de Adivinhação',
+                        id: 53,
+                        title: 'Sistema de pedidos de comida',
                         type: 'guided_project',
-                        description: 'Crie seu próprio jogo! Nesta primeira parte, prepararemos o cenário elaborando a lógica básica do jogo. O objetivo é definir as regras e deixar os jogadores darem o seu melhor.',
+                        description: 'Embarque em uma jornada culinária: um sistema de pedidos de comida italiana. Mergulhe no delicioso mundo das pizzas e massas enquanto constrói um serviço de entrega.',
                         subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 76,
-                        title: 'Controlando loops While',
+                        id: 54,
+                        title: 'Funções e Escopo de Variáveis',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/loops/07.html'
                     },
                     {
-                        id: 77,
-                        title: 'Repetindo código com loops For',
+                        id: 55,
+                        title: 'Decidindo com Funções',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/loops/08.html'
                     },
                     {
-                        id: 78,
-                        title: 'Looping para baixo',
+                        id: 56,
+                        title: 'Funções com Listas',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/loops/08.html'
                     },
                     {
-                        id: 79,
-                        title: 'Laços 2',
+                        id: 51,
+                        title: 'Funções com Loops',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/loops/04.html'
+                    },
+                    {
+                        id: 57,
+                        title: 'Funções 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -524,10 +540,10 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/loops/09.html'
                     },
                     {
-                        id: 80,
-                        title: 'Jogo de Adivinhação',
+                        id: 58,
+                        title: 'Sistema de pedidos de comida',
                         type: 'guided_project',
-                        description: 'Pronto para aumentar as apostas? Agora, estamos introduzindo vidas ao nosso jogo, adicionando aquela camada extra de desafio e suspense. Pronto, Jogador 1?',
+                        description: 'Expanda seu sistema de pedidos de comida para incluir um mundo de sabores! Nesta parte, adicionamos culinárias diversas, tornando seu sistema um destino gastronômico global.',
                         subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
@@ -537,69 +553,51 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 5,
-                title: 'Caixa flexível / Flexbox',
-                description: 'Crie belos layouts usando Flexbox',
+                title: 'Tuplas , dicionários e conjuntos',
+                description: 'Identificar as estruturas de dados corretas para armazenar dados',
                 locked: true,
                 lessons: [{
-                        id: 81,
-                        title: 'Compreendendo o Flexbox',
+                        id: 59,
+                        title: 'Criando Tuplas',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/arrays/01.html'
                     },
                     {
-                        id: 82,
-                        title: 'Usando Flex Direction',
+                        id: 60,
+                        title: 'Tuplas e Listas',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/arrays/02.html'
                     },
                     {
-                        id: 83,
-                        title: 'Eixos Flexbox',
+                        id: 61,
+                        title: 'Retornando Tuplas',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/arrays/03.html'
                     },
                     {
-                        id: 84,
-                        title: 'Noções básicas do Flexbox',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/arrays/05.html'
-                    },
-                    {
-                        id: 85,
-                        title: 'Justificando grupos de itens',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/arrays/01.html'
-                    },
-                    {
-                        id: 86,
-                        title: 'Justificando linhas e colunas',
+                        id: 60,
+                        title: 'Criando Dicionários',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/arrays/02.html'
-                    },
-                    {
-                        id: 87,
-                        title: 'Alinhando Itens Flexíveis',
+                    }, {
+                        id: 61,
+                        title: 'Usando dicionários',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/arrays/03.html'
                     },
                     {
-                        id: 88,
-                        title: 'Contêineres Flexbox 1',
+                        id: 62,
+                        title: 'Tuplas, Dicionários e Conjuntos 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -607,75 +605,49 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/arrays/05.html'
                     },
                     {
-                        id: 89,
-                        title: 'Envolvendo itens flexíveis',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/arrays/04.html'
-                    },
-                    {
-                        id: 90,
-                        title: 'Alinhando linhas encapsuladas',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/arrays/04.html'
-                    },
-                    {
-                        id: 91,
-                        title: 'Contêineres Flexbox 2',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/arrays/05.html'
-                    },
-                    {
-                        id: 92,
-                        title: 'Galeria',
+                        id: 70,
+                        title: 'Compre uma carta',
                         type: 'guided_project',
-                        description: 'Pronto para criar uma galeria online? Neste segmento, lançaremos as bases, configurando uma tela para exibir imagens cativantes em um layout harmonioso.',
-                        subAction: 'PARTE 1',
+                        description: 'No projeto "Desenhe uma Carta", você criará um baralho virtual de cartas. Embaralhe-as e exiba-as uma a uma usando arte ASCII.',
                         completed: false,
                         locked: true,
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 93,
-                        title: 'Definindo um tamanho inicial do item',
+                        id: 71,
+                        title: 'Criando conjuntos',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/arrays/02.html'
                     },
                     {
-                        id: 94,
-                        title: 'Itens Flex em crescimento',
+                        id: 72,
+                        title: 'Usando conjuntos',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/arrays/03.html'
                     },
                     {
-                        id: 95,
-                        title: 'Itens Flexíveis Encolhendo',
+                        id: 73,
+                        title: 'Conjuntos e Listas',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/arrays/02.html'
                     },
                     {
-                        id: 96,
-                        title: 'Usando a abreviação Flex',
+                        id: 74,
+                        title: 'Operações de conjunto',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/arrays/03.html'
                     },
                     {
-                        id: 97,
-                        title: 'Itens Flexbox',
+                        id: 75,
+                        title: 'Tuplas, Dicionários e Conjuntos 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -683,10 +655,10 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/arrays/05.html'
                     },
                     {
-                        id: 98,
-                        title: 'Galeria',
+                        id: 76,
+                        title: 'Compre uma carta',
                         type: 'guided_project',
-                        description: 'Agora, vamos levar as coisas a um nível mais alto! Apresentaremos um recurso modal elegante, garantindo que cada imagem possa ser admirada de perto e em toda a sua glória.',
+                        description: 'Assuma o controle na segunda parte escolhendo quantas cartas comprar, tornando o jogo de cartas ainda mais envolvente',
                         subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
@@ -696,27 +668,27 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 6,
-                title: 'Grid',
-                description: 'Crie belos layouts usando grid CSS',
+                title: '',
+                description: '',
                 locked: true,
                 lessons: [{
-                        id: 99,
-                        title: 'Criando uma grid CSS',
+                        id: 77,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/functions/01.html'
                     },
                     {
-                        id: 100,
-                        title: 'Criando colunas de grid',
+                        id: 78,
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/functions/02.html'
                     },
                     {
-                        id: 101,
+                        id: 79,
                         title: 'Criando Linhas de Grid',
                         type: 'learn',
                         completed: false,
@@ -724,7 +696,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/functions/03.html'
                     },
                     {
-                        id: 102,
+                        id: 80,
                         title: 'Grid CSS 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -733,7 +705,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/functions/04.html'
                     },
                     {
-                        id: 103,
+                        id: 81,
                         title: 'Definindo colunas e linhas da grade',
                         type: 'learn',
                         completed: false,
@@ -741,7 +713,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/functions/05.html'
                     },
                     {
-                        id: 104,
+                        id: 82,
                         title: 'Cartão de Visita Digital',
                         type: 'guided_project',
                         description: 'É hora de facilitar o networking! Nesta seção, vamos começar a criar seu próprio cartão de visita digital.',
@@ -751,7 +723,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 105,
+                        id: 83,
                         title: 'Lacunas na grid',
                         type: 'learn',
                         completed: false,
@@ -759,7 +731,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/functions/05.html'
                     },
                     {
-                        id: 106,
+                        id: 84,
                         title: 'Definindo o tamanho de um item da grid',
                         type: 'learn',
                         completed: false,
@@ -767,7 +739,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/functions/06.html'
                     },
                     {
-                        id: 107,
+                        id: 85,
                         title: 'Grid CSS 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -776,7 +748,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/functions/07.html'
                     },
                     {
-                        id: 108,
+                        id: 86,
                         title: 'Criando áreas nomeadas',
                         type: 'learn',
                         completed: false,
@@ -784,7 +756,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/functions/05.html'
                     },
                     {
-                        id: 109,
+                        id: 87,
                         title: 'Seções usando áreas nomeadas',
                         type: 'learn',
                         completed: false,
@@ -792,7 +764,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/functions/06.html'
                     },
                     {
-                        id: 110,
+                        id: 88,
                         title: 'Alinhando itens da grade',
                         type: 'learn',
                         completed: false,
@@ -800,7 +772,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/functions/05.html'
                     },
                     {
-                        id: 111,
+                        id: 89,
                         title: 'Usando CSS Grid e Flexbox',
                         type: 'learn',
                         completed: false,
@@ -808,7 +780,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/functions/06.html'
                     },
                     {
-                        id: 112,
+                        id: 90,
                         title: 'Grade CSS 3',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -817,7 +789,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/functions/07.html'
                     },
                     {
-                        id: 113,
+                        id: 91,
                         title: 'Webdesign responsivo',
                         type: 'learn',
                         completed: false,
@@ -825,7 +797,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/functions/05.html'
                     },
                     {
-                        id: 114,
+                        id: 92,
                         title: 'Cartão de Visita Digital',
                         type: 'guided_project',
                         description: 'Agora, vamos nos concentrar na capacidade de resposta. Vamos refinar nosso design, garantindo que ele brilhe e impressione em telas grandes e pequenas.',
@@ -842,7 +814,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Use matrizes / Arrays e funções para construir programas sofisticados',
                 locked: true,
                 lessons: [{
-                        id: 115,
+                        id: 93,
                         title: 'Agrupando valores com matrizes / arrays',
                         type: 'learn',
                         completed: false,
@@ -850,7 +822,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/01.html'
                     },
                     {
-                        id: 116,
+                        id: 94,
                         title: 'Alterando valores em matrizes / arrays',
                         type: 'learn',
                         completed: false,
@@ -858,7 +830,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 117,
+                        id: 95,
                         title: 'Empurrando e removendo matrizes / arrays',
                         type: 'learn',
                         completed: false,
@@ -866,7 +838,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 118,
+                        id: 96,
                         title: 'Decidindo com Arrays',
                         type: 'learn',
                         completed: false,
@@ -874,7 +846,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/03.html'
                     },
                     {
-                        id: 119,
+                        id: 97,
                         title: 'Matrizes / Arrays',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -883,7 +855,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/04.html'
                     },
                     {
-                        id: 120,
+                        id: 98,
                         title: 'Criando Parâmetros',
                         type: 'learn',
                         completed: false,
@@ -891,7 +863,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 121,
+                        id: 99,
                         title: 'Retornando Valores',
                         type: 'learn',
                         completed: false,
@@ -899,7 +871,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/03.html'
                     },
                     {
-                        id: 122,
+                        id: 100,
                         title: 'Funções 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -908,7 +880,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/04.html'
                     },
                     {
-                        id: 123,
+                        id: 101,
                         title: 'Usando vários parâmetros',
                         type: 'learn',
                         completed: false,
@@ -916,7 +888,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 124,
+                        id: 102,
                         title: 'Compreendendo Funções',
                         type: 'learn',
                         completed: false,
@@ -924,7 +896,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/03.html'
                     },
                     {
-                        id: 125,
+                        id: 103,
                         title: 'Funções 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -933,7 +905,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/04.html'
                     },
                     {
-                        id: 126,
+                        id: 104,
                         title: 'Jogo de perguntas e respostas',
                         type: 'guided_project',
                         description: 'Pronto para desafiar seus amigos? Nesta apresentação, vamos preparar o cenário para o nosso jogo, adicionando a primeira pergunta e apresentando a mecânica essencial do jogo.',
@@ -943,7 +915,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 127,
+                        id: 105,
                         title: 'Condicionais de aninhamento',
                         type: 'learn',
                         completed: false,
@@ -951,7 +923,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 128,
+                        id: 106,
                         title: 'Usando Condições e Funções',
                         type: 'learn',
                         completed: false,
@@ -959,7 +931,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 129,
+                        id: 107,
                         title: 'Parando funções com retorno',
                         type: 'learn',
                         completed: false,
@@ -967,7 +939,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/03.html'
                     },
                     {
-                        id: 130,
+                        id: 108,
                         title: 'Funções Aplicadas 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -976,7 +948,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/04.html'
                     },
                     {
-                        id: 131,
+                        id: 109,
                         title: 'Adicionando Loops a Funções',
                         type: 'learn',
                         completed: false,
@@ -984,7 +956,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 132,
+                        id: 110,
                         title: 'Looping sobre matrizes',
                         type: 'learn',
                         completed: false,
@@ -992,7 +964,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/03.html'
                     },
                     {
-                        id: 133,
+                        id: 111,
                         title: 'Funções Aplicadas 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1001,7 +973,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/04.html'
                     },
                     {
-                        id: 134,
+                        id: 112,
                         title: 'Array .map()',
                         type: 'learn',
                         completed: false,
@@ -1009,7 +981,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 135,
+                        id: 113,
                         title: 'Array.filter()',
                         type: 'learn',
                         completed: false,
@@ -1017,7 +989,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 136,
+                        id: 114,
                         title: 'Array.reduce()',
                         type: 'learn',
                         completed: false,
@@ -1025,7 +997,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/03.html'
                     },
                     {
-                        id: 137,
+                        id: 115,
                         title: 'Operações de matriz / array',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1034,7 +1006,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/04.html'
                     },
                     {
-                        id: 138,
+                        id: 116,
                         title: 'Jogo de perguntas e respostas',
                         type: 'guided_project',
                         description: 'Com a lógica implementada, agora tudo se resume ao engajamento do jogador. Vamos aprimorar nosso jogo, introduzindo várias perguntas e exibindo uma pontuação.',
@@ -1051,7 +1023,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Aprenda a usar objetos e funções JS mais avançadas',
                 locked: true,
                 lessons: [{
-                        id: 139,
+                        id: 117,
                         title: 'Agrupando valores em objetos',
                         type: 'learn',
                         completed: false,
@@ -1059,7 +1031,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/01.html'
                     },
                     {
-                        id: 140,
+                        id: 118,
                         title: 'Usando métodos de objeto',
                         type: 'learn',
                         completed: false,
@@ -1067,7 +1039,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/02.html'
                     },
                     {
-                        id: 141,
+                        id: 119,
                         title: 'O que é JSON',
                         type: 'learn',
                         completed: false,
@@ -1075,7 +1047,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/03.html'
                     },
                     {
-                        id: 142,
+                        id: 120,
                         title: 'Objetos',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1084,7 +1056,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/04.html'
                     },
                     {
-                        id: 143,
+                        id: 121,
                         title: 'Rick e Morty',
                         type: 'guided_project',
                         description: 'Pronto para embarcar em uma jornada interdimensional? Nesta fase, vamos mergulhar no multiverso do JSON. Analisaremos e apresentaremos dados do mundo de Rick e Morty, estabelecendo a base para nossa bússola de personagens.',
@@ -1094,7 +1066,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 144,
+                        id: 122,
                         title: 'Variáveis ​​e Escopo ES6',
                         type: 'learn',
                         completed: false,
@@ -1102,7 +1074,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/06.html'
                     },
                     {
-                        id: 145,
+                        id: 123,
                         title: 'Funções de seta',
                         type: 'learn',
                         completed: false,
@@ -1110,7 +1082,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/05.html'
                     },
                     {
-                        id: 146,
+                        id: 124,
                         title: 'Parâmetros da função de seta',
                         type: 'learn',
                         completed: false,
@@ -1118,7 +1090,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/06.html'
                     },
                     {
-                        id: 147,
+                        id: 125,
                         title: 'ES6 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1127,7 +1099,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/07.html'
                     },
                     {
-                        id: 148,
+                        id: 126,
                         title: 'Literais de modelo',
                         type: 'learn',
                         completed: false,
@@ -1135,7 +1107,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/05.html'
                     },
                     {
-                        id: 149,
+                        id: 127,
                         title: 'Desestruturação',
                         type: 'learn',
                         completed: false,
@@ -1143,7 +1115,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/06.html'
                     },
                     {
-                        id: 150,
+                        id: 128,
                         title: 'ES6 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1152,7 +1124,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/07.html'
                     },
                     {
-                        id: 151,
+                        id: 129,
                         title: 'Rick e Morty',
                         type: 'guided_project',
                         description: 'É hora de se conectar com o cosmos! Agora, estamos migrando do JSON local para a extração de dados em tempo real por meio de uma API. Aproveite o poder da conectividade da web para buscar e exibir detalhes dinâmicos do universo de Rick e Morty.',
@@ -1169,7 +1141,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Aprenda sobre a árvore DOM e as relações dos nós',
                 locked: true,
                 lessons: [{
-                        id: 152,
+                        id: 130,
                         title: 'Árvore e nós do documento HTML',
                         type: 'learn',
                         completed: false,
@@ -1177,7 +1149,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/01.html'
                     },
                     {
-                        id: 153,
+                        id: 131,
                         title: 'O Modelo de Objeto de Documento',
                         type: 'learn',
                         completed: false,
@@ -1185,7 +1157,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/02.html'
                     },
                     {
-                        id: 154,
+                        id: 132,
                         title: 'Criando Elementos',
                         type: 'learn',
                         completed: false,
@@ -1193,7 +1165,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/03.html'
                     },
                     {
-                        id: 155,
+                        id: 133,
                         title: 'Removendo Elementos',
                         type: 'learn',
                         completed: false,
@@ -1201,7 +1173,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/03.html'
                     },
                     {
-                        id: 156,
+                        id: 134,
                         title: 'O Modelo de Objeto de Documento',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1210,7 +1182,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/04.html'
                     },
                     {
-                        id: 157,
+                        id: 135,
                         title: 'Usando propriedades de eventos',
                         type: 'learn',
                         completed: false,
@@ -1218,7 +1190,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/05.html'
                     },
                     {
-                        id: 158,
+                        id: 136,
                         title: 'Explorando Propriedades de Eventos',
                         type: 'learn',
                         completed: false,
@@ -1226,7 +1198,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/06.html'
                     },
                     {
-                        id: 159,
+                        id: 137,
                         title: 'Adicionando Eventos com Métodos',
                         type: 'learn',
                         completed: false,
@@ -1234,7 +1206,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/05.html'
                     },
                     {
-                        id: 160,
+                        id: 138,
                         title: 'Eventos de toque',
                         type: 'learn',
                         completed: false,
@@ -1242,7 +1214,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/06.html'
                     },
                     {
-                        id: 161,
+                        id: 139,
                         title: 'Eventos JavaScript',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1251,7 +1223,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/07.html'
                     },
                     {
-                        id: 162,
+                        id: 140,
                         title: 'Cifra de César',
                         type: 'guided_project',
                         description: 'Entre no mundo da criptografia! Neste projeto, estamos construindo um tradutor de Cifra de César ao vivo. Insira sua mensagem e veja como ela é codificada perfeitamente diante dos seus olhos.',
@@ -1268,7 +1240,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Aprenda a criar páginas web acessíveis',
                 locked: true,
                 lessons: [{
-                        id: 163,
+                        id: 141,
                         title: 'Alternativas semânticas',
                         type: 'learn',
                         completed: false,
@@ -1276,7 +1248,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/array-operations/01.html'
                     },
                     {
-                        id: 164,
+                        id: 142,
                         title: 'Estrutura da página semântica',
                         type: 'learn',
                         completed: false,
@@ -1284,7 +1256,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/array-operations/02.html'
                     },
                     {
-                        id: 165,
+                        id: 143,
                         title: 'Elementos que mudam o visual',
                         type: 'learn',
                         completed: false,
@@ -1292,7 +1264,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/array-operations/03.html'
                     },
                     {
-                        id: 166,
+                        id: 144,
                         title: 'HTML semântico',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1301,7 +1273,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/array-operations/04.html'
                     },
                     {
-                        id: 167,
+                        id: 145,
                         title: 'Noções básicas de acessibilidade HTML',
                         type: 'learn',
                         completed: false,
@@ -1309,7 +1281,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/array-operations/02.html'
                     },
                     {
-                        id: 168,
+                        id: 146,
                         title: 'Acessibilidade WAI-ARIA',
                         type: 'learn',
                         completed: false,
@@ -1317,7 +1289,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/array-operations/03.html'
                     },
                     {
-                        id: 169,
+                        id: 147,
                         title: 'Noções básicas de acessibilidade',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1326,7 +1298,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/array-operations/04.html'
                     },
                     {
-                        id: 170,
+                        id: 148,
                         title: 'Criando Formulários',
                         type: 'learn',
                         completed: false,
@@ -1334,7 +1306,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/array-operations/02.html'
                     },
                     {
-                        id: 171,
+                        id: 149,
                         title: 'Formulários com rótulos',
                         type: 'learn',
                         completed: false,
@@ -1342,7 +1314,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/array-operations/03.html'
                     },
                     {
-                        id: 172,
+                        id: 150,
                         title: 'Formulários HTML',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1351,7 +1323,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/array-operations/04.html'
                     },
                     {
-                        id: 173,
+                        id: 151,
                         title: 'Portfólio de Máquina de Escrever',
                         type: 'guided_project',
                         description: 'Abrace o charme do passado com um toque moderno! Neste projeto, estamos criando uma página de portfólio pessoal com o estilo de uma máquina de escrever clássica. Suas conquistas, experiências e habilidades são "digitadas" na tela, apresentando sua jornada de uma forma cativante e nostálgica.',
@@ -1368,7 +1340,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Aprenda como funciona o JavaScript assíncrono',
                 locked: true,
                 lessons: [{
-                        id: 174,
+                        id: 152,
                         title: 'Sincronia e Assincronia em JS',
                         type: 'learn',
                         completed: false,
@@ -1376,7 +1348,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dynamic-webpages/01.html'
                     },
                     {
-                        id: 175,
+                        id: 153,
                         title: 'Comediante Bot',
                         type: 'guided_project',
                         description: 'Pronto para algumas risadas? Vamos preparar o cenário para o nosso próprio Robô Comediante. Nesta primeira parte, programaremos nosso robô para fazer uma piada, garantindo que nosso comediante virtual comece com uma apresentação de abertura impactante.',
@@ -1386,7 +1358,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 176,
+                        id: 154,
                         title: 'Tempo limite e intervalos em JS',
                         type: 'learn',
                         completed: false,
@@ -1394,7 +1366,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dynamic-webpages/03.html'
                     },
                     {
-                        id: 177,
+                        id: 155,
                         title: 'Esperando em JS',
                         type: 'learn',
                         completed: false,
@@ -1402,7 +1374,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dynamic-webpages/03.html'
                     },
                     {
-                        id: 178,
+                        id: 156,
                         title: 'Sincronia e Assincronia em JS',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1411,7 +1383,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dynamic-webpages/04.html'
                     },
                     {
-                        id: 179,
+                        id: 157,
                         title: 'Comediante Bot',
                         type: 'guided_project',
                         description: 'Agora, vamos aprimorar o jogo do nosso Robô Comediante. Nesta fase, incorporaremos interatividade, permitindo que você peça outra piada.',
@@ -1428,7 +1400,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Crie modelos para objetos usando classes',
                 locked: true,
                 lessons: [{
-                        id: 180,
+                        id: 158,
                         title: 'Usando Classes',
                         type: 'learn',
                         completed: false,
@@ -1436,7 +1408,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dom/01.html'
                     },
                     {
-                        id: 181,
+                        id: 159,
                         title: 'Classes com Métodos',
                         type: 'learn',
                         completed: false,
@@ -1444,7 +1416,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dom/02.html'
                     },
                     {
-                        id: 182,
+                        id: 160,
                         title: 'Criando Instâncias',
                         type: 'learn',
                         completed: false,
@@ -1452,7 +1424,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dom/03.html'
                     },
                     {
-                        id: 183,
+                        id: 161,
                         title: 'Aulas de JavaScript 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1461,7 +1433,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dom/05.html'
                     },
                     {
-                        id: 184,
+                        id: 162,
                         title: 'Patas de Pixel',
                         type: 'guided_project',
                         description: 'Neste projeto, daremos vida ao nosso próprio companheiro pixelado. Crie um bichinho charmoso que você possa alimentar e cuidar.',
@@ -1471,7 +1443,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 185,
+                        id: 163,
                         title: 'Extensão de classes',
                         type: 'learn',
                         completed: false,
@@ -1479,7 +1451,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dom/01.html'
                     },
                     {
-                        id: 186,
+                        id: 164,
                         title: 'Métodos de substituição',
                         type: 'learn',
                         completed: false,
@@ -1487,7 +1459,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dom/02.html'
                     },
                     {
-                        id: 187,
+                        id: 165,
                         title: 'Propriedades da subclasse de codificação',
                         type: 'learn',
                         completed: false,
@@ -1495,7 +1467,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dom/03.html'
                     },
                     {
-                        id: 188,
+                        id: 166,
                         title: 'Aulas de JavaScript 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1504,7 +1476,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/dom/05.html'
                     },
                     {
-                        id: 47,
+                        id: 167,
                         title: 'Patas de Pixel',
                         type: 'guided_project',
                         description: 'Sentindo amor pelo seu bichinho? É hora de dar as boas-vindas a outro! Mas, com o dobro de patas pixeladas, vem o dobro de responsabilidade. Nesta fase, não só apresentaremos um novo bichinho, como também adicionaremos níveis de desafio à jogabilidade, garantindo que suas habilidades de cuidador de pets sejam realmente colocadas à prova.',
@@ -1521,7 +1493,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Use React para criar aplicativos da web modernos',
                 locked: true,
                 lessons: [{
-                        id: 190,
+                        id: 168,
                         title: 'Introdução ao React',
                         type: 'learn',
                         completed: false,
@@ -1529,7 +1501,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/01.html'
                     },
                     {
-                        id: 191,
+                        id: 169,
                         title: 'Componentes',
                         type: 'learn',
                         completed: false,
@@ -1537,7 +1509,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/02.html'
                     },
                     {
-                        id: 192,
+                        id: 170,
                         title: 'Noções básicas de React 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1546,7 +1518,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/05.html'
                     },
                     {
-                        id: 193,
+                        id: 171,
                         title: 'JSX',
                         type: 'learn',
                         completed: false,
@@ -1554,7 +1526,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/03.html'
                     },
                     {
-                        id: 194,
+                        id: 172,
                         title: 'Propriedades',
                         type: 'learn',
                         completed: false,
@@ -1562,7 +1534,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/04.html'
                     },
                     {
-                        id: 195,
+                        id: 173,
                         title: 'Botões',
                         type: 'learn',
                         completed: false,
@@ -1570,7 +1542,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/03.html'
                     },
                     {
-                        id: 196,
+                        id: 174,
                         title: 'Estado',
                         type: 'learn',
                         completed: false,
@@ -1578,7 +1550,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/04.html'
                     },
                     {
-                        id: 197,
+                        id: 175,
                         title: 'Noções básicas de React 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1587,7 +1559,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/05.html'
                     },
                     {
-                        id: 198,
+                        id: 176,
                         title: 'Contador de pontos',
                         type: 'guided_project',
                         description: 'Crie um aplicativo React para monitorar as pontuações de duas equipes usando recursos essenciais do React',
@@ -1597,7 +1569,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 199,
+                        id: 177,
                         title: 'Usando folhas de estilo',
                         type: 'learn',
                         completed: false,
@@ -1605,7 +1577,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/03.html'
                     },
                     {
-                        id: 200,
+                        id: 178,
                         title: 'Usando propriedades de estilo',
                         type: 'learn',
                         completed: false,
@@ -1613,7 +1585,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/04.html'
                     },
                     {
-                        id: 201,
+                        id: 179,
                         title: 'Noções básicas de React 3',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1622,7 +1594,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-events/05.html'
                     },
                     {
-                        id: 202,
+                        id: 180,
                         title: 'Contador de pontos',
                         type: 'guided_project',
                         description: 'Nesta segunda parte, daremos vida ao aplicativo Score Keeper com estilo',
@@ -1639,7 +1611,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Aprenda conceitos essenciais do React para aprimorar seus aplicativos',
                 locked: true,
                 lessons: [{
-                        id: 203,
+                        id: 181,
                         title: 'Renderização Condicional 1',
                         type: 'learn',
                         completed: false,
@@ -1647,7 +1619,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/async/01.html'
                     },
                     {
-                        id: 204,
+                        id: 182,
                         title: 'Renderização Condicional 2',
                         type: 'learn',
                         completed: false,
@@ -1655,7 +1627,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/async/02.html'
                     },
                     {
-                        id: 205,
+                        id: 183,
                         title: 'Fragmentos',
                         type: 'learn',
                         completed: false,
@@ -1663,7 +1635,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/async/03.html'
                     },
                     {
-                        id: 206,
+                        id: 184,
                         title: 'Fundamentos do React 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1672,7 +1644,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/async/04.html'
                     },
                     {
-                        id: 207,
+                        id: 185,
                         title: 'Propriedades destrutivas',
                         type: 'learn',
                         completed: false,
@@ -1680,7 +1652,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/async/01.html'
                     },
                     {
-                        id: 208,
+                        id: 186,
                         title: 'Propriedades padrão',
                         type: 'learn',
                         completed: false,
@@ -1688,7 +1660,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/async/02.html'
                     },
                     {
-                        id: 209,
+                        id: 187,
                         title: 'Propriedades complexas',
                         type: 'learn',
                         completed: false,
@@ -1696,7 +1668,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/async/03.html'
                     },
                     {
-                        id: 210,
+                        id: 188,
                         title: 'Matrizes em React',
                         type: 'learn',
                         completed: false,
@@ -1704,7 +1676,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/async/01.html'
                     },
                     {
-                        id: 211,
+                        id: 189,
                         title: 'Entrada',
                         type: 'learn',
                         completed: false,
@@ -1712,7 +1684,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/async/02.html'
                     },
                     {
-                        id: 212,
+                        id: 190,
                         title: 'Área de texto',
                         type: 'learn',
                         completed: false,
@@ -1720,7 +1692,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/async/03.html'
                     },
                     {
-                        id: 213,
+                        id: 191,
                         title: 'Componentes Controlados',
                         type: 'learn',
                         completed: false,
@@ -1728,7 +1700,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/async/03.html'
                     },
                     {
-                        id: 214,
+                        id: 192,
                         title: 'Fundamentos do React 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1737,7 +1709,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/async/04.html'
                     },
                     {
-                        id: 215,
+                        id: 193,
                         title: 'Clone de Wordle',
                         type: 'guided_project',
                         description: 'Recrie o mundialmente famoso jogo de palavras construindo sua lógica e mecânica central, passo a passo',
@@ -1754,7 +1726,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Mergulhe mais fundo no React para dominar aplicativos de página única',
                 locked: true,
                 lessons: [{
-                        id: 216,
+                        id: 194,
                         title: 'Crianças',
                         type: 'learn',
                         completed: false,
@@ -1762,7 +1734,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-classes/01.html'
                     },
                     {
-                        id: 217,
+                        id: 195,
                         title: 'Funções de Passagem',
                         type: 'learn',
                         completed: false,
@@ -1770,7 +1742,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-classes/02.html'
                     },
                     {
-                        id: 218,
+                        id: 196,
                         title: 'Perfuração de adereços',
                         type: 'learn',
                         completed: false,
@@ -1778,7 +1750,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-classes/03.html'
                     },
                     {
-                        id: 219,
+                        id: 197,
                         title: 'React Deep Dive 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1787,7 +1759,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-classes/04.html'
                     },
                     {
-                        id: 220,
+                        id: 198,
                         title: 'useState',
                         type: 'learn',
                         completed: false,
@@ -1795,7 +1767,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-classes/05.html'
                     },
                     {
-                        id: 221,
+                        id: 199,
                         title: 'useEffect',
                         type: 'learn',
                         completed: false,
@@ -1803,7 +1775,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-classes/06.html'
                     },
                     {
-                        id: 222,
+                        id: 200,
                         title: 'Mergulho Profundo React 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1812,7 +1784,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-classes/04.html'
                     },
                     {
-                        id: 223,
+                        id: 201,
                         title: 'Buscar',
                         type: 'learn',
                         completed: false,
@@ -1820,7 +1792,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-classes/01.html'
                     },
                     {
-                        id: 224,
+                        id: 202,
                         title: 'Roteador',
                         type: 'learn',
                         completed: false,
@@ -1828,7 +1800,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-classes/02.html'
                     },
                     {
-                        id: 225,
+                        id: 203,
                         title: 'Parâmetros de consulta',
                         type: 'learn',
                         completed: false,
@@ -1836,7 +1808,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-classes/03.html'
                     },
                     {
-                        id: 226,
+                        id: 204,
                         title: 'Mergulho Profundo 3 no React',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1845,7 +1817,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/js-classes/04.html'
                     },
                     {
-                        id: 227,
+                        id: 205,
                         title: 'Pokédex',
                         type: 'guided_project',
                         description: 'Estabeleça a base para seu Pokédex buscando dados de Pokémon de uma API e exibindo-os',
@@ -1855,7 +1827,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 228,
+                        id: 206,
                         title: 'Pokédex',
                         type: 'guided_project',
                         description: 'Melhore seu Pokédex com um recurso de busca para encontrar rapidamente seus Pokémon favoritos',
@@ -1865,7 +1837,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 229,
+                        id: 207,
                         title: 'Pokédex',
                         type: 'guided_project',
                         description: 'Complete seu Pokédex implementando uma visão detalhada para Pokémon individuais',
@@ -1875,7 +1847,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 230,
+                        id: 208,
                         title: 'Certificado de Conclusão',
                         type: 'certificate',
                         completed: false,
