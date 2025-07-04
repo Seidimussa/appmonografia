@@ -753,12 +753,12 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 7,
-                title: 'Matrizes / Arrays e Funções ',
-                description: 'Use matrizes / Arrays e funções para construir programas sofisticados',
+                title: 'Strings e operações de lista',
+                description: 'Use métodos para manipular strings e listas',
                 locked: true,
                 lessons: [{
                         id: 93,
-                        title: 'Agrupando valores com matrizes / arrays',
+                        title: 'Dividindo cordas',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -766,15 +766,32 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 94,
-                        title: 'Alterando valores em matrizes / arrays',
+                        title: 'Atualizando Strings',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/objects/02.html'
                     },
                     {
+                        id: 97,
+                        title: 'Usando Strings',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/04.html'
+                    },
+                    {
                         id: 95,
-                        title: 'Empurrando e removendo matrizes / arrays',
+                        title: 'Usando compreensões de lista',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/objects/02.html'
+                    },
+                    {
+                        id: 98,
+                        title: 'Funções como Expressões',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -782,7 +799,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 96,
-                        title: 'Decidindo com Arrays',
+                        title: 'Filtrando com instruções If',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -790,57 +807,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 97,
-                        title: 'Matrizes / Arrays',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/04.html'
-                    },
-                    {
-                        id: 98,
-                        title: 'Criando Parâmetros',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/02.html'
-                    },
-                    {
-                        id: 99,
-                        title: 'Retornando Valores',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/03.html'
-                    },
-                    {
-                        id: 100,
-                        title: 'Funções 1',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/04.html'
-                    },
-                    {
-                        id: 101,
-                        title: 'Usando vários parâmetros',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/02.html'
-                    },
-                    {
-                        id: 102,
-                        title: 'Compreendendo Funções',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/03.html'
-                    },
-                    {
-                        id: 103,
-                        title: 'Funções 2',
+                        title: 'Compreensões de Lista 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -849,9 +816,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 104,
-                        title: 'Jogo de perguntas e respostas',
+                        title: 'Analisador de transações',
                         type: 'guided_project',
-                        description: 'Pronto para desafiar seus amigos? Nesta apresentação, vamos preparar o cenário para o nosso jogo, adicionando a primeira pergunta e apresentando a mecânica essencial do jogo.',
+                        description: 'Estabeleça as bases para uma visão financeira configurando um sistema para analisar suas transações bancárias',
                         subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
@@ -859,7 +826,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 105,
-                        title: 'Condicionais de aninhamento',
+                        title: 'Indexação e Exclusão Negativa',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -867,81 +834,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 106,
-                        title: 'Usando Condições e Funções',
+                        title: 'Notação de fatias',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/objects/02.html'
-                    },
-                    {
-                        id: 107,
-                        title: 'Parando funções com retorno',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/03.html'
                     },
                     {
                         id: 108,
-                        title: 'Funções Aplicadas 1',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/04.html'
-                    },
-                    {
-                        id: 109,
-                        title: 'Adicionando Loops a Funções',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/02.html'
-                    },
-                    {
-                        id: 110,
-                        title: 'Looping sobre matrizes',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/03.html'
-                    },
-                    {
-                        id: 111,
-                        title: 'Funções Aplicadas 2',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/04.html'
-                    },
-                    {
-                        id: 112,
-                        title: 'Array .map()',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/02.html'
-                    },
-                    {
-                        id: 113,
-                        title: 'Array.filter()',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/02.html'
-                    },
-                    {
-                        id: 114,
-                        title: 'Array.reduce()',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/objects/03.html'
-                    },
-                    {
-                        id: 115,
-                        title: 'Operações de matriz / array',
+                        title: 'Compreensões de Lista 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -950,9 +851,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 116,
-                        title: 'Jogo de perguntas e respostas',
+                        title: 'Analisador de transações',
                         type: 'guided_project',
-                        description: 'Com a lógica implementada, agora tudo se resume ao engajamento do jogador. Vamos aprimorar nosso jogo, introduzindo várias perguntas e exibindo uma pontuação.',
+                        description: 'Mergulhe mais fundo em suas finanças conduzindo uma análise aprofundada de suas atividades bancárias, descobrindo insights',
                         subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
@@ -962,12 +863,12 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 8,
-                title: 'Objetos e ES 6',
-                description: 'Aprenda a usar objetos e funções JS mais avançadas',
+                title: '',
+                description: '',
                 locked: true,
                 lessons: [{
                         id: 117,
-                        title: 'Agrupando valores em objetos',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -975,7 +876,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 118,
-                        title: 'Usando métodos de objeto',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -983,7 +884,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 119,
-                        title: 'O que é JSON',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -991,7 +892,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 120,
-                        title: 'Objetos',
+                        title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1000,9 +901,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 121,
-                        title: 'Rick e Morty',
+                        title: '',
                         type: 'guided_project',
-                        description: 'Pronto para embarcar em uma jornada interdimensional? Nesta fase, vamos mergulhar no multiverso do JSON. Analisaremos e apresentaremos dados do mundo de Rick e Morty, estabelecendo a base para nossa bússola de personagens.',
+                        description: '',
                         subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
@@ -1010,7 +911,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 122,
-                        title: 'Variáveis ​​e Escopo ES6',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1018,7 +919,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 123,
-                        title: 'Funções de seta',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1026,7 +927,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 124,
-                        title: 'Parâmetros da função de seta',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1034,7 +935,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 125,
-                        title: 'ES6 1',
+                        title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1043,7 +944,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 126,
-                        title: 'Literais de modelo',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1051,7 +952,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 127,
-                        title: 'Desestruturação',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1059,7 +960,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 128,
-                        title: 'ES6 2',
+                        title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1068,9 +969,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 129,
-                        title: 'Rick e Morty',
+                        title: '',
                         type: 'guided_project',
-                        description: 'É hora de se conectar com o cosmos! Agora, estamos migrando do JSON local para a extração de dados em tempo real por meio de uma API. Aproveite o poder da conectividade da web para buscar e exibir detalhes dinâmicos do universo de Rick e Morty.',
+                        description: '',
                         subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
@@ -1080,12 +981,12 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 9,
-                title: 'DOM e Eventos',
+                title: '',
                 description: 'Aprenda sobre a árvore DOM e as relações dos nós',
                 locked: true,
                 lessons: [{
                         id: 130,
-                        title: 'Árvore e nós do documento HTML',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1093,7 +994,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 131,
-                        title: 'O Modelo de Objeto de Documento',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1101,7 +1002,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 132,
-                        title: 'Criando Elementos',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1109,7 +1010,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 133,
-                        title: 'Removendo Elementos',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1117,7 +1018,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 134,
-                        title: 'O Modelo de Objeto de Documento',
+                        title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1126,7 +1027,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 135,
-                        title: 'Usando propriedades de eventos',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1134,7 +1035,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 136,
-                        title: 'Explorando Propriedades de Eventos',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1142,7 +1043,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 137,
-                        title: 'Adicionando Eventos com Métodos',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1150,7 +1051,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 138,
-                        title: 'Eventos de toque',
+                        title: '',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1158,7 +1059,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 139,
-                        title: 'Eventos JavaScript',
+                        title: '',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1167,9 +1068,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 140,
-                        title: 'Cifra de César',
+                        title: '',
                         type: 'guided_project',
-                        description: 'Entre no mundo da criptografia! Neste projeto, estamos construindo um tradutor de Cifra de César ao vivo. Insira sua mensagem e veja como ela é codificada perfeitamente diante dos seus olhos.',
+                        description: '',
                         subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
