@@ -988,12 +988,12 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 9,
-                title: '',
-                description: '',
+                title: 'Trabalhando com APIs privadas',
+                description: 'Aprenda como acessar APIs privadas com segurança',
                 locked: true,
                 lessons: [{
                         id: 130,
-                        title: '',
+                        title: 'Variáveis ​​de ambiente',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1001,7 +1001,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 131,
-                        title: '',
+                        title: 'Personalizando chamadas de API',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1009,15 +1009,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 132,
-                        title: '',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/es6/03.html'
-                    },
-                    {
-                        id: 133,
-                        title: '',
+                        title: 'Tratamento de Resposta',
                         type: 'learn',
                         completed: false,
                         locked: true,
@@ -1025,7 +1017,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 134,
-                        title: '',
+                        title: 'Variáveis ​​de ambiente',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -1033,52 +1025,30 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/04.html'
                     },
                     {
-                        id: 135,
-                        title: '',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/es6/05.html'
-                    },
-                    {
-                        id: 136,
-                        title: '',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/es6/06.html'
-                    },
-                    {
-                        id: 137,
-                        title: '',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/es6/05.html'
-                    },
-                    {
-                        id: 138,
-                        title: '',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/es6/06.html'
-                    },
-                    {
-                        id: 139,
-                        title: '',
+                        id: 134,
+                        title: 'Trabalhando com APIs privadas',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/es6/07.html'
+                        url: './lessons/es6/04.html'
                     },
                     {
                         id: 140,
-                        title: '',
+                        title: 'Clone do ChatGPT',
                         type: 'guided_project',
-                        description: '',
+                        description: 'Use a API OpenAI para criar nossa própria versão do ChatGPT e tenha uma primeira impressão do que é possível ao trabalhar com LLMs',
                         subAction: 'PARTE 1',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/projects/linktree-p1.html'
+                    },
+                    {
+                        id: 140,
+                        title: 'Clone do ChatGPT',
+                        type: 'guided_project',
+                        description: 'Construir sobre a primeira parte do projeto ChatGPT Clone para permitir múltiplas conversas e completar o aplicativo',
+                        subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
                         url: './lessons/projects/linktree-p1.html'
