@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- ESTRUTURA DE DADOS COMPLETA PARA O CURSO DE  ---
     const initialCourseData = {
+        courseName: 'Python',
         currentSectionId: 1,
         sections: [{
                 id: 1,
@@ -441,14 +442,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 locked: true,
                 lessons: [{
                         id: 48,
-                        title: 'Reutilizando código com funções',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/loops/01.html'
-                    },
-                    {
-                        id: 49,
                         title: 'Criando Parâmetros',
                         type: 'learn',
                         completed: false,
@@ -456,7 +449,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/loops/02.html'
                     },
                     {
-                        id: 50,
+                        id: 49,
                         title: 'Retornando Valores',
                         type: 'learn',
                         completed: false,
@@ -464,7 +457,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/loops/03.html'
                     },
                     {
-                        id: 51,
+                        id: 50,
                         title: 'Usando vários parâmetros',
                         type: 'learn',
                         completed: false,
@@ -523,7 +516,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/loops/08.html'
                     },
                     {
-                        id: 51,
+                        id: 57,
                         title: 'Funções com Loops',
                         type: 'learn',
                         completed: false,
@@ -531,7 +524,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/loops/04.html'
                     },
                     {
-                        id: 57,
+                        id: 58,
                         title: 'Funções 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -540,7 +533,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/loops/09.html'
                     },
                     {
-                        id: 58,
+                        id: 59,
                         title: 'Sistema de pedidos de comida',
                         type: 'guided_project',
                         description: 'Expanda seu sistema de pedidos de comida para incluir um mundo de sabores! Nesta parte, adicionamos culinárias diversas, tornando seu sistema um destino gastronômico global.',
@@ -557,7 +550,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Identificar as estruturas de dados corretas para armazenar dados',
                 locked: true,
                 lessons: [{
-                        id: 59,
+                        id: 60,
                         title: 'Criando Tuplas',
                         type: 'learn',
                         completed: false,
@@ -565,7 +558,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/arrays/01.html'
                     },
                     {
-                        id: 60,
+                        id: 61,
                         title: 'Tuplas e Listas',
                         type: 'learn',
                         completed: false,
@@ -573,7 +566,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/arrays/02.html'
                     },
                     {
-                        id: 61,
+                        id: 62,
                         title: 'Retornando Tuplas',
                         type: 'learn',
                         completed: false,
@@ -581,14 +574,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/arrays/03.html'
                     },
                     {
-                        id: 60,
+                        id: 63,
                         title: 'Criando Dicionários',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/arrays/02.html'
                     }, {
-                        id: 61,
+                        id: 64,
                         title: 'Usando dicionários',
                         type: 'learn',
                         completed: false,
@@ -596,7 +589,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/arrays/03.html'
                     },
                     {
-                        id: 62,
+                        id: 65,
                         title: 'Tuplas, Dicionários e Conjuntos 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -605,7 +598,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/arrays/05.html'
                     },
                     {
-                        id: 70,
+                        id: 66,
                         title: 'Compre uma carta',
                         type: 'guided_project',
                         description: 'No projeto "Desenhe uma Carta", você criará um baralho virtual de cartas. Embaralhe-as e exiba-as uma a uma usando arte ASCII.',
@@ -614,7 +607,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 71,
+                        id: 67,
                         title: 'Criando conjuntos',
                         type: 'learn',
                         completed: false,
@@ -622,7 +615,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/arrays/02.html'
                     },
                     {
-                        id: 72,
+                        id: 68,
                         title: 'Usando conjuntos',
                         type: 'learn',
                         completed: false,
@@ -630,7 +623,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/arrays/03.html'
                     },
                     {
-                        id: 73,
+                        id: 69,
                         title: 'Conjuntos e Listas',
                         type: 'learn',
                         completed: false,
@@ -638,7 +631,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/arrays/02.html'
                     },
                     {
-                        id: 74,
+                        id: 70,
                         title: 'Operações de conjunto',
                         type: 'learn',
                         completed: false,
@@ -646,7 +639,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/arrays/03.html'
                     },
                     {
-                        id: 75,
+                        id: 71,
                         title: 'Tuplas, Dicionários e Conjuntos 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -655,7 +648,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/arrays/05.html'
                     },
                     {
-                        id: 76,
+                        id: 72,
                         title: 'Compre uma carta',
                         type: 'guided_project',
                         description: 'Assuma o controle na segunda parte escolhendo quantas cartas comprar, tornando o jogo de cartas ainda mais envolvente',
@@ -672,7 +665,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Use módulos e APIs para estender seu kit de ferramentas Python',
                 locked: true,
                 lessons: [{
-                        id: 77,
+                        id: 73,
                         title: 'Módulos',
                         type: 'learn',
                         completed: false,
@@ -680,8 +673,33 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/functions/01.html'
                     },
                     {
-                        id: 80,
+                        id: 74,
                         title: 'Módulos',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/04.html'
+                    },
+                    {
+                        id: 75,
+                        title: 'Erros e exceções',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/02.html'
+                    },
+                    {
+                        id: 76,
+                        title: 'Gerando exceções',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/03.html'
+                    },
+                    {
+                        id: 77,
+                        title: 'Erros e exceções',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -690,31 +708,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 78,
-                        title: 'Erros e exceções',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/functions/02.html'
-                    },
-                    {
-                        id: 79,
-                        title: 'Gerando exceções',
-                        type: 'learn',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/functions/03.html'
-                    },
-                    {
-                        id: 80,
-                        title: 'Erros e exceções',
-                        type: 'practice',
-                        subAction: 'SOBRECARREGAR',
-                        completed: false,
-                        locked: true,
-                        url: './lessons/functions/04.html'
-                    },
-                    {
-                        id: 81,
                         title: 'Comunicando-se com uma API',
                         type: 'learn',
                         completed: false,
@@ -722,7 +715,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/functions/05.html'
                     },
                     {
-                        id: 81,
+                        id: 79,
                         title: 'Introdução às Solicitações ',
                         type: 'learn',
                         completed: false,
@@ -730,7 +723,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/functions/05.html'
                     },
                     {
-                        id: 82,
+                        id: 80,
                         title: 'API de Star Wars',
                         type: 'guided_project',
                         description: 'Lançamento na galáxia com um projeto que chama a API de Star Wars para recuperar personagens do vasto universo de Star Wars',
@@ -740,7 +733,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 92,
+                        id: 81,
                         title: 'API de Star Wars',
                         type: 'guided_project',
                         description: 'Dê poder aos usuários nesta sequência, permitindo que eles escolham quantos personagens baixar e explorar',
@@ -757,7 +750,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Use métodos para manipular strings e listas',
                 locked: true,
                 lessons: [{
-                        id: 93,
+                        id: 82,
                         title: 'Dividindo cordas',
                         type: 'learn',
                         completed: false,
@@ -765,7 +758,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/01.html'
                     },
                     {
-                        id: 94,
+                        id: 83,
                         title: 'Atualizando Strings',
                         type: 'learn',
                         completed: false,
@@ -773,7 +766,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 97,
+                        id: 84,
                         title: 'Usando Strings',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -782,7 +775,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/04.html'
                     },
                     {
-                        id: 95,
+                        id: 85,
                         title: 'Usando compreensões de lista',
                         type: 'learn',
                         completed: false,
@@ -790,7 +783,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 98,
+                        id: 86,
                         title: 'Funções como Expressões',
                         type: 'learn',
                         completed: false,
@@ -798,7 +791,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 96,
+                        id: 87,
                         title: 'Filtrando com instruções If',
                         type: 'learn',
                         completed: false,
@@ -806,7 +799,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/03.html'
                     },
                     {
-                        id: 97,
+                        id: 88,
                         title: 'Compreensões de Lista 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -815,7 +808,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/04.html'
                     },
                     {
-                        id: 104,
+                        id: 89,
                         title: 'Analisador de transações',
                         type: 'guided_project',
                         description: 'Estabeleça as bases para uma visão financeira configurando um sistema para analisar suas transações bancárias',
@@ -825,7 +818,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 105,
+                        id: 90,
                         title: 'Indexação e Exclusão Negativa',
                         type: 'learn',
                         completed: false,
@@ -833,7 +826,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 106,
+                        id: 91,
                         title: 'Notação de fatias',
                         type: 'learn',
                         completed: false,
@@ -841,7 +834,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/02.html'
                     },
                     {
-                        id: 108,
+                        id: 92,
                         title: 'Compreensões de Lista 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -850,7 +843,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/objects/04.html'
                     },
                     {
-                        id: 116,
+                        id: 93,
                         title: 'Analisador de transações',
                         type: 'guided_project',
                         description: 'Mergulhe mais fundo em suas finanças conduzindo uma análise aprofundada de suas atividades bancárias, descobrindo insights',
@@ -867,7 +860,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Use programação orientada a objetos para aplicativos sofisticados',
                 locked: true,
                 lessons: [{
-                        id: 117,
+                        id: 94,
                         title: 'Usando Classes',
                         type: 'learn',
                         completed: false,
@@ -875,7 +868,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/01.html'
                     },
                     {
-                        id: 118,
+                        id: 95,
                         title: 'Criando Instâncias',
                         type: 'learn',
                         completed: false,
@@ -883,7 +876,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/02.html'
                     },
                     {
-                        id: 120,
+                        id: 96,
                         title: 'Aulas 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -892,14 +885,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/04.html'
                     },
                     {
-                        id: 117,
+                        id: 97,
                         title: 'Classes com Métodos',
                         type: 'learn',
                         completed: false,
                         locked: true,
                         url: './lessons/applied-functions/01.html'
                     }, {
-                        id: 118,
+                        id: 98,
                         title: 'Construtores',
                         type: 'learn',
                         completed: false,
@@ -907,7 +900,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/02.html'
                     },
                     {
-                        id: 119,
+                        id: 99,
                         title: 'Compreendendo Classes',
                         type: 'learn',
                         completed: false,
@@ -915,7 +908,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/03.html'
                     },
                     {
-                        id: 120,
+                        id: 100,
                         title: 'Aulas 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -924,7 +917,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/04.html'
                     },
                     {
-                        id: 121,
+                        id: 101,
                         title: 'Biblioteca',
                         type: 'guided_project',
                         description: 'Mergulhe na POO criando objetos de livros. Esta primeira parte do projeto apresenta a criação e o gerenciamento da sua própria estante digital.',
@@ -934,7 +927,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 122,
+                        id: 102,
                         title: 'Encapsulando Objetos',
                         type: 'learn',
                         completed: false,
@@ -942,7 +935,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/06.html'
                     },
                     {
-                        id: 123,
+                        id: 103,
                         title: 'Aplicando Herança em POO',
                         type: 'learn',
                         completed: false,
@@ -950,7 +943,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/05.html'
                     },
                     {
-                        id: 124,
+                        id: 104,
                         title: 'Abstraindo Objetos',
                         type: 'learn',
                         completed: false,
@@ -958,7 +951,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/06.html'
                     },
                     {
-                        id: 126,
+                        id: 105,
                         title: 'Objetos Polimórficos',
                         type: 'learn',
                         completed: false,
@@ -966,7 +959,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/05.html'
                     },
                     {
-                        id: 125,
+                        id: 106,
                         title: 'Programação Orientada a Objetos',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -975,7 +968,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/applied-functions/07.html'
                     },
                     {
-                        id: 129,
+                        id: 107,
                         title: 'Biblioteca',
                         type: 'guided_project',
                         description: 'Expanda seu projeto para um sistema de biblioteca completo que organize e armazene todos os seus livros',
@@ -992,7 +985,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 description: 'Aprenda como acessar APIs privadas com segurança',
                 locked: true,
                 lessons: [{
-                        id: 130,
+                        id: 108,
                         title: 'Variáveis ​​de ambiente',
                         type: 'learn',
                         completed: false,
@@ -1000,7 +993,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/01.html'
                     },
                     {
-                        id: 131,
+                        id: 109,
                         title: 'Personalizando chamadas de API',
                         type: 'learn',
                         completed: false,
@@ -1008,7 +1001,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/02.html'
                     },
                     {
-                        id: 132,
+                        id: 110,
                         title: 'Tratamento de Resposta',
                         type: 'learn',
                         completed: false,
@@ -1016,7 +1009,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/03.html'
                     },
                     {
-                        id: 134,
+                        id: 111,
                         title: 'Variáveis ​​de ambiente',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1025,7 +1018,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/04.html'
                     },
                     {
-                        id: 134,
+                        id: 112,
                         title: 'Trabalhando com APIs privadas',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
@@ -1034,7 +1027,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/es6/04.html'
                     },
                     {
-                        id: 140,
+                        id: 113,
                         title: 'Clone do ChatGPT',
                         type: 'guided_project',
                         description: 'Use a API OpenAI para criar nossa própria versão do ChatGPT e tenha uma primeira impressão do que é possível ao trabalhar com LLMs',
@@ -1044,7 +1037,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 140,
+                        id: 114,
                         title: 'Clone do ChatGPT',
                         type: 'guided_project',
                         description: 'Construir sobre a primeira parte do projeto ChatGPT Clone para permitir múltiplas conversas e completar o aplicativo',
@@ -1054,7 +1047,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         url: './lessons/projects/linktree-p1.html'
                     },
                     {
-                        id: 208,
+                        id: 115,
                         title: 'Certificado de Conclusão',
                         type: 'certificate',
                         completed: false,
@@ -1082,6 +1075,21 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
+    const checkCourseCompletionAndUnlockCertificate = () => {
+        const allLessons = courseData.sections.flatMap(s => s.lessons);
+        const certificateLesson = allLessons.find(l => l.type === 'certificate');
+
+        if (!certificateLesson) return; // Não há certificado neste curso.
+
+        const allRegularLessons = allLessons.filter(l => l.type !== 'certificate');
+        const allCompleted = allRegularLessons.every(l => l.completed);
+
+        if (allCompleted) {
+            certificateLesson.locked = false;
+        }
+    };
+
+
     const completeLesson = (lessonId) => {
         const currentSection = courseData.sections.find(s => s.id === courseData.currentSectionId);
         const lesson = currentSection.lessons.find(l => l.id === lessonId);
@@ -1108,6 +1116,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
         }
+
+        checkCourseCompletionAndUnlockCertificate();
 
         saveProgress();
         renderApp();
@@ -1202,8 +1212,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Lógica para o card de certificado (sem alterações)
         if (lesson.type === 'certificate') {
+            const certLink = `${lesson.url}?course=${encodeURIComponent(courseData.courseName || 'Curso Completo')}`;
+            const linkAttributesWithCert = `href="${certLink}"`;
             return `<a class="lesson-card certificate-card ${lesson.locked ? 'locked' : ''}" data-lesson-id="${lesson.id}" ${linkAttributes}>
-                        <div class="cert-icon-area"><i class="fas fa-award"></i><span>JavaScript</span></div>
+                        <div class="cert-icon-area"><i class="fas fa-award"></i><span>${courseData.courseName || 'Curso'}</span></div>
                         <div class="cert-title">${lesson.title}</div>
                         ${lesson.locked ? lockIcon : statusIcon}
                     </a>`;
@@ -1286,13 +1298,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     openSidebarButton.addEventListener('click', () => sidebar.classList.add('visible'));
     closeSidebarButton.addEventListener('click', () => sidebar.classList.remove('visible'));
-    resetProgressButton.addEventListener('click', () => {
-        if (confirm('Tem certeza que deseja resetar todo o seu progresso?')) {
-            localStorage.removeItem('courseProgress_js_full');
-            courseData = JSON.parse(JSON.stringify(initialCourseData));
-            renderApp();
-        }
-    });
+    resetProgressButton.addEventListener('click', resetProgress);
 
     renderApp();
 });

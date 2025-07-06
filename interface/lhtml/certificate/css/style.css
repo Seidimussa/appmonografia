@@ -1,0 +1,366 @@
+/* --- Configurações Globais e Variáveis --- */
+:root {
+    --bg-dark: #0A0E18;
+    --bg-card: #18202D;
+    --primary-blue: #2A7AE4;
+    --text-light: #F5F5F5;
+    --text-medium: #C8C8C8;
+    --border-color: #2A374A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+/* --- Layout Principal --- */
+.page-container {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    gap: 2rem;
+}
+
+.main-content {
+    flex: 2;
+    /* Ocupa 2/3 do espaço */
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    flex: 1;
+    /* Ocupa 1/3 do espaço */
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* --- Coluna Esquerda: Main Content --- */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.back-link {
+    color: var(--text-light);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.back-link i {
+    margin-right: 0.5rem;
+}
+
+.lang-selector button {
+    background: none;
+    border: 1px solid var(--border-color);
+    color: var(--text-medium);
+    padding: 0.3rem 0.8rem;
+    cursor: pointer;
+}
+
+.lang-selector button.active {
+    background-color: var(--text-light);
+    color: var(--bg-dark);
+}
+
+.content-display-area {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 2rem;
+    flex-grow: 1;
+}
+
+/* Estilo do Certificado */
+.certificate {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.cert-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cert-header h2 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
+
+.cert-logo-watermark {
+    opacity: 0.1;
+    width: 100px;
+}
+
+.cert-body {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--primary-blue);
+    margin-bottom: 1rem;
+}
+
+.cert-text,
+.cert-date {
+    color: var(--text-medium);
+    margin-top: 0.5rem;
+}
+
+.cert-course-title {
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    padding: 1rem 0;
+    margin: 1rem 0;
+}
+
+.course-label {
+    font-size: 0.9rem;
+    color: var(--text-medium);
+}
+
+.cert-course-title h3 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.cert-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding-top: 1rem;
+}
+
+.cert-logo-footer {
+    width: 80px;
+}
+
+.signatures {
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+}
+
+.signature p {
+    font-size: 0.9rem;
+}
+
+.signature p:last-child {
+    color: var(--text-medium);
+}
+
+/* Estilo da Lista de Aulas */
+#classes-view h2 {
+    margin-bottom: 1.5rem;
+}
+
+#classes-view ul {
+    list-style: none;
+    margin-left: 1rem;
+}
+
+#classes-view ul li {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+#classes-view ul li::before {
+    content: '•';
+    color: var(--primary-blue);
+    font-size: 1.5rem;
+    position: absolute;
+    left: -1rem;
+    top: -0.3rem;
+}
+
+.progress-text {
+    margin-top: 2rem;
+    color: var(--text-medium);
+}
+
+.bottom-nav {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.bottom-nav button {
+    background: none;
+    border: 1px solid var(--border-color);
+    color: var(--text-medium);
+    padding: 0.8rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    flex-grow: 1;
+}
+
+.bottom-nav button.active {
+    background-color: var(--text-light);
+    color: var(--bg-dark);
+    font-weight: 700;
+    border-color: var(--text-light);
+}
+
+.bottom-nav button:hover:not(.active) {
+    background-color: var(--bg-card);
+    border-color: var(--text-light);
+}
+
+/* --- Coluna Direita: Sidebar --- */
+.sidebar-section {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.section-label {
+    color: var(--text-medium);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.congrats-text {
+    color: var(--text-medium);
+    line-height: 1.6;
+}
+
+.cta-button {
+    display: block;
+    background-color: var(--primary-blue);
+    color: var(--text-light);
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    transition: background-color 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #1E66D4;
+}
+
+.cta-button i {
+    margin-right: 0.5rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-icon {
+    border: 1px solid var(--border-color);
+    color: var(--text-light);
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.social-icon:hover {
+    background-color: var(--border-color);
+}
+
+.recommendation-card {
+    display: block;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--text-light);
+    margin-top: 1rem;
+    transition: all 0.2s ease;
+}
+
+.recommendation-card:hover {
+    border-color: var(--primary-blue);
+    background-color: #1C2738;
+}
+
+.rec-label {
+    color: var(--text-medium);
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
+}
+
+.lang-selector {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.lang-option {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #4D4D4D;
+    text-decoration: none;
+    font-size: 0.875rem;
+    padding: 6px 8px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+
+.lang-option.active {
+    border-color: var(--light-blue-accent);
+}
+
+.lang-option img {
+    width: 20px;
+    height: 20px;
+    border-radius: 10%;
+    object-fit: cover;
+    margin-right: 2px;  
+}
+
+/* --- Responsividade --- */
+@media (max-width: 1024px) {
+    body {
+        padding: 1rem;
+    }
+
+    .page-container {
+        flex-direction: column;
+    }
+
+    .main-content,
+    .sidebar {
+        flex: none;
+        width: 100%;
+    }
+}

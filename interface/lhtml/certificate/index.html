@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificado de Conclusão - Alura</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome (para os ícones) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="page-container">
+        <!-- Coluna Esquerda: Conteúdo Principal -->
+        <main class="main-content">
+            <header class="main-header">
+                <a href="#" class="back-link"><i class="fa-solid fa-arrow-left"></i> Voltar ao perfil</a>
+                <div class="lang-selector">
+                    <button class="lang-option active"><img src="./images/Portugal.png" alt="Português">PT</button>
+
+                    <button class="lang-option"><img src="./images/United_Kingdom.png" alt="Inglês">EN</button>
+                </div>
+            </header>
+
+            <div class="content-display-area">
+                <!-- Visualização do Certificado (Inicialmente visível) -->
+                <div id="certificate-view" class="content-view">
+                    <div class="certificate">
+                        <div class="cert-header">
+                            <h2>CERTIFICADO<br>DE CONCLUSÃO</h2>
+                            <img src="images/logoGW.png" alt="Logo Solutions-gw" class="cert-logo-watermark">
+                        </div>
+                        <div class="cert-body">
+                            <img src="images/Perfil.png" alt="Foto de Mussa Seidi" class="profile-pic">
+                            <p><strong>MUSSA SEIDI</strong></p>
+                            <p class="cert-text">concluiu o curso online com carga horária estimada em 8 horas.</p>
+                            <p class="cert-date">Finalizado em 15 de janeiro de 2025</p>
+                        </div>
+                        <div class="cert-course-title">
+                            <p class="course-label">Curso_</p>
+                            <h3>HTML E CSS: AMBIENTES DE DESENVOLVIMENTO, ESTRUTURA DE ARQUIVOS E TAGS</h3>
+                        </div>
+                        <div class="cert-footer">
+                            <img src="images/logoGW.png" alt="Logo Alura" class="cert-logo-footer">
+                            <div class="signatures">
+                                <div class="signature">
+                                    <p><strong>
+                                            darandim
+                                        </strong></p>
+                                    <p>Coordenador</p>
+                                </div>
+                                <div class="signature">
+                                    <p><strong>Mussa Seidi</strong></p>
+                                    <p>Chief Vision Officer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Visualização (Inicialmente oculta) -->
+                <!-- Verso do Certificado -->
+                <div class="certificate-back">
+                    <button class="flip-to-front-btn" aria-label="Virar para a frente">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.41 16.59L10.83 12L15.41 7.41L14 6L8 12L14 18L15.41 16.59Z" fill="currentColor">
+                            </path>
+                        </svg>
+                    </button>
+
+                    <div class="back-content">
+                        <h3 data-key="lessons_title">AULAS</h3>
+                        <ul>
+                            <li>O editor de código VSCode</li>
+                            <li>Documentação e HTML</li>
+                            <li>Layout e tags semânticas</li>
+                            <li>Estilizando o projeto com CSS</li>
+                            <li>Super estilizando o seu CSS</li>
+                        </ul>
+                        <p class="activities-info" data-key="activities_info">Foram feitas 54 de 54
+                            atividades.</p>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="bottom-nav">
+                <button id="btn-certificate" class="active">Certificado formal</button>
+
+                <button id="btn-access">Acessar o curso</button>
+                <button id="btn-print">Imprimir</button>
+            </nav>
+        </main>
+
+        <!-- Coluna Direita: Barra Lateral -->
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <p class="section-label">CURSO</p>
+                <h2>HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags</h2>
+                <p class="congrats-text">Parabéns! Você acabou de avançar mais um passo e mergulhou profundamente em
+                    conhecimento com a gente. Após baixar seu certificado não deixe de acompanhar o material extra que
+                    separamos para você continuar estudando!</p>
+                <a href="#" class="cta-button"><i class="fa-solid fa-download"></i> BAIXAR CERTIFICADO</a>
+            </div>
+
+            <div class="sidebar-section">
+                <p>Compartilhe sua conquista e não se esqueça da hashtag <strong>#Aprenda</strong> 🔥</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <p class="section-label">Experimente estudar também:</p>
+                <a href="#" class="recommendation-card">
+                    <p class="rec-label">FORMAÇÃO</p>
+                    <p><strong>Angular: crie aplicações web ágeis</strong></p>
+                </a>
+                <a href="#" class="recommendation-card">
+                    <p class="rec-label">FORMAÇÃO</p>
+                    <p><strong>React: desenvolva aplicações web usando JSX e Hooks</strong></p>
+                </a>
+            </div>
+        </aside>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

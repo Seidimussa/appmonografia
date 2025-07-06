@@ -232,7 +232,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'certificate',
                         locked: true,
                         completed: false,
-                        url: './certificate.html'
+                        url: './certificate/index.html'
                     }
                 ]
             },
