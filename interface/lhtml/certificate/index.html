@@ -55,9 +55,10 @@
                         </div>
 
                         <div class="cert-course-title">
-                            <p class="course-label">Curso_</p>
-                            <h3>HTML E CSS: AMBIENTES DE DESENVOLVIMENTO, ESTRUTURA DE ARQUIVOS E TAGS</h3>
+                            <p class="course-label" data-key="course_label">Curso_</p>
+                            <h3>HTML : AMBIENTES DE DESENVOLVIMENTO, ESTRUTURA DE ARQUIVOS E TAGS</h3>
                         </div>
+
                         <div class="cert-footer">
                             <img src="images/logoGW.png" alt="Logo Alura" class="cert-logo-footer">
                             <div class="signatures">
@@ -73,12 +74,22 @@
                                 </div>
                             </div>
                         </div>
+
+                        <button class="flip-to-back-btn" aria-label="Virar para o verso">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.59003 16.59L13.17 12L8.59003 7.41L10 6L16 12L10 18L8.59003 16.59Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </button>
+
                     </div>
                 </div>
 
                 <!-- Visualização (Inicialmente oculta) -->
                 <!-- Verso do Certificado -->
                 <div class="certificate-back">
+
                     <button class="flip-to-front-btn" aria-label="Virar para a frente">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M15.41 16.59L10.83 12L15.41 7.41L14 6L8 12L14 18L15.41 16.59Z" fill="currentColor">
@@ -98,30 +109,38 @@
                         <p class="activities-info" data-key="activities_info">Foram feitas 54 de 54
                             atividades.</p>
                     </div>
+
                 </div>
             </div>
 
             <nav class="bottom-nav">
-                <button id="btn-certificate" class="active">Certificado formal</button>
 
-                <button id="btn-access">Acessar o curso</button>
-                <button id="btn-print">Imprimir</button>
+                <button id="btn-certificate" class="active" data-key="formal_cert">Certificado formal</button>
+
+                <button class="btn btn-secondary" id="btn-access" data-key="access_course">Acessar o curso</button>
+
+                <button class="btn btn-secondary" id="print-btn" data-key="print_cert">Imprimir</button>
             </nav>
         </main>
 
         <!-- Coluna Direita: Barra Lateral -->
         <aside class="sidebar">
+
             <div class="sidebar-section">
-                <p class="section-label">CURSO</p>
-                <h2>HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags</h2>
-                <p class="congrats-text">Parabéns! Você acabou de avançar mais um passo e mergulhou profundamente em
+                <p class="section-label" data-key="course_label_sidebar">CURSO</p>
+                <h2 class="sidebar-title">HTML: ambientes de desenvolvimento, estrutura de arquivos e tags</h2>
+               
+                <p class="congrats-text" data-key="congrats_text">Parabéns! Você acabou de avançar mais um passo e
+                    mergulhou profundamente em
                     conhecimento com a gente. Após baixar seu certificado não deixe de acompanhar o material extra que
                     separamos para você continuar estudando!</p>
+
                 <a href="#" class="cta-button"><i class="fa-solid fa-download"></i> BAIXAR CERTIFICADO</a>
             </div>
 
             <div class="sidebar-section">
-                <p>Compartilhe sua conquista e não se esqueça da hashtag <strong>#Aprenda</strong> 🔥</p>
+                <p data-key="share_text">Compartilhe sua conquista e não se esqueça da hashtag <strong>#Aprenda</strong>
+                    🔥</p>
                 <div class="social-links">
                     <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
                     <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
@@ -130,16 +149,21 @@
             </div>
 
             <div class="sidebar-section">
-                <p class="section-label">Experimente estudar também:</p>
+                <p class="section-label" data-key="also_try">Experimente estudar também:</p>
+
                 <a href="#" class="recommendation-card">
-                    <p class="rec-label">FORMAÇÃO</p>
-                    <p><strong>Angular: crie aplicações web ágeis</strong></p>
+                    <p class="rec-label" data-key="rec_label_formation">FORMAÇÃO</p>
+                    <p class="rec-title" data-key="rec_angular"><strong>Angular: crie aplicações web ágeis</strong></p>
                 </a>
+
                 <a href="#" class="recommendation-card">
-                    <p class="rec-label">FORMAÇÃO</p>
-                    <p><strong>React: desenvolva aplicações web usando JSX e Hooks</strong></p>
+                    <p class="rec-label" data-key="rec_label_formation_2">FORMAÇÃO</p>
+                    <p class="rec-title" data-key="rec_react"><strong>React: desenvolva aplicações web usando JSX e
+                            Hooks</strong></p>
                 </a>
+
             </div>
+
         </aside>
     </div>
 
