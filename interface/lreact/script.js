@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     { id: 32, title: 'Roteador', type: 'learn', completed: false, locked: true, url: './lessons/react-deep-dive/09.html' },
                     { id: 33, title: 'Parâmetros de consulta', type: 'learn', completed: false, locked: true, url: './lessons/react-deep-dive/10.html' },
                     { id: 34, title: 'Mergulho Profundo no React 3', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/react-deep-dive/11.html' },
-                    { id: 35, title: 'Certificado de Conclusão', type: 'certificate', completed: false, locked: true, url: './certificate.html' }
+                    { id: 35, title: 'Certificado de Conclusão', type: 'certificate', completed: false, locked: true, url: './certificate/index.html' }
                 ]
             }
         ]

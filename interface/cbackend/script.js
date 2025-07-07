@@ -1392,7 +1392,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'certificate',
                         completed: false,
                         locked: true,
-                        url: './certificate.html'
+                        url: './certificate/index.html'
                     }
                 ]
             },
@@ -1547,18 +1547,18 @@ document.addEventListener('DOMContentLoaded', () => {
         // Adiciona a classe do tipo de lição ao card para estilização (ex: 'learn-card', 'practice-card')
         const typeClass = `${lesson.type}-card`;
 
-         let courseData = JSON.parse(localStorage.getItem(COURSE_STORAGE_KEY)) || JSON.parse(JSON.stringify(initialCourseData));
+        let courseData = JSON.parse(localStorage.getItem(COURSE_STORAGE_KEY)) || JSON.parse(JSON.stringify(initialCourseData));
 
-    // --- FUNÇÕES DE LÓGICA E ESTADO ---
-    const saveProgress = () => localStorage.setItem(COURSE_STORAGE_KEY, JSON.stringify(courseData));
+        // --- FUNÇÕES DE LÓGICA E ESTADO ---
+        const saveProgress = () => localStorage.setItem(COURSE_STORAGE_KEY, JSON.stringify(courseData));
 
-    const resetProgress = () => {
-        if (confirm('Tem certeza que deseja resetar todo o seu progresso?')) {
-            localStorage.removeItem(COURSE_STORAGE_KEY);
-            courseData = JSON.parse(JSON.stringify(initialCourseData));
-            renderApp();
-        }
-    };
+        const resetProgress = () => {
+            if (confirm('Tem certeza que deseja resetar todo o seu progresso?')) {
+                localStorage.removeItem(COURSE_STORAGE_KEY);
+                courseData = JSON.parse(JSON.stringify(initialCourseData));
+                renderApp();
+            }
+        };
 
         // Lógica para construir o card com base no 'type' da lição
         if (lesson.type === 'guided_project') {

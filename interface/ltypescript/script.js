@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 lessons: [
                     { id: 18, title: 'Introdução aos Genéricos', type: 'learn', completed: false, locked: true, url: './lessons/generics/01.html' },
                     { id: 19, title: 'Genéricos', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/generics/02.html' },
-                    { id: 20, title: 'Certificado de Conclusão', type: 'certificate', completed: false, locked: true, url: './certificate.html' }
+                    { id: 20, title: 'Certificado de Conclusão', type: 'certificate', completed: false, locked: true, url: './certificate/index.html' }
                 ]
             }
         ]

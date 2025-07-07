@@ -170,7 +170,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     { id: 85, title: 'Erros e exceções', type: 'learn', completed: false, locked: true, url: './lessons/errors-exceptions/01.html' },
                     { id: 86, title: 'Gerando exceções', type: 'learn', completed: false, locked: true, url: './lessons/errors-exceptions/02.html' },
                     { id: 87, title: 'Erros e exceções', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/errors-exceptions/03.html' },
-                    { id: 88, title: 'Certificado de Conclusão', type: 'certificate', completed: false, locked: true, url: './certificate.html' }
+                    { id: 88, title: 'Certificado de Conclusão', type: 'certificate', completed: false, locked: true, url: './certificate/index.html' }
                 ]
             }
         ]
