@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: false,
                         completed: false,
-                        url: './basico/licao01/index.html'
+                        url: './basico/licao01/aprender01/game.html'
                     },
                     {
                         id: 2,
