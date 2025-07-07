@@ -157,6 +157,27 @@ body {
     width: 80px;
 }
 
+.qr-code-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* O #qrcode é o div onde a biblioteca vai gerar o QR Code */
+#qrcode {
+    margin-bottom: 0.25rem;
+    display: flex; /* Para centralizar a imagem gerada */
+    justify-content: center;
+    align-items: center;
+}
+
+/* A biblioteca gera uma tag <img>, vamos estilizá-la */
+#qrcode img {
+    border: 2px solid var(--border-color);
+    padding: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
 .signatures {
     display: flex;
     gap: 2rem;
@@ -521,6 +542,65 @@ button.social-icon {
     }
 }
 
+/* --- Estilos para Geração de PDF e Impressão --- */
+/* As regras .pdf-generation-mode espelham as de @media print para garantir consistência */
+
+.pdf-generation-mode .sidebar,
+.pdf-generation-mode .main-header,
+.pdf-generation-mode .bottom-nav,
+.pdf-generation-mode .flip-btn {
+    display: none !important;
+}
+
+.pdf-generation-mode body,
+.pdf-generation-mode .page-container,
+.pdf-generation-mode .main-content {
+    padding: 0;
+    margin: 0;
+    display: block;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.pdf-generation-mode .content-display-area {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    overflow: visible !important;
+    perspective: none;
+}
+
+.pdf-generation-mode .certificate-flipper {
+    transform: none !important;
+    position: static;
+}
+
+.pdf-generation-mode .certificate-front,
+.pdf-generation-mode .certificate-back {
+    position: relative;
+    transform: none !important;
+    display: flex !important;
+    width: 100%;
+    box-sizing: border-box;
+    page-break-after: always;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+.pdf-generation-mode .certificate-back {
+    page-break-after: avoid !important;
+}
+
+.pdf-generation-mode .certificate {
+    height: auto !important;
+}
+
+.pdf-generation-mode .cert-footer {
+    margin-top: 2rem !important;
+}
+
 /* --- Estilos de Impressão --- */
 @media print {
 
@@ -579,5 +659,15 @@ button.social-icon {
 
     .certificate-back {
         page-break-after: avoid; /* Evita uma página em branco extra no final */
+    }
+
+    .certificate {
+        height: auto !important;
+        /* Permite que o conteúdo defina a altura */
+    }
+
+    .cert-footer {
+        margin-top: 2rem !important;
+        /* Define uma margem fixa em vez de 'auto' */
     }
 }

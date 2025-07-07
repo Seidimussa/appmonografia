@@ -46,7 +46,8 @@ document.addEventListener('DOMContentLoaded', () => {
             rec_angular: "<strong>Angular: crie aplicações web ágeis</strong>",
             rec_react: "<strong>React: desenvolva aplicações web usando JSX e Hooks</strong>",
             link_copied: "Link copiado!",
-            generating_pdf: '<i class="fa-solid fa-spinner fa-spin"></i> GERANDO...'
+            generating_pdf: '<i class="fa-solid fa-spinner fa-spin"></i> GERANDO...',
+            verify_authenticity: "Verifique a autenticidade"
         },
         en: {
             back_to_profile: "Back to profile",
@@ -77,7 +78,8 @@ document.addEventListener('DOMContentLoaded', () => {
             rec_angular: "<strong>Angular: create agile web applications</strong>",
             rec_react: "<strong>React: develop web applications using JSX and Hooks</strong>",
             link_copied: "Link copied!",
-            generating_pdf: '<i class="fa-solid fa-spinner fa-spin"></i> GENERATING...'
+            generating_pdf: '<i class="fa-solid fa-spinner fa-spin"></i> GENERATING...',
+            verify_authenticity: "Verify authenticity"
         }
     };
 
@@ -152,32 +154,21 @@ document.addEventListener('DOMContentLoaded', () => {
         const activeLangButton = document.querySelector('.lang-selector button.active');
         const currentLang = activeLangButton ? activeLangButton.dataset.lang : 'pt';
 
-        // Show a loading indicator for better user experience
+        // Show a loading indicator
         const originalBtnText = clickedButton.innerHTML;
         clickedButton.innerHTML = translations[currentLang].generating_pdf;
         clickedButton.style.pointerEvents = 'none'; // Disable clicks during generation
 
-        // Get the elements to be included in the PDF
-        const front = document.querySelector('.certificate-front');
-        const back = document.querySelector('.certificate-back');
-        
-        // Create a temporary container to hold both sides for PDF generation
-        const tempContainer = document.createElement('div');
-        const frontClone = front.cloneNode(true);
-        const backClone = back.cloneNode(true);
+        // Get the element to be converted to PDF
+        const elementToPrint = document.querySelector('.main-content');
 
-        // Style clones for proper rendering (remove transforms, ensure flow)
-        frontClone.style.position = 'relative';
-        backClone.style.transform = 'none'; // Reset the flip effect
-        backClone.style.position = 'relative';
+        // Add a class to the body to apply print-like styles for PDF generation
+        document.body.classList.add('pdf-generation-mode');
 
-        // Add a page break element
-        const pageBreak = document.createElement('div');
-        pageBreak.style.pageBreakAfter = 'always';
-
-        tempContainer.appendChild(frontClone);
-        tempContainer.appendChild(pageBreak);
-        tempContainer.appendChild(backClone);
+        // Ensure the certificate is not flipped for rendering
+        if (contentArea.classList.contains('is-flipped')) {
+            contentArea.classList.remove('is-flipped');
+        }
 
         // Define html2pdf options
         const options = {
@@ -185,25 +176,27 @@ document.addEventListener('DOMContentLoaded', () => {
             filename: 'certificado-conclusao.pdf',
             image: { type: 'jpeg', quality: 0.98 },
             html2canvas: { scale: 2, useCORS: true, letterRendering: true },
-            jsPDF: { unit: 'in', format: 'a4', orientation: 'landscape' },
-            pagebreak: { mode: ['css', 'legacy'] }
+            jsPDF: { unit: 'in', format: 'a4', orientation: 'landscape' }
         };
 
-        // Generate PDF from the temporary container and handle button state
-        html2pdf().from(tempContainer).set(options).save().then(() => {
+        // Generate PDF from the main content area, which is now styled for printing
+        html2pdf().from(elementToPrint).set(options).save().then(() => {
+            // Restore button and remove the temporary class
             clickedButton.innerHTML = originalBtnText;
             clickedButton.style.pointerEvents = 'auto';
+            document.body.classList.remove('pdf-generation-mode');
         }).catch((err) => {
             console.error("Erro ao gerar o PDF:", err);
             clickedButton.innerHTML = originalBtnText;
             clickedButton.style.pointerEvents = 'auto';
+            document.body.classList.remove('pdf-generation-mode');
             alert("Ocorreu um erro ao gerar o PDF. Tente novamente.");
         });
     };
 
     // C. Assign the print function to both buttons for consistent behavior
     if (btnPrint) btnPrint.addEventListener('click', triggerPrint);
-    if (btnDownload) btnDownload.addEventListener('click', generatePdf);
+    if (btnDownload) btnDownload.addEventListener('click', triggerPrint);
 
     // --- 6. COPY TO CLIPBOARD LOGIC ---
     if (copyLinkBtn && copyTooltip) {
@@ -224,4 +217,30 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     }
+
+    // --- 7. QR CODE GENERATION ---
+    const generateQrCode = () => {
+        const qrCodeElement = document.getElementById('qrcode');
+        if (qrCodeElement && typeof QRCode !== 'undefined') {
+            // Limpa qualquer QR code existente para evitar duplicatas ao, por exemplo, mudar de idioma e recarregar algo.
+            qrCodeElement.innerHTML = '';
+
+            // URL para a qual o QR code irá apontar.
+            // Em uma aplicação real, este link seria único para cada certificado.
+            // Ex: 'https://seusite.com/validar?id=CERT-2025-01-15-MSD'
+            const validationUrl = 'https://solutions-gw.blogspot.com/p/certificados.html';
+
+            new QRCode(qrCodeElement, {
+                text: validationUrl,
+                width: 70, // Tamanho em pixels
+                height: 70,
+                colorDark: "#000000",
+                colorLight: "#ffffff",
+                correctLevel: QRCode.CorrectLevel.H // Nível de correção de erro (H = High)
+            });
+        }
+    };
+
+    // Gera o QR Code assim que a página carregar
+    generateQrCode();
 });
