@@ -1,0 +1,674 @@
+/* --- Configurações Globais e Variáveis --- */
+:root {
+    --bg-dark: #F0F2F5;
+    --bg-card: #fff;
+    --primary-blue: #6faaa9;
+    --text-light: #333333;
+    --text-medium: #515158;
+    --border-color: #226160;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+/* --- Layout Principal --- */
+.page-container {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    gap: 2rem;
+}
+
+.main-content {
+    flex: 2;
+    /* Ocupa 2/3 do espaço */
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    flex: 1;
+    /* Ocupa 1/3 do espaço */
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* --- Coluna Esquerda: Main Content --- */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.back-link {
+    color: var(--text-light);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.back-link i {
+    margin-right: 0.5rem;
+}
+
+.lang-selector button {
+    background: none;
+    border: 1px solid var(--border-color);
+    color: var(--text-medium);
+    padding: 0.2rem 0.2rem;
+    cursor: pointer;
+}
+
+.lang-selector button.active {
+    background-color: #041312;
+    color: var(--bg-dark);
+}
+
+.content-display-area {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 2rem;
+    flex-grow: 1;
+}
+
+/* Estilo do Certificado */
+.certificate {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.cert-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cert-header h2 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
+
+.cert-logo-watermark {
+    opacity: 0.1;
+    width: 100px;
+}
+
+.cert-body {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--primary-blue);
+    margin-bottom: 1rem;
+}
+
+.cert-text,
+.cert-date {
+    color: var(--text-medium);
+    margin-top: 0.5rem;
+}
+
+.cert-course-title {
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    padding: 1rem 0;
+    margin: 1rem 0;
+}
+
+.course-label {
+    font-size: 0.9rem;
+    color: var(--text-medium);
+}
+
+.cert-course-title h3 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.cert-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding-top: 1rem;
+}
+
+.cert-logo-footer {
+    width: 80px;
+}
+
+.qr-code-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* O #qrcode é o div onde a biblioteca vai gerar o QR Code */
+#qrcode {
+    margin-bottom: 0.25rem;
+    display: flex; /* Para centralizar a imagem gerada */
+    justify-content: center;
+    align-items: center;
+}
+
+/* A biblioteca gera uma tag <img>, vamos estilizá-la */
+#qrcode img {
+    border: 2px solid var(--border-color);
+    padding: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.signatures {
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+}
+
+.signature p {
+    font-size: 0.9rem;
+}
+
+.signature p:last-child {
+    color: var(--text-medium);
+}
+
+/* Estilo da Lista de Aulas */
+#classes-view h2 {
+    margin-bottom: 1.5rem;
+}
+
+#classes-view ul {
+    list-style: none;
+    margin-left: 1rem;
+}
+
+#classes-view ul li {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+#classes-view ul li::before {
+    content: '•';
+    color: var(--primary-blue);
+    font-size: 1.5rem;
+    position: absolute;
+    left: -1rem;
+    top: -0.3rem;
+}
+
+.progress-text {
+    margin-top: 2rem;
+    color: var(--text-medium);
+}
+
+.bottom-nav {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.bottom-nav button {
+    background: none;
+    border: 1px solid var(--border-color);
+    color: var(--text-medium);
+    padding: 0.8rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    flex-grow: 1;
+}
+
+.bottom-nav button.active {
+    background-color: #226160;
+    color: var(--bg-dark);
+    font-weight: 700;
+    border-color: var(--text-light);
+}
+
+.bottom-nav button:hover:not(.active) {
+    background-color: var(--bg-card);
+    border-color: var(--text-light);
+}
+
+/* --- Coluna Direita: Sidebar --- */
+.sidebar-section {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.section-label {
+    color: var(--text-medium);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.congrats-text {
+    color: var(--text-medium);
+    line-height: 1.6;
+}
+
+.cta-button {
+    display: block;
+    background-color: var(--primary-blue);
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    transition: background-color 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #226160;
+    color: white;
+}
+
+.cta-button i {
+    margin-right: 0.5rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-icon {
+    border: 1px solid var(--border-color);
+    color: var(--text-light);
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+/* Adicionado para garantir que o botão se pareça com o link */
+button.social-icon {
+    background: none;
+    cursor: pointer;
+}
+
+.social-icon:hover {
+    background-color: var(--border-color);
+}
+
+.recommendation-card {
+    display: block;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--text-light);
+    margin-top: 1rem;
+    transition: all 0.2s ease;
+}
+
+.recommendation-card:hover {
+    border-color: var(--primary-blue);
+    background-color: #79adad;
+}
+
+.rec-label {
+    color: var(--text-medium);
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
+}
+
+.lang-selector {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.lang-option {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #4D4D4D;
+    text-decoration: none;
+    font-size: 0.875rem;
+    padding: 6px 8px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+
+.lang-option.active {
+    border-color: var(--light-blue-accent);
+}
+
+.lang-option img {
+    width: 20px;
+    height: 20px;
+    border-radius: 10%;
+    object-fit: cover;
+    margin-right: 2px;  
+}
+
+/* --- Seção de Compartilhamento e Tooltip --- */
+.social-share-container {
+    position: relative; /* Necessário para o posicionamento do tooltip */
+}
+
+.copy-tooltip {
+    position: absolute;
+    bottom: calc(100% + 10px); /* Posição acima dos ícones com um pequeno espaço */
+    right: 0;
+    background-color: var(--primary-blue);
+    color: var(--text-light);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+    pointer-events: none; /* Para não interferir com cliques */
+}
+
+.copy-tooltip.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* --- Configurações Globais e Variáveis --- */
+:root {
+    /* ... suas variáveis continuam as mesmas ... */
+}
+
+
+.content-display-area {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 2rem;
+    flex-grow: 1;
+    position: relative;
+    /* + ADICIONADO: Para posicionar as setas */
+    overflow: hidden;
+    /* + ADICIONADO: Para esconder os slides fora da área visível */
+}
+
+/* + ADICIONADO: Estilos para o carrossel */
+.carousel-track {
+    display: flex;
+    /* Coloca os slides lado a lado */
+    transition: transform 0.5s ease-in-out;
+    /* Animação suave */
+}
+
+.carousel-slide {
+    width: 100%;
+    flex-shrink: 0;
+    /* Garante que o slide não encolha */
+    padding: 0 1rem;
+    /* Espaço para não colar nas bordas */
+    box-sizing: border-box;
+    display: flex;
+    /* Adicionado para centralizar conteúdo do verso */
+    flex-direction: column;
+    /* Adicionado para centralizar conteúdo do verso */
+    justify-content: center;
+    /* Adicionado para centralizar conteúdo do verso */
+}
+
+/* + ADICIONADO: Estilos para as setas de navegação */
+.nav-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--border-color);
+    color: var(--text-light);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    z-index: 10;
+}
+
+.nav-arrow:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: var(--text-light);
+}
+
+.nav-arrow.prev {
+    left: 15px;
+}
+
+.nav-arrow.next {
+    right: 15px;
+}
+
+/* Fim dos estilos adicionados para o carrossel */
+
+
+/* Estilo do Certificado (o conteúdo interno permanece o mesmo) */
+.certificate {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* ... resto dos seus estilos para .certificate, .cert-header, etc., continuam aqui ... */
+.cert-header {
+    display: flex;
+    /* etc... */
+}
+
+
+/* * MODIFICADO: Ajuste para o conteúdo do verso */
+.back-content h3 {
+    margin-bottom: 1.5rem;
+}
+
+.back-content ul {
+    list-style: none;
+    margin-left: 1rem;
+}
+
+.back-content ul li {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.back-content ul li::before {
+    content: '•';
+    color: var(--primary-blue);
+    font-size: 1.5rem;
+    position: absolute;
+    left: -1rem;
+    top: -0.3rem;
+}
+
+.activities-info {
+    margin-top: 2rem;
+    color: var(--text-medium);
+}
+
+
+/* --- Responsividade --- */
+@media (max-width: 1024px) {
+    body {
+        padding: 1rem;
+    }
+
+    .page-container {
+        flex-direction: column;
+    }
+
+    .main-content,
+    .sidebar {
+        flex: none;
+        width: 100%;
+    }
+}
+
+/* --- Estilos para Geração de PDF e Impressão --- */
+/* As regras .pdf-generation-mode espelham as de @media print para garantir consistência */
+
+.pdf-generation-mode .sidebar,
+.pdf-generation-mode .main-header,
+.pdf-generation-mode .bottom-nav,
+.pdf-generation-mode .flip-btn {
+    display: none !important;
+}
+
+.pdf-generation-mode body,
+.pdf-generation-mode .page-container,
+.pdf-generation-mode .main-content {
+    padding: 0;
+    margin: 0;
+    display: block;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.pdf-generation-mode .content-display-area {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    overflow: visible !important;
+    perspective: none;
+}
+
+.pdf-generation-mode .certificate-flipper {
+    transform: none !important;
+    position: static;
+}
+
+.pdf-generation-mode .certificate-front,
+.pdf-generation-mode .certificate-back {
+    position: relative;
+    transform: none !important;
+    display: flex !important;
+    width: 100%;
+    box-sizing: border-box;
+    page-break-after: always;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+.pdf-generation-mode .certificate-back {
+    page-break-after: avoid !important;
+}
+
+.pdf-generation-mode .certificate {
+    height: auto !important;
+}
+
+.pdf-generation-mode .cert-footer {
+    margin-top: 2rem !important;
+}
+
+/* --- Estilos de Impressão --- */
+@media print {
+
+    /* Adiciona margem de 2.5cm à página impressa */
+    @page {
+        size: A4 landscape;
+        margin: 2.5cm;
+    }
+
+    /* Esconde elementos desnecessários da página */
+    .sidebar,
+    .main-header,
+    .bottom-nav,
+    .flip-btn {
+        display: none !important;
+    }
+
+    /* Reseta o layout dos containers para focar no certificado */
+    body,
+    .page-container,
+    .main-content {
+        padding: 0;
+        margin: 0;
+        display: block;
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
+
+    .content-display-area {
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        margin: 0;
+        overflow: visible;
+        perspective: none;
+    }
+
+    /* Prepara o flipper e seus filhos para impressão */
+    .certificate-flipper {
+        transform: none !important;
+        position: static;
+    }
+
+    .certificate-front,
+    .certificate-back {
+        position: relative;
+        transform: none !important;
+        display: flex; /* Mantém o layout flex interno */
+        width: 100%;
+        /* height: 100vh; Removido para respeitar as margens da página e evitar encolhimento */
+        box-sizing: border-box;
+        page-break-after: always; /* Garante que o verso comece em uma nova página */
+        -webkit-backface-visibility: visible;
+        backface-visibility: visible;
+    }
+
+    .certificate-back {
+        page-break-after: avoid; /* Evita uma página em branco extra no final */
+    }
+
+    .certificate {
+        height: auto !important;
+        /* Permite que o conteúdo defina a altura */
+    }
+
+    .cert-footer {
+        margin-top: 2rem !important;
+        /* Define uma margem fixa em vez de 'auto' */
+    }
+}
