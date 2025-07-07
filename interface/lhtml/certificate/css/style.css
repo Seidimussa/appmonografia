@@ -606,6 +606,7 @@ button.social-icon {
 
     /* Adiciona margem de 2.5cm à página impressa */
     @page {
+        size: A4 landscape;
         margin: 2.5cm;
     }
 
