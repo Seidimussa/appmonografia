@@ -1,11 +1,11 @@
 /* --- Configurações Globais e Variáveis --- */
 :root {
-    --bg-dark: #0A0E18;
-    --bg-card: #18202D;
-    --primary-blue: #2A7AE4;
-    --text-light: #F5F5F5;
-    --text-medium: #C8C8C8;
-    --border-color: #2A374A;
+    --bg-dark: #F0F2F5;
+    --bg-card: #fff;
+    --primary-blue: #6faaa9;
+    --text-light: #333333;
+    --text-medium: #515158;
+    --border-color: #226160;
 }
 
 * {
@@ -68,12 +68,12 @@ body {
     background: none;
     border: 1px solid var(--border-color);
     color: var(--text-medium);
-    padding: 0.3rem 0.8rem;
+    padding: 0.2rem 0.2rem;
     cursor: pointer;
 }
 
 .lang-selector button.active {
-    background-color: var(--text-light);
+    background-color: #041312;
     color: var(--bg-dark);
 }
 
@@ -218,7 +218,7 @@ body {
 }
 
 .bottom-nav button.active {
-    background-color: var(--text-light);
+    background-color: #226160;
     color: var(--bg-dark);
     font-weight: 700;
     border-color: var(--text-light);
@@ -256,7 +256,7 @@ body {
 .cta-button {
     display: block;
     background-color: var(--primary-blue);
-    color: var(--text-light);
+    color: #000000;
     text-decoration: none;
     text-align: center;
     padding: 1rem;
@@ -267,7 +267,8 @@ body {
 }
 
 .cta-button:hover {
-    background-color: #1E66D4;
+    background-color: #226160;
+    color: white;
 }
 
 .cta-button i {
@@ -292,6 +293,12 @@ body {
     transition: all 0.2s ease;
 }
 
+/* Adicionado para garantir que o botão se pareça com o link */
+button.social-icon {
+    background: none;
+    cursor: pointer;
+}
+
 .social-icon:hover {
     background-color: var(--border-color);
 }
@@ -309,7 +316,7 @@ body {
 
 .recommendation-card:hover {
     border-color: var(--primary-blue);
-    background-color: #1C2738;
+    background-color: #79adad;
 }
 
 .rec-label {
@@ -348,6 +355,155 @@ body {
     margin-right: 2px;  
 }
 
+/* --- Seção de Compartilhamento e Tooltip --- */
+.social-share-container {
+    position: relative; /* Necessário para o posicionamento do tooltip */
+}
+
+.copy-tooltip {
+    position: absolute;
+    bottom: calc(100% + 10px); /* Posição acima dos ícones com um pequeno espaço */
+    right: 0;
+    background-color: var(--primary-blue);
+    color: var(--text-light);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+    pointer-events: none; /* Para não interferir com cliques */
+}
+
+.copy-tooltip.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* --- Configurações Globais e Variáveis --- */
+:root {
+    /* ... suas variáveis continuam as mesmas ... */
+}
+
+
+.content-display-area {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 2rem;
+    flex-grow: 1;
+    position: relative;
+    /* + ADICIONADO: Para posicionar as setas */
+    overflow: hidden;
+    /* + ADICIONADO: Para esconder os slides fora da área visível */
+}
+
+/* + ADICIONADO: Estilos para o carrossel */
+.carousel-track {
+    display: flex;
+    /* Coloca os slides lado a lado */
+    transition: transform 0.5s ease-in-out;
+    /* Animação suave */
+}
+
+.carousel-slide {
+    width: 100%;
+    flex-shrink: 0;
+    /* Garante que o slide não encolha */
+    padding: 0 1rem;
+    /* Espaço para não colar nas bordas */
+    box-sizing: border-box;
+    display: flex;
+    /* Adicionado para centralizar conteúdo do verso */
+    flex-direction: column;
+    /* Adicionado para centralizar conteúdo do verso */
+    justify-content: center;
+    /* Adicionado para centralizar conteúdo do verso */
+}
+
+/* + ADICIONADO: Estilos para as setas de navegação */
+.nav-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--border-color);
+    color: var(--text-light);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    z-index: 10;
+}
+
+.nav-arrow:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: var(--text-light);
+}
+
+.nav-arrow.prev {
+    left: 15px;
+}
+
+.nav-arrow.next {
+    right: 15px;
+}
+
+/* Fim dos estilos adicionados para o carrossel */
+
+
+/* Estilo do Certificado (o conteúdo interno permanece o mesmo) */
+.certificate {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* ... resto dos seus estilos para .certificate, .cert-header, etc., continuam aqui ... */
+.cert-header {
+    display: flex;
+    /* etc... */
+}
+
+
+/* * MODIFICADO: Ajuste para o conteúdo do verso */
+.back-content h3 {
+    margin-bottom: 1.5rem;
+}
+
+.back-content ul {
+    list-style: none;
+    margin-left: 1rem;
+}
+
+.back-content ul li {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.back-content ul li::before {
+    content: '•';
+    color: var(--primary-blue);
+    font-size: 1.5rem;
+    position: absolute;
+    left: -1rem;
+    top: -0.3rem;
+}
+
+.activities-info {
+    margin-top: 2rem;
+    color: var(--text-medium);
+}
+
+
 /* --- Responsividade --- */
 @media (max-width: 1024px) {
     body {
@@ -362,5 +518,66 @@ body {
     .sidebar {
         flex: none;
         width: 100%;
+    }
+}
+
+/* --- Estilos de Impressão --- */
+@media print {
+
+    /* Adiciona margem de 2.5cm à página impressa */
+    @page {
+        margin: 2.5cm;
+    }
+
+    /* Esconde elementos desnecessários da página */
+    .sidebar,
+    .main-header,
+    .bottom-nav,
+    .flip-btn {
+        display: none !important;
+    }
+
+    /* Reseta o layout dos containers para focar no certificado */
+    body,
+    .page-container,
+    .main-content {
+        padding: 0;
+        margin: 0;
+        display: block;
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
+
+    .content-display-area {
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        margin: 0;
+        overflow: visible;
+        perspective: none;
+    }
+
+    /* Prepara o flipper e seus filhos para impressão */
+    .certificate-flipper {
+        transform: none !important;
+        position: static;
+    }
+
+    .certificate-front,
+    .certificate-back {
+        position: relative;
+        transform: none !important;
+        display: flex; /* Mantém o layout flex interno */
+        width: 100%;
+        /* height: 100vh; Removido para respeitar as margens da página e evitar encolhimento */
+        box-sizing: border-box;
+        page-break-after: always; /* Garante que o verso comece em uma nova página */
+        -webkit-backface-visibility: visible;
+        backface-visibility: visible;
+    }
+
+    .certificate-back {
+        page-break-after: avoid; /* Evita uma página em branco extra no final */
     }
 }
