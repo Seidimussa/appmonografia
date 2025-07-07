@@ -1,4 +1,5 @@
-[{
+[
+    {
         "question": "Qual é a principal finalidade da tag `<div>` em HTML?",
         "choice1": "Para adicionar uma imagem.",
         "choice2": "Para criar um contêiner genérico de bloco para agrupar e estilizar outros elementos.",

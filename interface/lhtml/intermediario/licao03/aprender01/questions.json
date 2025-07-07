@@ -1,377 +1,65 @@
 [{
-        "question": " Hypertext Markup Language, ou HTML , é a linguagem de computador que estrutura as páginas da web na internet. Além do HTML, você pode criar páginas da web impressionantes com botões, imagens e muito mais. Qual a principal função do HTML?",
-        "choice1": " Adicionar botões interativos",
-        "choice2": " Estruturar páginas da web",
-        "choice3": " Gerenciar imagens online",
-        "choice4": "Criar animações complexas",
+        "question": "Qual tag HTML é usada para criar uma lista não ordenada, que geralmente aparece com marcadores (bullets)?",
+        "choice1": "<ol>",
+        "choice2": "<ul>",
+        "choice3": "<list>",
+        "choice4": "<li>",
         "answer": 2
     },
     {
-        "question": "Ao adicionar o código HTML <button>Curtir</button>, você pode criar um botão com o rótulo 'Curtir'. Qual código HTML é usado para criar um botão com o rótulo 'Curtir'?",
-        "choice1": "<label> Curtir </label>",
-        "choice2": "<click> Curtir </click>",
-        "choice3": "<button> Curtir </button>",
-        "choice4": " <input> Curtir </input>",
-        "answer": 3
+        "question": "Para criar uma lista ordenada, que é numerada por padrão (1, 2, 3...), qual tag você deve usar?",
+        "choice1": "<ul>",
+        "choice2": "<nl>",
+        "choice3": "<dir>",
+        "choice4": "<ol>",
+        "answer": 4
     },
     {
-        "question": " O código HTML para criar um botão usa uma tag de abertura, <button>, e uma tag de fechamento, </button>, nesta ordem. Qual a ordem correta das tags ao criar um botão HTML?",
-        "choice1": " </button>   <button> ",
-        "choice2": " <button>   </button> ",
-        "choice3": " <button>   <button> ",
-        "choice4": " </button>   <button> ",
+        "question": "Dentro de uma lista `<ul>` ou `<ol>`, qual tag é usada para definir cada item individual da lista?",
+        "choice1": "<item>",
+        "choice2": "<li>",
+        "choice3": "<dd>",
+        "choice4": "<dt>",
         "answer": 2
     },
     {
-        "question": " O texto entre as tags de abertura e fechamento de um botão se torna o rótulo do botão. O que se torna o rótulo de um botão HTML?",
-        "choice1": "  O tipo da tag ",
-        "choice2": "  O atributo value ",
-        "choice3": " O texto entre as tags ",
-        "choice4": " A cor de fundo ",
-        "answer": 3
-    },
-    {
-        "question": " Hora de testar o que você aprendeu até agora! Que tipo de tag é essa </button>?  ",
-        "choice1": " Tag de abertura ",
-        "choice2": " Tag de fechamento ",
-        "choice3": " Tag vazia ",
-        "choice4": " Tag de atributo ",
+        "question": "Qual é a principal diferença visual padrão entre uma lista `<ul>` e uma lista `<ol>`?",
+        "choice1": "`<ul>` usa letras e `<ol>` usa números.",
+        "choice2": "`<ul>` usa marcadores (bullets) e `<ol>` usa números.",
+        "choice3": "`<ul>` é horizontal e `<ol>` é vertical.",
+        "choice4": "Não há diferença visual.",
         "answer": 2
     },
     {
-        "question": " Qual dessas tags está escrita incorretamente ? ",
-        "choice1": " <button> ",
-        "choice2": " <button\\>",
-        "choice3": " </button> ",
-        "choice4": " </button> ",
-        "answer": 2
-    },
-    {
-        "question": " Lembra do exemplo anterior? Nos próximos passos, criaremos os botões para Q , R e D. Ignoraremos o restante do código por enquanto. Crie um botão com o rótulo 'Q'. ",
-        "choice1": " <input value='Q'> ",
-        "choice2": "  <label>Q</label> ",
-        "choice3": " <button>Q</button> ",
-        "choice4": " <text>Q</text> ",
-        "answer": 3
-    },
-    {
-        "question": " Crie um botão com o rótulo 'R'. Qual a forma correta de criar um botão HTML com o rótulo 'R'? ",
-        "choice1": " <input name='R'> ",
-        "choice2": " <label for='R'></label> ",
-        "choice3": " <button>R</button> ",
-        "choice4": " <text id='R'></text> ",
-        "answer": 3
-    },
-    {
-        "question": " Por fim, crie um botão com o rótulo 'D', certificando-se de usar uma tag de abertura e uma de fechamento. ",
-        "choice1": " <button>D</button> ",
-        "choice2": " <input type='button' value='D'> ",
-        "choice3": " <a href='#''>D</a> ",
-        "choice4": " <span>D</span> ",
+        "question": "Como você criaria uma lista de compras simples com os itens 'Maçãs' e 'Bananas'?",
+        "choice1": "<ul><li>Maçãs</li><li>Bananas</li></ul>",
+        "choice2": "<list><item>Maçãs</item><item>Bananas</item></list>",
+        "choice3": "<ol>Maçãs</ol><ol>Bananas</ol>",
+        "choice4": "<p>Maçãs, Bananas</p>",
         "answer": 1
     },
     {
-        "question": " Em HTML, as palavras-chave de algumas tags são óbvias, mas existem algumas que usam uma forma abreviada. Por exemplo, usamos p para um parágrafo. Qual dessas tags HTML cria um parágrafo ? ",
-        "choice1": " <pr> ",
-        "choice2": "  <para> ",
-        "choice3": " <pg> ",
-        "choice4": " <p> ",
+        "question": "É possível colocar uma lista dentro de outra (aninhamento)? Se sim, como?",
+        "choice1": "Não, listas não podem ser aninhadas.",
+        "choice2": "Sim, colocando uma tag `<ul>` ou `<ol>` diretamente dentro de outra `<ul>` ou `<ol>`.",
+        "choice3": "Sim, mas apenas usando a tag `<nest>`.",
+        "choice4": "Sim, colocando uma nova lista `<ul>` ou `<ol>` dentro de uma tag `<li>`.",
         "answer": 4
     },
     {
-        "question": " Vamos relembrar como codificar um botão. Codifique um botão que tenha o texto Post. Qual é a forma correta de codificar um botão HTML com o texto 'Post'?",
-        "choice1": " <input type='button' value='Post'> ",
-        "choice2": " <label> Post </label> ",
-        "choice3": " <button> Post </button> ",
-        "choice4": " <text> Post </text> ",
-        "answer": 3
-    },
-    {
-        "question": " Codificar um parágrafo é muito semelhante a codificar um botão. Você precisa de uma tag de abertura, seguida do seu texto, e uma tag de fechamento. Codifique um parágrafo que exiba Mussa Seidi. ",
-        "choice1": " <div>Mussa Seidi</div> ",
-        "choice2": " <p>Mussa Seidi</p> ",
-        "choice3": " <span>Mussa Seidi</span> ",
-        "choice4": " <text>Mussa Seidi</text> ",
+        "question": "Para qual finalidade a tag `<dl>` (Description List) é mais adequada?",
+        "choice1": "Para criar uma lista de tarefas a fazer (to-do list).",
+        "choice2": "Para criar um glossário ou uma lista de termos e suas definições.",
+        "choice3": "É uma tag antiga para `<div>` e não deve ser usada.",
+        "choice4": "Para criar uma lista com links de download.",
         "answer": 2
     },
     {
-        "question": " Código Olá entre as p tags de abertura e fechamento. Qual é a forma correta de exibir a palavra 'Olá' dentro de um parágrafo HTML? ",
-        "choice1": " <div>Olá</div> ",
-        "choice2": " <p>Olá</p> ",
-        "choice3": " <text>Olá</text> ",
-        "choice4": "  <span>Olá</span> ",
-        "answer": 2
-    },
-    {
-        "question": " Podemos criar títulos em HTML para enfatizar determinados textos. Existem 6 tamanhos de títulos em HTML, de h1 a h6. Qual dessas tags HTML cria um título ? ",
-        "choice1": " <video> ",
-        "choice2": " <p> ",
-        "choice3": " <h1> ",
-        "choice4": " <button> ",
+        "question": "Qual atributo pode ser usado na tag `<ol>` para iniciar a contagem a partir de um número diferente de 1, por exemplo, 5?",
+        "choice1": "begin=\"5\"",
+        "choice2": "offset=\"5\"",
+        "choice3": "start=\"5\"",
+        "choice4": "initial=\"5\"",
         "answer": 3
-    },
-    {
-        "question": " Codifique um título que exiba SnapCat. Qual é a forma correta de codificar um título que exiba 'SnapCat' em HTML? ",
-        "choice1": " <header>SnapCat</header> ",
-        "choice2": " <h1>SnapCat</h1> ",
-        "choice3": " <title>SnapCat</title> ",
-        "choice4": "  <div>SnapCat</div> ",
-        "answer": 2
-    },
-    {
-        "question": " Adicione a tag de fechamento <button> Amilcar.  Qual é a forma correta de criar um botão HTML que exiba o texto 'Amilcar'? ",
-        "choice1": " <button> Amilcar ",
-        "choice2": " <Amilcar></Amilcar> ",
-        "choice3": " <button>Amilcar</button> ",
-        "choice4": " </button> Amilcar ",
-        "answer": 3
-    },
-    {
-        "question": " A tag de título enfatiza os textos tornando-os maiores e mais em negrito. h1 é o maior e mais em negrito e h6 é o menor e menos em negrito. Qual dessas tags HTML cria um título menor que <h1>? ",
-        "choice1": " <p> ",
-        "choice2": " <button> ",
-        "choice3": " <h6> ",
-        "choice4": " <video> ",
-        "answer": 3
-    },
-    {
-        "question": " Codifique a tag de abertura para o maior título.  Qual é a tag de abertura HTML correta para o maior título (cabeçalho de nível 1)?",
-        "choice1": " <head> ",
-        "choice2": " <h1/> ",
-        "choice3": " <h1 ",
-        "choice4": " <h1> ",
-        "answer": 4
-    },
-    {
-        "question": " Codifique a tag de abertura para o segundo maior título.  Qual é a tag de abertura HTML correta para o segundo maior título (cabeçalho de nível 2)?",
-        "choice1": " <h-2> ",
-        "choice2": " <h2/> ",
-        "choice3": " <h.2> ",
-        "choice4": " <h2> ",
-        "answer": 4
-    },
-    {
-        "question": " Qual dessas tags HTML cria o menor título (cabeçalho de nível 6)? ",
-        "choice1": " <h-small> ",
-        "choice2": " <h7> ",
-        "choice3": " <h6> ",
-        "choice4": " <minih> ",
-        "answer": 3
-    },
-    {
-        "question": " Às vezes, queremos formatar parágrafos com quebras de linha. Por exemplo, essa música ficaria muito melhor se Raindrops on rosesaparecesse em uma linha, Podemos separar linhas com a ajuda da tag de quebra de linha : br. Qual tag HTML é usada para criar uma quebra de linha em um parágrafo, fazendo com que o texto seguinte apareça em uma nova linha? ",
-        "choice1": " <br> ",
-        "choice2": " <break> ",
-        "choice3": " <line> ",
-        "choice4": " <nl> ",
-        "answer": 1
-    },
-    {
-        "question": " <br> é uma tag vazia . Tags vazias não possuem tag de fechamento nem conteúdo. Elas também são chamadas de tags de fechamento automático. Monte a tag de quebra de linha. ",
-        "choice1": " <h1>Minhas coisas favoritas</h1> ",
-        "choice2": " <br/> ",
-        "choice3": " <br>elementos em uma página</br> ",
-        "choice4": " O que acontece? <br> web em uma folha! ",
-        "answer": 4
-    },
-    {
-        "question": " Há um elemento para dar ênfase ao texto, tornando-o itálico . Chama-se emelemento. Adicione <em> e </em>. ",
-        "choice1": " <itálico>importante</itálico> ",
-        "choice2": " <emph>importante</emph> ",
-        "choice3": " <em>importante</em> ",
-        "choice4": " <i>importante</i> ",
-        "answer": 3
-    },
-    {
-        "question": " Para definir textos como importantes, usamos as <strong>tags </strong>e . Isso deixa o texto em negrito . ",
-        "choice1": " <b>AVISO: Piso molhado.</b> ",
-        "choice2": " <em>AVISO:</em> Piso molhado. ",
-        "choice3": " <strong>AVISO: Piso molhado.</strong> ",
-        "choice4": " <mark>AVISO: Piso molhado.</mark> ",
-        "answer": 3
-    },
-    {
-        "question": "  Para que serve a <br> tag? ",
-        "choice1": " Inserir uma única quebra de linha dentro de um texto. ",
-        "choice2": "  Criar uma linha horizontal para dividir o conteúdo. ",
-        "choice3": "  Iniciar um novo parágrafo com mais espaçamento.  ",
-        "choice4": " Deixar o texto seguinte com uma formatação especial. ",
-        "answer": 1
-    },
-    {
-        "question": " Qual das seguintes opções é uma tag vazia (ou de fechamento automático), que não precisa de uma tag de fechamento como </tag>? ",
-        "choice1": " <p> ",
-        "choice2": " <img> ",
-        "choice3": " <a> ",
-        "choice4": " <div> ",
-        "answer": 3
-    },
-    {
-        "question": " Qual tag HTML é semanticamente correta para dar ênfase a um texto, como se você estivesse mudando o tom de voz para destacar uma palavra? ",
-        "choice1": "  <b>Texto em negrito</b> ",
-        "choice2": " <strong>Texto importante</strong> ",
-        "choice3": " <i>Texto em itálico</i> ",
-        "choice4": " <em>Texto com ênfase</em> ",
-        "answer": 4
-    },
-    {
-        "question": " Qual é a principal diferença entre o uso da tag <strong> e da tag <b>? ",
-        "choice1": " Ambas têm a mesma função e podem ser usadas de forma intercambiável. ",
-        "choice2": " <strong> indica importância semântica, enquanto <b> é apenas um estilo visual. ",
-        "choice3": " <b> é a tag mais moderna para importância, e <strong> está obsoleta. ",
-        "choice4": " <strong> deixa o texto maior e em negrito, e <b> apenas em negrito. ",
-        "answer": 2
-    },
-    {
-        "question": " Qual código HTML aplica corretamente a tag de ênfase ao título do álbum? ",
-        "choice1": " Meu álbum favorito é <strong>Non na riba terra</strong>. ",
-        "choice2": " Meu álbum favorito é <i>Non na riba terra</i>. ",
-        "choice3": " Meu álbum favorito é <mark>Non na riba terra</mark>. ",
-        "choice4": " Meu álbum favorito é <em>Non na riba terra</em>. ",
-        "answer": 4
-    },
-    {
-        "question": " Dado o texto a seguir: 'Estudar HTML é o primeiro passo. A prática leva à perfeição.' Qual opção aplica corretamente a ênfase apenas na segunda frase? ",
-        "choice1": " <p>Estudar HTML é o primeiro passo. <strong>A prática leva à perfeição.</strong></p> ",
-        "choice2": " <p><em>Estudar HTML é o primeiro passo.</em> A prática leva à perfeição.</p> ",
-        "choice3": " <p>Estudar HTML é o primeiro passo. <b>A prática leva à perfeição.</b></p> ",
-        "choice4": " <p>Estudar HTML é o primeiro passo. <em>A prática leva à perfeição.</em></p> ",
-        "answer": 4
-    },
-    {
-        "question": " Você precisa destacar o nome 'Maio Cope' como de forte importância em uma frase. Qual opção faz isso corretamente? ",
-        "choice1": "  Anunciamos a participação de <b>Maio Cope</b> no evento. ",
-        "choice2": " Anunciamos a participação de <em>Maio Cope</em> no evento. ",
-        "choice3": " Anunciamos a participação de <strong>Maio Cope</strong> no evento. ",
-        "choice4": " <strong>Anunciamos a participação de</strong> Maio Cope no evento. ",
-        "answer": 3
-    },
-    {
-        "question": " Qual das opções abaixo cria corretamente um botão clicável com o texto 'Enviar Formulário' usando a tag de botão? ",
-        "choice1": " <input type='button' value='Enviar Formulário'> ",
-        "choice2": " <button>Enviar Formulário</button> ",
-        "choice3": " <a href='#'>Enviar Formulário</a> ",
-        "choice4": " <div class='button'>Enviar Formulário</div> ",
-        "answer": 2
-    },
-    {
-        "question": " Sua tarefa é criar um botão com o texto 'Login' (com 'L' maiúsculo) aparecendo nele. Qual das opções abaixo está codificada corretamente? ",
-        "choice1": " <button value='Login'></button> ",
-        "choice2": " <button>login</button> ",
-        "choice3": " <button>Login</button> ",
-        "choice4": "  <input>Login</input> ",
-        "answer": 3
-    },
-    {
-        "question": " Seguindo a instrução de colocar o texto 'continua' com forte importância dentro de um botão, qual é a opção correta? ",
-        "choice1": " <button><em>continua</em></button> ",
-        "choice2": " <button><strong>continua</strong></button> ",
-        "choice3": " <button>continua</button> ",
-        "choice4": " <strong><button>continua</button></strong> ",
-        "answer": 2
-    },
-    {
-        "question": " Por padrão, botões são elementos 'inline' e ficam um ao lado do outro. Como podemos fazer para que cada botão ('Primeiro', 'Segundo', 'Terceiro') apareça em sua própria linha, um abaixo do outro? ",
-        "choice1": " <button>Primeiro</button> <button>Segundo</button> <button>Terceiro</button> ",
-        "choice2": " <button>Primeiro</button><hr> <button>Segundo</button><hr> <button>Terceiro</button> ",
-        "choice3": " <button>Primeiro</button><br> <button>Segundo</button><br> <button>Terceiro</button> ",
-        "choice4": " <p>   <button>Primeiro</button>   <button>Segundo</button>   <button>Terceiro</button> </p> ",
-        "answer": 3
-    },
-    {
-        "question": " Analisando o código abaixo, o que há de errado? <!doctype html> <html> <body>  <button>Click <button> </body> </html> ",
-        "choice1": " A declaração <!doctype html> está incorreta. ",
-        "choice2": " A tag de fechamento do botão está errada; deveria ser </button>. ",
-        "choice3": "  O texto 'Click Bait' não pode ser colocado dentro de um botão. ",
-        "choice4": " Um botão não pode ser colocado diretamente dentro da tag <body>. ",
-        "answer": 2
-    },
-    {
-        "question": " O que acontece quando colocamos <em>Adicionar para Cart</em> entre as tags de abertura e fechamento de um botão? ",
-        "choice1": " O texto 'Adicionar para Cart' aparecerá em negrito dentro do botão. ",
-        "choice2": " O código resultará em um erro, pois a tag <em> não pode ser usada dentro de um botão. ",
-        "choice3": " O botão exibirá o texto 'Adicionar para Cart', e o texto aparecerá em itálico. ",
-        "choice4": " O botão será criado, mas sem nenhum texto visível dentro dele. ",
-        "answer": 3
-    },
-    {
-        "question": " O que o código HTML abaixo irá exibir na tela do navegador? <!doctype html> html>  <body> <button>Cadestrar</button>  <button>Login</button> </body></html> " ,
-        "choice1": " Dois botões, um ao lado do outro, com os textos 'Cadestrar' e 'Login'. ",
-        "choice2": " Dois botões, um abaixo do outro, com os textos 'Cadestrar' e 'Login'. ",
-        "choice3": " Apenas um botão com o texto 'Login', pois ele sobrescreve o primeiro. ",
-        "choice4": " Um erro no código, pois botões precisam ser separados pela tag <br>. ",
-        "answer": 1
-    },
-    {
-        "question": " Para forçar um botão a aparecer abaixo do outro, em vez de ao lado, qual tag é mais comumente usada para inserir uma quebra de linha simples entre eles? ",
-        "choice1": " <hr> ",
-        "choice2": "  <div> ",
-        "choice3": " <br> ",
-        "choice4": " <span> ",
-        "answer": 3
-    },
-    {
-        "question": " Qual das opções abaixo representa a tag de abertura correta para um elemento de botão? ",
-        "choice1": " </button> ",
-        "choice2": " <button> ",
-        "choice3": " <button /> ",
-        "choice4": " <input type='button'> ",
-        "answer": 2
-    },
-    {
-        "question": " Sua tarefa é criar um botão que exiba o texto 'Cadastre-se'. Qual das opções abaixo faz isso da maneira correta, colocando o texto entre as tags? ",
-        "choice1": " <button>Cadastre-se</button> ",
-        "choice2": " <button value='Cadastre-se'></button> ",
-        "choice3": " <button></button>Cadastre-se ",
-        "choice4": " <input>Cadastre-se</input> ",
-        "answer": 1
-    },
-    {
-        "question": " Sua tarefa é criar um botão que exiba o texto 'Clique Aqui!' com forte importância, colocando o texto dentro das tags <strong>. Qual opção faz isso corretamente? ",
-        "choice1": " <button>Clique Aqui!</button> ",
-        "choice2": " <strong><button>Clique Aqui!</button></strong> ",
-        "choice3": " <button><em>Clique Aqui!</em></button> ",
-        "choice4": " <button><strong>Clique Aqui!</strong></button> ",
-        "answer": 4
-    },
-    {
-        "question": "  ",
-        "choice1": "  ",
-        "choice2": "  ",
-        "choice3": "  ",
-        "choice4": "  ",
-        "answer": 4
-    },
-    {
-        "question": "  ",
-        "choice1": "  ",
-        "choice2": "  ",
-        "choice3": "  ",
-        "choice4": "  ",
-        "answer": 2
-    },
-    {
-        "question": "  ",
-        "choice1": "  ",
-        "choice2": "  ",
-        "choice3": "  ",
-        "choice4": "  ",
-        "answer": 4
-    },
-    {
-        "question": "  ",
-        "choice1": "  ",
-        "choice2": "  ",
-        "choice3": "  ",
-        "choice4": "  ",
-        "answer": 3
-    },
-    {
-        "question": "  ",
-        "choice1": "  ",
-        "choice2": "  ",
-        "choice3": "  ",
-        "choice4": "  ",
-        "answer": 4
     }
 ]
