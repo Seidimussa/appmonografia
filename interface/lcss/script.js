@@ -483,7 +483,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'certificate',
                         completed: false,
                         locked: true,
-                        url: './certificate.html'
+                        url: './certificate/index.html'
                     }
                 ]
             },
