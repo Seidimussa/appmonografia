@@ -174,9 +174,20 @@ document.addEventListener('DOMContentLoaded', () => {
         const options = {
             margin: 0.984, // Aproximadamente 2.5cm (em polegadas)
             filename: 'certificado-conclusao.pdf',
-            image: { type: 'jpeg', quality: 0.98 },
-            html2canvas: { scale: 2, useCORS: true, letterRendering: true },
-            jsPDF: { unit: 'in', format: 'a4', orientation: 'landscape' }
+            image: {
+                type: 'jpeg',
+                quality: 0.98
+            },
+            html2canvas: {
+                scale: 2,
+                useCORS: true,
+                letterRendering: true
+            },
+            jsPDF: {
+                unit: 'in',
+                format: 'a4',
+                orientation: 'landscape'
+            }
         };
 
         // Generate PDF from the main content area, which is now styled for printing
@@ -228,7 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // URL para a qual o QR code irá apontar.
             // Em uma aplicação real, este link seria único para cada certificado.
             // Ex: 'https://seusite.com/validar?id=CERT-2025-01-15-MSD'
-            const validationUrl = 'https://solutions-gw.blogspot.com/p/certificados.html';
+            const validationUrl = 'https://appmonografia.vercel.app/interface/lhtml/certificate/index.html';
 
             new QRCode(qrCodeElement, {
                 text: validationUrl,
