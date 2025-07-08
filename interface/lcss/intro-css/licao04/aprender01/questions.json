@@ -1,0 +1,65 @@
+[{
+        "question": "O CSS Grid é um sistema de layout poderoso. Qual é a sua principal finalidade?",
+        "choice1": "Apenas estilizar a cor e a fonte do texto.",
+        "choice2": "Criar layouts complexos em duas dimensões (linhas e colunas).",
+        "choice3": "Adicionar animações e transições aos elementos.",
+        "choice4": "Criar layouts em apenas uma dimensão (uma linha ou uma coluna).",
+        "answer": 2
+    },
+    {
+        "question": "Para começar a usar o CSS Grid, você precisa transformar um elemento em um 'contêiner' grid. Qual propriedade e valor CSS fazem isso?",
+        "choice1": "layout: grid;",
+        "choice2": "grid: true;",
+        "choice3": "position: grid;",
+        "choice4": "display: grid;",
+        "answer": 4
+    },
+    {
+        "question": "Depois de criar um contêiner grid com 'display: grid;', qual propriedade você usa para definir o número e o tamanho das COLUNAS?",
+        "choice1": "grid-template-rows",
+        "choice2": "grid-columns",
+        "choice3": "grid-template-columns",
+        "choice4": "grid-areas",
+        "answer": 3
+    },
+    {
+        "question": "No CSS Grid, a unidade 'fr' é muito poderosa e flexível. O que ela representa?",
+        "choice1": "Uma unidade de medida fixa, como pixels.",
+        "choice2": "Uma fração do espaço disponível no contêiner do grid.",
+        "choice3": "A fonte do elemento raiz (root font).",
+        "choice4": "Uma porcentagem da altura da tela (viewport).",
+        "answer": 2
+    },
+    {
+        "question": "Imagine que você quer um grid com três colunas de tamanho igual. Qual o valor correto para 'grid-template-columns'?",
+        "choice1": "1fr 1fr 1fr;",
+        "choice2": "33% 33% 33%;",
+        "choice3": "auto auto auto;",
+        "choice4": "Todas as opções acima são formas válidas de se aproximar do resultado.",
+        "answer": 4
+    },
+    {
+        "question": "Para criar um espaçamento (um 'vão') entre as linhas e colunas do grid, qual é a propriedade CSS mais moderna e recomendada?",
+        "choice1": "margin",
+        "choice2": "padding",
+        "choice3": "space-between",
+        "choice4": "gap",
+        "answer": 4
+    },
+    {
+        "question": "Os itens dentro de um contêiner grid são chamados de 'grid items'. Por padrão, como eles são posicionados?",
+        "choice1": "Todos no mesmo lugar, um em cima do outro.",
+        "choice2": "Eles são colocados automaticamente nas células vazias do grid, uma após a outra.",
+        "choice3": "Eles são posicionados fora do grid, a menos que você especifique o local.",
+        "choice4": "Eles se alinham todos à direita do contêiner.",
+        "answer": 2
+    },
+    {
+        "question": "Hora de testar! O que a regra `grid-template-columns: 100px 1fr 2fr;` aplicada a um contêiner grid faz?",
+        "choice1": "Cria três colunas de 100px cada.",
+        "choice2": "Cria uma coluna de 100px e divide o resto em três partes iguais.",
+        "choice3": "Cria uma coluna fixa de 100px, e o espaço restante é dividido em duas colunas, onde a segunda é o dobro da primeira.",
+        "choice4": "Cria três colunas, todas com o mesmo tamanho fracionário.",
+        "answer": 3
+    }
+]

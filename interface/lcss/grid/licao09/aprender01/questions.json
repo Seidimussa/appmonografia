@@ -1,0 +1,66 @@
+[
+    {
+        "question": "Qual é a principal finalidade da tag `<div>` em HTML?",
+        "choice1": "Para adicionar uma imagem.",
+        "choice2": "Para criar um contêiner genérico de bloco para agrupar e estilizar outros elementos.",
+        "choice3": "Para definir um parágrafo de texto.",
+        "choice4": "Para criar um link.",
+        "answer": 2
+    },
+    {
+        "question": "Qual é a principal diferença entre as tags `<div>` e `<span>`?",
+        "choice1": "`<div>` é para texto e `<span>` é para imagens.",
+        "choice2": "`<div>` é um elemento de bloco (cria uma quebra de linha), enquanto `<span>` é um elemento em linha (inline).",
+        "choice3": "`<span>` é uma tag mais moderna que substituiu a `<div>`.",
+        "choice4": "Não há diferença, elas são intercambiáveis.",
+        "answer": 2
+    },
+    {
+        "question": "Qual tag semântica é usada para agrupar o conteúdo introdutório ou de navegação no topo de uma página ou seção?",
+        "choice1": "<head>",
+        "choice2": "<top>",
+        "choice3": "<header>",
+        "choice4": "<navigation>",
+        "answer": 3
+    },
+    {
+        "question": "Para agrupar informações de rodapé, como direitos autorais e contatos, qual tag semântica é a mais apropriada?",
+        "choice1": "<footer>",
+        "choice2": "<bottom>",
+        "choice3": "<end>",
+        "choice4": "<div id=\"footer\">",
+        "answer": 1
+    },
+    {
+        "question": "Qual tag HTML é projetada especificamente para agrupar um conjunto de links de navegação?",
+        "choice1": "<ul>",
+        "choice2": "<links>",
+        "choice3": "<menu>",
+        "choice4": "<nav>",
+        "answer": 4
+    },
+    {
+        "question": "A tag `<main>` deve ser usada para agrupar qual tipo de conteúdo em uma página HTML?",
+        "choice1": "O conteúdo principal e único do corpo do documento.",
+        "choice2": "Todos os cabeçalhos e rodapés.",
+        "choice3": "Apenas barras laterais e anúncios.",
+        "choice4": "O menu de navegação principal.",
+        "answer": 1
+    },
+    {
+        "question": "Quando você deve usar a tag `<section>`?",
+        "choice1": "Para qualquer agrupamento de elementos, como uma `<div>`.",
+        "choice2": "Para agrupar conteúdo que forma uma seção temática, geralmente com um cabeçalho.",
+        "choice3": "Apenas para agrupar imagens.",
+        "choice4": "Para destacar uma única palavra em um parágrafo.",
+        "answer": 2
+    },
+    {
+        "question": "Por que é uma boa prática usar elementos de agrupamento como `<div>` e tags semânticas como `<section>`?",
+        "choice1": "Apenas para deixar o código HTML mais longo.",
+        "choice2": "Para organizar o código, facilitar a aplicação de estilos com CSS e melhorar a acessibilidade.",
+        "choice3": "Porque o HTML não funciona sem eles.",
+        "choice4": "Para adicionar cores e fontes diretamente no HTML.",
+        "answer": 2
+    }
+]

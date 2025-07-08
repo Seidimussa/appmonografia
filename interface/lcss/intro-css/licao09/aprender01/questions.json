@@ -1,0 +1,65 @@
+[{
+        "question": "Qual propriedade CSS é usada para arredondar os cantos de um elemento, como um botão ou uma div?",
+        "choice1": "corner-style",
+        "choice2": "border-style: round;",
+        "choice3": "border-radius",
+        "choice4": "round-corners",
+        "answer": 3
+    },
+    {
+        "question": "Se você aplicar a regra `border-radius: 10px;` a uma div, o que acontecerá? (Esta é a forma mais simples de usar a propriedade).",
+        "choice1": "Apenas o canto superior esquerdo ficará com um raio de 10px.",
+        "choice2": "Todos os quatro cantos ficarão com um raio de 10px.",
+        "choice3": "A borda do elemento ficará com 10px de espessura.",
+        "choice4": "Apenas os cantos superior e inferior ficarão arredondados.",
+        "answer": 2
+    },
+    {
+        "question": "Um truque clássico de CSS é transformar um quadrado em um círculo perfeito. Se você tem uma div com `width: 100px;` e `height: 100px;`, qual valor de `border-radius` a transformará em um círculo?",
+        "choice1": "100px",
+        "choice2": "10%",
+        "choice3": "50%",
+        "choice4": "100%",
+        "answer": 3
+    },
+    {
+        "question": "A propriedade `border-radius` pode receber múltiplos valores para estilizar cada canto individualmente. O que a regra `border-radius: 15px 50px;` faz?",
+        "choice1": "Aplica 15px nos cantos superior/inferior e 50px nos cantos esquerdo/direito.",
+        "choice2": "Aplica 15px no canto superior esquerdo e 50px no canto inferior direito.",
+        "choice3": "Aplica 15px nos cantos superior esquerdo/inferior direito e 50px nos cantos superior direito/inferior esquerdo.",
+        "choice4": "Causa um erro, pois são necessários quatro valores.",
+        "answer": 3
+    },
+    {
+        "question": "Usando quatro valores, a ordem é no sentido horário: superior esquerdo, superior direito, inferior direito, inferior esquerdo. Qual canto receberá um raio de 40px com a regra `border-radius: 10px 20px 30px 40px;`?",
+        "choice1": "Superior esquerdo",
+        "choice2": "Superior direito",
+        "choice3": "Inferior direito",
+        "choice4": "Inferior esquerdo",
+        "answer": 4
+    },
+    {
+        "question": "Se você aplicar `border-radius: 50%;` a um elemento que é um retângulo (não um quadrado), qual será o resultado?",
+        "choice1": "Ele se tornará um círculo perfeito.",
+        "choice2": "Ele se tornará uma elipse (uma forma oval).",
+        "choice3": "Ele permanecerá um retângulo, pois a regra só funciona em quadrados.",
+        "choice4": "Apenas os cantos menores serão arredondados.",
+        "answer": 2
+    },
+    {
+        "question": "Além da forma abreviada, você pode estilizar um único canto. Qual propriedade arredonda APENAS o canto superior direito de um elemento?",
+        "choice1": "border-radius-top-right",
+        "choice2": "border-top-right-radius",
+        "choice3": "top-right-corner-radius",
+        "choice4": "border-radius: top-right;",
+        "answer": 2
+    },
+    {
+        "question": "Para criar uma forma de 'pílula' ou 'folha' a partir de um retângulo, qual valor de `border-radius` você usaria?",
+        "choice1": "`border-radius: 5px;` (um valor pequeno para arredondamento sutil)",
+        "choice2": "`border-radius: 50%;` (criaria uma elipse, não uma pílula)",
+        "choice3": "`border-radius: 9999px;` (um valor muito grande que garante o arredondamento máximo)",
+        "choice4": "Não é possível criar uma forma de pílula com `border-radius`.",
+        "answer": 3
+    }
+]

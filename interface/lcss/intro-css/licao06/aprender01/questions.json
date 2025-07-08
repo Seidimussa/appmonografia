@@ -1,0 +1,65 @@
+[{
+        "question": "Qual é a principal função da propriedade `gap` no CSS Grid?",
+        "choice1": "Criar espaço FORA do contêiner do grid (margem).",
+        "choice2": "Criar espaço DENTRO dos itens do grid (preenchimento).",
+        "choice3": "Criar espaço (um vão) ENTRE as linhas e colunas do grid.",
+        "choice4": "Aumentar o tamanho total do contêiner do grid.",
+        "answer": 3
+    },
+    {
+        "question": "Se você aplicar a regra `gap: 15px;` em um contêiner grid, o que acontecerá?",
+        "choice1": "Apenas as colunas terão um espaçamento de 15px.",
+        "choice2": "Apenas as linhas terão um espaçamento de 15px.",
+        "choice3": "Tanto as linhas QUANTO as colunas terão um espaçamento de 15px.",
+        "choice4": "O contêiner ganhará uma borda de 15px.",
+        "answer": 3
+    },
+    {
+        "question": "A propriedade `gap` pode receber dois valores. O que a regra `gap: 20px 30px;` significa?",
+        "choice1": "Um espaçamento de 20px entre as linhas (row-gap) e 30px entre as colunas (column-gap).",
+        "choice2": "Um espaçamento de 30px entre as linhas (row-gap) e 20px entre as colunas (column-gap).",
+        "choice3": "Um preenchimento de 20px e uma margem de 30px.",
+        "choice4": "Um espaçamento de 20px para os itens pares e 30px para os ímpares.",
+        "answer": 1
+    },
+    {
+        "question": "Se você quiser definir um espaçamento APENAS entre as COLUNAS do grid, qual propriedade específica você usaria?",
+        "choice1": "grid-column-space",
+        "choice2": "column-gap",
+        "choice3": "grid-gap-column",
+        "choice4": "spacing-column",
+        "answer": 2
+    },
+    {
+        "question": "E para definir o espaçamento APENAS entre as LINHAS, qual propriedade seria a correta?",
+        "choice1": "row-gap",
+        "choice2": "line-gap",
+        "choice3": "grid-row-space",
+        "choice4": "spacing-row",
+        "answer": 1
+    },
+    {
+        "question": "Você pode encontrar em códigos mais antigos a propriedade `grid-gap`. Por que a propriedade `gap` é considerada mais moderna e preferível?",
+        "choice1": "Porque `gap` é mais rápida de ser processada pelo navegador.",
+        "choice2": "Porque `gap` é um padrão que também funciona com Flexbox, não apenas com Grid.",
+        "choice3": "Porque `grid-gap` não é mais suportada pelos navegadores modernos.",
+        "choice4": "Porque `gap` permite o uso de mais unidades de medida.",
+        "answer": 2
+    },
+    {
+        "question": "A propriedade `gap` adiciona espaço nas bordas externas do contêiner do grid (entre os itens da borda e o contêiner)?",
+        "choice1": "Sim, em todos os lados.",
+        "choice2": "Sim, mas apenas nos lados esquerdo e direito.",
+        "choice3": "Não, `gap` cria espaço apenas ENTRE os itens do grid.",
+        "choice4": "Sim, mas apenas em cima e embaixo.",
+        "answer": 3
+    },
+    {
+        "question": "Qual é a principal vantagem de usar `gap` em vez de adicionar `margin` a cada item do grid para criar espaçamento?",
+        "choice1": "`gap` é mais fácil de animar com transições CSS.",
+        "choice2": "`gap` permite valores negativos, enquanto `margin` não.",
+        "choice3": "`gap` não adiciona espaço indesejado nas bordas externas do contêiner, simplificando o layout.",
+        "choice4": "`margin` é uma propriedade antiga e deve ser evitada.",
+        "answer": 3
+    }
+]

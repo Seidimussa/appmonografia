@@ -1,0 +1,65 @@
+[{
+        "question": "Em CSS, podemos controlar as dimensões dos elementos, como sua largura e altura. Qual propriedade é usada para definir a LARGURA de um elemento?",
+        "choice1": "height",
+        "choice2": "size",
+        "choice3": "width",
+        "choice4": "length",
+        "answer": 3
+    },
+    {
+        "question": "Assim como a largura, a ALTURA de um elemento também pode ser definida. Qual propriedade você usaria para fazer uma imagem ter 200 pixels de altura?",
+        "choice1": "img-height: 200px;",
+        "choice2": "height: 200px;",
+        "choice3": "width: 200px;",
+        "choice4": "vertical-size: 200px;",
+        "answer": 2
+    },
+    {
+        "question": "Bordas podem ser adicionadas aos elementos usando a propriedade 'border'. Esta propriedade é uma forma abreviada (shorthand) que geralmente combina três valores. Quais são eles?",
+        "choice1": "Largura, cor e posição",
+        "choice2": "Largura, estilo e cor",
+        "choice3": "Estilo, tamanho e forma",
+        "choice4": "Cor, espessura e transparência",
+        "answer": 2
+    },
+    {
+        "question": "Usando a forma abreviada 'border', como você criaria uma borda que seja sólida, com 2 pixels de largura e da cor vermelha?",
+        "choice1": "border: solid 2px red;",
+        "choice2": "border-style: 2px solid red;",
+        "choice3": "border: 2px solid red;",
+        "choice4": "border-width: 2px; border-color: red;",
+        "answer": 3
+    },
+    {
+        "question": "O estilo da borda é uma parte crucial da sua aparência. Qual dos seguintes valores NÃO é um estilo de borda válido para a propriedade 'border-style'?",
+        "choice1": "solid",
+        "choice2": "dotted",
+        "choice3": "wavy",
+        "choice4": "dashed",
+        "answer": 3
+    },
+    {
+        "question": "Às vezes, queremos uma borda apenas em um dos lados de um elemento. Qual propriedade CSS define uma borda APENAS na parte de baixo?",
+        "choice1": "border-down: 1px solid black;",
+        "choice2": "border-bottom: 1px solid black;",
+        "choice3": "bottom-border: 1px solid black;",
+        "choice4": "border: bottom 1px solid black;",
+        "answer": 2
+    },
+    {
+        "question": "Se você definir 'width: 50%;' em uma div, o que isso significa na maioria dos casos?",
+        "choice1": "A div terá 50% da largura total da tela.",
+        "choice2": "A div terá 50% da largura de seu elemento pai.",
+        "choice3": "A div terá exatamente 50 pixels de largura.",
+        "choice4": "A div terá metade da sua altura como largura.",
+        "answer": 2
+    },
+    {
+        "question": "Hora de testar o que aprendeu! Qual é a unidade de medida mais comum e fixa (não relativa) para definir o tamanho de bordas e elementos na web?",
+        "choice1": "cm (centímetros)",
+        "choice2": "in (polegadas)",
+        "choice3": "pt (pontos)",
+        "choice4": "px (pixels)",
+        "answer": 4
+    }
+]

@@ -1,0 +1,65 @@
+[{
+        "question": "Após definir um contêiner com 'display: grid;', qual propriedade CSS é usada especificamente para definir o layout e o tamanho das COLUNAS?",
+        "choice1": "grid-columns",
+        "choice2": "grid-template",
+        "choice3": "grid-template-columns",
+        "choice4": "define-columns",
+        "answer": 3
+    },
+    {
+        "question": "De forma similar às colunas, qual propriedade é usada para definir o layout e o tamanho das LINHAS do grid?",
+        "choice1": "grid-template-rows",
+        "choice2": "grid-rows",
+        "choice3": "define-rows",
+        "choice4": "grid-lines",
+        "answer": 1
+    },
+    {
+        "question": "A unidade 'fr' (fração) é uma das mais poderosas do Grid. O que a regra `grid-template-columns: 1fr 2fr;` significa?",
+        "choice1": "Uma coluna com 1px e outra com 2px.",
+        "choice2": "Duas colunas de tamanho igual.",
+        "choice3": "Duas colunas, onde a segunda é duas vezes mais larga que a primeira.",
+        "choice4": "Uma coluna de 1fr e a outra com o dobro da altura.",
+        "answer": 3
+    },
+    {
+        "question": "Para evitar escrever valores repetidos, como `1fr 1fr 1fr 1fr`, o CSS Grid oferece uma função muito útil. Qual é essa função?",
+        "choice1": "loop()",
+        "choice2": "multiple()",
+        "choice3": "duplicate()",
+        "choice4": "repeat()",
+        "answer": 4
+    },
+    {
+        "question": "Usando a função `repeat()`, como você criaria um grid com 12 colunas, cada uma ocupando uma fração (1fr) do espaço?",
+        "choice1": "grid-template-columns: repeat(1fr, 12);",
+        "choice2": "grid-template-columns: repeat(12, 1fr);",
+        "choice3": "grid-template-columns: repeat-12(1fr);",
+        "choice4": "grid-template-columns: repeat(12, one-fraction);",
+        "answer": 2
+    },
+    {
+        "question": "A propriedade `gap` é um atalho para definir o espaçamento entre as trilhas do grid. O que a regra `gap: 20px 30px;` faz?",
+        "choice1": "Cria um espaçamento de 20px entre as linhas e 30px entre as colunas.",
+        "choice2": "Cria um espaçamento de 30px entre as linhas e 20px entre as colunas.",
+        "choice3": "Cria um espaçamento de 20px tanto para linhas quanto para colunas.",
+        "choice4": "Adiciona uma margem de 20px e um preenchimento de 30px.",
+        "answer": 1
+    },
+    {
+        "question": "Se você precisa de uma coluna com largura fixa e outra que ocupe o resto do espaço, como você escreveria?",
+        "choice1": "grid-template-columns: 200px auto;",
+        "choice2": "grid-template-columns: 200px 1fr;",
+        "choice3": "grid-template-columns: 200px 100%;",
+        "choice4": "Ambas as opções 'auto' e '1fr' podem funcionar de forma similar neste caso.",
+        "answer": 4
+    },
+    {
+        "question": "Hora de um desafio! O que a regra `grid-template-rows: 50px repeat(2, 100px) 50px;` cria?",
+        "choice1": "Duas linhas: a primeira com 50px e a segunda com 100px.",
+        "choice2": "Quatro linhas: a primeira com 50px, a segunda com 100px, a terceira com 100px e a quarta com 50px.",
+        "choice3": "Três linhas: a primeira com 50px, a segunda com 200px (100px repetido) e a terceira com 50px.",
+        "choice4": "Quatro linhas de 50px cada.",
+        "answer": 2
+    }
+]

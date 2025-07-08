@@ -1,0 +1,65 @@
+[{
+        "question": "Por padrão, um item do grid ocupa uma única célula. Para fazer um item ocupar várias colunas, quais propriedades CSS usamos para definir sua linha de início e fim?",
+        "choice1": "column-start e column-end",
+        "choice2": "grid-item-start e grid-item-end",
+        "choice3": "grid-column-start e grid-column-end",
+        "choice4": "grid-position-x-start e grid-position-x-end",
+        "answer": 3
+    },
+    {
+        "question": "Imagine um grid com 4 colunas (o que significa que ele tem 5 linhas de coluna). Como você faria um item começar na primeira linha de coluna e terminar na terceira?",
+        "choice1": "grid-column-start: 1; grid-column-end: 3;",
+        "choice2": "grid-column-start: 0; grid-column-end: 2;",
+        "choice3": "grid-column: 1 / 2;",
+        "choice4": "grid-columns: 1, 3;",
+        "answer": 1
+    },
+    {
+        "question": "Para simplificar, em vez de especificar a linha de fim, podemos dizer quantas colunas um item deve ocupar usando a palavra-chave 'span'. Como se lê a regra `grid-column-start: 2; grid-column-end: span 3;`?",
+        "choice1": "Comece na coluna 2 e termine na coluna 3.",
+        "choice2": "O item deve ter 3 colunas, começando depois da segunda.",
+        "choice3": "O item deve começar na linha de coluna 2 e se estender por 3 colunas.",
+        "choice4": "O item deve ter uma lacuna (span) de 3 colunas.",
+        "answer": 3
+    },
+    {
+        "question": "Existe uma forma abreviada (shorthand) para `grid-column-start` e `grid-column-end`. Qual é a propriedade e a sintaxe correta?",
+        "choice1": "grid-columns: start / end;",
+        "choice2": "grid-column: start / end;",
+        "choice3": "grid-span-x: start / end;",
+        "choice4": "grid-position-column: start / end;",
+        "answer": 2
+    },
+    {
+        "question": "Usando a forma abreviada, como você faria um item começar na linha de coluna 2 e se estender (span) por 2 colunas?",
+        "choice1": "grid-column: 2 / span 2;",
+        "choice2": "grid-column: span 2 / 2;",
+        "choice3": "grid-column: 2, 2;",
+        "choice4": "grid-column: 2 to 4;",
+        "answer": 1
+    },
+    {
+        "question": "A mesma lógica que se aplica a colunas também se aplica a linhas. Qual propriedade abreviada é usada para fazer um item ocupar várias linhas?",
+        "choice1": "grid-row",
+        "choice2": "grid-line",
+        "choice3": "grid-span-y",
+        "choice4": "grid-rows",
+        "answer": 1
+    },
+    {
+        "question": "O CSS Grid tem um truque útil para se referir à última linha do grid, seja de coluna ou de linha. Qual valor representa a última linha?",
+        "choice1": "last",
+        "choice2": "end",
+        "choice3": "0",
+        "choice4": "-1",
+        "answer": 4
+    },
+    {
+        "question": "Hora de um desafio! Dado `grid-template-columns: repeat(4, 1fr);`, o que a regra `grid-column: 2 / -1;` aplicada a um item faz?",
+        "choice1": "O item ocupa a segunda coluna.",
+        "choice2": "O item começa na segunda linha de coluna e vai até a última, ocupando as colunas 2, 3 e 4.",
+        "choice3": "O item ocupa a primeira e a última coluna.",
+        "choice4": "Isso causa um erro, pois não se pode usar -1.",
+        "answer": 2
+    }
+]

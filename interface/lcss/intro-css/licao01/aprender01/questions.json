@@ -1,0 +1,65 @@
+[{
+        "question": "Para estilizar páginas web, usamos o CSS. O CSS pode ser escrito em um arquivo separado para manter o código organizado. Qual tag HTML é usada para conectar um arquivo CSS externo à sua página HTML?",
+        "choice1": "<style>",
+        "choice2": "<script>",
+        "choice3": "<link rel='stylesheet' href='estilo.css'>",
+        "choice4": "<css src='estilo.css'>",
+        "answer": 3
+    },
+    {
+        "question": "Seletores CSS são usados para 'encontrar' ou 'selecionar' os elementos HTML que você deseja estilizar. Para selecionar um elemento com um ID único, como <p id='titulo-principal'>, qual caractere usamos antes do nome do ID?",
+        "choice1": ".",
+        "choice2": "*",
+        "choice3": "#",
+        "choice4": "$",
+        "answer": 3
+    },
+    {
+        "question": "Além dos IDs, podemos usar classes para estilizar vários elementos da mesma forma. Para selecionar todos os elementos com a classe 'item-lista', qual é o seletor CSS correto?",
+        "choice1": "#item-lista",
+        "choice2": ".item-lista",
+        "choice3": "item-lista",
+        "choice4": "*item-lista",
+        "answer": 2
+    },
+    {
+        "question": "Se você quiser estilizar todos os parágrafos (<p>) de uma página, você pode usar o seletor de tipo de elemento. Qual seria o seletor para todos os parágrafos?",
+        "choice1": ".p",
+        "choice2": "p",
+        "choice3": "#p",
+        "choice4": "paragrafo",
+        "answer": 2
+    },
+    {
+        "question": "Um seletor de ID é mais específico que um seletor de classe. Se um elemento tem um ID e uma classe com estilos conflitantes, qual estilo será aplicado?",
+        "choice1": "O estilo da classe",
+        "choice2": "O estilo do ID",
+        "choice3": "Nenhum dos dois",
+        "choice4": "O primeiro que aparecer no arquivo CSS",
+        "answer": 2
+    },
+    {
+        "question": "Observe o código: <h2 class='subtitulo'>. Qual seletor CSS você usaria para aplicar um estilo a este elemento?",
+        "choice1": "#subtitulo",
+        "choice2": "h2",
+        "choice3": ".subtitulo",
+        "choice4": "Tanto o 'h2' quanto o '.subtitulo' podem ser usados",
+        "answer": 4
+    },
+    {
+        "question": "Qual das seguintes opções de seletores está escrita de forma INCORRETA?",
+        "choice1": "p { color: blue; }",
+        "choice2": "#logo { width: 100px; }",
+        "choice3": ".menu-item { font-size: 16px; }",
+        "choice4": "$rodape { background: #333; }",
+        "answer": 4
+    },
+    {
+        "question": "Você precisa aplicar um estilo apenas ao parágrafo que tem a classe 'aviso'. Como você combinaria o seletor de tipo e o seletor de classe?",
+        "choice1": "p, .aviso",
+        "choice2": "p .aviso",
+        "choice3": "p.aviso",
+        "choice4": "p#aviso",
+        "answer": 3
+    }
+]

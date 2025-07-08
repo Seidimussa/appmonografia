@@ -1,0 +1,65 @@
+[{
+        "question": "A propriedade CSS mais fundamental para estilizar texto é a cor. Qual propriedade é usada para mudar a cor do texto de um elemento?",
+        "choice1": "font-color",
+        "choice2": "text-color",
+        "choice3": "color",
+        "choice4": "text-style",
+        "answer": 3
+    },
+    {
+        "question": "Para definir a família da fonte (como Arial, Times New Roman, etc.), usamos a propriedade 'font-family'. Qual opção define a fonte de um parágrafo como Arial?",
+        "choice1": "p { font: Arial; }",
+        "choice2": "p { font-family: Arial; }",
+        "choice3": "p { text-family: Arial; }",
+        "choice4": "p { font-type: Arial; }",
+        "answer": 2
+    },
+    {
+        "question": "O 'peso' da fonte determina se ela é normal ou negrito. A propriedade 'font-weight' é usada para isso. Qual valor torna o texto negrito?",
+        "choice1": "bold",
+        "choice2": "normal",
+        "choice3": "heavy",
+        "choice4": "strong",
+        "answer": 1
+    },
+    {
+        "question": "Assim como o peso, o estilo da fonte pode ser alterado, por exemplo, para itálico. Qual propriedade e valor deixam o texto em itálico?",
+        "choice1": "font-style: italic;",
+        "choice2": "text-style: italic;",
+        "choice3": "font-weight: italic;",
+        "choice4": "text-decoration: italic;",
+        "answer": 1
+    },
+    {
+        "question": "O alinhamento do texto é controlado pela propriedade 'text-align'. Como você centralizaria o texto de um título <h1>?",
+        "choice1": "h1 { align: center; }",
+        "choice2": "h1 { text-align: center; }",
+        "choice3": "h1 { text-position: center; }",
+        "choice4": "h1 { horizontal-align: center; }",
+        "answer": 2
+    },
+    {
+        "question": "Qual propriedade CSS é usada para adicionar uma linha sob o texto (sublinhado)?",
+        "choice1": "text-style: underline;",
+        "choice2": "font-decoration: underline;",
+        "choice3": "text-transform: underline;",
+        "choice4": "text-decoration: underline;",
+        "answer": 4
+    },
+    {
+        "question": "Para alterar o tamanho da fonte, usamos a propriedade 'font-size'. Qual é a sintaxe correta para definir o tamanho da fonte de um parágrafo para 16 pixels?",
+        "choice1": "p { size: 16px; }",
+        "choice2": "p { font-size: 16px; }",
+        "choice3": "p { text-size: 16px; }",
+        "choice4": "p { font: 16px; }",
+        "answer": 2
+    },
+    {
+        "question": "A propriedade 'text-transform' pode mudar as letras do texto. Qual valor deixa todo o texto em MAIÚSCULAS?",
+        "choice1": "uppercase",
+        "choice2": "capitalize",
+        "choice3": "big-letters",
+        "choice4": "all-caps",
+        "answer": 1
+    }
+]
