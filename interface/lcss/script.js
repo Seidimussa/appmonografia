@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: false,
-                        url: './lessons/intro-css/01.html'
+                        url: './intro-css/licao01/aprender01/game.html'
                     },
                     {
                         id: 2,
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/intro-css/02.html'
+                        url: './intro-css/licao02/aprender01/game.html'
                     },
                     {
                         id: 3,
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/intro-css/03.html'
+                        url: './intro-css/licao03/aprender01/game.html'
                     },
                     {
                         id: 4,
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/intro-css/04.html'
+                        url: './intro-css/licao04/aprender01/game.html'
                     },
                     {
                         id: 5,
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/intro-css/05.html'
+                        url: './intro-css/licao05/aprender01/game.html'
                     },
                     {
                         id: 6,
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/intro-css/06.html'
+                        url: './intro-css/licao06/aprender01/game.html'
                     },
                     {
                         id: 7,
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/intro-css/07.html'
+                        url: './intro-css/licao07/aprender01/game.html'
                     },
                     {
                         id: 8,
@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/intro-css/08.html'
+                        url: './intro-css/licao09/aprender01/game.html'
                     },
                 ]
             },
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/intermediate-css/01.html'
+                        url: './css-intermediario/licao01/aprender01/game.html'
                     },
                     {
                         id: 10,
@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/intermediate-css/02.html'
+                        url: './css-intermediario/licao02/aprender01/game.html'
                     },
                     {
                         id: 11,
@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/intermediate-css/03.html'
+                        url: './css-intermediario/licao03/aprender01/game.html'
                     },
                     {
                         id: 12,
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/intermediate-css/04.html'
+                        url: './css-intermediario/licao04/aprender01/game.html'
                     },
                     {
                         id: 13,
@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/intermediate-css/05.html'
+                        url: './css-intermediario/licao05/aprender01/game.html'
                     },
                     {
                         id: 14,
@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/intermediate-css/06.html'
+                        url: './css-intermediario/licao06/aprender01/game.html'
                     },
                     {
                         id: 15,
@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/intermediate-css/07.html'
+                        url: './css-intermediario/licao07/aprender01/game.html'
                     },
                     {
                         id: 16,
@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/intermediate-css/08.html'
+                        url: './css-intermediario/licao08/aprender01/game.html'
                     },
                     {
                         id: 17,
@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/intermediate-css/09.html'
+                        url: './css-intermediario/licao09/aprender01/game.html'
                     },
                     {
                         id: 18,
@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/intermediate-css/10.html'
+                        url: './css-intermediario/licao10/aprender01/game.html'
                     },
                     {
                         id: 19,
@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/intermediate-css/11.html'
+                        url: './css-intermediario/licao11/aprender01/game.html'
                     },
                     {
                         id: 20,
@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/intermediate-css/12.html'
+                        url: './css-intermediario/licao12/aprender01/game.html'
                     },
                     {
                         id: 21,
@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/intermediate-css/13.html'
+                        url: './css-intermediario/licao13'
                     },
                     {
                         id: 22,
@@ -205,7 +205,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/intermediate-css/14.html'
+                        url: './css-intermediario/licao14/aprender01/game.html'
                     },
                     {
                         id: 23,
@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/intermediate-css/15.html'
+                        url: './css-intermediario/licao15/aprender01/game.html'
                     },
                     {
                         id: 24,
@@ -222,7 +222,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/intermediate-css/16.html'
+                        url: './css-intermediario/licao16/aprender01/game.html'
                     },
                 ]
             },
@@ -237,7 +237,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/flexbox/01.html'
+                        url: './flexbox/licao01/aprender01/game.html'
                     },
                     {
                         id: 26,
@@ -245,7 +245,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/flexbox/02.html'
+                        url: './flexbox/licao02/aprender01/game.html'
                     },
                     {
                         id: 27,
@@ -253,7 +253,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/flexbox/03.html'
+                        url: './flexbox/licao03/aprender01/game.html'
                     },
                     {
                         id: 28,
@@ -262,7 +262,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/flexbox/04.html'
+                        url: './flexbox/licao04/aprender01/game.html'
                     },
                     {
                         id: 29,
@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/flexbox/05.html'
+                        url: './flexbox/licao05/aprender01/game.html'
                     },
                     {
                         id: 30,
@@ -278,7 +278,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/flexbox/06.html'
+                        url: './flexbox/licao06/aprender01/game.html'
                     },
                     {
                         id: 31,
@@ -286,7 +286,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/flexbox/07.html'
+                        url: './flexbox/licao07/aprender01/game.html'
                     },
                     {
                         id: 32,
@@ -295,7 +295,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/flexbox/08.html'
+                        url: './flexbox/licao08/aprender01/game.html'
                     },
                     {
                         id: 33,
@@ -303,7 +303,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/flexbox/09.html'
+                        url: './flexbox/licao09/aprender01/game.html'
                     },
                     {
                         id: 34,
@@ -311,7 +311,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/flexbox/10.html'
+                        url: './flexbox/licao10/aprender01/game.html'
                     },
                     {
                         id: 35,
@@ -320,7 +320,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/flexbox/11.html'
+                        url: './flexbox/licao11/aprender01/game.html'
                     },
                     {
                         id: 36,
@@ -328,7 +328,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/flexbox/12.html'
+                        url: './flexbox/licao12/aprender01/game.html'
                     },
                     {
                         id: 37,
@@ -336,7 +336,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/flexbox/13.html'
+                        url: './flexbox/licao13/aprender01/game.html'
                     },
                     {
                         id: 38,
@@ -344,7 +344,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/flexbox/14.html'
+                        url: './flexbox/licao14/aprender01/game.html'
                     },
                     {
                         id: 39,
@@ -352,7 +352,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/flexbox/15.html'
+                        url: './flexbox/licao15/aprender01/game.html'
                     },
                     {
                         id: 40,
@@ -361,7 +361,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/flexbox/16.html'
+                        url: './flexbox/licao16/aprender01/game.html'
                     },
                 ]
             },
@@ -475,7 +475,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/grid/13.html'
+                        url: './grid/licao01/aprender01/game.html'
                     },
                     {
                         id: 54,
