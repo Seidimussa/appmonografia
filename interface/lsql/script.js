@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/sql-basics/04.html'
+                        url: './sql-basico/licao04/aprender01/game.html'
                     },
                     {
                         id: 5,
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/sql-basics/05.html'
+                        url: './sql-basico/licao05/aprender01/game.html'
                     },
                     {
                         id: 6,
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/sql-basics/06.html'
+                        url: './sql-basico/licao06/aprender01/game.html'
                     },
                     {
                         id: 7,
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/sql-basics/07.html'
+                        url: './sql-basico/licao07/aprender01/game.html'
                     },
                 ]
             },
