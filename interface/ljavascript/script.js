@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: false,
-                        url: './lessons/js-basics/01.html'
+                        url: './js-basico'
                     },
                     {
                         id: 2,
