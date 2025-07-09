@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/sql-basics/02.html'
+                        url: './sql-basico/licao02/aprender01/game.html'
                     },
                     {
                         id: 3,
