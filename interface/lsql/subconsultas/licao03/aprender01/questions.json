@@ -1,0 +1,65 @@
+[    {
+        "question": " A tag de título enfatiza os textos tornando-os maiores e mais em negrito. h1 é o maior e mais em negrito e h6 é o menor e menos em negrito. Qual dessas tags HTML cria um título menor que <h1>? ",
+        "choice1": " <p> ",
+        "choice2": " <button> ",
+        "choice3": " <h6> ",
+        "choice4": " <video> ",
+        "answer": 3
+    },
+    {
+        "question": " Codifique a tag de abertura para o maior título.  Qual é a tag de abertura HTML correta para o maior título (cabeçalho de nível 1)?",
+        "choice1": " <head> ",
+        "choice2": " <h1/> ",
+        "choice3": " <h1 ",
+        "choice4": " <h1> ",
+        "answer": 4
+    },
+    {
+        "question": " Codifique a tag de abertura para o segundo maior título.  Qual é a tag de abertura HTML correta para o segundo maior título (cabeçalho de nível 2)?",
+        "choice1": " <h-2> ",
+        "choice2": " <h2/> ",
+        "choice3": " <h.2> ",
+        "choice4": " <h2> ",
+        "answer": 4
+    },
+    {
+        "question": " Qual dessas tags HTML cria o menor título (cabeçalho de nível 6)? ",
+        "choice1": " <h-small> ",
+        "choice2": " <h7> ",
+        "choice3": " <h6> ",
+        "choice4": " <minih> ",
+        "answer": 3
+    },
+    {
+        "question": " Às vezes, queremos formatar parágrafos com quebras de linha. Por exemplo, essa música ficaria muito melhor se Raindrops on rosesaparecesse em uma linha, Podemos separar linhas com a ajuda da tag de quebra de linha : br. Qual tag HTML é usada para criar uma quebra de linha em um parágrafo, fazendo com que o texto seguinte apareça em uma nova linha? ",
+        "choice1": " <br> ",
+        "choice2": " <break> ",
+        "choice3": " <line> ",
+        "choice4": " <nl> ",
+        "answer": 1
+    },
+    {
+        "question": " <br> é uma tag vazia . Tags vazias não possuem tag de fechamento nem conteúdo. Elas também são chamadas de tags de fechamento automático. Monte a tag de quebra de linha. ",
+        "choice1": " <h1>Minhas coisas favoritas</h1> ",
+        "choice2": " <br/> ",
+        "choice3": " <br>elementos em uma página</br> ",
+        "choice4": " O que acontece? <br> web em uma folha! ",
+        "answer": 4
+    },
+    {
+        "question": " Há um elemento para dar ênfase ao texto, tornando-o itálico . Chama-se emelemento. Adicione <em> e </em>. ",
+        "choice1": " <itálico>importante</itálico> ",
+        "choice2": " <emph>importante</emph> ",
+        "choice3": " <em>importante</em> ",
+        "choice4": " <i>importante</i> ",
+        "answer": 3
+    },
+    {
+        "question": " Para definir textos como importantes, usamos as <strong>tags </strong>e . Isso deixa o texto em negrito . ",
+        "choice1": " <b>AVISO: Piso molhado.</b> ",
+        "choice2": " <em>AVISO:</em> Piso molhado. ",
+        "choice3": " <strong>AVISO: Piso molhado.</strong> ",
+        "choice4": " <mark>AVISO: Piso molhado.</mark> ",
+        "answer": 3
+    }
+]

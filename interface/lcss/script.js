@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './css-intermediario/licao13/'
+                        url: './css-intermediario/licao13/aprender01/game.html'
                     },
                     {
                         id: 22,
