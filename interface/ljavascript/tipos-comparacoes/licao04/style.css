@@ -1,0 +1,265 @@
+/* Configurações Globais e Tema Escuro */
+:root {
+    --bg-dark: #F0F2F5;
+    --card-bg: #fff;
+    --primary-purple: #226160;
+    --light-text: #333333;
+    --white-text: #515158;
+    --gray-text: #226160;
+    --locked-border: #aecfb3;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Container Principal da Lição */
+.lesson-container {
+    background-color: var(--card-bg);
+    padding: 2.5rem;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+	margin: 10px;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.category-label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--gray-text);
+    margin: 0 0 0.25rem 0;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--white-text);
+    margin: 0;
+    line-height: 1.2;
+}
+
+.header-icon .fa-graduation-cap {
+    font-size: 2.5rem;
+    color: var(--primary-purple);
+}
+
+/* Descrição */
+.lesson-description {
+    color: var(--gray-text);
+    margin-bottom: 2rem;
+}
+
+/* Lista de Capítulos */
+.chapter-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.chapter-item {
+    margin-bottom: 1rem;
+}
+
+.chapter-item a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid var(--primary-purple);
+    color: var(--white-text);
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.chapter-item a:hover {
+    background-color: rgba(157, 78, 221, 0.1);
+}
+
+/* Controle dos Ícones */
+.icon-container {
+    font-size: 1.4rem;
+    width: 24px;
+    text-align: center;
+}
+
+.lock-icon,
+.check-icon {
+    display: none;
+}
+
+/* Estilos para estado BLOQUEADO */
+.chapter-item.locked a {
+    border-color: var(--locked-border);
+    color: var(--gray-text);
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.chapter-item.locked a:hover {
+    background-color: transparent;
+}
+
+.chapter-item.locked .lock-icon {
+    display: block;
+    color: var(--gray-text);
+}
+
+/* Estilos para estado CONCLUÍDO */
+.chapter-item.completed .check-icon {
+    display: block;
+    color: var(--primary-purple);
+}
+
+/* Links de Navegação Inferior */
+.links-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.back-link, .reset-link {
+    color: var(--gray-text);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+    background: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 0;
+}
+
+.back-link:hover, .reset-link:hover {
+    color: var(--primary-purple);
+}
+
+.back-link .fa-arrow-left, .reset-link .fa-trash {
+    margin-right: 0.5rem;
+}
+
+/* Media Query para Responsividade */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+margin: 30px;
+    }
+
+    .lesson-container {
+        padding: 1.5rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .header-icon .fa-graduation-cap {
+        font-size: 2rem;
+    }
+
+    .chapter-item a {
+        padding: 0.8rem 1rem;
+        font-size: 1rem;
+    }
+
+    .links-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+/* ... (todo o código inicial de variáveis e body) ... */
+
+/* --- PONTO 1 DA RESPONSIVIDADE: Layout Fluido --- */
+.lesson-container {
+    background-color: var(--card-bg);
+    padding: 2.5rem;
+    border-radius: 16px;
+    width: 100%;       /* Garante que o container se ajuste a telas menores */
+    max-width: 600px;  /* Limita a largura em telas grandes para boa legibilidade */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* ... (código do header, description, chapter-list, etc.) ... */
+
+/* Links de Navegação Inferior */
+.links-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* ... (código dos links) ... */
+
+
+/* --- PONTO 2 DA RESPONSIVIDADE: Media Query para telas pequenas --- */
+/* Estas regras SÓ SÃO APLICADAS se a largura da tela for 600px ou menor */
+@media (max-width: 600px) {
+    body {
+        /* Reduz o espaçamento nas laterais da tela */
+        padding: 10px;
+margin:30px;
+    }
+
+    .lesson-container {
+        /* Reduz o espaçamento interno do card */
+        padding: 1.5rem;
+    }
+
+    h1 {
+        /* Diminui o tamanho do título principal */
+        font-size: 1.5rem;
+    }
+
+    .header-icon .fa-graduation-cap {
+        /* Diminui o ícone do chapéu */
+        font-size: 2rem;
+    }
+
+    .chapter-item a {
+        /* Diminui o padding e a fonte dos itens da lista */
+        padding: 0.8rem 1rem;
+        font-size: 1rem;
+    }
+
+    .links-container {
+        /* A MUDANÇA MAIS IMPORTANTE: coloca os links um embaixo do outro */
+        flex-direction: column;
+        gap: 1rem; /* Adiciona um espaço entre eles */
+    }
+}
+.links-container a{
+    text-decoration: none;
+    color: var(--gray-text);
+    font-size: 1em;
+    font-weight: 630;
+}

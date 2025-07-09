@@ -1,0 +1,66 @@
+[
+    {
+        "question": " Por fim, crie um botão com o rótulo 'D', certificando-se de usar uma tag de abertura e uma de fechamento. ",
+        "choice1": " <button>D</button> ",
+        "choice2": " <input type='button' value='D'> ",
+        "choice3": " <a href='#''>D</a> ",
+        "choice4": " <span>D</span> ",
+        "answer": 1
+    },
+    {
+        "question": " Em HTML, as palavras-chave de algumas tags são óbvias, mas existem algumas que usam uma forma abreviada. Por exemplo, usamos p para um parágrafo. Qual dessas tags HTML cria um parágrafo ? ",
+        "choice1": " <pr> ",
+        "choice2": "  <para> ",
+        "choice3": " <pg> ",
+        "choice4": " <p> ",
+        "answer": 4
+    },
+    {
+        "question": " Vamos relembrar como codificar um botão. Codifique um botão que tenha o texto Post. Qual é a forma correta de codificar um botão HTML com o texto 'Post'?",
+        "choice1": " <input type='button' value='Post'> ",
+        "choice2": " <label> Post </label> ",
+        "choice3": " <button> Post </button> ",
+        "choice4": " <text> Post </text> ",
+        "answer": 3
+    },
+    {
+        "question": " Codificar um parágrafo é muito semelhante a codificar um botão. Você precisa de uma tag de abertura, seguida do seu texto, e uma tag de fechamento. Codifique um parágrafo que exiba Mussa Seidi. ",
+        "choice1": " <div>Mussa Seidi</div> ",
+        "choice2": " <p>Mussa Seidi</p> ",
+        "choice3": " <span>Mussa Seidi</span> ",
+        "choice4": " <text>Mussa Seidi</text> ",
+        "answer": 2
+    },
+    {
+        "question": " Código Olá entre as p tags de abertura e fechamento. Qual é a forma correta de exibir a palavra 'Olá' dentro de um parágrafo HTML? ",
+        "choice1": " <div>Olá</div> ",
+        "choice2": " <p>Olá</p> ",
+        "choice3": " <text>Olá</text> ",
+        "choice4": "  <span>Olá</span> ",
+        "answer": 2
+    },
+    {
+        "question": " Podemos criar títulos em HTML para enfatizar determinados textos. Existem 6 tamanhos de títulos em HTML, de h1 a h6. Qual dessas tags HTML cria um título ? ",
+        "choice1": " <video> ",
+        "choice2": " <p> ",
+        "choice3": " <h1> ",
+        "choice4": " <button> ",
+        "answer": 3
+    },
+    {
+        "question": " Codifique um título que exiba SnapCat. Qual é a forma correta de codificar um título que exiba 'SnapCat' em HTML? ",
+        "choice1": " <header>SnapCat</header> ",
+        "choice2": " <h1>SnapCat</h1> ",
+        "choice3": " <title>SnapCat</title> ",
+        "choice4": "  <div>SnapCat</div> ",
+        "answer": 2
+    },
+    {
+        "question": " Adicione a tag de fechamento <button> Amilcar.  Qual é a forma correta de criar um botão HTML que exiba o texto 'Amilcar'? ",
+        "choice1": " <button> Amilcar ",
+        "choice2": " <Amilcar></Amilcar> ",
+        "choice3": " <button>Amilcar</button> ",
+        "choice4": " </button> Amilcar ",
+        "answer": 3
+    }
+]

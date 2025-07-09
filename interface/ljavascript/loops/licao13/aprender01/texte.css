@@ -1,0 +1,718 @@
+
+body {
+    background-color: var(--background-light); /* Fundo claro geral */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinha o conteúdo ao topo para permitir rolagem */
+    min-height: 100vh;
+    margin: 0;
+    padding: 2rem; /* Usando rem para padding responsivo */
+    box-sizing: border-box;
+}
+
+/* Contêiner principal para centralizar o conteúdo e aplicar estilo de card */
+.container {
+    background-color: var(--card-background);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px var(--general-shadow); /* Sombra geral para o contêiner */
+    padding: 3rem; /* Espaçamento interno generoso */
+    width: 100%;
+    max-width: 80rem; /* Limite de largura para o conteúdo */
+    box-sizing: border-box;
+    display: flex; /* Para usar flexbox para layout interno */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Classes de utilidade para layout flexbox */
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Estilos de Títulos */
+h1, h2, h3, h4 {
+    margin-bottom: 1.5rem; /* Espaçamento padrão abaixo dos títulos */
+    color: var(--dark-text);
+}
+
+h1 {
+    font-size: 5.4rem; /* Tamanho grande para o título principal */
+    color: var(--primary-purple); /* Cor principal para H1 */
+    margin-bottom: 4rem;
+}
+
+h1 > span {
+    font-size: 2.4rem; /* Tamanho menor para spans dentro de H1 */
+    font-weight: 500;
+    color: var(--dark-text); /* Garante que o span em H1 tenha cor de texto normal */
+}
+
+h2 {
+    font-size: 4.2rem;
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+/* Estilo para botões gerais (.btn) */
+.btn {
+    font-size: 1.8rem;
+    padding: 1.2rem 2.5rem; /* Padding confortável para cliques */
+    width: 25rem; /* Largura padrão para botões */
+    text-align: center;
+    border: 0.1rem solid var(--primary-purple);
+    margin-bottom: 1.5rem;
+    text-decoration: none; /* Remove sublinhado para links */
+    color: var(--primary-purple);
+    background-color: var(--card-background);
+    border-radius: 10px; /* Bordas arredondadas para botões */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Sombra sutil */
+    transition: all 0.3s ease; /* Transição suave para hover */
+    font-weight: 600; /* Texto mais negrito */
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0 0.8rem 2rem 0 var(--primary-shadow-medium); /* Sombra mais pronunciada no hover, usando variável */
+    transform: translateY(-0.3rem); /* Efeito de elevação */
+}
+
+.btn[disabled],
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+    opacity: 0.6; /* Botões desabilitados mais opacos */
+}
+
+/* Variação de botão com cor de fundo principal */
+.btn.primary {
+    background-color: var(--primary-purple);
+    color: var(--card-background); /* Texto branco no botão roxo */
+    border: none;
+}
+
+.btn.primary:hover {
+    background-color: #5100c7; /* Tom mais escuro de roxo no hover */
+}
+
+/* Estilos para campos de formulário (inputs) */
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin-bottom: 1.5rem;
+    width: 100%; /* Ocupa toda a largura disponível no contêiner */
+    max-width: 30rem; /* Limite para inputs */
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: 1px solid var(--border-light); /* Borda sutil */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.05); /* Sombra mais suave */
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    border-color: var(--primary-purple);
+    box-shadow: 0 0.1rem 0.8rem 0 var(--primary-shadow-medium);
+    outline: none;
+}
+
+input::placeholder {
+    color: var(--light-text);
+}
+
+/* Estilos para as opções do quiz (choice-container) */
+.choice-container {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o prefixo e o texto */
+    margin-bottom: 1.5rem; /* Espaçamento entre as opções */
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid var(--primary-shadow-light); /* Usando variável para borda roxa com transparência */
+    background-color: var(--card-background); /* Usando variável para fundo branco */
+    border-radius: 15px; /* Bordas arredondadas (do seu último snippet) */
+    overflow: hidden; /* Garante que o conteúdo não vaze */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Sombra mais suave para o card */
+    transition: transform 150ms ease-in-out, box-shadow 150ms ease-in-out;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.6rem 1.8rem 0 var(--primary-shadow-medium); /* Sombra mais forte no hover, usando variável */
+    transform: translateY(-0.2rem); /* Elevação suave */
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: var(--primary-purple); /* Adaptado para a cor principal roxa */
+    color: white;
+    font-weight: 600;
+    min-width: 7rem; /* Garante largura mínima para o prefixo */
+    text-align: center;
+    display: flex; /* Para centralizar o conteúdo do prefixo */
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px; /* Bordas arredondadas (do seu último snippet) */
+    /* Ajuste para que o border-radius do prefixo não crie cantos externos */
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+    color: var(--dark-text);
+}
+
+/* Cores de feedback para quiz (correto/incorreto) */
+.correct {
+    background-color: var(--success-text); /* Cor de sucesso para o fundo */
+    color: white; /* Texto branco para contraste */
+    border-color: var(--success-text); /* Borda da mesma cor de sucesso */
+}
+
+.correct .choice-prefix,
+.correct .choice-text {
+    color: white; /* Garante que o texto dentro também fique branco */
+}
+
+.incorrect {
+    background-color: var(--error-text); /* Cor de erro para o fundo */
+    color: white; /* Texto branco para contraste */
+    border-color: var(--error-text); /* Borda da mesma cor de erro */
+}
+
+.incorrect .choice-prefix,
+.incorrect .choice-text {
+    color: white; /* Garante que o texto dentro também fique branco */
+}
+
+/* HUD (Head-Up Display) para score e progresso em jogos/quizzes */
+#hud {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem; /* Padding inferior para a borda */
+    border-bottom: 1px solid var(--border-light);
+    flex-wrap: wrap; /* Permite quebrar linha em telas menores */
+    gap: 1rem; /* Espaçamento entre os itens do HUD */
+}
+
+.hud-item {
+    flex: 1; /* Permite que os itens se expandam */
+    min-width: 10rem; /* Largura mínima para cada item do HUD */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.hud-prefix {
+    font-size: 1.6rem;
+    color: var(--medium-text);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.hud-main-text {
+    font-size: 2.8rem; /* Tamanho maior para o texto principal do HUD */
+    font-weight: 700;
+    color: var(--primary-purple);
+}
+
+/* Barra de progresso */
+#progressBar {
+    width: 100%; /* Ocupa toda a largura do contêiner */
+    max-width: 40rem; /* Limite para a barra de progresso */
+    height: 2.5rem; /* Altura ajustada */
+    border: 0.2rem solid var(--primary-purple); /* Borda da cor principal roxa */
+    margin-top: 2rem;
+    border-radius: 20px; /* Bordas arredondadas (do seu último snippet) */
+    overflow: hidden; /* Garante que o preenchimento fique dentro da borda */
+    background-color: #eee; /* Fundo claro para a barra vazia */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra interna sutil */
+}
+
+#progressBarFull {
+    height: 100%;
+    background: linear-gradient(to right, var(--primary-purple), var(--light-purple)); /* Gradiente roxo para o preenchimento */
+    width: 0%;
+    transition: width 0.5s ease-in-out; /* Transição suave para o progresso */
+    border-radius: 15px; /* Bordas arredondadas (do seu último snippet) */
+    /* Ajuste para que o border-radius do preenchimento não crie cantos externos */
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/* Estilos para o campo onde a pergunta será exibida (#question) - ATUALIZADO */
+#question {
+    font-size: 2.8rem; /* Tamanho da fonte para a pergunta (ajustado para ser maior por padrão) */
+    font-weight: 600; /* Negrito para a pergunta */
+    color: var(--dark-text); /* Cor de texto escura, usando a variável */
+    margin-bottom: 3rem; /* Espaçamento abaixo da pergunta */
+    padding: 1.5rem; /* Preenchimento interno para não colar nas bordas */
+    background-color: var(--card-background); /* Fundo branco, como os cards */
+    border-radius: 15px; /* Bordas arredondadas (do seu último snippet) */
+    box-shadow: 0 5px 15px var(--primary-shadow-medium); /* Sombra adaptada para a cor principal roxa */
+    text-align: center; /* Centraliza o texto da pergunta */
+    width: 100%; /* Ocupa a largura total do contêiner pai */
+    max-width: 70rem; /* Limite máximo de largura para perguntas longas (ajustado para ser mais razoável) */
+    line-height: 1.4; /* Espaçamento entre linhas para melhor leitura */
+    min-height: 8rem; /* Altura mínima para o campo da pergunta, para consistência visual */
+    max-height: 20rem; /* NOVO: Altura máxima para a pergunta antes de rolar */
+    overflow-y: auto; /* NOVO: Adiciona barra de rolagem vertical se o conteúdo exceder max-height */
+    display: flex; /* Usar flexbox para centralizar verticalmente o texto */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    word-wrap: break-word; /* Garante que palavras longas quebrem a linha */
+}
+
+/* Responsividade para o campo da pergunta em telas menores */
+@media (max-width: 768px) {
+    #question {
+        font-size: 2.2rem; /* Reduz o tamanho da fonte em telas menores */
+        padding: 1.2rem;
+        min-height: 7rem;
+        max-height: 15rem; /* Ajuste da altura máxima para telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    #question {
+        font-size: 1.8rem; /* Reduz ainda mais em celulares */
+        padding: 1rem;
+        min-height: 6rem;
+        max-height: 12rem; /* Ajuste da altura máxima para celulares */
+    }
+}
+
+/* Estilos para o cabeçalho do curso (do seu index.html original) */
+.course-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem; /* Ajustado para consistência */
+    width: 100%;
+}
+
+.course-header h1 {
+    font-size: 3.5rem; /* Ajustado para ser um pouco menor que o H1 global */
+    font-weight: 600;
+    color: var(--dark-text);
+    margin: 0;
+}
+
+.refresh-button {
+    background: none;
+    border: none;
+    font-size: 2.5rem; /* Tamanho maior para o ícone */
+    color: var(--light-text);
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.refresh-button:hover {
+    color: var(--medium-text);
+}
+
+.section-info {
+    font-size: 0.9em; /* Ajustado para consistência */
+    color: var(--medium-text);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    width: 100%; /* Garante que o span ocupe a largura total */
+    display: flex;
+    justify-content: space-between; /* Para alinhar o progresso à direita */
+    align-items: center;
+}
+
+.section-progress {
+    font-weight: 600;
+    color: var(--primary-purple);
+}
+
+.modules-list {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.module-card {
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.module-card:hover:not(.locked) {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
+}
+
+.module-card.active {
+    border: 2px solid var(--primary-purple);
+    background-color: var(--card-background);
+    box-shadow: 0 5px 15px var(--primary-shadow-medium);
+}
+
+.module-card.locked {
+    background-color: #f0f0f0;
+    color: #b0b0b0;
+    cursor: not-allowed;
+}
+
+.module-card.locked .module-title,
+.module-card.locked .module-progress {
+    color: #b0b0b0;
+}
+
+.module-card .module-title {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: var(--dark-text);
+}
+
+.module-card.active .module-title {
+    color: var(--dark-text);
+}
+
+.module-card .module-progress {
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--primary-purple);
+}
+
+.module-card.locked i {
+    font-size: 1.2em;
+}
+
+/* Progress Message Section (para a mensagem de certificado) */
+.progress-message {
+    background: linear-gradient(135deg, var(--primary-purple), var(--light-purple));
+    color: #fff;
+    border-radius: 20px;
+    padding: 2.5rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 10px 30px var(--primary-shadow-medium);
+}
+
+.progress-message .message-content h2 {
+    font-size: 2.2rem; /* Ajustado */
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #fff; /* Títulos brancos nesta seção */
+}
+
+.progress-message .message-content p {
+    font-size: 1.6rem; /* Ajustado */
+    line-height: 1.4;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.progress-message .badge {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.progress-message .badge i {
+    font-size: 3.5rem; /* Ícone maior */
+    color: #fff;
+}
+
+.progress-message .message-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.progress-message .message-footer .section-info,
+.progress-message .message-footer .section-progress {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.8em;
+}
+
+
+/* Estilos para o formulário de login/cadastro (do seu HTML fornecido) */
+.form-toggle {
+    display: flex;
+    margin-bottom: 2.5rem;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #eee;
+    width: 100%;
+    max-width: 30rem; /* Limite para os botões de toggle */
+}
+
+.form-toggle button {
+    flex: 1;
+    padding: 1.2rem 1.5rem;
+    border: none;
+    background-color: transparent;
+    font-size: 1.6rem; /* Ajustado */
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: var(--medium-text);
+}
+
+.form-toggle button.active {
+    background-color: var(--primary-purple);
+    color: var(--card-background);
+    box-shadow: 0 4px 10px var(--primary-shadow-medium);
+}
+
+.auth-form {
+    display: none;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.auth-form.active {
+    display: flex;
+}
+
+.auth-form h2 {
+    font-size: 2.8rem; /* Ajustado para consistência */
+    font-weight: 600;
+    color: var(--dark-text);
+    margin-bottom: 2rem;
+}
+
+/* input-group e input já são cobertos pelos estilos gerais de input */
+
+.submit-button {
+    width: 100%;
+    padding: 1.2rem;
+    background-color: var(--primary-purple);
+    color: var(--card-background);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.8rem; /* Ajustado */
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    margin-top: 1.5rem;
+    max-width: 30rem; /* Limite para o botão de submit */
+}
+
+.submit-button:hover {
+    background-color: #5100c7;
+    transform: translateY(-0.2rem);
+}
+
+.social-text {
+    margin: 2.5rem 0 1.5rem;
+    color: var(--medium-text);
+    font-size: 1.4rem; /* Ajustado */
+    position: relative;
+}
+
+.social-text::before,
+.social-text::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background-color: var(--border-light);
+}
+
+.social-login {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 35rem; /* Limite para os botões sociais */
+}
+
+.social-button {
+    flex: 1;
+    min-width: 10rem; /* Ajustado */
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.4rem; /* Ajustado */
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    color: var(--card-background); /* Texto branco para botões sociais */
+}
+
+.social-button i {
+    font-size: 1.8rem; /* Ajustado */
+}
+
+.social-button.google { background-color: #db4437; }
+.social-button.google:hover { background-color: #c23321; transform: translateY(-0.2rem); }
+.social-button.facebook { background-color: #4267b2; }
+.social-button.facebook:hover { background-color: #365899; transform: translateY(-0.2rem); }
+.social-button.github { background-color: #333; }
+.social-button.github:hover { background-color: #000; transform: translateY(-0.2rem); }
+
+.auth-status {
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    color: var(--dark-text);
+    background-color: #f0f0f0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    width: 100%;
+}
+
+.auth-status.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.auth-status.success {
+    background-color: var(--success-bg);
+    color: var(--success-text);
+    border: 1px solid var(--success-border);
+}
+
+.auth-status.error {
+    background-color: var(--error-bg);
+    color: var(--error-text);
+    border: 1px solid var(--error-border);
+}
+
+
+/* Responsividade geral */
+@media (max-width: 768px) {
+    .container {
+        padding: 2.5rem;
+        max-width: 90%;
+    }
+    h1 {
+        font-size: 4.5rem;
+    }
+    h2 {
+        font-size: 3.5rem;
+    }
+    .btn, .submit-button {
+        width: 100%;
+        max-width: none; /* Remove max-width em telas menores */
+    }
+    .choice-container {
+        font-size: 1.6rem;
+    }
+    .choice-prefix {
+        padding: 1.2rem 2rem;
+        min-width: 6rem;
+    }
+    .choice-text {
+        padding: 1.2rem;
+    }
+    #hud {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .hud-item {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .hud-prefix {
+        font-size: 1.4rem;
+    }
+    .hud-main-text {
+        font-size: 2rem;
+    }
+    .form-toggle, .social-login {
+        max-width: none; /* Remove max-width em telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 2rem;
+    }
+    h1 {
+        font-size: 3.5rem;
+        margin-bottom: 3rem;
+    }
+    h2 {
+        font-size: 2.8rem;
+        margin-bottom: 2rem;
+    }
+    .btn, .submit-button {
+        font-size: 1.6rem;
+        padding: 1rem 1.5rem;
+    }
+    .choice-container {
+        font-size: 1.4rem;
+    }
+    .choice-prefix {
+        padding: 1rem 1.5rem;
+        min-width: 5rem;
+    }
+    .choice-text {
+        padding: 1rem;
+    }
+    .social-button {
+        min-width: unset; /* Remove min-width para permitir quebra de linha mais flexível */
+        flex: 1 1 45%; /* Permite 2 botões por linha em telas muito pequenas */
+    }
+}

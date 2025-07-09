@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: false,
-                        url: './js-basico'
+                        url: './js-basico/licao01/aprender01/game.html'
                     },
                     {
                         id: 2,
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/02.html'
+                        url: './js-basico/licao02/aprender01/game.html'
                     },
                     {
                         id: 3,
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/03.html'
+                        url: './js-basico/licao03/aprender01/game.html'
                     },
                     {
                         id: 4,
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/04.html'
+                        url: './js-basico/licao04/aprender01/game.html'
                     },
                     {
                         id: 5,
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/05.html'
+                        url: './js-basico/licao05/praticar01/game.html'
                     },
                 ]
             },
@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/01.html'
+                        url: './tipos-comparacoes/licao01/aprender01/game.html'
                     },
                     {
                         id: 7,
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: './tipos-comparacoes/licao02/aprender01/game.html'
                     },
                     {
                         id: 8,
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/03.html'
+                        url: './tipos-comparacoes/licao03/aprender01/game.html'
                     },
                     {
                         id: 9,
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/04.html'
+                        url: './tipos-comparacoes/licao04/aprender01/game.html'
                     },
                     {
                         id: 10,
@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/05.html'
+                        url: './tipos-comparacoes/licao05/praticar01/game.html'
                     },
                 ]
             },
@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/01.html'
+                        url: './condicionais/licao01/aprender01/game.html'
                     },
                     {
                         id: 12,
@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/02.html'
+                        url: './condicionais/licao02/aprender01/game.html'
                     },
                     {
                         id: 13,
@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/03.html'
+                        url: './condicionais/licao03/aprender01/game.html'
                     },
                     {
                         id: 14,
@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/04.html'
+                        url: './condicionais/licao04/aprender01/game.html'
                     },
                     {
                         id: 15,
@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/05.html'
+                        url: './condicionais/licao05/praticar01/game.html'
                     },
                 ]
             },
@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/loops/01.html'
+                        url: './loops/licao01/aprender01/game.html'
                     },
                     {
                         id: 17,
@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/loops/02.html'
+                        url: './loops/licao02/aprender01/game.html'
                     },
                     {
                         id: 18,
@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/loops/03.html'
+                        url: './loops/licao03/aprender01/game.html'
                     },
                     {
                         id: 19,
@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/loops/04.html'
+                        url: './loops/licao04/aprender01/game.html'
                     },
                     {
                         id: 20,
@@ -202,7 +202,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/loops/05.html'
+                        url: './loops/licao05/praticar01/game.html'
                     },
                     {
                         id: 21,
@@ -210,7 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/loops/06.html'
+                        url: './loops/licao06/aprender01/game.html'
                     },
                     {
                         id: 22,
@@ -218,7 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/loops/07.html'
+                        url: './loops/licao07/aprender01/game.html'
                     },
                     {
                         id: 23,
@@ -226,7 +226,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/loops/08.html'
+                        url: './loops/licao08/aprender01/game.html'
                     },
                     {
                         id: 24,
@@ -235,7 +235,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/loops/09.html'
+                        url: './loops/licao09/praticar01/game.html'
                     },
                 ]
             },

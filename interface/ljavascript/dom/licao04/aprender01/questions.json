@@ -1,0 +1,66 @@
+[
+    {
+        "question": "  Para que serve a <br> tag? ",
+        "choice1": " Inserir uma única quebra de linha dentro de um texto. ",
+        "choice2": "  Criar uma linha horizontal para dividir o conteúdo. ",
+        "choice3": "  Iniciar um novo parágrafo com mais espaçamento.  ",
+        "choice4": " Deixar o texto seguinte com uma formatação especial. ",
+        "answer": 1
+    },
+    {
+        "question": " Qual das seguintes opções é uma tag vazia (ou de fechamento automático), que não precisa de uma tag de fechamento como </tag>? ",
+        "choice1": " <p> ",
+        "choice2": " <img> ",
+        "choice3": " <a> ",
+        "choice4": " <div> ",
+        "answer": 3
+    },
+    {
+        "question": " Qual tag HTML é semanticamente correta para dar ênfase a um texto, como se você estivesse mudando o tom de voz para destacar uma palavra? ",
+        "choice1": "  <b>Texto em negrito</b> ",
+        "choice2": " <strong>Texto importante</strong> ",
+        "choice3": " <i>Texto em itálico</i> ",
+        "choice4": " <em>Texto com ênfase</em> ",
+        "answer": 4
+    },
+    {
+        "question": " Qual é a principal diferença entre o uso da tag <strong> e da tag <b>? ",
+        "choice1": " Ambas têm a mesma função e podem ser usadas de forma intercambiável. ",
+        "choice2": " <strong> indica importância semântica, enquanto <b> é apenas um estilo visual. ",
+        "choice3": " <b> é a tag mais moderna para importância, e <strong> está obsoleta. ",
+        "choice4": " <strong> deixa o texto maior e em negrito, e <b> apenas em negrito. ",
+        "answer": 2
+    },
+    {
+        "question": " Qual código HTML aplica corretamente a tag de ênfase ao título do álbum? ",
+        "choice1": " Meu álbum favorito é <strong>Non na riba terra</strong>. ",
+        "choice2": " Meu álbum favorito é <i>Non na riba terra</i>. ",
+        "choice3": " Meu álbum favorito é <mark>Non na riba terra</mark>. ",
+        "choice4": " Meu álbum favorito é <em>Non na riba terra</em>. ",
+        "answer": 4
+    },
+    {
+        "question": " Dado o texto a seguir: 'Estudar HTML é o primeiro passo. A prática leva à perfeição.' Qual opção aplica corretamente a ênfase apenas na segunda frase? ",
+        "choice1": " <p>Estudar HTML é o primeiro passo. <strong>A prática leva à perfeição.</strong></p> ",
+        "choice2": " <p><em>Estudar HTML é o primeiro passo.</em> A prática leva à perfeição.</p> ",
+        "choice3": " <p>Estudar HTML é o primeiro passo. <b>A prática leva à perfeição.</b></p> ",
+        "choice4": " <p>Estudar HTML é o primeiro passo. <em>A prática leva à perfeição.</em></p> ",
+        "answer": 4
+    },
+    {
+        "question": " Você precisa destacar o nome 'Maio Cope' como de forte importância em uma frase. Qual opção faz isso corretamente? ",
+        "choice1": "  Anunciamos a participação de <b>Maio Cope</b> no evento. ",
+        "choice2": " Anunciamos a participação de <em>Maio Cope</em> no evento. ",
+        "choice3": " Anunciamos a participação de <strong>Maio Cope</strong> no evento. ",
+        "choice4": " <strong>Anunciamos a participação de</strong> Maio Cope no evento. ",
+        "answer": 3
+    },
+    {
+        "question": " Qual das opções abaixo cria corretamente um botão clicável com o texto 'Enviar Formulário' usando a tag de botão? ",
+        "choice1": " <input type='button' value='Enviar Formulário'> ",
+        "choice2": " <button>Enviar Formulário</button> ",
+        "choice3": " <a href='#'>Enviar Formulário</a> ",
+        "choice4": " <div class='button'>Enviar Formulário</div> ",
+        "answer": 2
+    }
+]
