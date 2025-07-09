@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 2,
-                title: 'Gestão de mesas',
+                title: 'Gestão de tabelas',
                 description: 'Aprenda a criar e gerenciar tabelas em SQL',
                 locked: true,
                 lessons: [{
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/table-management/01.html'
+                        url: './gestao-tabelas/licao01/aprender01/game.html'
                     },
                     {
                         id: 9,
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/table-management/02.html'
+                        url: './gestao-tabelas/licao02/aprender01/game.html'
                     },
                     {
                         id: 10,
