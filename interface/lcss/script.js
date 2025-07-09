@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './css-intermediario/licao13'
+                        url: './css-intermediario/licao13/'
                     },
                     {
                         id: 22,
@@ -367,7 +367,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 4,
-                title: 'Grade',
+                title: 'Grid CSS',
                 description: 'Crie uma grade CSS usando linhas e colunas',
                 locked: true,
                 lessons: [{
@@ -376,7 +376,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/grid/01.html'
+                        url: './grid/licao01/aprender01/game.html'
                     },
                     {
                         id: 42,
@@ -384,7 +384,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/grid/02.html'
+                        url: './grid/licao02/aprender01/game.html'
                     },
                     {
                         id: 43,
@@ -392,7 +392,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/grid/03.html'
+                        url: './grid/licao03/aprender01/game.html'
                     },
                     {
                         id: 44,
@@ -401,7 +401,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/grid/04.html'
+                        url: './grid/licao04/aprender01/game.html'
                     },
                     {
                         id: 45,
@@ -409,7 +409,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/grid/05.html'
+                        url: './grid/licao05/aprender01/game.html'
                     },
                     {
                         id: 46,
@@ -417,7 +417,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/grid/06.html'
+                        url: './grid/licao06/aprender01/game.html'
                     },
                     {
                         id: 47,
@@ -425,7 +425,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/grid/07.html'
+                        url: './grid/licao07/aprender01/game.html'
                     },
                     {
                         id: 48,
@@ -434,7 +434,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/grid/08.html'
+                        url: './grid/licao08/aprender01/game.html'
                     },
                     {
                         id: 49,
@@ -442,7 +442,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/grid/09.html'
+                        url: './grid/licao09/aprender01/game.html'
                     },
                     {
                         id: 50,
@@ -450,7 +450,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/grid/10.html'
+                        url: './grid/licao10/aprender01/game.html'
                     },
                     {
                         id: 51,
@@ -458,7 +458,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/grid/11.html'
+                        url: './grid/licao11/aprender01/game.html'
                     },
                     {
                         id: 52,
@@ -466,7 +466,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/grid/12.html'
+                        url: './grid/licao12/aprender01/game.html'
                     },
                     {
                         id: 53,
@@ -475,7 +475,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './grid/licao01/aprender01/game.html'
+                        url: './grid/licao13/aprender01/game.html'
                     },
                     {
                         id: 54,

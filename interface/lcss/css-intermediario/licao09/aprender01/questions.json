@@ -1,66 +1,66 @@
 [
     {
-        "question": "Qual é a principal finalidade da tag `<div>` em HTML?",
-        "choice1": "Para adicionar uma imagem.",
-        "choice2": "Para criar um contêiner genérico de bloco para agrupar e estilizar outros elementos.",
-        "choice3": "Para definir um parágrafo de texto.",
-        "choice4": "Para criar um link.",
+        "question": "HTML (Hypertext Markup Language) é a linguagem padrão para criar páginas web. Qual é a sua principal função?",
+        "choice1": "Adicionar interatividade com JavaScript.",
+        "choice2": "Estruturar o conteúdo de uma página web.",
+        "choice3": "Estilizar a aparência dos elementos.",
+        "choice4": "Gerenciar bancos de dados.",
         "answer": 2
     },
     {
-        "question": "Qual é a principal diferença entre as tags `<div>` e `<span>`?",
-        "choice1": "`<div>` é para texto e `<span>` é para imagens.",
-        "choice2": "`<div>` é um elemento de bloco (cria uma quebra de linha), enquanto `<span>` é um elemento em linha (inline).",
-        "choice3": "`<span>` é uma tag mais moderna que substituiu a `<div>`.",
-        "choice4": "Não há diferença, elas são intercambiáveis.",
-        "answer": 2
-    },
-    {
-        "question": "Qual tag semântica é usada para agrupar o conteúdo introdutório ou de navegação no topo de uma página ou seção?",
-        "choice1": "<head>",
-        "choice2": "<top>",
-        "choice3": "<header>",
-        "choice4": "<navigation>",
+        "question": "Qual código HTML é usado para criar um botão com o texto 'Curtir'?",
+        "choice1": "<label>Curtir</label>",
+        "choice2": "<click>Curtir</click>",
+        "choice3": "<button>Curtir</button>",
+        "choice4": "<input>Curtir</input>",
         "answer": 3
     },
     {
-        "question": "Para agrupar informações de rodapé, como direitos autorais e contatos, qual tag semântica é a mais apropriada?",
-        "choice1": "<footer>",
-        "choice2": "<bottom>",
-        "choice3": "<end>",
-        "choice4": "<div id=\"footer\">",
-        "answer": 1
-    },
-    {
-        "question": "Qual tag HTML é projetada especificamente para agrupar um conjunto de links de navegação?",
-        "choice1": "<ul>",
-        "choice2": "<links>",
-        "choice3": "<menu>",
-        "choice4": "<nav>",
+        "question": "Em HTML, a tag `<p>` é usada para criar qual tipo de elemento?",
+        "choice1": "Uma imagem (picture)",
+        "choice2": "Um link (portal)",
+        "choice3": "Uma seção de página (page)",
+        "choice4": "Um parágrafo (paragraph)",
         "answer": 4
     },
     {
-        "question": "A tag `<main>` deve ser usada para agrupar qual tipo de conteúdo em uma página HTML?",
-        "choice1": "O conteúdo principal e único do corpo do documento.",
-        "choice2": "Todos os cabeçalhos e rodapés.",
-        "choice3": "Apenas barras laterais e anúncios.",
-        "choice4": "O menu de navegação principal.",
+        "question": "Existem 6 níveis de títulos em HTML, de `<h1>` a `<h6>`. Qual dessas tags representa um título?",
+        "choice1": "<video>",
+        "choice2": "<p>",
+        "choice3": "<h1>",
+        "choice4": "<button>",
+        "answer": 3
+    },
+    {
+        "question": "`<h1>` é o título de maior importância. Qual das tags abaixo cria um título de menor importância que `<h1>`?",
+        "choice1": "<p>",
+        "choice2": "<button>",
+        "choice3": "<h6>",
+        "choice4": "<video>",
+        "answer": 3
+    },
+    {
+        "question": "Qual tag HTML é usada para inserir uma quebra de linha?",
+        "choice1": "<br>",
+        "choice2": "<break>",
+        "choice3": "<line>",
+        "choice4": "<nl>",
         "answer": 1
     },
     {
-        "question": "Quando você deve usar a tag `<section>`?",
-        "choice1": "Para qualquer agrupamento de elementos, como uma `<div>`.",
-        "choice2": "Para agrupar conteúdo que forma uma seção temática, geralmente com um cabeçalho.",
-        "choice3": "Apenas para agrupar imagens.",
-        "choice4": "Para destacar uma única palavra em um parágrafo.",
-        "answer": 2
+        "question": "Para marcar um texto como de 'forte importância', resultando tipicamente em negrito, qual tag deve ser usada?",
+        "choice1": "<b>AVISO: Piso molhado.</b>",
+        "choice2": "<em>AVISO:</em> Piso molhado.",
+        "choice3": "<strong>AVISO: Piso molhado.</strong>",
+        "choice4": "<mark>AVISO: Piso molhado.</mark>",
+        "answer": 3
     },
     {
-        "question": "Por que é uma boa prática usar elementos de agrupamento como `<div>` e tags semânticas como `<section>`?",
-        "choice1": "Apenas para deixar o código HTML mais longo.",
-        "choice2": "Para organizar o código, facilitar a aplicação de estilos com CSS e melhorar a acessibilidade.",
-        "choice3": "Porque o HTML não funciona sem eles.",
-        "choice4": "Para adicionar cores e fontes diretamente no HTML.",
+        "question": "Qual é a principal diferença entre o uso da tag `<strong>` e da tag `<b>`?",
+        "choice1": "Ambas têm a mesma função e podem ser usadas de forma intercambiável.",
+        "choice2": "<strong> indica importância semântica, enquanto <b> é apenas um estilo visual.",
+        "choice3": "<b> é a tag mais moderna para importância, e <strong> está obsoleta.",
+        "choice4": "<strong> deixa o texto maior e em negrito, e <b> apenas em negrito.",
         "answer": 2
     }
 ]

@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './basico/licao02/index.html'
+                        url: './basico/licao02/aprender01/game.html'
                     },
                     {
                         id: 3,
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './basico/licao03/index.html'
+                        url: './basico/licao03/aprender01/game.html'
                     },
                     {
                         id: 4,
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'practice',
                         locked: true,
                         completed: false,
-                        url: './basico/licao04/index.html'
+                        url: './basico/licao04/aprender01/game.html'
                     },
                     {
                         id: 5,
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './basico/licao05/index.html'
+                        url: './basico/licao05/aprender01/game.html'
                     },
                     {
                         id: 6,
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './basico/licao06/index.html'
+                        url: './basico/licao06/aprender01/game.html'
                     },
                     {
                         id: 7,
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './intermediario/licao01/index.html'
+                        url: './intermediario/licao01/aprender01/game.html'
                     },
                     {
                         id: 9,
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './intermediario/licao02/index.html'
+                        url: './intermediario/licao02/aprender01/game.html'
                     },
                     {
                         id: 10,
@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './intermediario/licao03/index.html'
+                        url: './intermediario/licao03/aprender01/game.html'
                     },
                     {
                         id: 11,
@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './intermediario/licao04/index.html'
+                        url: './intermediario/licao04/aprender01/game.html'
                     },
                     {
                         id: 12,
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'practice',
                         locked: true,
                         completed: false,
-                        url: './intermediario/licao05/index.html'
+                        url: './intermediario/licao05/aprender01/game.html'
                     },
                 ]
             },
@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './semantica/licao01/index.html'
+                        url: './semantica/licao01/aprender01/game.html'
                     },
                     {
                         id: 14,
@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './semantica/licao02/index.html'
+                        url: './semantica/licao02/aprender01/game.html'
                     },
                     {
                         id: 15,
@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './semantica/licao03/index.html'
+                        url: './semantica/licao03/aprender01/game.html'
                     },
                     {
                         id: 16,
@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'practice',
                         locked: true,
                         completed: false,
-                        url: './semantica/licao04/index.html'
+                        url: './semantica/licao04/aprender01/game.html'
                     },
                 ]
             },
@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './acessibilidade/licao01/index.html'
+                        url: './acessibilidade/licao01/aprender01/game.html'
                     },
                     {
                         id: 18,
@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './acessibilidade/licao02/index.html'
+                        url: './acessibilidade/licao02/aprender01/game.html'
                     },
                     {
                         id: 19,
@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'practice',
                         locked: true,
                         completed: false,
-                        url: './acessibilidade/licao03/index.html'
+                        url: './acessibilidade/licao03/aprender01/game.html'
                     },
                 ]
             },
@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './formularios/licao01/index.html'
+                        url: './formularios/licao01/aprender01/game.html'
                     },
                     {
                         id: 21,
@@ -216,7 +216,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         locked: true,
                         completed: false,
-                        url: './formularios/licao02/index.html'
+                        url: './formularios/licao02/aprender01/game.html'
                     },
                     {
                         id: 22,
@@ -224,7 +224,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'practice',
                         locked: true,
                         completed: false,
-                        url: './formularios/licao03/index.html'
+                        url: './formularios/licao03/aprender01/game.html'
                     },
                     {
                         id: 23,
