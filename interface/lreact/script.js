@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/react-deep-dive/01.html'
+                        url: './react-deep-dive-course/licao01/aprender01/game.html'
                     },
                     {
                         id: 25,
@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/react-deep-dive/02.html'
+                        url: './react-deep-dive-course/licao02/aprender01/game.html'
                     },
                     {
                         id: 26,
@@ -244,7 +244,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/react-deep-dive/03.html'
+                        url: './react-deep-dive-course/licao03/aprender01/game.html'
                     },
                     {
                         id: 27,
@@ -253,7 +253,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/react-deep-dive/04.html'
+                        url: './react-deep-dive-course/licao04/aprender01/game.html'
                     },
                     {
                         id: 28,
@@ -261,7 +261,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/react-deep-dive/05.html'
+                        url: './react-deep-dive-course/licao05/aprender01/game.html'
                     },
                     {
                         id: 29,
@@ -269,7 +269,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/react-deep-dive/06.html'
+                        url: './react-deep-dive-course/licao06/aprender01/game.html'
                     },
                     {
                         id: 30,
@@ -278,7 +278,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/react-deep-dive/07.html'
+                        url: './react-deep-dive-course/licao07/aprender01/game.html'
                     },
                     {
                         id: 31,
@@ -286,7 +286,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/react-deep-dive/08.html'
+                        url: './react-deep-dive-course/licao08/aprender01/game.html'
                     },
                     {
                         id: 32,
@@ -294,7 +294,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/react-deep-dive/09.html'
+                        url: './react-deep-dive-course/licao09/aprender01/game.html'
                     },
                     {
                         id: 33,
@@ -302,7 +302,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/react-deep-dive/10.html'
+                        url: './react-deep-dive-course/licao10/aprender01/game.html'
                     },
                     {
                         id: 34,
@@ -311,7 +311,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/react-deep-dive/11.html'
+                        url: './react-deep-dive-course/licao11/aprender01/game.html'
                     },
                     {
                         id: 35,
