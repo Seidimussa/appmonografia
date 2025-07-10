@@ -27,7 +27,7 @@
     }
     ],
     "screenshots": [{
-        "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
+        "src": "/image/telainicial.png",
         "sizes": "2880x1800",
         "type": "image/png",
         "description": "Uma captura de tela da página inicial do Appmonografia"
