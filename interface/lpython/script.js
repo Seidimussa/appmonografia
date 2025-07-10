@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 4,
-                title: 'Laços',
+                title: 'Laços / Loops',
                 description: 'Crie loops para repetir linhas de código',
                 locked: true,
                 lessons: [{
