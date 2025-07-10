@@ -14,64 +14,322 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- ESTRUTURA DE DADOS COMPLETA PARA O CURSO DE REACT ---
     const initialCourseData = {
         currentSectionId: 1,
-        sections: [
-            {
-                id: 1, title: 'Introdução ao React', description: 'Use React para criar aplicativos da web modernos', locked: false,
-                lessons: [
-                    { id: 1, title: 'Introdução ao React', type: 'learn', completed: false, locked: false, url: './lessons/react-intro/01.html' },
-                    { id: 2, title: 'Componentes', type: 'learn', completed: false, locked: true, url: './lessons/react-intro/02.html' },
-                    { id: 3, title: 'Noções básicas de React 1', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/react-intro/03.html' },
-                    { id: 4, title: 'JSX', type: 'learn', completed: false, locked: true, url: './lessons/react-intro/04.html' },
-                    { id: 5, title: 'Propriedades', type: 'learn', completed: false, locked: true, url: './lessons/react-intro/05.html' },
-                    { id: 6, title: 'Botões', type: 'learn', completed: false, locked: true, url: './lessons/react-intro/06.html' },
-                    { id: 7, title: 'Estado', type: 'learn', completed: false, locked: true, url: './lessons/react-intro/07.html' },
-                    { id: 8, title: 'Noções básicas de React 2', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/react-intro/08.html' },
-                    { id: 9, title: 'Usando folhas de estilo', type: 'learn', completed: false, locked: true, url: './lessons/react-intro/09.html' },
-                    { id: 10, title: 'Usando propriedades de estilo', type: 'learn', completed: false, locked: true, url: './lessons/react-intro/10.html' },
-                    { id: 11, title: 'Noções básicas de React 3', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/react-intro/11.html' },
+        sections: [{
+                id: 1,
+                title: 'Introdução ao React',
+                description: 'Use React para criar aplicativos da web modernos',
+                locked: false,
+                lessons: [{
+                        id: 1,
+                        title: 'Introdução ao React',
+                        type: 'learn',
+                        completed: false,
+                        locked: false,
+                        url: './intro-react-course/licao01/aprender01/game.html'
+                    },
+                    {
+                        id: 2,
+                        title: 'Componentes',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './intro-react-course/licao02/aprender01/game.html'
+                    },
+                    {
+                        id: 3,
+                        title: 'Noções básicas de React 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './intro-react-course/licao03/aprender01/game.html'
+                    },
+                    {
+                        id: 4,
+                        title: 'JSX',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './intro-react-course/licao04/aprender01/game.html'
+                    },
+                    {
+                        id: 5,
+                        title: 'Propriedades',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './intro-react-course/licao05/aprender01/game.html'
+                    },
+                    {
+                        id: 6,
+                        title: 'Botões',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './intro-react-course/licao06/aprender01/game.html'
+                    },
+                    {
+                        id: 7,
+                        title: 'Estado',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './intro-react-course/licao07/aprender01/game.html'
+                    },
+                    {
+                        id: 8,
+                        title: 'Noções básicas de React 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './intro-react-course/licao08/aprender01/game.html'
+                    },
+                    {
+                        id: 9,
+                        title: 'Usando folhas de estilo',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './intro-react-course/licao09/aprender01/game.html'
+                    },
+                    {
+                        id: 10,
+                        title: 'Usando propriedades de estilo',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './intro-react-course/licao10/aprender01/game.html'
+                    },
+                    {
+                        id: 11,
+                        title: 'Noções básicas de React 3',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './intro-react-course/licao11/aprender01/game.html'
+                    },
                 ]
             },
             {
-                id: 2, title: 'Fundamentos do React', description: 'Aprenda conceitos essenciais do React para aprimorar seus aplicativos', locked: true,
-                lessons: [
-                    { id: 12, title: 'Renderização Condicional 1', type: 'learn', completed: false, locked: true, url: './lessons/react-fundamentals/01.html' },
-                    { id: 13, title: 'Renderização Condicional 2', type: 'learn', completed: false, locked: true, url: './lessons/react-fundamentals/02.html' },
-                    { id: 14, title: 'Fragmentos', type: 'learn', completed: false, locked: true, url: './lessons/react-fundamentals/03.html' },
-                    { id: 15, title: 'Fundamentos do React 1', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/react-fundamentals/04.html' },
-                    { id: 16, title: 'Propriedades destrutivas', type: 'learn', completed: false, locked: true, url: './lessons/react-fundamentals/05.html' },
-                    { id: 17, title: 'Propriedades padrão', type: 'learn', completed: false, locked: true, url: './lessons/react-fundamentals/06.html' },
-                    { id: 18, title: 'Propriedades complexas', type: 'learn', completed: false, locked: true, url: './lessons/react-fundamentals/07.html' },
-                    { id: 19, title: 'Matrizes em React', type: 'learn', completed: false, locked: true, url: './lessons/react-fundamentals/08.html' },
-                    { id: 20, title: 'Entrada', type: 'learn', completed: false, locked: true, url: './lessons/react-fundamentals/09.html' },
-                    { id: 21, title: 'Área de texto', type: 'learn', completed: false, locked: true, url: './lessons/react-fundamentals/10.html' },
-                    { id: 22, title: 'Componentes Controlados', type: 'learn', completed: false, locked: true, url: './lessons/react-fundamentals/11.html' },
-                    { id: 23, title: 'Fundamentos do React 2', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/react-fundamentals/12.html' },
+                id: 2,
+                title: 'Fundamentos do React',
+                description: 'Aprenda conceitos essenciais do React para aprimorar seus aplicativos',
+                locked: true,
+                lessons: [{
+                        id: 12,
+                        title: 'Renderização Condicional 1',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/react-fundamentals/01.html'
+                    },
+                    {
+                        id: 13,
+                        title: 'Renderização Condicional 2',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/react-fundamentals/02.html'
+                    },
+                    {
+                        id: 14,
+                        title: 'Fragmentos',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/react-fundamentals/03.html'
+                    },
+                    {
+                        id: 15,
+                        title: 'Fundamentos do React 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/react-fundamentals/04.html'
+                    },
+                    {
+                        id: 16,
+                        title: 'Propriedades destrutivas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/react-fundamentals/05.html'
+                    },
+                    {
+                        id: 17,
+                        title: 'Propriedades padrão',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/react-fundamentals/06.html'
+                    },
+                    {
+                        id: 18,
+                        title: 'Propriedades complexas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/react-fundamentals/07.html'
+                    },
+                    {
+                        id: 19,
+                        title: 'Matrizes em React',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/react-fundamentals/08.html'
+                    },
+                    {
+                        id: 20,
+                        title: 'Entrada',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/react-fundamentals/09.html'
+                    },
+                    {
+                        id: 21,
+                        title: 'Área de texto',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/react-fundamentals/10.html'
+                    },
+                    {
+                        id: 22,
+                        title: 'Componentes Controlados',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/react-fundamentals/11.html'
+                    },
+                    {
+                        id: 23,
+                        title: 'Fundamentos do React 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/react-fundamentals/12.html'
+                    },
                 ]
             },
             {
-                id: 3, title: 'Mergulho profundo no React', description: 'Mergulhe mais fundo no React para dominar aplicativos de página única', locked: true,
-                lessons: [
-                    { id: 24, title: 'Crianças', type: 'learn', completed: false, locked: true, url: './lessons/react-deep-dive/01.html' },
-                    { id: 25, title: 'Funções de Passagem', type: 'learn', completed: false, locked: true, url: './lessons/react-deep-dive/02.html' },
-                    { id: 26, title: 'Perfuração de adereços', type: 'learn', completed: false, locked: true, url: './lessons/react-deep-dive/03.html' },
-                    { id: 27, title: 'React Deep Dive 1', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/react-deep-dive/04.html' },
-                    { id: 28, title: 'useState', type: 'learn', completed: false, locked: true, url: './lessons/react-deep-dive/05.html' },
-                    { id: 29, title: 'useEffect', type: 'learn', completed: false, locked: true, url: './lessons/react-deep-dive/06.html' },
-                    { id: 30, title: 'Mergulho Profundo React 2', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/react-deep-dive/07.html' },
-                    { id: 31, title: 'Buscar', type: 'learn', completed: false, locked: true, url: './lessons/react-deep-dive/08.html' },
-                    { id: 32, title: 'Roteador', type: 'learn', completed: false, locked: true, url: './lessons/react-deep-dive/09.html' },
-                    { id: 33, title: 'Parâmetros de consulta', type: 'learn', completed: false, locked: true, url: './lessons/react-deep-dive/10.html' },
-                    { id: 34, title: 'Mergulho Profundo no React 3', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/react-deep-dive/11.html' },
-                    { id: 35, title: 'Certificado de Conclusão', type: 'certificate', completed: false, locked: true, url: './certificate/index.html' }
+                id: 3,
+                title: 'Mergulho profundo no React',
+                description: 'Mergulhe mais fundo no React para dominar aplicativos de página única',
+                locked: true,
+                lessons: [{
+                        id: 24,
+                        title: 'Crianças',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/react-deep-dive/01.html'
+                    },
+                    {
+                        id: 25,
+                        title: 'Funções de Passagem',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/react-deep-dive/02.html'
+                    },
+                    {
+                        id: 26,
+                        title: 'Perfuração de adereços',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/react-deep-dive/03.html'
+                    },
+                    {
+                        id: 27,
+                        title: 'React Deep Dive 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/react-deep-dive/04.html'
+                    },
+                    {
+                        id: 28,
+                        title: 'useState',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/react-deep-dive/05.html'
+                    },
+                    {
+                        id: 29,
+                        title: 'useEffect',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/react-deep-dive/06.html'
+                    },
+                    {
+                        id: 30,
+                        title: 'Mergulho Profundo React 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/react-deep-dive/07.html'
+                    },
+                    {
+                        id: 31,
+                        title: 'Buscar',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/react-deep-dive/08.html'
+                    },
+                    {
+                        id: 32,
+                        title: 'Roteador',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/react-deep-dive/09.html'
+                    },
+                    {
+                        id: 33,
+                        title: 'Parâmetros de consulta',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/react-deep-dive/10.html'
+                    },
+                    {
+                        id: 34,
+                        title: 'Mergulho Profundo no React 3',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/react-deep-dive/11.html'
+                    },
+                    {
+                        id: 35,
+                        title: 'Certificado de Conclusão',
+                        type: 'certificate',
+                        completed: false,
+                        locked: true,
+                        url: './certificate/index.html'
+                    }
                 ]
             }
         ]
     };
-    
+
     // let courseData = JSON.parse(localStorage.getItem('courseProgress_react_full')) || JSON.parse(JSON.stringify(initialCourseData));
     // const saveProgress = () => localStorage.setItem('courseProgress_react_full', JSON.stringify(courseData));
-    
-     let courseData = JSON.parse(localStorage.getItem(COURSE_STORAGE_KEY)) || JSON.parse(JSON.stringify(initialCourseData));
+
+    let courseData = JSON.parse(localStorage.getItem(COURSE_STORAGE_KEY)) || JSON.parse(JSON.stringify(initialCourseData));
 
     // --- FUNÇÕES DE LÓGICA E ESTADO ---
     const saveProgress = () => localStorage.setItem(COURSE_STORAGE_KEY, JSON.stringify(courseData));
@@ -89,7 +347,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const lesson = currentSection.lessons.find(l => l.id === lessonId);
 
         if (!lesson || lesson.completed || lesson.locked || lesson.type === 'certificate') return;
-        
+
         lesson.completed = true;
 
         const lessonIndex = currentSection.lessons.findIndex(l => l.id === lessonId);
@@ -99,7 +357,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const regularLessons = currentSection.lessons.filter(l => l.type !== 'certificate');
         const allSectionLessonsCompleted = regularLessons.every(l => l.completed);
-        
+
         if (allSectionLessonsCompleted) {
             const currentSectionIndex = courseData.sections.findIndex(s => s.id === courseData.currentSectionId);
             if (currentSectionIndex + 1 < courseData.sections.length) {
@@ -110,7 +368,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
         }
-        
+
         saveProgress();
         renderApp();
     };
@@ -118,15 +376,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const renderSidebar = () => {
         sectionsNavList.innerHTML = '';
         let completedSectionsCount = 0;
-        
+
         courseData.sections.forEach(section => {
             const regularLessons = section.lessons.filter(l => l.type !== 'certificate');
             const completedLessons = regularLessons.filter(l => l.completed).length;
-            
+
             if (regularLessons.length > 0 && completedLessons === regularLessons.length) {
                 completedSectionsCount++;
             }
-            
+
             const navItem = document.createElement('div');
             navItem.className = 'section-nav-item';
             navItem.classList.toggle('active', section.id === courseData.currentSectionId);
@@ -193,7 +451,7 @@ document.addEventListener('DOMContentLoaded', () => {
             continueBtn.addEventListener('click', (e) => changeSection(parseInt(e.target.dataset.nextSectionId)));
         }
     };
-    
+
     const renderLessonCard = (lesson, index) => {
         const isFirstUnlocked = !lesson.locked && !lesson.completed;
         const lockIcon = '<i class="fas fa-lock status-icon"></i>';
@@ -232,7 +490,7 @@ document.addEventListener('DOMContentLoaded', () => {
         renderSidebar();
         renderMainContent();
     };
-    
+
     const changeSection = (sectionId) => {
         const section = courseData.sections.find(s => s.id === sectionId);
         if (section && !section.locked) {
@@ -251,6 +509,6 @@ document.addEventListener('DOMContentLoaded', () => {
             renderApp();
         }
     });
-    
+
     renderApp();
 });
