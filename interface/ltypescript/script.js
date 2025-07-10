@@ -14,54 +14,205 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- ESTRUTURA DE DADOS COMPLETA PARA O CURSO DE TYPESCRIPT ---
     const initialCourseData = {
         currentSectionId: 1,
-        sections: [
-            {
-                id: 1, title: 'Noções básicas de TypeScript', description: 'Crie seus primeiros tipos e aprenda sobre tipos de união', locked: false,
-                lessons: [
-                    { id: 1, title: 'Tipos estáticos', type: 'learn', completed: false, locked: false, url: './lessons/ts-basics/01.html' },
-                    { id: 2, title: 'Anotações de tipo', type: 'learn', completed: false, locked: true, url: './lessons/ts-basics/02.html' },
-                    { id: 3, title: 'Tipos de União', type: 'learn', completed: false, locked: true, url: './lessons/ts-basics/03.html' },
-                    { id: 4, title: 'Matrizes', type: 'learn', completed: false, locked: true, url: './lessons/ts-basics/04.html' },
-                    { id: 5, title: 'Objetos', type: 'learn', completed: false, locked: true, url: './lessons/ts-basics/05.html' },
-                    { id: 6, title: 'Introdução ao TypeScript', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/ts-basics/06.html' },
+        sections: [{
+                id: 1,
+                title: 'Noções básicas de TypeScript',
+                description: 'Crie seus primeiros tipos e aprenda sobre tipos de união',
+                locked: false,
+                lessons: [{
+                        id: 1,
+                        title: 'Tipos estáticos',
+                        type: 'learn',
+                        completed: false,
+                        locked: false,
+                        url: './ts-basico/licao01/aprender01/game.html'
+                    },
+                    {
+                        id: 2,
+                        title: 'Anotações de tipo',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './ts-basico/licao02/aprender01/game.html'
+                    },
+                    {
+                        id: 3,
+                        title: 'Tipos de União',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './ts-basico/licao03/aprender01/game.html'
+                    },
+                    {
+                        id: 4,
+                        title: 'Matrizes',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './ts-basico/licao04/aprender01/game.html'
+                    },
+                    {
+                        id: 5,
+                        title: 'Objetos',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './ts-basico/licao05/aprender01/game.html'
+                    },
+                    {
+                        id: 6,
+                        title: 'Introdução ao TypeScript',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './ts-basico/licao06/aprender01/game.html'
+                    },
                 ]
             },
             {
-                id: 2, title: 'Mais tipos', description: 'Aprofunde-se nos tipos e aprenda sobre interfaces', locked: true,
-                lessons: [
-                    { id: 7, title: 'Aliases de tipo', type: 'learn', completed: false, locked: true, url: './lessons/more-types/01.html' },
-                    { id: 8, title: 'Tipos de Interseção', type: 'learn', completed: false, locked: true, url: './lessons/more-types/02.html' },
-                    { id: 9, title: 'Interfaces', type: 'learn', completed: false, locked: true, url: './lessons/more-types/03.html' },
-                    { id: 10, title: 'Propriedades especiais', type: 'learn', completed: false, locked: true, url: './lessons/more-types/04.html' },
-                    { id: 11, title: 'TypeScript Intermediário', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/more-types/05.html' },
+                id: 2,
+                title: 'Mais tipos',
+                description: 'Aprofunde-se nos tipos e aprenda sobre interfaces',
+                locked: true,
+                lessons: [{
+                        id: 7,
+                        title: 'Aliases de tipo',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './mais-tipos/licao01/aprender01/game.html'
+                    },
+                    {
+                        id: 8,
+                        title: 'Tipos de Interseção',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './mais-tipos/licao02/aprender01/game.html'
+                    },
+                    {
+                        id: 9,
+                        title: 'Interfaces',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './mais-tipos/licao03/aprender01/game.html'
+                    },
+                    {
+                        id: 10,
+                        title: 'Propriedades especiais',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './mais-tipos/licao04/aprender01/game.html'
+                    },
+                    {
+                        id: 11,
+                        title: 'TypeScript Intermediário',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './mais-tipos/licao05/aprender01/game.html'
+                    },
                 ]
             },
             {
-                id: 3, title: 'Funções, Classes e Enumerações', description: 'Use funções, classes e enumerações em TypeScript', locked: true,
-                lessons: [
-                    { id: 12, title: 'Funções', type: 'learn', completed: false, locked: true, url: './lessons/functions-classes/01.html' },
-                    { id: 13, title: 'Tipos de função e assinaturas', type: 'learn', completed: false, locked: true, url: './lessons/functions-classes/02.html' },
-                    { id: 14, title: 'Parâmetro opcional e padrão', type: 'learn', completed: false, locked: true, url: './lessons/functions-classes/03.html' },
-                    { id: 15, title: 'Classes', type: 'learn', completed: false, locked: true, url: './lessons/functions-classes/04.html' },
-                    { id: 16, title: 'Enumerações', type: 'learn', completed: false, locked: true, url: './lessons/functions-classes/05.html' },
-                    { id: 17, title: 'Funções, Classes e Enumerações', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/functions-classes/06.html' },
+                id: 3,
+                title: 'Funções, Classes e Enumerações',
+                description: 'Use funções, classes e enumerações em TypeScript',
+                locked: true,
+                lessons: [{
+                        id: 12,
+                        title: 'Funções',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions-classes/01.html'
+                    },
+                    {
+                        id: 13,
+                        title: 'Tipos de função e assinaturas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions-classes/02.html'
+                    },
+                    {
+                        id: 14,
+                        title: 'Parâmetro opcional e padrão',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions-classes/03.html'
+                    },
+                    {
+                        id: 15,
+                        title: 'Classes',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions-classes/04.html'
+                    },
+                    {
+                        id: 16,
+                        title: 'Enumerações',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions-classes/05.html'
+                    },
+                    {
+                        id: 17,
+                        title: 'Funções, Classes e Enumerações',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions-classes/06.html'
+                    },
                 ]
             },
             {
-                id: 4, title: 'Genéricos', description: 'Entenda e use genéricos', locked: true,
-                lessons: [
-                    { id: 18, title: 'Introdução aos Genéricos', type: 'learn', completed: false, locked: true, url: './lessons/generics/01.html' },
-                    { id: 19, title: 'Genéricos', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/generics/02.html' },
-                    { id: 20, title: 'Certificado de Conclusão', type: 'certificate', completed: false, locked: true, url: './certificate/index.html' }
+                id: 4,
+                title: 'Genéricos',
+                description: 'Entenda e use genéricos',
+                locked: true,
+                lessons: [{
+                        id: 18,
+                        title: 'Introdução aos Genéricos',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/generics/01.html'
+                    },
+                    {
+                        id: 19,
+                        title: 'Genéricos',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/generics/02.html'
+                    },
+                    {
+                        id: 20,
+                        title: 'Certificado de Conclusão',
+                        type: 'certificate',
+                        completed: false,
+                        locked: true,
+                        url: './certificate/index.html'
+                    }
                 ]
             }
         ]
     };
-    
+
     // let courseData = JSON.parse(localStorage.getItem('courseProgress_ts_full')) || JSON.parse(JSON.stringify(initialCourseData));
     // const saveProgress = () => localStorage.setItem('courseProgress_ts_full', JSON.stringify(courseData));
 
-     let courseData = JSON.parse(localStorage.getItem(COURSE_STORAGE_KEY)) || JSON.parse(JSON.stringify(initialCourseData));
+    let courseData = JSON.parse(localStorage.getItem(COURSE_STORAGE_KEY)) || JSON.parse(JSON.stringify(initialCourseData));
 
     // --- FUNÇÕES DE LÓGICA E ESTADO ---
     const saveProgress = () => localStorage.setItem(COURSE_STORAGE_KEY, JSON.stringify(courseData));
@@ -79,7 +230,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const lesson = currentSection.lessons.find(l => l.id === lessonId);
 
         if (!lesson || lesson.completed || lesson.locked || lesson.type === 'certificate') return;
-        
+
         lesson.completed = true;
 
         const lessonIndex = currentSection.lessons.findIndex(l => l.id === lessonId);
@@ -89,7 +240,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const regularLessons = currentSection.lessons.filter(l => l.type !== 'certificate');
         const allSectionLessonsCompleted = regularLessons.every(l => l.completed);
-        
+
         if (allSectionLessonsCompleted) {
             const currentSectionIndex = courseData.sections.findIndex(s => s.id === courseData.currentSectionId);
             if (currentSectionIndex + 1 < courseData.sections.length) {
@@ -100,7 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
         }
-        
+
         saveProgress();
         renderApp();
     };
@@ -108,15 +259,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const renderSidebar = () => {
         sectionsNavList.innerHTML = '';
         let completedSectionsCount = 0;
-        
+
         courseData.sections.forEach(section => {
             const regularLessons = section.lessons.filter(l => l.type !== 'certificate');
             const completedLessons = regularLessons.filter(l => l.completed).length;
-            
+
             if (regularLessons.length > 0 && completedLessons === regularLessons.length) {
                 completedSectionsCount++;
             }
-            
+
             const navItem = document.createElement('div');
             navItem.className = 'section-nav-item';
             navItem.classList.toggle('active', section.id === courseData.currentSectionId);
@@ -183,7 +334,7 @@ document.addEventListener('DOMContentLoaded', () => {
             continueBtn.addEventListener('click', (e) => changeSection(parseInt(e.target.dataset.nextSectionId)));
         }
     };
-    
+
     const renderLessonCard = (lesson, index) => {
         const isFirstUnlocked = !lesson.locked && !lesson.completed;
         const lockIcon = '<i class="fas fa-lock status-icon"></i>';
@@ -222,7 +373,7 @@ document.addEventListener('DOMContentLoaded', () => {
         renderSidebar();
         renderMainContent();
     };
-    
+
     const changeSection = (sectionId) => {
         const section = courseData.sections.find(s => s.id === sectionId);
         if (section && !section.locked) {
@@ -241,6 +392,6 @@ document.addEventListener('DOMContentLoaded', () => {
             renderApp();
         }
     });
-    
+
     renderApp();
 });
