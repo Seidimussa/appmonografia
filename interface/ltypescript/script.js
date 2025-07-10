@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/functions-classes/01.html'
+                        url: './funcoes-classes-enums/licao01/aprender01/game.html'
                     },
                     {
                         id: 13,
@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/functions-classes/02.html'
+                        url: './funcoes-classes-enums/licao02/aprender01/game.html'
                     },
                     {
                         id: 14,
@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/functions-classes/03.html'
+                        url: './funcoes-classes-enums/licao03/aprender01/game.html'
                     },
                     {
                         id: 15,
@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/functions-classes/04.html'
+                        url: './funcoes-classes-enums/licao04/aprender01/game.html'
                     },
                     {
                         id: 16,
@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/functions-classes/05.html'
+                        url: './funcoes-classes-enums/licao05/aprender01/game.html'
                     },
                     {
                         id: 17,
@@ -170,7 +170,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/functions-classes/06.html'
+                        url: './funcoes-classes-enums/licao06/aprender01/game.html'
                     },
                 ]
             },
@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/generics/01.html'
+                        url: './genericos/licao01/aprender01/game.html'
                     },
                     {
                         id: 19,
@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/generics/02.html'
+                        url: './genericos/licao02/aprender01/game.html'
                     },
                     {
                         id: 20,

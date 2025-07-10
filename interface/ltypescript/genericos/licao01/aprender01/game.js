@@ -41,7 +41,7 @@ getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
 
-        return window.location.assign("/interface/ltypescript/index.html");
+        return window.location.assign("/interface/lhtml/index.html");
     }
     questionCounter++;
     progressText.innerText = ` Questão ${questionCounter}/${MAX_QUESTIONS}`;
