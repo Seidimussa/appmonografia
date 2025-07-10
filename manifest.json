@@ -14,7 +14,7 @@
     "background_color": "#000000",
     "orientation": "any",
     "icons": [{
-        "src": "https://www.pwabuilder.com/assets/icons/icon_512.png",
+        "src": "/image/logoGW.png",
         "sizes": "512x512",
         "type": "image/png",
         "purpose": "maskable"
