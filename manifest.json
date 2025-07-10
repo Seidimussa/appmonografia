@@ -14,17 +14,17 @@
     "background_color": "#000000",
     "orientation": "any",
     "icons": [{
-        "src": "/image/logoGW.png",
-        "sizes": "512x512",
-        "type": "image/png",
-        "purpose": "maskable"
-    },
-    {
-        "src": "/image/logoGW.png",
-        "sizes": "192x192",
-        "type": "image/png",
-        "purpose": "any"
-    }
+            "src": "/image/logoGW.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/image/logoGW.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        }
     ],
     "screenshots": [{
         "src": "/image/telainicial.png",
@@ -41,5 +41,8 @@
         "name": " Monografia",
         "url": "https://appmonografia.vercel.app/index.html",
         "description": "Inicia uma nova monografia no aplicativo."
-    }]
+    }],
+    "share_target": {
+        "method": "GET"
+    }
 }
