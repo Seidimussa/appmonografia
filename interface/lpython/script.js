@@ -14,172 +14,837 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- ESTRUTURA DE DADOS COMPLETA PARA O CURSO DE PYTHON ---
     const initialCourseData = {
         currentSectionId: 1,
-        sections: [
-            {
-                id: 1, title: 'Noções básicas de Python', description: 'Crie variáveis que armazenam números, strings e booleanos', locked: false,
-                lessons: [
-                    { id: 1, title: 'Criando Variáveis', type: 'learn', completed: false, locked: false, url: './lessons/python-basics/01.html' },
-                    { id: 2, title: 'Usando Variáveis', type: 'learn', completed: false, locked: true, url: './lessons/python-basics/02.html' },
-                    { id: 3, title: 'Verdadeiro e falso', type: 'learn', completed: false, locked: true, url: './lessons/python-basics/03.html' },
-                    { id: 4, title: 'Verificando a igualdade numérica', type: 'learn', completed: false, locked: true, url: './lessons/python-basics/04.html' },
-                    { id: 5, title: 'Formatando Strings', type: 'learn', completed: false, locked: true, url: './lessons/python-basics/05.html' },
-                    { id: 6, title: 'Noções básicas de Python', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/python-basics/06.html' },
+        sections: [{
+                id: 1,
+                title: 'Noções básicas de Python',
+                description: 'Crie variáveis que armazenam números, strings e booleanos',
+                locked: false,
+                lessons: [{
+                        id: 1,
+                        title: 'Criando Variáveis',
+                        type: 'learn',
+                        completed: false,
+                        locked: false,
+                        url: './python-basico/licao01/aprender01/game.html'
+                    },
+                    {
+                        id: 2,
+                        title: 'Usando Variáveis',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/python-basics/02.html'
+                    },
+                    {
+                        id: 3,
+                        title: 'Verdadeiro e falso',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/python-basics/03.html'
+                    },
+                    {
+                        id: 4,
+                        title: 'Verificando a igualdade numérica',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/python-basics/04.html'
+                    },
+                    {
+                        id: 5,
+                        title: 'Formatando Strings',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/python-basics/05.html'
+                    },
+                    {
+                        id: 6,
+                        title: 'Noções básicas de Python',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/python-basics/06.html'
+                    },
                 ]
             },
             {
-                id: 2, title: 'Tipos e comparações', description: 'Armazene o resultado das comparações em variáveis', locked: true,
-                lessons: [
-                    { id: 7, title: 'Comparando números', type: 'learn', completed: false, locked: true, url: './lessons/types-comparisons/01.html' },
-                    { id: 8, title: 'Comparando Strings', type: 'learn', completed: false, locked: true, url: './lessons/types-comparisons/02.html' },
-                    { id: 9, title: 'Descobrindo Tipos', type: 'learn', completed: false, locked: true, url: './lessons/types-comparisons/03.html' },
-                    { id: 10, title: 'Tipos e Comparações', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/types-comparisons/04.html' },
+                id: 2,
+                title: 'Tipos e comparações',
+                description: 'Armazene o resultado das comparações em variáveis',
+                locked: true,
+                lessons: [{
+                        id: 7,
+                        title: 'Comparando números',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/types-comparisons/01.html'
+                    },
+                    {
+                        id: 8,
+                        title: 'Comparando Strings',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/types-comparisons/02.html'
+                    },
+                    {
+                        id: 9,
+                        title: 'Descobrindo Tipos',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/types-comparisons/03.html'
+                    },
+                    {
+                        id: 10,
+                        title: 'Tipos e Comparações',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/types-comparisons/04.html'
+                    },
                 ]
             },
             {
-                id: 3, title: 'Declarações Condicionais', description: 'Condicionais de código para construir programas que tomam decisões', locked: true,
-                lessons: [
-                    { id: 11, title: 'Tomando decisões', type: 'learn', completed: false, locked: true, url: './lessons/conditionals/01.html' },
-                    { id: 12, title: 'Condições de uso', type: 'learn', completed: false, locked: true, url: './lessons/conditionals/02.html' },
-                    { id: 13, title: 'Declarações Condicionais 1', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/conditionals/03.html' },
-                    { id: 14, title: 'Codificando Instruções Else', type: 'learn', completed: false, locked: true, url: './lessons/conditionals/04.html' },
-                    { id: 15, title: 'Incorporando Elif', type: 'learn', completed: false, locked: true, url: './lessons/conditionals/05.html' },
-                    { id: 16, title: 'Usando Decisões Complexas', type: 'learn', completed: false, locked: true, url: './lessons/conditionals/06.html' },
-                    { id: 17, title: 'Declarações Condicionais 2', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/conditionals/07.html' },
+                id: 3,
+                title: 'Declarações Condicionais',
+                description: 'Condicionais de código para construir programas que tomam decisões',
+                locked: true,
+                lessons: [{
+                        id: 11,
+                        title: 'Tomando decisões',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/01.html'
+                    },
+                    {
+                        id: 12,
+                        title: 'Condições de uso',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/02.html'
+                    },
+                    {
+                        id: 13,
+                        title: 'Declarações Condicionais 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/03.html'
+                    },
+                    {
+                        id: 14,
+                        title: 'Codificando Instruções Else',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/04.html'
+                    },
+                    {
+                        id: 15,
+                        title: 'Incorporando Elif',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/05.html'
+                    },
+                    {
+                        id: 16,
+                        title: 'Usando Decisões Complexas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/06.html'
+                    },
+                    {
+                        id: 17,
+                        title: 'Declarações Condicionais 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/conditionals/07.html'
+                    },
                 ]
             },
             {
-                id: 4, title: 'Laços', description: 'Crie loops para repetir linhas de código', locked: true,
-                lessons: [
-                    { id: 18, title: 'Autoatribuição e Operadores', type: 'learn', completed: false, locked: true, url: './lessons/loops/01.html' },
-                    { id: 19, title: 'Laços While', type: 'learn', completed: false, locked: true, url: './lessons/loops/02.html' },
-                    { id: 20, title: 'Parando loops While', type: 'learn', completed: false, locked: true, url: './lessons/loops/03.html' },
-                    { id: 21, title: 'Laços 1', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/loops/04.html' },
-                    { id: 22, title: 'Controlando loops While', type: 'learn', completed: false, locked: true, url: './lessons/loops/05.html' },
-                    { id: 23, title: 'Para laços', type: 'learn', completed: false, locked: true, url: './lessons/loops/06.html' },
-                    { id: 24, title: 'Laços 2', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/loops/07.html' },
+                id: 4,
+                title: 'Laços',
+                description: 'Crie loops para repetir linhas de código',
+                locked: true,
+                lessons: [{
+                        id: 18,
+                        title: 'Autoatribuição e Operadores',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/loops/01.html'
+                    },
+                    {
+                        id: 19,
+                        title: 'Laços While',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/loops/02.html'
+                    },
+                    {
+                        id: 20,
+                        title: 'Parando loops While',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/loops/03.html'
+                    },
+                    {
+                        id: 21,
+                        title: 'Laços 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/loops/04.html'
+                    },
+                    {
+                        id: 22,
+                        title: 'Controlando loops While',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/loops/05.html'
+                    },
+                    {
+                        id: 23,
+                        title: 'Para laços',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/loops/06.html'
+                    },
+                    {
+                        id: 24,
+                        title: 'Laços 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/loops/07.html'
+                    },
                 ]
             },
             {
-                id: 5, title: 'Listas', description: 'Crie listas para organizar grupos de valores', locked: true,
-                lessons: [
-                    { id: 25, title: 'Agrupando dados em listas', type: 'learn', completed: false, locked: true, url: './lessons/lists/01.html' },
-                    { id: 26, title: 'Alterando dados em listas', type: 'learn', completed: false, locked: true, url: './lessons/lists/02.html' },
-                    { id: 27, title: 'Atualizando Listas', type: 'learn', completed: false, locked: true, url: './lessons/lists/03.html' },
-                    { id: 28, title: 'Organizando Dados 1', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/lists/04.html' },
-                    { id: 29, title: 'Looping sobre Listas', type: 'learn', completed: false, locked: true, url: './lessons/lists/05.html' },
-                    { id: 30, title: 'Decidindo com Listas', type: 'learn', completed: false, locked: true, url: './lessons/lists/06.html' },
-                    { id: 31, title: 'Organizando Dados 2', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/lists/07.html' },
+                id: 5,
+                title: 'Listas',
+                description: 'Crie listas para organizar grupos de valores',
+                locked: true,
+                lessons: [{
+                        id: 25,
+                        title: 'Agrupando dados em listas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/lists/01.html'
+                    },
+                    {
+                        id: 26,
+                        title: 'Alterando dados em listas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/lists/02.html'
+                    },
+                    {
+                        id: 27,
+                        title: 'Atualizando Listas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/lists/03.html'
+                    },
+                    {
+                        id: 28,
+                        title: 'Organizando Dados 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/lists/04.html'
+                    },
+                    {
+                        id: 29,
+                        title: 'Looping sobre Listas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/lists/05.html'
+                    },
+                    {
+                        id: 30,
+                        title: 'Decidindo com Listas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/lists/06.html'
+                    },
+                    {
+                        id: 31,
+                        title: 'Organizando Dados 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/lists/07.html'
+                    },
                 ]
             },
             {
-                id: 6, title: 'Operações de Lista', description: 'Use métodos para obter insights dos valores em listas', locked: true,
-                lessons: [
-                    { id: 32, title: 'Encontrando Dados Extremos', type: 'learn', completed: false, locked: true, url: './lessons/list-operations/01.html' },
-                    { id: 33, title: 'Classificando Dados', type: 'learn', completed: false, locked: true, url: './lessons/list-operations/02.html' },
-                    { id: 34, title: 'Somando Dados', type: 'learn', completed: false, locked: true, url: './lessons/list-operations/03.html' },
-                    { id: 35, title: 'Usando Listas 1', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/list-operations/04.html' },
-                    { id: 36, title: 'Listas de adesão', type: 'learn', completed: false, locked: true, url: './lessons/list-operations/05.html' },
-                    { id: 37, title: 'Contando Elementos', type: 'learn', completed: false, locked: true, url: './lessons/list-operations/06.html' },
-                    { id: 38, title: 'Usando Listas 2', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/list-operations/07.html' },
+                id: 6,
+                title: 'Operações de Lista',
+                description: 'Use métodos para obter insights dos valores em listas',
+                locked: true,
+                lessons: [{
+                        id: 32,
+                        title: 'Encontrando Dados Extremos',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/list-operations/01.html'
+                    },
+                    {
+                        id: 33,
+                        title: 'Classificando Dados',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/list-operations/02.html'
+                    },
+                    {
+                        id: 34,
+                        title: 'Somando Dados',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/list-operations/03.html'
+                    },
+                    {
+                        id: 35,
+                        title: 'Usando Listas 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/list-operations/04.html'
+                    },
+                    {
+                        id: 36,
+                        title: 'Listas de adesão',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/list-operations/05.html'
+                    },
+                    {
+                        id: 37,
+                        title: 'Contando Elementos',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/list-operations/06.html'
+                    },
+                    {
+                        id: 38,
+                        title: 'Usando Listas 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/list-operations/07.html'
+                    },
                 ]
             },
             {
-                id: 7, title: 'Operações de String', description: 'Use métodos para manipular strings de maneiras úteis', locked: true,
-                lessons: [
-                    { id: 39, title: 'Dividindo cordas', type: 'learn', completed: false, locked: true, url: './lessons/string-operations/01.html' },
-                    { id: 40, title: 'Atualizando Strings', type: 'learn', completed: false, locked: true, url: './lessons/string-operations/02.html' },
-                    { id: 41, title: 'Usando Strings', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/string-operations/03.html' },
+                id: 7,
+                title: 'Operações de String',
+                description: 'Use métodos para manipular strings de maneiras úteis',
+                locked: true,
+                lessons: [{
+                        id: 39,
+                        title: 'Dividindo cordas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/string-operations/01.html'
+                    },
+                    {
+                        id: 40,
+                        title: 'Atualizando Strings',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/string-operations/02.html'
+                    },
+                    {
+                        id: 41,
+                        title: 'Usando Strings',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/string-operations/03.html'
+                    },
                 ]
             },
             {
-                id: 8, title: 'Funções', description: 'Funções de código para tornar o código reutilizável e mais fácil de ler', locked: true,
-                lessons: [
-                    { id: 42, title: 'Reutilizando código com funções', type: 'learn', completed: false, locked: true, url: './lessons/functions/01.html' },
-                    { id: 43, title: 'Criando Parâmetros', type: 'learn', completed: false, locked: true, url: './lessons/functions/02.html' },
-                    { id: 44, title: 'Retornando Valores', type: 'learn', completed: false, locked: true, url: './lessons/functions/03.html' },
-                    { id: 45, title: 'Usando vários parâmetros', type: 'learn', completed: false, locked: true, url: './lessons/functions/04.html' },
-                    { id: 46, title: 'Compreendendo Funções', type: 'learn', completed: false, locked: true, url: './lessons/functions/05.html' },
-                    { id: 47, title: 'Funções 1', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/functions/06.html' },
-                    { id: 48, title: 'Funções e Escopo de Variáveis', type: 'learn', completed: false, locked: true, url: './lessons/functions/07.html' },
-                    { id: 49, title: 'Decidindo com Funções', type: 'learn', completed: false, locked: true, url: './lessons/functions/08.html' },
-                    { id: 50, title: 'Funções com Listas', type: 'learn', completed: false, locked: true, url: './lessons/functions/09.html' },
-                    { id: 51, title: 'Funções com Loops', type: 'learn', completed: false, locked: true, url: './lessons/functions/10.html' },
-                    { id: 52, title: 'Funções 2', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/functions/11.html' },
+                id: 8,
+                title: 'Funções',
+                description: 'Funções de código para tornar o código reutilizável e mais fácil de ler',
+                locked: true,
+                lessons: [{
+                        id: 42,
+                        title: 'Reutilizando código com funções',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/01.html'
+                    },
+                    {
+                        id: 43,
+                        title: 'Criando Parâmetros',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/02.html'
+                    },
+                    {
+                        id: 44,
+                        title: 'Retornando Valores',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/03.html'
+                    },
+                    {
+                        id: 45,
+                        title: 'Usando vários parâmetros',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/04.html'
+                    },
+                    {
+                        id: 46,
+                        title: 'Compreendendo Funções',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/05.html'
+                    },
+                    {
+                        id: 47,
+                        title: 'Funções 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/06.html'
+                    },
+                    {
+                        id: 48,
+                        title: 'Funções e Escopo de Variáveis',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/07.html'
+                    },
+                    {
+                        id: 49,
+                        title: 'Decidindo com Funções',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/08.html'
+                    },
+                    {
+                        id: 50,
+                        title: 'Funções com Listas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/09.html'
+                    },
+                    {
+                        id: 51,
+                        title: 'Funções com Loops',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/10.html'
+                    },
+                    {
+                        id: 52,
+                        title: 'Funções 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/functions/11.html'
+                    },
                 ]
             },
             {
-                id: 9, title: 'Tuplas, dicionários e conjuntos', description: 'Identificar as estruturas de dados corretas para armazenar dados', locked: true,
-                lessons: [
-                    { id: 53, title: 'Criando Tuplas', type: 'learn', completed: false, locked: true, url: './lessons/data-structures/01.html' },
-                    { id: 54, title: 'Tuplas e Listas', type: 'learn', completed: false, locked: true, url: './lessons/data-structures/02.html' },
-                    { id: 55, title: 'Retornando Tuplas', type: 'learn', completed: false, locked: true, url: './lessons/data-structures/03.html' },
-                    { id: 56, title: 'Criando Dicionários', type: 'learn', completed: false, locked: true, url: './lessons/data-structures/04.html' },
-                    { id: 57, title: 'Usando dicionários', type: 'learn', completed: false, locked: true, url: './lessons/data-structures/05.html' },
-                    { id: 58, title: 'Tuplas, Dicionários e Conjuntos 1', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/data-structures/06.html' },
-                    { id: 59, title: 'Criando conjuntos', type: 'learn', completed: false, locked: true, url: './lessons/data-structures/07.html' },
-                    { id: 60, title: 'Usando conjuntos', type: 'learn', completed: false, locked: true, url: './lessons/data-structures/08.html' },
-                    { id: 61, title: 'Conjuntos e Listas', type: 'learn', completed: false, locked: true, url: './lessons/data-structures/09.html' },
-                    { id: 62, title: 'Operações de conjunto', type: 'learn', completed: false, locked: true, url: './lessons/data-structures/10.html' },
-                    { id: 63, title: 'Tuplas, Dicionários e Conjuntos 2', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/data-structures/11.html' },
+                id: 9,
+                title: 'Tuplas, dicionários e conjuntos',
+                description: 'Identificar as estruturas de dados corretas para armazenar dados',
+                locked: true,
+                lessons: [{
+                        id: 53,
+                        title: 'Criando Tuplas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/data-structures/01.html'
+                    },
+                    {
+                        id: 54,
+                        title: 'Tuplas e Listas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/data-structures/02.html'
+                    },
+                    {
+                        id: 55,
+                        title: 'Retornando Tuplas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/data-structures/03.html'
+                    },
+                    {
+                        id: 56,
+                        title: 'Criando Dicionários',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/data-structures/04.html'
+                    },
+                    {
+                        id: 57,
+                        title: 'Usando dicionários',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/data-structures/05.html'
+                    },
+                    {
+                        id: 58,
+                        title: 'Tuplas, Dicionários e Conjuntos 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/data-structures/06.html'
+                    },
+                    {
+                        id: 59,
+                        title: 'Criando conjuntos',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/data-structures/07.html'
+                    },
+                    {
+                        id: 60,
+                        title: 'Usando conjuntos',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/data-structures/08.html'
+                    },
+                    {
+                        id: 61,
+                        title: 'Conjuntos e Listas',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/data-structures/09.html'
+                    },
+                    {
+                        id: 62,
+                        title: 'Operações de conjunto',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/data-structures/10.html'
+                    },
+                    {
+                        id: 63,
+                        title: 'Tuplas, Dicionários e Conjuntos 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/data-structures/11.html'
+                    },
                 ]
             },
             {
-                id: 10, title: 'Compreensões de lista', description: 'Use compreensões de lista para tornar o código mais compacto', locked: true,
-                lessons: [
-                    { id: 64, title: 'Usando compreensões de lista', type: 'learn', completed: false, locked: true, url: './lessons/list-comprehensions/01.html' },
-                    { id: 65, title: 'Funções como Expressões', type: 'learn', completed: false, locked: true, url: './lessons/list-comprehensions/02.html' },
-                    { id: 66, title: 'Filtrando com Instruções If', type: 'learn', completed: false, locked: true, url: './lessons/list-comprehensions/03.html' },
-                    { id: 67, title: 'Compreensões de Lista 1', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/list-comprehensions/04.html' },
-                    { id: 68, title: 'Indexação e Exclusão Negativa', type: 'learn', completed: false, locked: true, url: './lessons/list-comprehensions/05.html' },
-                    { id: 69, title: 'Notação de fatias', type: 'learn', completed: false, locked: true, url: './lessons/list-comprehensions/06.html' },
-                    { id: 70, title: 'Compreensões de Lista 2', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/list-comprehensions/07.html' },
+                id: 10,
+                title: 'Compreensões de lista',
+                description: 'Use compreensões de lista para tornar o código mais compacto',
+                locked: true,
+                lessons: [{
+                        id: 64,
+                        title: 'Usando compreensões de lista',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/list-comprehensions/01.html'
+                    },
+                    {
+                        id: 65,
+                        title: 'Funções como Expressões',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/list-comprehensions/02.html'
+                    },
+                    {
+                        id: 66,
+                        title: 'Filtrando com Instruções If',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/list-comprehensions/03.html'
+                    },
+                    {
+                        id: 67,
+                        title: 'Compreensões de Lista 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/list-comprehensions/04.html'
+                    },
+                    {
+                        id: 68,
+                        title: 'Indexação e Exclusão Negativa',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/list-comprehensions/05.html'
+                    },
+                    {
+                        id: 69,
+                        title: 'Notação de fatias',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/list-comprehensions/06.html'
+                    },
+                    {
+                        id: 70,
+                        title: 'Compreensões de Lista 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/list-comprehensions/07.html'
+                    },
                 ]
             },
             {
-                id: 11, title: 'Aulas', description: 'Crie modelos para objetos usando classes', locked: true,
-                lessons: [
-                    { id: 71, title: 'Usando Classes', type: 'learn', completed: false, locked: true, url: './lessons/classes/01.html' },
-                    { id: 72, title: 'Criando Instâncias', type: 'learn', completed: false, locked: true, url: './lessons/classes/02.html' },
-                    { id: 73, title: 'Aulas 1', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/classes/03.html' },
-                    { id: 74, title: 'Classes com Métodos', type: 'learn', completed: false, locked: true, url: './lessons/classes/04.html' },
-                    { id: 75, title: 'Construtores', type: 'learn', completed: false, locked: true, url: './lessons/classes/05.html' },
-                    { id: 76, title: 'Compreendendo Classes', type: 'learn', completed: false, locked: true, url: './lessons/classes/06.html' },
-                    { id: 77, title: 'Aulas 2', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/classes/07.html' },
+                id: 11,
+                title: 'Aulas',
+                description: 'Crie modelos para objetos usando classes',
+                locked: true,
+                lessons: [{
+                        id: 71,
+                        title: 'Usando Classes',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/classes/01.html'
+                    },
+                    {
+                        id: 72,
+                        title: 'Criando Instâncias',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/classes/02.html'
+                    },
+                    {
+                        id: 73,
+                        title: 'Aulas 1',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/classes/03.html'
+                    },
+                    {
+                        id: 74,
+                        title: 'Classes com Métodos',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/classes/04.html'
+                    },
+                    {
+                        id: 75,
+                        title: 'Construtores',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/classes/05.html'
+                    },
+                    {
+                        id: 76,
+                        title: 'Compreendendo Classes',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/classes/06.html'
+                    },
+                    {
+                        id: 77,
+                        title: 'Aulas 2',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/classes/07.html'
+                    },
                 ]
             },
             {
-                id: 12, title: 'Programação Orientada a Objetos', description: 'Use programação orientada a objetos para aplicativos sofisticados', locked: true,
-                lessons: [
-                    { id: 78, title: 'Encapsulando Objetos', type: 'learn', completed: false, locked: true, url: './lessons/oop/01.html' },
-                    { id: 79, title: 'Aplicando Herança em POO', type: 'learn', completed: false, locked: true, url: './lessons/oop/02.html' },
-                    { id: 80, title: 'Abstraindo Objetos', type: 'learn', completed: false, locked: true, url: './lessons/oop/03.html' },
-                    { id: 81, title: 'Objetos Polimórficos', type: 'learn', completed: false, locked: true, url: './lessons/oop/04.html' },
-                    { id: 82, title: 'Programação Orientada a Objetos', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/oop/05.html' },
+                id: 12,
+                title: 'Programação Orientada a Objetos',
+                description: 'Use programação orientada a objetos para aplicativos sofisticados',
+                locked: true,
+                lessons: [{
+                        id: 78,
+                        title: 'Encapsulando Objetos',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/oop/01.html'
+                    },
+                    {
+                        id: 79,
+                        title: 'Aplicando Herança em POO',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/oop/02.html'
+                    },
+                    {
+                        id: 80,
+                        title: 'Abstraindo Objetos',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/oop/03.html'
+                    },
+                    {
+                        id: 81,
+                        title: 'Objetos Polimórficos',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/oop/04.html'
+                    },
+                    {
+                        id: 82,
+                        title: 'Programação Orientada a Objetos',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/oop/05.html'
+                    },
                 ]
             },
             {
-                id: 13, title: 'Módulos', description: 'Use módulos para estender seu kit de ferramentas Python', locked: true,
-                lessons: [
-                    { id: 83, title: 'Módulos', type: 'learn', completed: false, locked: true, url: './lessons/modules/01.html' },
-                    { id: 84, title: 'Módulos', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/modules/02.html' },
+                id: 13,
+                title: 'Módulos',
+                description: 'Use módulos para estender seu kit de ferramentas Python',
+                locked: true,
+                lessons: [{
+                        id: 83,
+                        title: 'Módulos',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/modules/01.html'
+                    },
+                    {
+                        id: 84,
+                        title: 'Módulos',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/modules/02.html'
+                    },
                 ]
             },
             {
-                id: 14, title: 'Erros e exceções', description: 'Interpretar erros e exceções que surgem no código', locked: true,
-                lessons: [
-                    { id: 85, title: 'Erros e exceções', type: 'learn', completed: false, locked: true, url: './lessons/errors-exceptions/01.html' },
-                    { id: 86, title: 'Gerando exceções', type: 'learn', completed: false, locked: true, url: './lessons/errors-exceptions/02.html' },
-                    { id: 87, title: 'Erros e exceções', type: 'practice', subAction: 'SOBRECARREGAR', completed: false, locked: true, url: './lessons/errors-exceptions/03.html' },
-                    { id: 88, title: 'Certificado de Conclusão', type: 'certificate', completed: false, locked: true, url: './certificate/index.html' }
+                id: 14,
+                title: 'Erros e exceções',
+                description: 'Interpretar erros e exceções que surgem no código',
+                locked: true,
+                lessons: [{
+                        id: 85,
+                        title: 'Erros e exceções',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/errors-exceptions/01.html'
+                    },
+                    {
+                        id: 86,
+                        title: 'Gerando exceções',
+                        type: 'learn',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/errors-exceptions/02.html'
+                    },
+                    {
+                        id: 87,
+                        title: 'Erros e exceções',
+                        type: 'practice',
+                        subAction: 'SOBRECARREGAR',
+                        completed: false,
+                        locked: true,
+                        url: './lessons/errors-exceptions/03.html'
+                    },
+                    {
+                        id: 88,
+                        title: 'Certificado de Conclusão',
+                        type: 'certificate',
+                        completed: false,
+                        locked: true,
+                        url: './certificate/index.html'
+                    }
                 ]
             }
         ]
     };
-    
+
     // let courseData = JSON.parse(localStorage.getItem('courseProgress_python_full')) || JSON.parse(JSON.stringify(initialCourseData));
     // const saveProgress = () => localStorage.setItem('courseProgress_python_full', JSON.stringify(courseData));
 
-     let courseData = JSON.parse(localStorage.getItem(COURSE_STORAGE_KEY)) || JSON.parse(JSON.stringify(initialCourseData));
+    let courseData = JSON.parse(localStorage.getItem(COURSE_STORAGE_KEY)) || JSON.parse(JSON.stringify(initialCourseData));
 
     // --- FUNÇÕES DE LÓGICA E ESTADO ---
     const saveProgress = () => localStorage.setItem(COURSE_STORAGE_KEY, JSON.stringify(courseData));
@@ -197,7 +862,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const lesson = currentSection.lessons.find(l => l.id === lessonId);
 
         if (!lesson || lesson.completed || lesson.locked || lesson.type === 'certificate') return;
-        
+
         lesson.completed = true;
 
         const lessonIndex = currentSection.lessons.findIndex(l => l.id === lessonId);
@@ -207,7 +872,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const regularLessons = currentSection.lessons.filter(l => l.type !== 'certificate');
         const allSectionLessonsCompleted = regularLessons.every(l => l.completed);
-        
+
         if (allSectionLessonsCompleted) {
             const currentSectionIndex = courseData.sections.findIndex(s => s.id === courseData.currentSectionId);
             if (currentSectionIndex + 1 < courseData.sections.length) {
@@ -218,7 +883,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
         }
-        
+
         saveProgress();
         renderApp();
     };
@@ -226,15 +891,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const renderSidebar = () => {
         sectionsNavList.innerHTML = '';
         let completedSectionsCount = 0;
-        
+
         courseData.sections.forEach(section => {
             const regularLessons = section.lessons.filter(l => l.type !== 'certificate');
             const completedLessons = regularLessons.filter(l => l.completed).length;
-            
+
             if (regularLessons.length > 0 && completedLessons === regularLessons.length) {
                 completedSectionsCount++;
             }
-            
+
             const navItem = document.createElement('div');
             navItem.className = 'section-nav-item';
             navItem.classList.toggle('active', section.id === courseData.currentSectionId);
@@ -301,7 +966,7 @@ document.addEventListener('DOMContentLoaded', () => {
             continueBtn.addEventListener('click', (e) => changeSection(parseInt(e.target.dataset.nextSectionId)));
         }
     };
-    
+
     const renderLessonCard = (lesson, index) => {
         const isFirstUnlocked = !lesson.locked && !lesson.completed;
         const lockIcon = '<i class="fas fa-lock status-icon"></i>';
@@ -340,7 +1005,7 @@ document.addEventListener('DOMContentLoaded', () => {
         renderSidebar();
         renderMainContent();
     };
-    
+
     const changeSection = (sectionId) => {
         const section = courseData.sections.find(s => s.id === sectionId);
         if (section && !section.locked) {
@@ -359,6 +1024,6 @@ document.addEventListener('DOMContentLoaded', () => {
             renderApp();
         }
     });
-    
+
     renderApp();
 });
