@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/react-fundamentals/03.html'
+                        url: './react-essentials-course/licao03/aprender01/game.html'
                     },
                     {
                         id: 15,
@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/react-fundamentals/04.html'
+                        url: './react-essentials-course/licao04/aprender01/game.html'
                     },
                     {
                         id: 16,
@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/react-fundamentals/05.html'
+                        url: './react-essentials-course/licao05/aprender01/game.html'
                     },
                     {
                         id: 17,
@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/react-fundamentals/06.html'
+                        url: './react-essentials-course/licao06/aprender01/game.html'
                     },
                     {
                         id: 18,
@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/react-fundamentals/07.html'
+                        url: './react-essentials-course/licao07/aprender01/game.html'
                     },
                     {
                         id: 19,
@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/react-fundamentals/08.html'
+                        url: './react-essentials-course/licao08/aprender01/game.html'
                     },
                     {
                         id: 20,
@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/react-fundamentals/09.html'
+                        url: './react-essentials-course/licao09/aprender01/game.html'
                     },
                     {
                         id: 21,
@@ -196,7 +196,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/react-fundamentals/10.html'
+                        url: './react-essentials-course/licao10/aprender01/game.html'
                     },
                     {
                         id: 22,
@@ -204,7 +204,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/react-fundamentals/11.html'
+                        url: './react-essentials-course/licao11/aprender01/game.html'
                     },
                     {
                         id: 23,
@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/react-fundamentals/12.html'
+                        url: './react-essentials-course/licao12/aprender01/game.html'
                     },
                 ]
             },
