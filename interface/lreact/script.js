@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/react-fundamentals/01.html'
+                        url: './react-essentials-course/licao01/aprender01/game.html'
                     },
                     {
                         id: 13,
@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/react-fundamentals/02.html'
+                        url: './react-essentials-course/licao02/aprender01/game.html'
                     },
                     {
                         id: 14,
