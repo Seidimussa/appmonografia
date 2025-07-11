@@ -607,7 +607,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/list-comprehensions/01.html'
+                        url: './list-comprehensions/licao01/aprender01/game.html'
                     },
                     {
                         id: 65,
@@ -615,7 +615,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/list-comprehensions/02.html'
+                        url: './list-comprehensions/licao02/aprender01/game.html'
                     },
                     {
                         id: 66,
@@ -623,7 +623,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/list-comprehensions/03.html'
+                        url: './list-comprehensions/licao03/aprender01/game.html'
                     },
                     {
                         id: 67,
@@ -632,7 +632,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/list-comprehensions/04.html'
+                        url: './list-comprehensions/licao04/aprender01/game.html'
                     },
                     {
                         id: 68,
@@ -640,7 +640,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/list-comprehensions/05.html'
+                        url: './list-comprehensions/licao05/aprender01/game.html'
                     },
                     {
                         id: 69,
@@ -648,7 +648,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/list-comprehensions/06.html'
+                        url: './list-comprehensions/licao06/aprender01/game.html'
                     },
                     {
                         id: 70,
@@ -657,7 +657,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/list-comprehensions/07.html'
+                        url: './list-comprehensions/licao07/aprender01/game.html'
                     },
                 ]
             },
