@@ -251,7 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/lists/01.html'
+                        url: './listas/licao01/aprender01/game.html'
                     },
                     {
                         id: 26,
@@ -259,7 +259,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/lists/02.html'
+                        url: './listas/licao02/aprender01/game.html'
                     },
                     {
                         id: 27,
@@ -267,7 +267,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/lists/03.html'
+                        url: './listas/licao03/aprender01/game.html'
                     },
                     {
                         id: 28,
@@ -276,7 +276,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/lists/04.html'
+                        url: './listas/licao04/aprender01/game.html'
                     },
                     {
                         id: 29,
@@ -284,7 +284,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/lists/05.html'
+                        url: './listas/licao05/aprender01/game.html'
                     },
                     {
                         id: 30,
@@ -292,7 +292,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/lists/06.html'
+                        url: './listas/licao06/aprender01/game.html'
                     },
                     {
                         id: 31,
@@ -301,7 +301,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/lists/07.html'
+                        url: './listas/licao07/aprender01/game.html'
                     },
                 ]
             },
