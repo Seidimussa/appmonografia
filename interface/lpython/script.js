@@ -717,7 +717,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 77,
-                        title: 'Aulas 2',
+                        title: 'Classes 2',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
@@ -737,7 +737,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/oop/01.html'
+                        url: './oop-python/licao01/aprender01/game.html'
                     },
                     {
                         id: 79,
@@ -745,7 +745,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/oop/02.html'
+                        url: './oop-python/licao02/aprender01/game.html'
                     },
                     {
                         id: 80,
@@ -753,7 +753,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/oop/03.html'
+                        url: './oop-python/licao03/aprender01/game.html'
                     },
                     {
                         id: 81,
@@ -761,7 +761,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/oop/04.html'
+                        url: './oop-python/licao04/aprender01/game.html'
                     },
                     {
                         id: 82,
@@ -770,7 +770,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/oop/05.html'
+                        url: './oop-python/licao05/aprender01/game.html'
                     },
                 ]
             },
@@ -785,7 +785,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/modules/01.html'
+                        url: './modulos-python/licao01/aprender01/game.html'
                     },
                     {
                         id: 84,
@@ -794,7 +794,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/modules/02.html'
+                        url: './modulos-python/licao02/aprender01/game.html'
                     },
                 ]
             },
@@ -809,7 +809,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/errors-exceptions/01.html'
+                        url: './erros-excecoes/licao01/aprender01/game.html'
                     },
                     {
                         id: 86,
@@ -817,7 +817,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/errors-exceptions/02.html'
+                        url: './erros-excecoes/licao02/aprender01/game.html'
                     },
                     {
                         id: 87,
@@ -826,7 +826,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/errors-exceptions/03.html'
+                        url: './erros-excecoes/licao03/aprender01/game.html'
                     },
                     {
                         id: 88,
