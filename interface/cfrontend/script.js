@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: false,
-                        url: './lessons/js-basics/01.html'
+                        url: './intro-webdev/licao01/aprender01/game.html'
                     },
                     {
                         id: 2,
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/02.html'
+                        url: './intro-webdev/licao02/aprender01/game.html'
                     },
                     {
                         id: 3,
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/05.html'
+                        url: './intro-webdev/licao03/aprender01/game.html'
                     },
                     {
                         id: 4,
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/03.html'
+                        url: './intro-webdev/licao04/aprender01/game.html'
                     },
                     {
                         id: 5,
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/04.html'
+                        url: './intro-webdev/licao05/aprender01/game.html'
                     },
                     {
                         id: 6,
@@ -67,9 +67,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/05.html'
+                        url: './intro-webdev/licao06/aprender01/game.html'
                     },
-                    // ===================== INÍCIO DA ATUALIZAÇÃO DE DADOS =====================
                     {
                         id: 7,
                         title: 'Linktree',
@@ -78,25 +77,23 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
-                        url: './lessons/projects/linktree-p1.html'
+                        url: './intro-webdev/licao07/aprender01/game.html'
                     },
-                    // ====================== FIM DA ATUALIZAÇÃO DE DADOS =======================
                     {
                         id: 8,
                         title: 'Código padrão',
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/04.html'
+                        url: './intro-webdev/licao08/aprender01/game.html'
                     },
-                    // ... (o restante da sua estrutura de dados permanece igual)
                     {
                         id: 9,
                         title: 'Folha de Estilo e Seletores Básicos',
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/04.html'
+                        url: './intro-webdev/licao09/aprender01/game.html'
                     },
                     {
                         id: 10,
@@ -104,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/04.html'
+                        url: './intro-webdev/licao10/aprender01/game.html'
                     },
                     {
                         id: 11,
@@ -112,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/04.html'
+                        url: './intro-webdev/licao11/aprender01/game.html'
                     },
                     {
                         id: 12,
@@ -121,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/05.html'
+                        url: './intro-webdev/licao12/aprender01/game.html'
                     },
                     {
                         id: 13,
@@ -129,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/04.html'
+                        url: './intro-webdev/licao13/aprender01/game.html'
                     },
                     {
                         id: 14,
@@ -137,7 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/04.html'
+                        url: './intro-webdev/licao14/aprender01/game.html'
                     },
                     {
                         id: 15,
@@ -145,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/04.html'
+                        url: './intro-webdev/licao15/aprender01/game.html'
                     },
                     {
                         id: 16,
@@ -154,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/js-basics/05.html'
+                        url: './intro-webdev/licao16/aprender01/game.html'
                     },
                     {
                         id: 17,
@@ -164,11 +161,10 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
-                        url: './lessons/projects/linktree-p1.html'
+                        url: './intro-webdev/licao17/aprender01/game.html'
                     },
                 ]
             },
-            // ... O restante da sua estrutura de dados continua aqui ...
             {
                 id: 2,
                 title: 'Páginas Web Interativas',

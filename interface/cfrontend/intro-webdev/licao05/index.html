@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lição: Links e Atributos</title>
+    <!-- Google Fonts para um visual mais moderno -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome para os ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Nosso CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Nosso JavaScript (defer para carregar após o HTML) -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="lesson-container">
+        <header>
+            <div class="title-group">
+                <p class="category-label">Aprender</p>
+                <h1>Criando Links</h1>
+            </div>
+            <div class="header-icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+        </header>
+
+        <p class="lesson-description">
+            
+        </p>
+
+        <ul class="chapter-list">
+            <!-- Capítulo 1 -->
+            <li class="chapter-item" id="chapter-1" data-unlocks="chapter-2">
+                <a href="./aprender01/game.html">
+                    <span>Links e Atributos</span>
+                    <div class="icon-container">
+                        <i class="fas fa-lock lock-icon"></i>
+                        <i class="fas fa-check check-icon"></i>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="links-container">
+        <a href="/interface/lhtml/index.html">
+            <i class="fas fa-arrow-left"></i> Voltar para o Curso
+        </a>
+        <!-- Botão para resetar o progresso salvo -->
+        <button id="reset-progress-button" class="reset-link">
+            <i class="fas fa-trash"></i> Resetar Progresso
+        </button>
+    </div>
+
+</body>
+
+</html>
