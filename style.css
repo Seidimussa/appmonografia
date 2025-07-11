@@ -318,11 +318,14 @@ body {
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
+    
     /* Garante a responsividade em telas menores */
 }
 
 .store-button img {
-    height: 60px;
+    height: 75px;
+
+    width: 179px;
     /* Ajuste a altura conforme sua preferência */
     transition: transform 0.2s ease-in-out;
 }
