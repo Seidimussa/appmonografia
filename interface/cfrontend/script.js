@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/01.html'
+                        url: './webpages-interativas/licao01/aprender01/game.html'
                     },
                     {
                         id: 19,
@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: './webpages-interativas/licao02/aprender01/game.html'
                     },
                     {
                         id: 20,
@@ -192,7 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/03.html'
+                        url: './webpages-interativas/licao03/aprender01/game.html'
                     },
                     {
                         id: 21,
@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/04.html'
+                        url: './webpages-interativas/licao04/aprender01/game.html'
                     },
                     {
                         id: 22,
@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/05.html'
+                        url: './webpages-interativas/licao05/aprender01/game.html'
                     },
                     {
                         id: 23,
@@ -217,7 +217,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: './webpages-interativas/licao06/aprender01/game.html'
                     },
                     {
                         id: 24,
@@ -225,7 +225,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: './webpages-interativas/licao07/aprender01/game.html'
                     },
                     {
                         id: 25,
@@ -233,7 +233,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: './webpages-interativas/licao08/aprender01/game.html'
                     },
                     {
                         id: 26,
@@ -241,7 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: './webpages-interativas/licao09/aprender01/game.html'
                     },
                     {
                         id: 27,
@@ -250,7 +250,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/05.html'
+                        url: './webpages-interativas/licao10/aprender01/game.html'
                     },
                     {
                         id: 28,
@@ -258,7 +258,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: './webpages-interativas/licao11/aprender01/game.html'
                     },
                     {
                         id: 29,
@@ -266,7 +266,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: './webpages-interativas/licao12/aprender01/game.html'
                     },
                     {
                         id: 30,
@@ -274,7 +274,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: './webpages-interativas/licao13/aprender01/game.html'
                     },
                     {
                         id: 31,
@@ -282,7 +282,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: './webpages-interativas/licao14/aprender01/game.html'
                     },
                     {
                         id: 32,
@@ -291,7 +291,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/05.html'
+                        url: './webpages-interativas/licao15/aprender01/game.html'
                     },
                     {
                         id: 33,
@@ -299,7 +299,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: './webpages-interativas/licao16/aprender01/game.html'
                     },
                     {
                         id: 34,
@@ -307,7 +307,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: './webpages-interativas/licao17/aprender01/game.html'
                     },
                     {
                         id: 35,
@@ -317,7 +317,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
-                        url: './lessons/projects/linktree-p1.html'
+                        url: './webpages-interativas/licao18/aprender01/game.html'
                     },
                     {
                         id: 36,
@@ -325,7 +325,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: './webpages-interativas/licao19/aprender01/game.html'
                     },
                     {
                         id: 37,
@@ -333,7 +333,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: './webpages-interativas/licao20/aprender01/game.html'
                     },
                     {
                         id: 38,
@@ -342,7 +342,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/05.html'
+                        url: './webpages-interativas/licao21/aprender01/game.html'
                     },
                     {
                         id: 39,
@@ -350,7 +350,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: './webpages-interativas/licao22/aprender01/game.html'
                     },
                     {
                         id: 40,
@@ -358,7 +358,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: './webpages-interativas/licao23/aprender01/game.html'
                     },
                     {
                         id: 41,
@@ -366,7 +366,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: './webpages-interativas/licao24/aprender01/game.html'
                     },
                     {
                         id: 42,
@@ -375,7 +375,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/05.html'
+                        url: './webpages-interativas/licao25/aprender01/game.html'
                     },
                     {
                         id: 43,
@@ -383,7 +383,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: '/webpages-interativas/licao26/aprender01/game.html'
                     },
                     {
                         id: 44,
@@ -391,7 +391,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: './webpages-interativas/licao27/aprender01/game.html'
                     },
                     {
                         id: 45,
@@ -399,7 +399,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/02.html'
+                        url: './webpages-interativas/licao28/aprender01/game.html'
                     },
                     {
                         id: 46,
@@ -408,7 +408,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/types-comparisons/05.html'
+                        url: './webpages-interativas/licao29/aprender01/game.html'
                     },
                     {
                         id: 47,
@@ -418,7 +418,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
-                        url: './lessons/projects/linktree-p1.html'
+                        url: './webpages-interativas/licao30/aprender01/game.html'
                     },
                 ]
             },
