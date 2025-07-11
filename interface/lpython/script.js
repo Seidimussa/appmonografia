@@ -663,7 +663,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 id: 11,
-                title: 'Aulas',
+                title: 'Classes',
                 description: 'Crie modelos para objetos usando classes',
                 locked: true,
                 lessons: [{
@@ -672,7 +672,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/classes/01.html'
+                        url: './classes-python/licao01/aprender01/game.html'
                     },
                     {
                         id: 72,
@@ -680,16 +680,16 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/classes/02.html'
+                        url: './classes-python/licao02/aprender01/game.html'
                     },
                     {
                         id: 73,
-                        title: 'Aulas 1',
+                        title: 'Classes 1',
                         type: 'practice',
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/classes/03.html'
+                        url: './classes-python/licao03/aprender01/game.html'
                     },
                     {
                         id: 74,
@@ -697,7 +697,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/classes/04.html'
+                        url: '/classes-python/licao04/aprender01/game.html'
                     },
                     {
                         id: 75,
@@ -705,7 +705,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/classes/05.html'
+                        url: './classes-python/licao05/aprender01/game.html'
                     },
                     {
                         id: 76,
@@ -713,7 +713,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/classes/06.html'
+                        url: './classes-python/licao06/aprender01/game.html'
                     },
                     {
                         id: 77,
@@ -722,7 +722,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/classes/07.html'
+                        url: './classes-python/licao07/aprender01/game.html'
                     },
                 ]
             },
