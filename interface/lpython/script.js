@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/loops/01.html'
+                        url: './loops-python/licao01/aprender01/game.html'
                     },
                     {
                         id: 19,
@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/loops/02.html'
+                        url: './loops-python/licao02/aprender01/game.html'
                     },
                     {
                         id: 20,
@@ -202,7 +202,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/loops/03.html'
+                        url: './loops-python/licao03/aprender01/game.html'
                     },
                     {
                         id: 21,
@@ -211,7 +211,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/loops/04.html'
+                        url: './loops-python/licao04/aprender01/game.html'
                     },
                     {
                         id: 22,
@@ -219,7 +219,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/loops/05.html'
+                        url: './loops-python/licao05/aprender01/game.html'
                     },
                     {
                         id: 23,
@@ -227,7 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/loops/06.html'
+                        url: './loops-python/licao06/aprender01/game.html'
                     },
                     {
                         id: 24,
@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/loops/07.html'
+                        url: './loops-python/licao07/aprender01/game.html'
                     },
                 ]
             },
