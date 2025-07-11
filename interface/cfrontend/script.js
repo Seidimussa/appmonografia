@@ -433,7 +433,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/01.html'
+                        url: './html-css-intermediario/licao01/aprender01/game.html'
                     },
                     {
                         id: 49,
@@ -441,7 +441,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/02.html'
+                        url: './html-css-intermediario/licao02/aprender01/game.html'
                     },
                     {
                         id: 50,
@@ -449,7 +449,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/03.html'
+                        url: './html-css-intermediario/licao03/aprender01/game.html'
                     },
                     {
                         id: 51,
@@ -457,7 +457,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/04.html'
+                        url: './html-css-intermediario/licao04/aprender01/game.html'
                     },
                     {
                         id: 52,
@@ -465,7 +465,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/03.html'
+                        url: './html-css-intermediario/licao05/aprender01/game.html'
                     },
                     {
                         id: 53,
@@ -473,7 +473,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/04.html'
+                        url: './html-css-intermediario/licao06/aprender01/game.html'
                     },
                     {
                         id: 54,
@@ -482,7 +482,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/05.html'
+                        url: './html-css-intermediario/licao07/aprender01/game.html'
                     },
                     {
                         id: 55,
@@ -490,7 +490,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/03.html'
+                        url: './html-css-intermediario/licao08/aprender01/game.html'
                     },
                     {
                         id: 56,
@@ -498,7 +498,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/04.html'
+                        url: './html-css-intermediario/licao09/aprender01/game.html'
                     },
                     {
                         id: 57,
@@ -506,7 +506,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/03.html'
+                        url: './html-css-intermediario/licao10/aprender01/game.html'
                     },
                     {
                         id: 58,
@@ -514,7 +514,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/04.html'
+                        url: './html-css-intermediario/licao11/aprender01/game.html'
                     },
                     {
                         id: 59,
@@ -523,7 +523,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/05.html'
+                        url: './html-css-intermediario/licao12/aprender01/game.html'
                     },
                     {
                         id: 60,
@@ -533,7 +533,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'PARTE 1',
                         completed: false,
                         locked: true,
-                        url: './lessons/projects/linktree-p1.html'
+                        url: './html-css-intermediario/licao13/aprender01/game.html'
                     },
                     {
                         id: 61,
@@ -541,7 +541,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/04.html'
+                        url: './html-css-intermediario/licao14/aprender01/game.html'
                     },
                     {
                         id: 62,
@@ -549,7 +549,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/03.html'
+                        url: './html-css-intermediario/licao15/aprender01/game.html'
                     },
                     {
                         id: 63,
@@ -557,7 +557,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/04.html'
+                        url: './html-css-intermediario/licao16/aprender01/game.html'
                     },
                     {
                         id: 64,
@@ -566,7 +566,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/05.html'
+                        url: './html-css-intermediario/licao17/aprender01/game.html'
                     },
                     {
                         id: 65,
@@ -574,7 +574,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/03.html'
+                        url: './html-css-intermediario/licao18/aprender01/game.html'
                     },
                     {
                         id: 66,
@@ -582,7 +582,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/04.html'
+                        url: './html-css-intermediario/licao19/aprender01/game.html'
                     },
                     {
                         id: 67,
@@ -591,7 +591,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/05.html'
+                        url: './html-css-intermediario/licao20/aprender01/game.html'
                     },
                     {
                         id: 68,
@@ -599,7 +599,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/conditionals/03.html'
+                        url: './html-css-intermediario/licao21/aprender01/game.html'
                     },
                     {
                         id: 47,
@@ -609,7 +609,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'PARTE 2',
                         completed: false,
                         locked: true,
-                        url: './lessons/projects/linktree-p1.html'
+                        url: './html-css-intermediario/licao22/aprender01/game.html'
                     },
                 ]
             },
