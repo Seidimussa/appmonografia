@@ -107,3 +107,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+// ... seu código javascript existente ...
+
