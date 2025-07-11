@@ -510,7 +510,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/data-structures/01.html'
+                        url: './tuplas-dicionarios-sets/licao01/aprender01/game.html'
                     },
                     {
                         id: 54,
@@ -518,7 +518,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/data-structures/02.html'
+                        url: './tuplas-dicionarios-sets/licao02/aprender01/game.html'
                     },
                     {
                         id: 55,
@@ -526,7 +526,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/data-structures/03.html'
+                        url: './tuplas-dicionarios-sets/licao03/aprender01/game.html'
                     },
                     {
                         id: 56,
@@ -534,7 +534,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/data-structures/04.html'
+                        url: './tuplas-dicionarios-sets/licao04/aprender01/game.html'
                     },
                     {
                         id: 57,
@@ -542,7 +542,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/data-structures/05.html'
+                        url: './tuplas-dicionarios-sets/licao05/aprender01/game.html'
                     },
                     {
                         id: 58,
@@ -551,7 +551,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/data-structures/06.html'
+                        url: './tuplas-dicionarios-sets/licao06/aprender01/game.html'
                     },
                     {
                         id: 59,
@@ -559,7 +559,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/data-structures/07.html'
+                        url: './tuplas-dicionarios-sets/licao07/aprender01/game.html'
                     },
                     {
                         id: 60,
@@ -567,7 +567,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/data-structures/08.html'
+                        url: './tuplas-dicionarios-sets/licao08/aprender01/game.html'
                     },
                     {
                         id: 61,
@@ -575,7 +575,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/data-structures/09.html'
+                        url: './tuplas-dicionarios-sets/licao09/aprender01/game.html'
                     },
                     {
                         id: 62,
@@ -583,7 +583,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'learn',
                         completed: false,
                         locked: true,
-                        url: './lessons/data-structures/10.html'
+                        url: './tuplas-dicionarios-sets/licao10/aprender01/game.html'
                     },
                     {
                         id: 63,
@@ -592,7 +592,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         subAction: 'SOBRECARREGAR',
                         completed: false,
                         locked: true,
-                        url: './lessons/data-structures/11.html'
+                        url: './tuplas-dicionarios-sets/licao11/aprender01/game.html'
                     },
                 ]
             },
