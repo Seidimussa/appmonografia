@@ -47,7 +47,7 @@ h2 {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #472dbb;
+    background-color: #226160;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -55,7 +55,7 @@ h2 {
   }
 
   .submit-btn:hover {
-    background-color: #4565a0;
+    background-color: #a3e6b7;
   }
 
   p {
