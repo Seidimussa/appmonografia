@@ -1,0 +1,46 @@
+O nodemon não está instalado.
+O nodemon foi instalado localmente no seu projeto, mas você está tentando executá-lo como se estivesse instalado globalmente no seu computador.
+Aqui estão as maneiras mais comuns e recomendadas para resolver o problema, da mais simples à mais completa.
+
+Solução 1: Usar o npx (A mais rápida)
+O npx é uma ferramenta que vem junto com o npm (a partir da versão 5.2) e permite que você execute pacotes Node.js sem precisar instalá-los permanentemente.
+
+No seu terminal, em vez do comando que você usou, execute este:
+
+bash
+** npx nodemon src/index.js
+Isso irá baixar temporariamente o nodemon, executar o seu script e depois descartá-lo. É ótimo para uso rápido e evita "poluir" seu sistema com pacotes globais.
+
+Solução 2: Instalar o nodemon localmente e criar um script (A mais recomendada para projetos)
+Esta é a melhor prática para projetos, pois garante que qualquer pessoa que trabalhe no projeto use a mesma versão do nodemon, que fica registrada no projeto.
+
+Instale o nodemon como uma dependência de desenvolvimento: No terminal, na pasta do seu projeto (C:\Users\FNULNU\Documents\UAC\TCC\appmonografia\Registration-login-form), execute o comando:
+
+bash
+** npm install nodemon --save-dev
+Isso irá instalar o nodemon dentro de uma pasta chamada node_modules no seu projeto e adicioná-lo ao seu arquivo package.json.
+
+Crie um script no package.json: Abra o seu arquivo package.json e encontre a seção "scripts". Adicione um novo script, por exemplo "dev", para iniciar o seu servidor com o nodemon.
+
+package.json
+-1
++2
+ Show full code block 
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+(Se você não tiver uma seção scripts ou um script start, pode apenas adicionar o que está acima).
+
+Execute o script: Agora, para iniciar seu servidor, você pode simplesmente usar o comando:
+
+bash
+** npm run dev
+O npm saberá onde encontrar o nodemon dentro da pasta node_modules do seu projeto e executará o comando por você.
+
+** npm install -g nodemon
