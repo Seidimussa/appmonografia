@@ -44,3 +44,5 @@ bash
 O npm saberá onde encontrar o nodemon dentro da pasta node_modules do seu projeto e executará o comando por você.
 
 ** npm install -g nodemon
+
+nodemon src/index.js
