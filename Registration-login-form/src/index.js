@@ -72,5 +72,5 @@ app.post("/login", async (req, res) => {
 // Define Port for Application
 const port = 5000;
 app.listen(port, () => {
-    console.log(`servidor escutando na porta 5000 ${port}`)
+    console.log(`Servidor escutando na porta ${port}`);
 });

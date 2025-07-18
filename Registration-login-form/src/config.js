@@ -1,12 +1,12 @@
 const mongoose = require('mongoose');
-const connect = mongoose.connect("mongodb://localhost:27017/Login-tut");
+const connect = mongoose.connect("mongodb+srv://Seidimonografia:MussaMonografia@login.csnptrj.mongodb.net/?retryWrites=true&w=majority&appName=login")
 
 // Check database connected or not
 connect.then(() => {
-    console.log("Database Connected Successfully");
+    console.log("Base de dados conectada com sucesso");
 })
-.catch(() => {
-    console.log("Database cannot be Connected");
+.catch((error) => {
+    console.log("A base de dados não pode ser conectada", error);
 })
 
 // Create Schema
