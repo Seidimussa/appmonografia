@@ -25,6 +25,7 @@ h2 {
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #fff;
+    outline: none;
   }
 
   .form-group {
@@ -62,4 +63,17 @@ h2 {
 
   p {
     margin-top: 15px;
+  }
+  .link {
+    color: white;
+    text-decoration: none;
+    outline: none;
+    background-color: #226160;
+    border-radius: 5px;
+    padding: 8px 8px;
+    cursor: pointer;
+  
+  }
+  .link:hover {
+    background-color: #406d56;
   }
