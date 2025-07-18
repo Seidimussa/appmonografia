@@ -8,6 +8,8 @@ const app = express();
 app.use(express.json());
 // Static file
 app.use(express.static("public"));
+// Serve files from the "interface" directory
+app.use("/interface", express.static(path.resolve(__dirname, '..', '..', 'interface')));
 
 app.use(express.urlencoded({ extended: false }));
 //use EJS as the view engine
@@ -60,7 +62,8 @@ app.post("/login", async (req, res) => {
             res.send("Senha incorreta");
         }
         else {
-            res.render("home");
+            // Redireciona para a página da interface após o login bem-sucedido
+            res.redirect("/interface/index.html");
         }
     }
     catch {
