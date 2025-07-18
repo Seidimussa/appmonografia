@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         type: 'practice',
                         locked: true,
                         completed: false,
-                        url: './basico/licao07/index.html'
+                        url: './basico/licao07/aprender01/game.html'
                     },
                 ]
             },
