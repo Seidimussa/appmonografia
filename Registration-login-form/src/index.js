@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/signup", (req, res) => {
-    res.render("signup");
+    res.render("login");
 });
 
 // Register User
