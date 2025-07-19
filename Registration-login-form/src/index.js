@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/signup", (req, res) => {
-    res.render("login");
+    res.render("signup");
 });
 
 // Register User
@@ -44,8 +44,7 @@ app.post("/signup", async (req, res) => {
         data.password = hashedPassword; // Replace the original password with the hashed one
 
         const userdata = await collection.insertMany(data);
-        // console.log(userdata);
-        res.redirect("/login");
+        console.log(userdata);
     }
 
 });
