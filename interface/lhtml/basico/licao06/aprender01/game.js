@@ -48,7 +48,7 @@ getNewQuestion = () => {
 
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 //podemos subistituir 'imul' para 'random' para perguntas aleatorias.
-    const questionIndex = Math.floor(Math.imul() * availableQuesions.length);
+    const questionIndex = Math.floor(Math.random() * availableQuesions.length);
     currentQuestion = availableQuesions[questionIndex];
     question.innerText = currentQuestion.question;
 
@@ -75,13 +75,23 @@ choices.forEach(choice => {
             incrementScore(CORRECT_BONUS);
         }
 
-        selectedChoice.parentElement.classList.add(classToApply);
+        if (classToApply === "incorrect") {
+            const correctChoice = choices.find(
+                (choice) => choice.dataset["number"] == currentQuestion.answer
+            );
+            correctChoice.parentElement.classList.add("correct");
+        }
 
+        selectedChoice.parentElement.classList.add(classToApply);
 
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
+            if (classToApply === "incorrect") {
+                const correctChoice = choices.find(choice => choice.dataset["number"] == currentQuestion.answer);
+                correctChoice.parentElement.classList.remove("correct");
+            }
             getNewQuestion();
-        }, 1000);
+        }, 2000);
     });
 });
 
@@ -89,4 +99,3 @@ incrementScore = num => {
     score += num;
     scoreText.innerText = score;
 };
-
