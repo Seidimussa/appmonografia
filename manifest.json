@@ -5,7 +5,7 @@
     }],
     "name": "Appmonografia",
     "short_name": "Appmonografia",
-    "start_url": "/",
+    "start_url": "/interface",
     "display": "standalone",
     "description": "Um aplicativo para auxiliar na programação de códigos e gerenciamento de cursos.",
     "lang": "pt-BR",
