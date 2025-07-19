@@ -34,12 +34,12 @@
     }],
     "related_applications": [{
         "platform": "windows",
-        "url": "https://appmonografia.vercel.app/index.html"
+        "url": "https://appmonografia.vercel.app/interface/index.html"
     }],
     "prefer_related_applications": false,
     "shortcuts": [{
         "name": " Monografia",
-        "url": "https://appmonografia.vercel.app/index.html",
+        "url": "https://appmonografia.vercel.app/interface/index.html",
         "description": "Inicia uma nova monografia no aplicativo."
     }],
     "share_target": {
