@@ -44,7 +44,8 @@ app.post("/signup", async (req, res) => {
         data.password = hashedPassword; // Replace the original password with the hashed one
 
         const userdata = await collection.insertMany(data);
-        console.log(userdata);
+        // console.log(userdata);
+        res.redirect("/login");
     }
 
 });
