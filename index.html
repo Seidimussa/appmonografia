@@ -21,9 +21,132 @@
 
 
     <link rel="icon" type="image/png" href="/image/logoGW.png">
+
+    <style>
+    /* Estilos para a barra de navegação */
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #ffffff; /* Fundo branco para a barra */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        position: fixed; /* Fixa a barra no topo */
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000; /* Garante que a barra fique acima de outros elementos */
+        box-sizing: border-box;
+    }
+
+    .navbar-logo {
+        font-family: Arial, sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        color: #145e54; /* Cor do texto "AppMonografia" */
+    }
+
+    .navbar-button {
+        background-color: #1a6f67; /* Cor de fundo do botão */
+        color: #ffffff; /* Cor do texto do botão */
+        border: none;
+        padding: 12px 24px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .navbar-button:hover {
+        background-color: #145e54; /* Escurece a cor do botão ao passar o mouse */
+    }
+
+    /* Estilos para o Modal (Janela pop-up) */
+    .modal {
+        display: none; /* Esconde o modal por padrão */
+        position: fixed; /* Posição fixa para cobrir a tela toda */
+        z-index: 1001; /* Fica acima da barra de navegação */
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto; /* Permite scroll se o conteúdo for grande */
+        background-color: rgba(0, 0, 0, 0.6); /* Fundo semi-transparente */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-content {
+        background-color: #fff;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        width: 90%;
+        max-width: 400px;
+        text-align: center;
+        position: relative;
+    }
+
+    .modal-close {
+        color: #aaa;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .modal-close:hover,
+    .modal-close:focus {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .modal-content h2 {
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .modal-content a {
+        display: block;
+        margin-top: 15px;
+        padding: 12px 20px;
+        text-decoration: none;
+        color: #fff;
+        background-color: #1a6f67;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+
+    .modal-content a:hover {
+        background-color: #145e54;
+    }
+</style>
+
+<style>
+    body {
+        padding-top: 60px; /* Adiciona um espaço no topo para a barra fixa (ajuste se a altura da sua navbar for diferente) */
+    }
+</style>
 </head>
 
 <body>
+
+    <div class="navbar">
+    <div class="navbar-logo">Programação</div>
+    <button class="navbar-button" id="openModalBtn">Login | Cadastrar</button>
+</div>
+
+<div id="loginModal" class="modal">
+    <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <h2>Acesse sua conta</h2>
+        <a href="http://localhost:5000" id="loginBtn">Login</a>
+        <a href="http://localhost:5000/signup" id="registerBtn">Cadastrar</a>
+    </div>
+</div>
 
     <div class="container">
 
@@ -42,10 +165,10 @@
                     para construir uma web. Prepare-se para uma jornada de conhecimento e prática!
                 </p>
                 <!-- Botão de Chamada para Ação -->
-                <a href="http://localhost:5000/"
+                <!-- <a href="http://localhost:5000/"
                     style="display: inline-block; margin-top: 1rem; background-color: #226160; color: white; padding:
                     12px 25px; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 1.1rem;
-                    box-shadow: 0 4px 8px rgba(0,0,0,0.1);">Entrar <br> Ou <br>Cadastre-se</a>
+                    box-shadow: 0 4px 8px rgba(0,0,0,0.1);">Entrar <br> Ou <br>Cadastre-se</a> -->
             </div>
 
             <!-- Coluna da Imagem -->
@@ -248,6 +371,46 @@
             </p>
         </div>
     </footer>
+
+    <script>
+    // Obtém os elementos do DOM
+    const modal = document.getElementById("loginModal");
+    const openModalBtn = document.getElementById("openModalBtn");
+    const closeBtn = document.querySelector(".modal-close");
+    const loginBtn = document.getElementById("loginBtn");
+    const registerBtn = document.getElementById("registerBtn");
+
+    // Quando o usuário clica no botão, abre o modal
+    openModalBtn.onclick = function() {
+        modal.style.display = "flex";
+    }
+
+    // Quando o usuário clica no "x", fecha o modal
+    closeBtn.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // Quando o usuário clica em qualquer lugar fora do modal, fecha-o
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+    // Você pode adicionar a funcionalidade de navegação aqui
+    // Exemplo: Ao clicar em Login, redireciona para a página de login
+    // loginBtn.onclick = function() {
+    //     alert("Redirecionando para a página de Login...");
+    //     // window.location.href = "/login.html"; // Descomente e altere para o seu link de login
+    // }
+
+    // Exemplo: Ao clicar em Cadastrar, redireciona para a página de cadastro
+    // registerBtn.onclick = function() {
+    //     alert("Redirecionando para a página de Cadastro...");
+    //     // window.location.href = "/cadastro.html"; // Descomente e altere para o seu link de cadastro
+    // }
+
+</script>
     <script>
         // Script para atualizar automaticamente o ano do copyright
         document.getElementById('current-year').textContent = new Date().getFullYear();
