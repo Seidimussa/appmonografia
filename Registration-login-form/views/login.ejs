@@ -24,6 +24,16 @@
         </form>
         <p>Não tem uma conta? <a class="link" href="/signup">Cadastre-se</a></p>
       </div>
+      
+       <% if (typeof successMessage !== 'undefined' && successMessage) { %>
+        <script>
+            // Exibe o alerta com a mensagem de sucesso
+            alert("<%= successMessage %>");
+            
+            // Opcionalmente, redireciona o usuário para outra página.
+            // Neste caso, a página de login já é o destino.
+        </script>
+    <% } %>
     
 </body>
 </html>

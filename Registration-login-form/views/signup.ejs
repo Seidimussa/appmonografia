@@ -23,6 +23,12 @@
           <button type="submit" class="submit-btn">Cadastrar</button>
         </form>
       </div>
+
+      <% if (typeof errorMessage !== 'undefined' && errorMessage) { %>
+        <script>
+            alert("<%= errorMessage %>");
+        </script>
+    <% } %>
     
 </body>
 </html>
